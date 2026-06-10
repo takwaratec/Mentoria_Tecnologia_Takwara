@@ -1,6 +1,6 @@
-# Portal do Mentor Takwara
+# Portal de Mentoria Takwara
 
-Bem-vindo à base de conhecimento da **Mentoria Tecnologia Takwara**. Aqui, estruturamos do zero a jornada do seu aluno.
+Bem-vindo à base de conhecimento da **Mentoria Tecnologia Takwara**. Aqui estruturamos a sua jornada no universo da ecologia ancestral e da tecnologia moderna.
 
 ## Engajamento e Instrução de Base (A Era da Bioeconomia)
 O material público inicial da jornada baseia-se no **[Manual de Bioeconomia do Bambu](https://takwaratec.github.io/projetos/01_TECNOLOGIA_TAKWARA/TAK_manual-bioeconomia-bambu/)**, introduzindo o aluno aos conceitos fundamentais antes da mentoria técnica. Os eixos resumidos são:
@@ -46,4 +46,4 @@ flowchart TD
     class I,J,K,L high
 </div>
 
-Navegue pelo menu lateral para acessar os módulos da **Base de Conhecimento**, os dias curados da **Jornada de 7 Dias** e estruturar as ferramentas que você entregará aos clientes.
+Navegue pelo menu lateral para explorar os módulos da **Base de Conhecimento** e siga o passo a passo da **Jornada de 7 Dias** para iniciar a sua transformação e conquistar a sua autonomia tecnológica.

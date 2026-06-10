@@ -32,6 +32,9 @@ copyright: '&copy; 2026 Tecnologia Takwara. Todos os direitos reservados.'
 extra:
   generator: false
 
+extra_css:
+  - assets/stylesheets/extra.css
+
 markdown_extensions:
   - attr_list
   - md_in_html
