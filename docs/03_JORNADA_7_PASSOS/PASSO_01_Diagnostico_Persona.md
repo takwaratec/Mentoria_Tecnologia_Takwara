@@ -32,7 +32,28 @@ Conhecer o seu perfil nos ajuda a direcionar a melhor aplicação do **Kit Bio-S
 
 ---
 
-## 3. Próximos Passos na Sua Jornada
+## 3. A Nossa Matriz de Qualificação (Transparência Operacional)
+
+Como a nossa capacidade de acompanhamento é limitada, utilizamos uma matriz interna ("Lead Scoring") para priorizar quem receberá o suporte direto da Mentoria Takwara. 
+
+Tabela de Avaliação de Perfis (Notas de 1 a 5 para priorização do nosso funil de atendimento):
+
+| Personas | Autoridade / Conexão | Retorno de Valor | Poder Aquisitivo | Latência da Dor | Soma |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **P1** (Arquiteto) | 4 | 5 | 5 | 4 | **18** |
+| **P2** (Maker DIY) | 5 | 3 | 3 | 3 | **14** |
+| **P3** (Ecoaldeia) | 5 | 4 | 2 | 5 | **16** |
+| **P4** (Puristas/TIs) | 5 | 5 | 1 | 5 | **16** |
+
+### O Porquê das Nossas Escolhas:
+*   **Persona 1 (A Viabilizadora):** A dor técnica é altíssima (risco de perder contratos se a obra rachar ou apodrecer). O retorno de valor é imediato ao dominar a "solda vegetal".
+*   **Persona 2 (A Escala):** Essencial para disseminar a cultura *maker*. O foco aqui não é o acompanhamento prolongado, mas o acesso rápido aos kits fracionados.
+*   **Persona 3 (A Comunidade):** Alinhamento filosófico total com a Tecnologia Takwara, capacitando o território a não depender da indústria convencional.
+*   **Persona 4 (A Alma do Projeto):** A necessidade é máxima e a conexão é absoluta devido à toxicidade zero da nossa resina. O modelo de apadrinhamento e editais viabiliza a chegada da tecnologia onde não há poder aquisitivo.
+
+---
+
+## 4. Próximos Passos na Sua Jornada
 
 Não importa em qual perfil você se encontra: a nossa missão aqui é desmistificar a química e entregar autonomia para as suas mãos. 
 
