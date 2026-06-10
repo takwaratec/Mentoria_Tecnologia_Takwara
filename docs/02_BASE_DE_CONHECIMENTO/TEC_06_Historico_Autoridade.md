@@ -1,4 +1,4 @@
-# Histórico e Validação Institucional: Tecnologia Takwara
+# Módulo Técnico 06: Histórico e Validação Institucional: Tecnologia Takwara
 
 **Documento de Autoridade e Prova Social**
 *Este material centraliza o histórico de pesquisa e validação da Tecnologia Takwara para uso em campanhas de lançamento e como base de conhecimento para mentores da jornada.*

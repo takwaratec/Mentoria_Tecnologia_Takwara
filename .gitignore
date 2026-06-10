@@ -1,5 +1,6 @@
 # Pastas e Arquivos Sensíveis
 01_TRIAGEM_BRUTA/
+_privado/
 *.pdf
 *.docx
 *.doc

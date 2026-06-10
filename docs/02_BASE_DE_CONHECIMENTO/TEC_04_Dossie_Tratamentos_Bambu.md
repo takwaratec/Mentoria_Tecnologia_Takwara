@@ -50,7 +50,7 @@ O vapor passa a ser enriquecido com o **Ácido Pirolenhoso** recuperado do forno
 
 ---
 
-## 6. Parecer Técnico Conclusivo e Direcionamento Comercial
+## 5. Parecer Técnico Conclusivo e Direcionamento Comercial
 
 A proposta dos tratamentos prévios projetados pelo Sistema Takwara converte o bambu em um material de engenharia estabilizado e imune.
 

@@ -1,4 +1,4 @@
-# Módulo Técnico 02: Tratamentos e o Mito do Boro
+# Módulo Técnico 02: O Mito do Boro — Tratamentos e a "Magia" Sombria
 
 **Jornada de Mentoria - Tecnologia Takwara**
 
@@ -17,6 +17,8 @@ Diante da toxicidade do Arsênio, o mercado de bioconstrução adotou o **Bórax
 
 > [!WARNING]
 > Uma receita comum de tratamento ensina o uso de 5% de Bórax diluído em água. Isso equivale a contaminar um tanque de 500 litros com 25 kg deste pó, enquanto a agricultura recomenda no máximo 3 kg por hectare. A longo prazo, esse banho de Bórax polui o solo e lençóis freáticos, além de causar problemas respiratórios e reprodutivos em contato humano prolongado.
+>
+> *Fonte: Acervo MQTF — SCI_014 (Polymers Alkali Treatment) e protocolos de segurança INBAR (SCI_013).*
 
 > [!CAUTION]
 > **Alerta Científico (2025):** Para além dos banhos químicos, o próprio pó do processamento exige biossegurança. Um estudo de pares publicado em 2025 evidenciou a **toxicidade carcinogênica das aparas de bambu no Acre** quando inaladas sem EPI ou processadas em escala sem exaustão. Isso destrói o mito ingênuo de que "por ser uma planta natural, qualquer poeira e resíduo do bambu é inofensivo".
