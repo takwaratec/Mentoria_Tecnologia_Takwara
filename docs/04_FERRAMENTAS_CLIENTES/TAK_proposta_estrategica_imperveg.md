@@ -6,13 +6,15 @@
 
 ---
 
-## 1. A Oportunidade de Mercado e o Gargalo Atual
+## 1. Oportunidade de Mercado, Momento e Vantagem Competitiva
 
-A Tecnologia Takwara consolidou ao longo dos anos a sinergia perfeita entre a fibra natural (bambu) e o Poliuretano Vegetal de Mamona fabricado pela Imperveg. No entanto, mapeamos um gargalo latente no mercado atual:
+A Tecnologia Takwara consolidou ao longo dos anos a sinergia perfeita entre a fibra natural (bambu) e o Poliuretano Vegetal de Mamona fabricado pela Imperveg. Mapeamos um momento estratégico para retomar o mercado de base:
 
-Existe uma demanda reprimida gigantesca de **Arquitetos Ecológicos, Bioconstrutores e "Makers"** que desejam abandonar venenos (CCA/CCB) e resinas tóxicas, mas que não conseguem acessar o PU Vegetal devido à barreira do fracionamento. A indústria química vende em tambores industriais; o construtor iniciante precisa de pequenos volumes para testes de bancada.
+Sabemos que a Imperveg já comercializou kits pequenos no passado. Com os recentes estudos acadêmicos publicados e a grande expansão da marca (marcada pela nova planta fabril da Tecnoveg em Portugal), a volta dos "Kits Casados" a uma plataforma educacional fortalecerá o interesse global pelo material.
 
-O argumento central desta proposta é: **O "Kit Caseiro" é um laboratório de testes financiado pelo próprio cliente final**. O artesão que testa e aprova o kit hoje, sem risco químico e sem odor, é o empreiteiro que fará pedidos industriais amanhã.
+**A Vantagem Competitiva Absoluta:** O mercado está sedento por sustentabilidade real. O produto da Imperveg é tecnologicamente superior aos concorrentes porque **não contém traços de isocianato no catalisador puro**. Existe uma gigantesca demanda reprimida de Arquitetos Ecológicos e "Makers" que desejam abandonar venenos (CCA/CCB), mas que não conseguem acessar o PU da Imperveg pela barreira do fracionamento (tambores industriais).
+
+O argumento central desta proposta é: **O "Kit Caseiro", atrelado a uma Mentoria, é um laboratório de testes financiado pelo cliente**. O artesão que testa e aprova o kit hoje, comprovando a ausência de toxicidade, é o empreiteiro que fará pedidos em larga escala amanhã.
 
 ---
 
@@ -60,4 +62,8 @@ Para que a Takwara consiga injetar orçamento no marketing, gravar as aulas com 
 1. **Doação Inaugural Limitada:** O fornecimento subsidiado (doação) de um lote inicial fechado (ex: 50 a 100 kits fracionados). Este lote será usado inteiramente para aquisição de clientes, gerando as primeiras centenas de casos de sucesso ("provas sociais") nas redes, impulsionando a demanda permanente.
 2. **Carência Estendida:** Uma segunda opção seria o fornecimento do primeiro lote com prazo de carência estendido de pagamento, permitindo que a Takwara faça caixa com as matrículas do curso antes de liquidar o custo químico com a fábrica.
 
+## 6. Próximos Passos: Demonstração e Hortitec 2027
+
 *Estamos prontos para demonstrar o modus operandi e todo o cenário de conversão in-loco em nossa oficina técnica. Agendaremos uma demonstração prática para alinhar o formato vencedor.*
+
+Além da operação dos kits, gostaríamos de estender um convite à Diretoria para iniciarmos as tratativas para um estande conjunto na **Hortitec 2027** em Holambra (e uma visita prévia estratégica à edição de 2026, já na próxima semana). Será o palco perfeito para apresentar a fusão da tecnologia botânica (Takwara) com a engenharia química sustentável (Imperveg) ao mercado de bioconstrução em larga escala.
