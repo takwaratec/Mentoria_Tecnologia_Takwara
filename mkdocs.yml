@@ -1,0 +1,45 @@
+site_name: Mentoria Tecnologia Takwara
+site_url: https://takwaratec.github.io/Mentoria_Tecnologia_Takwara/
+site_author: Takwara Tech
+site_description: Portal de Mentoria e Capacitação em Engenharia de Bambu e Poliuretano Vegetal.
+
+theme:
+  name: material
+  logo: assets/images/takwara_logo.png
+  favicon: assets/images/takwara_logo.png
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: black
+      accent: black
+      toggle:
+        icon: material/brightness-7
+        name: Mudar para modo escuro
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: black
+      toggle:
+        icon: material/brightness-4
+        name: Mudar para modo claro
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - content.code.copy
+
+copyright: '&copy; 2026 Tecnologia Takwara. Todos os direitos reservados.'
+extra:
+  generator: false
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+extra_javascript:
+  - https://unpkg.com/mermaid@10.4.0/dist/mermaid.min.js

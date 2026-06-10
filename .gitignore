@@ -1,0 +1,13 @@
+# Pastas e Arquivos Sensíveis
+01_TRIAGEM_BRUTA/
+*.pdf
+*.docx
+*.doc
+
+# Python e MkDocs
+venv/
+env/
+.env
+__pycache__/
+site/
+.mkdocs/
