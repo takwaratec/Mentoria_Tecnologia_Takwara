@@ -68,9 +68,13 @@ As métricas laboratorias retiradas diretamente do consórcio MQTF provam cienti
 *"A resina acrílica atende o requisito do 'selo verde', mas condena o projeto à manutenção hidrolítica em 2 anos. O Epóxi oferece resistência, mas não acompanha a dilatação natural de materiais vivos como bambu e madeira, craquelando com o tempo, além de ser tóxico aos aplicadores. O PU Vegetal oferece 100% de sólidos e 1,8 MPa de ancoragem inquebrável, unindo a força do concreto ao conforto térmico orgânico."*
 
 ---
-### Referências Bibliográficas e de Normatização
+### Referências Bibliográficas e de Normatização Acadêmica
 - **VIANNA, Denise L.** *Estudo Comparativo da Resistência Mecânica da Poliuretana Derivada do Óleo da Mamona*. Ribeirão Preto: USP, 1997.
+- **SANTOS, J. V. G. et al.** *Biocompósitos de bambu e resina de mamona*. Blucher Design Proceedings, 2018.
+- **BAYMA, M. M. A.** *Estimativa do volume e potencial econômico de bambu Guadua spp. no Acre*. Tese — UEA, 2023.
+- **ALMEIDA & FERREIRA** (2006) e **CANGEMI** (2006): *Propriedades térmicas e viscoelásticas de resinas poliuretanas derivadas do óleo de mamona*.
+- **ABNT. NBR 16828-1:2020** — Estruturas de bambu: Projeto. Rio de Janeiro, 2020.
 - **Fichas Técnicas Itecons:** ISO 7783:2018; EN 13687; NP EN 1062-6; NP EN 1504-2:2006.
-- **Fichas FISPQ e Científicas do Projeto MQTF:** SCI_025, SCI_028, SCI_030, LAB_001 a LAB_006.
+- **Fichas FISPQ e Científicas do Projeto MQTF:** SCI_023 (Síntese Científica DOI: [10.5281/zenodo.18827106](https://doi.org/10.5281/zenodo.18827106)), SCI_025, SCI_028, SCI_030, LAB_001 a LAB_006.
 - **Potabilidade:** Ministério da Saúde - Portaria nº 888.
 - **Atendimento de Segurança e Toxicidade:** ABNT NBR 14725:2014, NBR 12170.
