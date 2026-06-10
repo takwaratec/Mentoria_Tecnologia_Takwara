@@ -1,4 +1,4 @@
-# DIA 02: O Mapa da Sua Transformação (Do Ponto A ao Ponto Z)
+# PASSO 02: O Mapa da Sua Transformação (Do Ponto A ao Ponto Z)
 
 **Jornada de Mentoria - Tecnologia Takwara**
 
@@ -78,4 +78,4 @@ Verifique como revisamos a estrutura do seu aprendizado para garantir que não h
   Teoria (Nivelamento) ➡️ Base Material (Tratamento) ➡️ Fixação Prática (PU) ➡️ Domínio Estrutural.
 - [x] **Será que é necessário um nivelamento no início?**
     - [x] **Ou talvez um diagnóstico para o caso de haverem bifurcações?** 
-    Sim. O Diagnóstico foi feito no Dia 01 para identificar o seu perfil, e o Nivelamento (Passo Macro 1) garante que estejamos trabalhando sob a mesma matriz técnica e ética antes de tocar na resina.
+    Sim. O Diagnóstico foi feito no Passo 01 para identificar o seu perfil, e o Nivelamento (Passo Macro 1) garante que estejamos trabalhando sob a mesma matriz técnica e ética antes de tocar na resina.

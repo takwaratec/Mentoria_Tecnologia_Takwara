@@ -46,4 +46,4 @@ flowchart TD
     class I,J,K,L high
 </div>
 
-Navegue pelo menu lateral para explorar os módulos da **Base de Conhecimento** e siga o passo a passo da **Jornada de 7 Dias** para iniciar a sua transformação e conquistar a sua autonomia tecnológica.
+Navegue pelo menu lateral para explorar os módulos da **Base de Conhecimento** e siga o passo a passo da **Jornada dos 7 Passos** para iniciar a sua transformação e conquistar a sua autonomia tecnológica.

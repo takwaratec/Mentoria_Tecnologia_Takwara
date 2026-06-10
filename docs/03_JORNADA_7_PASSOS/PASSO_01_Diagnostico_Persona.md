@@ -1,4 +1,4 @@
-# DIA 01: O Seu Diagnóstico e Perfil na Bioconstrução
+# PASSO 01: O Seu Diagnóstico e Perfil na Bioconstrução
 
 **Jornada de Mentoria - Tecnologia Takwara**
 
@@ -36,4 +36,4 @@ Conhecer o seu perfil nos ajuda a direcionar a melhor aplicação do **Kit Bio-S
 
 Não importa em qual perfil você se encontra: a nossa missão aqui é desmistificar a química e entregar autonomia para as suas mãos. 
 
-Você está prestes a descobrir que é possível unir a força estrutural da natureza com a altíssima tecnologia botânica do Poliuretano Vegetal. Avance para o **Dia 02** para conhecer o mapa completo do que você irá aprender nas próximas etapas.
+Você está prestes a descobrir que é possível unir a força estrutural da natureza com a altíssima tecnologia botânica do Poliuretano Vegetal. Avance para o **Passo 02** para conhecer o mapa completo do que você irá aprender nas próximas etapas.
