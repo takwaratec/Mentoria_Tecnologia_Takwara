@@ -58,3 +58,18 @@ A produção de Fábio Takwara (domos, móveis) atrai as personas nas redes. O f
 > **A Proposta de Operação:** A Imperveg fornecerá as resinas A e B envasadas em pequenas quantidades de entrada. O Pesquisador Fábio Takwara fará a montagem dos "Kits Bio-Solda" (incluindo seringas, EPIs e documentação técnica) e fará a remessa final ao aluno, atrelando a venda ao seu Curso Digital.
 > 
 > **O Benefício Mútuo:** A Takwara tira o peso logístico de fracionamento unitário complexo das costas da Imperveg. Em contrapartida, transformamos o B2C num laboratório financiado pelo cliente. O aluno testa, valida a segurança química sem odor da Mamona em casa, e quando escalar para galpões e domos, fará pedidos industriais direto da Imperveg. É a educação do consumidor na base para garantir a venda na escala.
+
+---
+
+## 5. Modelos Operacionais em Discussão (Pauta da Reunião)
+
+Para viabilizar financeiramente o fluxo, propomos discutir três cenários logísticos, buscando a alternativa mais enxuta para ambas as partes:
+
+*   **Cenário A (Centralizado Takwara):** A Imperveg fornece os fracionados no atacado para a oficina Takwara. A Takwara une a resina aos acessórios (seringa, pincel) e envia a "Caixa Premium" via Melhor Envio (transportadoras privadas com desconto).
+*   **Cenário B (Envio Duplo Parcial):** O cliente compra o pacote na Hotmart. A Takwara envia uma caixa leve apenas com os acessórios e dispara um pedido de "dropshipping" para a Imperveg enviar os 2-3kg de PU diretamente ao cliente. A Imperveg emite a NF do produto químico e a Takwara a NF dos acessórios/serviço.
+*   **Cenário C (Afiliado/Indicação Direta):** A Takwara vende apenas a mentoria e o "Kit de Acessórios". Dentro da plataforma, o aluno é direcionado a comprar o PU num link específico da Imperveg (comissionado ou subsidiado).
+
+### Contrapartidas e "Push" Inicial (Sugestão de Acordo)
+Como a meta final é **fidelizar o construtor/arquiteto para compras em escala**, solicitamos avaliar uma contrapartida de fomento inicial para o lançamento:
+1.  **Doação Inaugural Limitada:** A Imperveg doa um lote inicial (ex: 50 a 100 kits de 2kg) para subsidiar as primeiras vendas de marketing da Takwara. Isso cria as primeiras centenas de "provas sociais" (casos de sucesso) no Instagram.
+2.  **Carência ou Consignação:** Fornecimento do primeiro lote com prazo de carência estendido para pagamento, permitindo que a Takwara faça caixa com as vendas da Hotmart antes de liquidar o custo químico.
