@@ -35,17 +35,18 @@ Um único fardo de resíduos alimenta todo o processo térmico, imunizante e de 
 
 ---
 
-## 4. O "Leite de Cinzas" (Dequada / Alcalinização)
-Antes da vaporização, os colmos são submetidos a um banho de **Dequada** (Leite de Cinzas), uma técnica milenar de alcalinização validada pela ciência ancestral do *Vrikshayurveda* [Ref: SCI_010].
-A solução altamente alcalina produzida pela lixiviação da cinza de fogueira corrige o pH ácido da seiva superficial do bambu. Ao elevar o pH drasticamente, o Leite de Cinzas destrói a parede celular de ovos de insetos depositados na casca e cria um ambiente salino orgânico inóspito para microrganismos invasores primários, substituindo banhos químicos de preservantes sintéticos.
+## 4. O Processo Duplo: Vapor Alcalino e Vapor Ácido
+A grande inovação do sistema Takwara reside na engenharia química da câmara de vapor. O bambu não recebe "banhos frios" separados. O próprio vapor saturado é utilizado como veículo para carrear os princípios ativos em um sistema térmico de **duas fases sequenciais**:
 
----
+### Fase 1: Vapor Alcalino (Saturação com Dequada)
+Na primeira fase do ciclo, a água fervedoura é saturada com a **Dequada** (Leite de Cinzas) — uma técnica milenar de alcalinização resgatada do *Vrikshayurveda* [Ref: SCI_010]. 
+O vapor gerado torna-se altamente alcalino. A combinação do calor intenso com a extrema alcalinidade penetra nos capilares do bambu, promovendo uma quebra (hidrólise) massiva e violenta do amido e das hemiceluloses. Além de remover a nutrição primária dos insetos, a elevação drástica do pH destrói a parede celular de ovos de parasitas ocultos, exercendo a primeira linha de esterilização sem usar metais pesados (Boro/Cromo).
 
-## 5. O Ácido Pirolenhoso (Imunização de Profundidade)
-A etapa final de blindagem tira proveito do extrato líquido recuperado na pirólise do próprio bambu.
-A pesquisa conduzida por **Rodolfo G. Silva na UNICAMP (2011)** [Ref: SCI_012] provou que a riqueza de **compostos fenólicos e ácidos orgânicos** presentes no pirolenhoso confere a ele um extremo poder inseticida e fungicida natural. 
-
-No sistema Takwara, este "fumo líquido" é aplicado via imersão ou carreado junto com o próprio vapor (*Vapor Quimicamente Enriquecido*) para dentro dos capilares do bambu. Ele bloqueia o desenvolvimento de micélios de fungos xilófagos, formando uma proteção de longo prazo sem depositar metais pesados na natureza ou na água.
+### Fase 2: Vapor Ácido (Saturação com Pirolenhoso e Correção de pH)
+Se o bambu permanecesse apenas alcalino, suas propriedades mecânicas de longo prazo poderiam ser afetadas. É aqui que entra o segundo estágio, de duração mais curta. 
+O vapor passa a ser enriquecido com o **Ácido Pirolenhoso** recuperado do forno [Ref: SCI_012]. Sendo naturalmente ácido e riquíssimo em compostos fenólicos, este vapor cumpre duas missões primordiais de uma só vez:
+1. **Neutralização Química:** O choque ácido "corta" e neutraliza o pH extremamente elevado deixado pela dequada na primeira fase, reestabilizando quimicamente o bambu.
+2. **Imunização Profunda:** O fumo líquido penetra no colmo limpo, depositando as resinas fenólicas que agem como um fungicida e inseticida orgânico perene, blindando a fibra internamente.
 
 ---
 
@@ -54,7 +55,7 @@ No sistema Takwara, este "fumo líquido" é aplicado via imersão ou carreado ju
 A proposta dos tratamentos prévios projetados pelo Sistema Takwara converte o bambu em um material de engenharia estabilizado e imune.
 
 **Argumento para Entusiastas DIY, Engenheiros e Arquitetos (Mentoria):**
-*"O bambu não tratado apodrece em 3 anos. O bambu tratado quimicamente envenena o solo e a água ao seu redor. A metodologia do nosso Forno de Ciclo Fechado ensina você a transformar o próprio lixo da poda no antídoto e no escudo estrutural da planta. Usando a cascata térmica, o vapor retira as tensões que racham o bambu, o leite de cinzas higieniza a casca, e a fumaça líquida (pirolenhoso) blinda contra as brocas. É engenharia ancestral validada pela ciência de materiais moderna, e você vai aprender a construir essa biofábrica na sua garagem."*
+*"O bambu não tratado apodrece em 3 anos. O bambu tratado quimicamente envenena o solo e a água ao seu redor. A metodologia do nosso Forno de Ciclo Fechado ensina você a transformar o próprio lixo da poda no antídoto e no escudo estrutural da planta. Usando a cascata térmica e uma câmara de vapor inteligente, operamos em dois estágios: primeiro, o vapor alcalino (leite de cinzas) ferve e destrói o amido que atrai as brocas; em seguida, o vapor ácido (fumaça líquida) neutraliza o bambu e blinda a fibra por dentro. É engenharia química ancestral validada pela ciência de materiais moderna, e você vai aprender a construir essa biofábrica na sua garagem."*
 
 ---
 ### Referências Bibliográficas e de Normatização
