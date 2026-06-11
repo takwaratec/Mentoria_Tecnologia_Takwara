@@ -47,6 +47,19 @@ markdown_extensions:
 extra_javascript:
   - https://unpkg.com/mermaid@10.4.0/dist/mermaid.min.js
 
+plugins:
+  - search
+  - i18n:
+      docs_structure: suffix
+      languages:
+        - locale: pt
+          name: Português
+          default: true
+          build: true
+        - locale: en
+          name: English
+          build: true
+
 nav:
   - Início: index.md
   - Base de Conhecimento:
