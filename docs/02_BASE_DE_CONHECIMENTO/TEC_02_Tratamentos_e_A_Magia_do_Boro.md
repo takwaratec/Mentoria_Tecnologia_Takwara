@@ -1,5 +1,7 @@
 # Módulo Técnico 02: O Mito do Boro — Tratamentos e a "Magia" Sombria
 
+[🇧🇷 PT](TEC_02_Tratamentos_e_A_Magia_do_Boro.md) · [🇺🇸 EN](TEC_02_Tratamentos_e_A_Magia_do_Boro_EN.md)
+
 **Jornada de Mentoria - Tecnologia Takwara**
 
 *Por que a bioconstrução tradicional falha na química verde.*

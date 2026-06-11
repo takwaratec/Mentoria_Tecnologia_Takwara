@@ -1,5 +1,7 @@
 # Módulo Técnico 05: Bibliografia e Repositórios Científicos
 
+[🇧🇷 PT](./TEC_05_Bibliografia_e_Referencias.md) · [🇺🇸 EN](./TEC_05_Bibliografia_e_Referencias_EN.md)
+
 **Jornada de Mentoria - Tecnologia Takwara**
 
 *O embasamento científico que ancora a inovação "de garagem" aos padrões de excelência globais.*

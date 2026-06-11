@@ -1,5 +1,7 @@
 # Dossiê de Pesquisa: Análise Comparativa Científica de Biopolímeros e Impermeabilizantes
 
+[🇧🇷 PT](TEC_03_Dossie_Comparativo_Biopolimeros.md) · [🇺🇸 EN](TEC_03_Dossie_Comparativo_Biopolimeros_EN.md)
+
 **Status:** Consolidado (Revisão Científica V2 - Full Sweep)
 **Fonte de Dados:** Acervo Científico Mulheres Que Tecem a Floresta (MQTF) e Ensaios Itecons (Portugal).
 

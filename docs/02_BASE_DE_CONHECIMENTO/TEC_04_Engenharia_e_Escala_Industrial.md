@@ -1,5 +1,7 @@
 # Módulo Técnico 04: Engenharia e Escala Industrial
 
+[🇧🇷 PT](./TEC_04_Engenharia_e_Escala_Industrial.md) · [🇺🇸 EN](./TEC_04_Engenharia_e_Escala_Industrial_EN.md)
+
 **Jornada de Mentoria - Tecnologia Takwara**
 
 *O Horizonte Industrial: Da Bio-Solda Artesanal à Biorrefinaria.*

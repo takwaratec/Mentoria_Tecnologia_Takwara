@@ -54,14 +54,22 @@ plugins:
 nav:
   - Início: index.md
   - Base de Conhecimento:
-    - Ecologia e Universo do Bambu: 02_BASE_DE_CONHECIMENTO/TEC_01_Ecologia_e_Universo_do_Bambu.md
-    - Tratamentos e a Magia do Boro: 02_BASE_DE_CONHECIMENTO/TEC_02_Tratamentos_e_A_Magia_do_Boro.md
-    - O Poliuretano Vegetal e a Bio-Solda: 02_BASE_DE_CONHECIMENTO/TEC_03_O_Poliuretano_Vegetal_e_Aplicacao.md
-    - Dossiê Comparativo Biopolímeros: 02_BASE_DE_CONHECIMENTO/TEC_03_Dossie_Comparativo_Biopolimeros.md
-    - Engenharia e Escala Industrial: 02_BASE_DE_CONHECIMENTO/TEC_04_Engenharia_e_Escala_Industrial.md
-    - Dossiê Tratamentos Bambu: 02_BASE_DE_CONHECIMENTO/TEC_04_Dossie_Tratamentos_Bambu.md
-    - Bibliografia e Referências: 02_BASE_DE_CONHECIMENTO/TEC_05_Bibliografia_e_Referencias.md
-    - Histórico de Autoridade: 02_BASE_DE_CONHECIMENTO/TEC_06_Historico_Autoridade.md
+    - "🇧🇷 Ecologia e Universo do Bambu": 02_BASE_DE_CONHECIMENTO/TEC_01_Ecologia_e_Universo_do_Bambu.md
+    - "🇺🇸 Bamboo Ecology & Universe": 02_BASE_DE_CONHECIMENTO/TEC_01_Ecologia_e_Universo_do_Bambu_EN.md
+    - "🇧🇷 Tratamentos e a Magia do Boro": 02_BASE_DE_CONHECIMENTO/TEC_02_Tratamentos_e_A_Magia_do_Boro.md
+    - "🇺🇸 Treatments & The Boron Magic": 02_BASE_DE_CONHECIMENTO/TEC_02_Tratamentos_e_A_Magia_do_Boro_EN.md
+    - "🇧🇷 O Poliuretano Vegetal e a Bio-Solda": 02_BASE_DE_CONHECIMENTO/TEC_03_O_Poliuretano_Vegetal_e_Aplicacao.md
+    - "🇺🇸 Vegetable PU & Bio-Weld": 02_BASE_DE_CONHECIMENTO/TEC_03_O_Poliuretano_Vegetal_e_Aplicacao_EN.md
+    - "🇧🇷 Dossiê Comparativo Biopolímeros": 02_BASE_DE_CONHECIMENTO/TEC_03_Dossie_Comparativo_Biopolimeros.md
+    - "🇺🇸 Comparative Biopolymer Dossier": 02_BASE_DE_CONHECIMENTO/TEC_03_Dossie_Comparativo_Biopolimeros_EN.md
+    - "🇧🇷 Engenharia e Escala Industrial": 02_BASE_DE_CONHECIMENTO/TEC_04_Engenharia_e_Escala_Industrial.md
+    - "🇺🇸 Engineering & Industrial Scale": 02_BASE_DE_CONHECIMENTO/TEC_04_Engenharia_e_Escala_Industrial_EN.md
+    - "🇧🇷 Dossiê Tratamentos Bambu": 02_BASE_DE_CONHECIMENTO/TEC_04_Dossie_Tratamentos_Bambu.md
+    - "🇺🇸 Bamboo Treatment Dossier": 02_BASE_DE_CONHECIMENTO/TEC_04_Dossie_Tratamentos_Bambu_EN.md
+    - "🇧🇷 Bibliografia e Referências": 02_BASE_DE_CONHECIMENTO/TEC_05_Bibliografia_e_Referencias.md
+    - "🇺🇸 Bibliography & References": 02_BASE_DE_CONHECIMENTO/TEC_05_Bibliografia_e_Referencias_EN.md
+    - "🇧🇷 Histórico de Autoridade": 02_BASE_DE_CONHECIMENTO/TEC_06_Historico_Autoridade.md
+    - "🇺🇸 Authority History": 02_BASE_DE_CONHECIMENTO/TEC_06_Historico_Autoridade_EN.md
   - PU Vegetal:
     - "🇧🇷 Linha de Produtos (Catálogo)": PU_Vegetal_Linha_de_Produtos.md
     - "🇺🇸 Product Line (Catalog)": PU_Vegetal_Linha_de_Produtos_EN.md

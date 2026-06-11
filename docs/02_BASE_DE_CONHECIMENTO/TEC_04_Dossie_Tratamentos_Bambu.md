@@ -1,5 +1,7 @@
 # Dossiê de Pesquisa: Engenharia de Imunização e Vaporização do Bambu
 
+[🇧🇷 PT](./TEC_04_Dossie_Tratamentos_Bambu.md) · [🇺🇸 EN](./TEC_04_Dossie_Tratamentos_Bambu_EN.md)
+
 **Status:** Consolidado (Revisão Científica V1)
 **Fonte de Dados:** Acervo Científico Mulheres Que Tecem a Floresta (MQTF), UNICAMP, Vrikshayurveda e Ensaios Termomecânicos.
 

@@ -1,5 +1,7 @@
 # Módulo Técnico 03: O Poliuretano Vegetal e a Bio-Solda
 
+[🇧🇷 PT](TEC_03_O_Poliuretano_Vegetal_e_Aplicacao.md) · [🇺🇸 EN](TEC_03_O_Poliuretano_Vegetal_e_Aplicacao_EN.md)
+
 **Jornada de Mentoria - Tecnologia Takwara**
 
 *O "Segredo" por trás das conexões de alta performance e a química da mamona.*

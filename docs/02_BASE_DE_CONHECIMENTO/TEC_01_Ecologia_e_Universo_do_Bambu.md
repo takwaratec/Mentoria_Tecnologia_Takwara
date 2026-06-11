@@ -1,5 +1,7 @@
 # Módulo Técnico 01: Ecologia e o Universo do Bambu
 
+[🇧🇷 PT](TEC_01_Ecologia_e_Universo_do_Bambu.md) · [🇺🇸 EN](TEC_01_Ecologia_e_Universo_do_Bambu_EN.md)
+
 **Jornada de Mentoria - Tecnologia Takwara**
 
 *Base de Conhecimento Científico e Filosófico sobre o material estrutural do futuro.*
