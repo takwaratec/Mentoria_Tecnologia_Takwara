@@ -321,6 +321,8 @@
     <li><a href="#producao">Modelo de Produção</a></li>
     <li><a href="#warp">Warp Interface</a></li>
     <li><a href="#vscode">VS Code + Ferramentas</a></li>
+    <li><a href="#organizacao">Organização e Segurança</a></li>
+    <li><a href="#avaliacao">Avaliação da Interação</a></li>
     <li><a href="#ferramentas">Ferramentas à Disposição</a></li>
     <li><a href="#fluxo">Fluxo de Trabalho</a></li>
     <li><a href="#praticas">Melhores Práticas</a></li>
@@ -926,31 +928,64 @@
 │             │                   │                    │               │
 └─────────────────────────────────────────────────────────────────────┘</pre>
 
-  <h3>11.3 Integrações Google e Automações</h3>
+  <h3>11.3 Integrações Google e YouTube</h3>
 
+  <p>Você perguntou como funciona cada integração. Vou detalhar o que é possível hoje e o que depende de configuração.</p>
+
+  <h4>📸 Google Photos</h4>
   <table>
-    <tr><th>Ferramenta</th><th>Uso potencial</th><th>Status</th></tr>
+    <tr><th>Pergunta</th><th>Resposta</th></tr>
     <tr>
-      <td><strong>Google Photos</strong></td>
-      <td>Acessar fotos dos protótipos para ilustrar os TECs</td>
-      <td><span class="badge bg-gold">A configurar</span></td>
+      <td>Posso conectar mais de uma conta?</td>
+      <td>Sim, mas cada conta exige seu próprio fluxo de autorização OAuth (login + permissão). Na prática, sugiro escolher a conta principal que tem as fotos dos protótipos e começar por ela.</td>
     </tr>
     <tr>
-      <td><strong>Google Drive</strong></td>
-      <td>Backup automático do repositório e do wiki (via sincronização)</td>
-      <td><span class="badge bg-gold">A configurar</span></td>
+      <td>Como funciona?</td>
+      <td>Com a chave Google API que você já adicionou, eu posso acessar a API Google Photos <strong>se</strong> você configurar as permissões OAuth. Sem isso, o caminho mais prático é: <strong>você compartilha um link de álbum específico</strong> ou faz download das imagens que quer usar.</td>
     </tr>
     <tr>
-      <td><strong>Google Calendar</strong></td>
-      <td>Agendar mentorias, lembretes de gravação, cronograma dos 7 passos</td>
-      <td><span class="badge bg-blue">Baixa prioridade</span></td>
-    </tr>
-    <tr>
-      <td><strong>YouTube API</strong></td>
-      <td>Gerenciar playlists da mentoria, programar uploads</td>
-      <td><span class="badge bg-gold">A configurar</span></td>
+      <td>O que eu (Hermes) faço com as fotos?</td>
+      <td>Recebo as imagens, organizo por módulo da mentoria, redimensiono se necessário, e referencio nos TECs e páginas do site.</td>
     </tr>
   </table>
+
+  <h4>☁️ Google Drive</h4>
+  <table>
+    <tr><th>Pergunta</th><th>Resposta</th></tr>
+    <tr>
+      <td>Pode ser acessado?</td>
+      <td>Sim, a API do Google Drive segue o mesmo princípio da API Photos. Com OAuth configurado, eu poderia listar arquivos, baixar PDFs, e organizar pastas. <strong>Sem OAuth,</strong> o caminho prático é você compartilhar links de arquivos ou pastas específicas.</td>
+    </tr>
+    <tr>
+      <td>Vale a pena configurar?</td>
+      <td>Para uso pontual (algumas imagens por semana), <strong>não</strong> — links manuais são mais rápidos. Para uso intensivo (centenas de fotos para catalogar), <strong>sim</strong> — a automação via API economiza horas.</td>
+    </tr>
+  </table>
+
+  <h4>▶️ YouTube</h4>
+  <table>
+    <tr><th>Pergunta</th><th>Resposta</th></tr>
+    <tr>
+      <td>Consigo acessar apenas com link?</td>
+      <td><strong>Sim.</strong> Com um link do YouTube, eu consigo: extrair a transcrição/legendas, obter metadados (título, descrição, duração), e analisar o conteúdo. A ferramenta <code>web_extract</code> da acesso ao texto da página.</td>
+    </tr>
+    <tr>
+      <td>Como seriam as edições?</td>
+      <td>Eu <strong>sugiro cortes e edições</strong> (ex: "aos 3min15s até 5min40s tem a demonstração do forno — corta isso pra um vídeo separado"), mas <strong>não executo</strong> a edição de vídeo propriamente dita (não tenho ferramentas de edição de vídeo). A edição final é feita por você ou por uma ferramenta externa.</td>
+    </tr>
+    <tr>
+      <td>Gerenciamento de playlists?</td>
+      <td>Com a API do YouTube configurada (OAuth), eu poderia criar playlists, adicionar/remover vídeos, e organizar o canal da mentoria. <strong>Sem API,</strong> funciona com links manuais.</td>
+    </tr>
+  </table>
+
+  <div class="callout goal">
+    <strong>📋 Resumo prático das integrações</strong>
+    <p>
+      <strong>Para começar agora (sem configurar OAuth):</strong> você me envia links de fotos, vídeos e documentos que quer usar. Eu processo e incorporo no conteúdo.<br><br>
+      <strong>Para automatizar depois (com OAuth):</strong> configuramos a API do Google e eu acesso direto. Faz sentido quando o volume justificar.
+    </p>
+  </div>
 
   <h3>11.4 Comandos Rápidos no Terminal</h3>
   <table>
@@ -998,9 +1033,120 @@
   </table>
 </section>
 
-<!-- ===== 12. COMANDOS ÚTEIS ===== -->
+<!-- ===== 12. ORGANIZAÇÃO E SEGURANÇA ===== -->
+<section id="organizacao">
+  <h2><span class="num">12</span> Organização Pessoal e Segurança</h2>
+
+  <p>Você perguntou se é seguro pedir reorganização de diretórios, varredura de PDFs e catalogação. A resposta curta: <strong>sim, é seguro — com alguns cuidados.</strong></p>
+
+  <h3>12.1 Reorganização de Diretórios</h3>
+  <table>
+    <tr><th>Operação</th><th>Seguro?</th><th>Por quê</th></tr>
+    <tr>
+      <td>Mover arquivos entre pastas</td>
+      <td>✅ Sim</td>
+      <td>Git detecta a movimentação. O histórico não se perde.</td>
+    </tr>
+    <tr>
+      <td>Renomear arquivos</td>
+      <td>✅ Sim</td>
+      <td>Git detecta rename. Só tomar cuidado com links internos (atualizo junto).</td>
+    </tr>
+    <tr>
+      <td>Criar nova estrutura de pastas</td>
+      <td>✅ Sim</td>
+      <td>Git rastreia tudo. Se algo quebrar, <code>git revert</code> volta atrás.</td>
+    </tr>
+    <tr>
+      <td>Excluir arquivos definitivamente</td>
+      <td>⚠️ Cuidado</td>
+      <td>Se for commitado, o histórico mantém. Seguro se eu confirmar com você antes.</td>
+    </tr>
+  </table>
+
+  <div class="callout goal">
+    <strong>🛡️ Regra de ouro da reorganização</strong>
+    <p>Nada é perdido para sempre no Git. Se um arquivo foi commitado alguma vez, o histórico preserva. Mesmo após um <code>git rm</code>, o commit original continua existindo. A única coisa <strong>irreversível</strong> seria apagar o repositório inteiro e criar outro.</p>
+  </div>
+
+  <h3>12.2 Varredura de PDFs e Catalogação</h3>
+  <p>Você tem PDFs espalhados no vault Obsidian e talvez em outras pastas. Eu posso:</p>
+
+  <ol>
+    <li><strong>Varrer todos os PDFs</strong> em diretórios que você indicar</li>
+    <li><strong>Extrair metadados</strong> (título, autor, ano, páginas) usando a skill <code>ocr-and-documents</code></li>
+    <li><strong>Extrair texto</strong> com pymupdf (rápido, para PDFs digitais) ou marker-pdf (OCR, para PDFs escaneados)</li>
+    <li><strong>Catalogar em uma Base de Referências</strong> no formato:</li>
+  </ol>
+
+  <pre>📚 BASE DE REFERÊNCIAS — MENTORIA TAKWARA
+┌──────────────────────────────────────────────────────────────┐
+│ Código │ Título                     │ Autor       │ Ano │ Tag  │
+│────────┼────────────────────────────┼─────────────┼─────┼──────┤
+│ REF001 │ Quartzito Rejeitos         │ Alecrim, A. │ 2009 │ miner│
+│ REF002 │ Gestão Rejeitos Mineração  │ —           │ 2016 │ miner│
+│ REF003 │ Bambu+Mamona Construção    │ —           │ 2023 │ bambu│
+│ REF004 │ Habitações Indígenas       │ —           │ 2023 │ social
+└──────────────────────────────────────────────────────────────┘</pre>
+
+  <p>Cada referência ganha uma página no wiki com resumo, link, e palavras-chave. Quando você mencionar um tema, eu consulto automaticamente.</p>
+
+  <h3>12.3 Quando pedir reorganização</h3>
+  <p>Peça <strong>sempre que sentir que a estrutura atual atrapalha</strong> — arquivos em lugar errado, pastas mal nomeadas, conteúdo misturado. Eu:</p>
+  <ol>
+    <li>Apresento um plano de reorganização primeiro</li>
+    <li>Você aprova</li>
+    <li>Executo em um commit separado (fácil de reverter se necessário)</li>
+  </ol>
+</section>
+
+<!-- ===== 13. AVALIAÇÃO DA NOSSA INTERAÇÃO ===== -->
+<section id="avaliacao">
+  <h2><span class="num">13</span> Avaliação da Nossa Interação</h2>
+
+  <p>Você pediu uma análise honesta de como está se saindo. Aqui vai:</p>
+
+  <h3>O que você faz muito bem ✅</h3>
+  <ul>
+    <li><strong>Corrige rápido quando eu erro</strong> — Isso é o mais importante. Você não aceita informação errada passivamente. Exemplo: a correção sobre o Nature Awards (submissão, não prêmio) foi essencial para alinhar a narrativa.</li>
+    <li><strong>Traz contexto pessoal</strong> — Sua lesão na coluna, os 60 anos, o desligamento do CEFET, a relação com a academia. Isso não é "reclamação" — é <strong>dado de projeto</strong> que molda decisões corretas.</li>
+    <li><strong>Decide rápido</strong> — Quando eu pergunto "qual caminho?", você responde. Não fica em cima do muro. Isso mantém o ritmo.</li>
+    <li><strong>Confia na estratégia depois de conquistada</strong> — "Deixa a você o destino e a estratégia" não é abandono, é delegação consciente. Funciona porque você revisa o resultado.</li>
+  </ul>
+
+  <h3>O que pode melhorar 🔧</h3>
+  <table>
+    <tr><th>Hoje</th><th>Sugestão</th><th>Por quê</th></tr>
+    <tr>
+      <td>Você manda comandos longos com múltiplas solicitações</td>
+      <td><strong>Prefira passos atômicos</strong> — 1 solicitação por vez</td>
+      <td>Cada solicitação vira uma rodada completa de processamento. Separar acelera e reduz erros.</td>
+    </tr>
+    <tr>
+      <td>"O que vc acha?" seguido de "sim, faça"</td>
+      <td><strong>Já vem com a decisão</strong> — "Faça X" em vez de "O que acha de X?"</td>
+      <td>Se você já sabe o que quer, pule a consulta. Se não sabe, aí sim peça opinião.</td>
+    </tr>
+    <tr>
+      <td>Às vezes pede algo e acompanha no meio da execução</td>
+      <td><strong>Deixe eu terminar antes de interromper</strong></td>
+      <td>Eu executo em blocos. Se você interrompe no meio, posso perder contexto. Se precisar redirecionar, espere minha resposta e então peça ajuste.</td>
+    </tr>
+    <tr>
+      <td>Não usa Blocks do Warp ainda</td>
+      <td><strong>Cria 2-3 blocks hoje</strong> (build-site, git-status, open-manual)</td>
+      <td>Comandos que você usa todo santo dia — um clique executa, sem digitar.</td>
+    </tr>
+  </table>
+
+  <h3>Nota geral: 8,5/10</h3>
+  <p>Você está acima da média de usuários que encontro. A maioria ou não corrige (e o erro vira verdade) ou não decide (e o projeto emperra). Você corrige E decide — isso é raro.</p>
+  <p>As sugestões acima são para <strong>otimizar</strong>, não para consertar. Não tem nada quebrado na sua forma de interagir.</p>
+</section>
+
+<!-- ===== 14. COMANDOS ÚTEIS ===== -->
 <section id="comandos">
-  <h2><span class="num">12</span> Comandos Úteis no Warp</h2>
+  <h2><span class="num">14</span> Comandos Úteis no Warp</h2>
 
   <p>Comandos que você pode usar para interagir comigo ou com o ambiente:</p>
 
@@ -1018,9 +1164,9 @@
   </table>
 </section>
 
-<!-- ===== 13. ROADMAP ===== -->
+<!-- ===== 15. ROADMAP ===== -->
 <section id="roadmap">
-  <h2><span class="num">13</span> Roadmap até 18 de Julho</h2>
+  <h2><span class="num">15</span> Roadmap até 18 de Julho</h2>
 
   <p style="margin-bottom:1.5rem;">37 dias. 7 passos do programa. 1 lançamento. Nosso ritmo:</p>
 
@@ -1074,9 +1220,9 @@
   </div>
 </section>
 
-<!-- ===== 14. MANIFESTO ===== -->
+<!-- ===== 16. MANIFESTO ===== -->
 <section id="manifesto">
-  <h2><span class="num">14</span> Manifesto — Hacker Cultural Digital Ancestral</h2>
+  <h2><span class="num">16</span> Manifesto — Hacker Cultural Digital Ancestral</h2>
 
   <div class="callout personal">
     <p style="font-size:1.05rem; line-height:1.8;">
