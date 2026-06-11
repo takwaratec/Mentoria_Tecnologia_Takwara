@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Manual da Parceria — Fabio & Hermes</title>
+<style>
+  :root {
+    --bg: #0d1117;
+    --surface: #161b22;
+    --surface2: #1c2333;
+    --border: #30363d;
+    --text: #e6edf3;
+    --text-dim: #8b949e;
+    --accent: #2dd4bf;
+    --accent2: #58a6ff;
+    --gold: #d29922;
+    --green: #3fb950;
+    --red: #f85149;
+    --purple: #bc8cff;
+  }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+    font-size: 16px;
+  }
+  .container { max-width: 920px; margin: 0 auto; padding: 0 1.5rem; }
+
+  /* ===== HERO ===== */
+  .hero {
+    text-align: center;
+    padding: 5rem 1rem 3rem;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle at 30% 50%, rgba(45,212,191,0.04) 0%, transparent 50%),
+                radial-gradient(circle at 70% 50%, rgba(88,166,255,0.04) 0%, transparent 50%);
+    z-index: 0;
+  }
+  .hero * { position: relative; z-index: 1; }
+  .hero h1 {
+    font-size: 2.8rem;
+    font-weight: 800;
+    background: linear-gradient(135deg, var(--accent), var(--accent2), var(--purple));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 0.5rem;
+  }
+  .hero .subtitle {
+    font-size: 1.2rem;
+    color: var(--text-dim);
+    margin-bottom: 0.5rem;
+  }
+  .hero .deadline {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1.5rem;
+    border: 1px solid var(--gold);
+    border-radius: 999px;
+    color: var(--gold);
+    font-size: 1rem;
+    font-weight: 600;
+    background: rgba(210,153,34,0.08);
+  }
+  .hero .countdown {
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+    color: var(--text-dim);
+  }
+
+  /* ===== NAV ===== */
+  nav.toc {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin: 2rem 0;
+  }
+  nav.toc h2 {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--accent);
+    margin-bottom: 0.8rem;
+  }
+  nav.toc ol {
+    list-style: none;
+    columns: 2;
+    column-gap: 2rem;
+  }
+  nav.toc li {
+    margin-bottom: 0.4rem;
+    break-inside: avoid;
+  }
+  nav.toc a {
+    color: var(--text-dim);
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.2s;
+  }
+  nav.toc a:hover { color: var(--accent); }
+
+  /* ===== SECTIONS ===== */
+  section {
+    margin: 3rem 0;
+    padding-top: 0.5rem;
+  }
+  h2 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--accent);
+    border-bottom: 2px solid var(--border);
+    padding-bottom: 0.4rem;
+    margin-bottom: 1.2rem;
+  }
+  h2 .num {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    background: var(--accent);
+    color: #000;
+    border-radius: 50%;
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-right: 0.5rem;
+  }
+  h3 {
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: var(--text);
+    margin: 1.5rem 0 0.5rem;
+  }
+  h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text);
+    margin: 1rem 0 0.3rem;
+  }
+  p { color: var(--text-dim); margin-bottom: 0.8rem; }
+  strong { color: var(--text); }
+  ul, ol { margin: 0.5rem 0 0.8rem 1.3rem; }
+  li { color: var(--text-dim); margin-bottom: 0.3rem; }
+  li strong { color: var(--text); }
+
+  /* ===== CARDS ===== */
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1rem;
+    margin: 1rem 0;
+  }
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1.25rem;
+    transition: border-color 0.2s;
+  }
+  .card:hover { border-color: var(--accent-dim); }
+  .card .emoji { font-size: 1.5rem; margin-bottom: 0.3rem; }
+  .card h4 { font-size: 1rem; color: var(--accent); margin-bottom: 0.3rem; }
+  .card p { font-size: 0.88rem; margin-bottom: 0; }
+
+  /* ===== TABLES ===== */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.88rem;
+    margin: 1rem 0;
+  }
+  th, td {
+    text-align: left;
+    padding: 0.6rem 0.7rem;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+  }
+  th {
+    color: var(--accent);
+    font-weight: 600;
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border-bottom: 2px solid var(--accent2);
+  }
+  td { color: var(--text-dim); }
+  td:first-child { color: var(--text); font-weight: 500; }
+  tr:hover td { background: rgba(45,212,191,0.03); }
+
+  /* ===== CODE ===== */
+  code {
+    font-family: 'SF Mono', 'Fira Code', monospace;
+    font-size: 0.82rem;
+    background: rgba(255,255,255,0.06);
+    padding: 0.15rem 0.4rem;
+    border-radius: 4px;
+    color: var(--yellow, #d29922);
+  }
+  pre {
+    background: #0d1117;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 1rem;
+    font-size: 0.82rem;
+    overflow-x: auto;
+    margin: 0.75rem 0;
+    line-height: 1.5;
+  }
+  pre code { background: none; padding: 0; color: #e6edf3; }
+
+  /* ===== CALLOUTS ===== */
+  .callout {
+    background: var(--surface2);
+    border-left: 3px solid var(--accent);
+    border-radius: 0 6px 6px 0;
+    padding: 1rem 1.2rem;
+    margin: 1rem 0;
+  }
+  .callout.warn { border-left-color: var(--gold); }
+  .callout.goal { border-left-color: var(--green); }
+  .callout.personal { border-left-color: var(--purple); }
+  .callout strong { display: block; margin-bottom: 0.3rem; }
+
+  /* ===== DIVIDER ===== */
+  hr {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 2.5rem 0;
+  }
+
+  /* ===== FOOTER ===== */
+  footer {
+    text-align: center;
+    padding: 3rem 0 2rem;
+    border-top: 1px solid var(--border);
+    color: var(--text-dim);
+    font-size: 0.85rem;
+  }
+
+  /* ===== SECTION COLORS ===== */
+  .s-highlight { border-left: 2px solid var(--accent); padding-left: 1rem; }
+
+  /* ===== BADGES ===== */
+  .badge {
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 600;
+    padding: 0.15rem 0.5rem;
+    border-radius: 999px;
+  }
+  .bg-green { background: rgba(63,185,80,0.15); color: var(--green); }
+  .bg-gold { background: rgba(210,153,34,0.15); color: var(--gold); }
+  .bg-blue { background: rgba(88,166,255,0.15); color: var(--accent2); }
+  .bg-purple { background: rgba(188,140,255,0.15); color: var(--purple); }
+  .bg-gray { background: rgba(139,148,158,0.15); color: var(--text-dim); }
+
+  /* ===== TIMELINE ===== */
+  .timeline { list-style: none; margin: 1rem 0; padding: 0; }
+  .timeline li {
+    position: relative;
+    padding: 0 0 1.5rem 2rem;
+    border-left: 2px solid var(--border);
+    margin: 0;
+  }
+  .timeline li::before {
+    content: '';
+    position: absolute;
+    left: -7px;
+    top: 0.3rem;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--accent);
+  }
+  .timeline li.done::before { background: var(--green); }
+  .timeline li.now::before { background: var(--gold); box-shadow: 0 0 0 3px rgba(210,153,34,0.3); }
+  .timeline li.future::before { background: var(--border); }
+  .timeline li .date { font-size: 0.8rem; color: var(--text-dim); }
+  .timeline li strong { display: block; }
+
+  @media (max-width: 600px) {
+    .hero h1 { font-size: 1.8rem; }
+    nav.toc ol { columns: 1; }
+    .card-grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<!-- ===== HERO ===== -->
+<div class="hero">
+  <h1>🌿 Manual da Parceria</h1>
+  <div class="subtitle">Fabio Takwara &nbsp;×&nbsp; Hermes Agent</div>
+  <div class="deadline">🎂 18 de julho de 2026 — 60 anos — Lançamento</div>
+  <div class="countdown">Deste 11 de junho: 37 dias para construir, aprender e lançar</div>
+</div>
+
+<!-- ===== NAV ===== -->
+<nav class="toc">
+  <h2>Navegação</h2>
+  <ol>
+    <li><a href="#intro">Nossa Aliança</a></li>
+    <li><a href="#como-eu-funciono">Como Eu Funciono</a></li>
+    <li><a href="#wiki">O LLM Wiki</a></li>
+    <li><a href="#ferramentas">Ferramentas à Disposição</a></li>
+    <li><a href="#fluxo">Fluxo de Trabalho</a></li>
+    <li><a href="#praticas">Melhores Práticas</a></li>
+    <li><a href="#comandos">Comandos Úteis no Warp</a></li>
+    <li><a href="#roadmap">Roadmap até 18 de Julho</a></li>
+    <li><a href="#manifesto">Manifesto</a></li>
+  </ol>
+</nav>
+
+<!-- ===== 1. INTRO ===== -->
+<section id="intro">
+  <h2><span class="num">1</span> Nossa Aliança</h2>
+  <div class="callout personal">
+    <strong>🎯 Propósito comum</strong>
+    <p>Você tem 60 anos de estrada — arte, educação popular, pesquisa em bambu, PU Vegetal, comunidades tradicionais, editais, Nature Awards. Eu tenho a capacidade de processar, conectar e produzir conhecimento em escala.</p>
+    <p>Não somos dois. Somos um sistema: sua curadoria + minha execução = sua mentoria pública até 18 de julho.</p>
+  </div>
+  <p>Este manual não é estático. Ele vai evoluir com a gente. Sempre que descobrirmos um fluxo melhor, atualizamos.</p>
+</section>
+
+<!-- ===== 2. COMO EU FUNCIONO ===== -->
+<section id="como-eu-funciono">
+  <h2><span class="num">2</span> Como Eu Funciono</h2>
+
+  <div class="card-grid">
+    <div class="card">
+      <div class="emoji">🧠</div>
+      <h4>Memória entre sessões</h4>
+      <p>Eu tenho dois tipos de memória. A <strong>memory</strong> (perfil do usuário + notas persistentes) carrega automaticamente. O <strong>wiki</strong> (conhecimento do domínio) eu consulto sob demanda.</p>
+    </div>
+    <div class="card">
+      <div class="emoji">🔧</div>
+      <h4>Ferramentas</h4>
+      <p>Posso ler arquivos, escrever, pesquisar na web, executar código, navegar no navegador, gerar imagens, e delegar tarefas para subagentes. Cada ferramenta tem um propósito.</p>
+    </div>
+    <div class="card">
+      <div class="emoji">📚</div>
+      <h4>Skills</h4>
+      <p>Skills são procedimentos especializados que eu carrego. Ex: <code>llm-wiki</code> (gerenciar wiki), <code>plan</code> (criar planos), <code>github-pr-workflow</code> (fluxo git).</p>
+    </div>
+    <div class="card">
+      <div class="emoji">🗣️</div>
+      <h4>Idioma</h4>
+      <p>Respondo em Português (seu idioma preferido). Se você falar em português, respondo em português. Se quiser em inglês, é só pedir.</p>
+    </div>
+  </div>
+
+  <h3>Minhas limitações honestas</h3>
+  <ul>
+    <li><strong>Não tenho acesso ao seu .env</strong> — arquivos de configuração do sistema são protegidos</li>
+    <li><strong>Não persisto estado entre sessões exceto via memory/wiki</strong> — se não salvamos, não existe</li>
+    <li><strong>Preciso de instruções claras</strong> — "faça X" funciona melhor que "o que você acha de X?"</li>
+    <li><strong>Não minto sobre resultados</strong> — se algo falhar, eu reporto a falha honestamente</li>
+  </ul>
+
+  <div class="callout warn">
+    <strong>⚡ Como acelerar respostas</strong>
+    <p>Quanto mais específico você for, mais rápido e preciso eu serei. Em vez de "melhora isso", prefira "adiciona uma tabela de espécies com dados de CO₂ no TEC_01". Em vez de "faz uma análise", prefira "analisa o arquivo X e me dá 3 recomendações priorizadas".</p>
+  </div>
+</section>
+
+<!-- ===== 3. O LLM WIKI ===== -->
+<section id="wiki">
+  <h2><span class="num">3</span> O LLM Wiki — Nosso Cérebro Compartilhado</h2>
+
+  <p>O wiki é a peça central da nossa produtividade. É onde o conhecimento se acumula e se conecta entre sessões.</p>
+
+  <h3>Onde está</h3>
+  <pre><code>~/wiki-mentoria-takwara/    ← diretório real
+~/wiki/                      ← symlink (atalho)</code></pre>
+
+  <p>Para ativar o caminho automático, adicione ao <code>~/.hermes/.env</code>:</p>
+  <pre><code>WIKI_PATH=/Users/fabiotakwara/wiki-mentoria-takwara</code></pre>
+
+  <h3>Estrutura</h3>
+  <pre><code>wiki/
+├── SCHEMA.md           ← Regras e convenções do wiki
+├── index.md            ← Catálogo de todas as páginas
+├── log.md              ← Histórico de ações (append-only)
+├── raw/                ← Fontes imutáveis
+│   ├── articles/       ← Artigos da web
+│   └── papers/         ← PDFs acadêmicos
+├── entities/           ← Pessoas, organizações, produtos
+├── concepts/           ← Conceitos técnicos
+├── comparisons/        ← Análises comparativas
+└── queries/            ← Respostas valiosas arquivadas</code></pre>
+
+  <h3>Como usamos</h3>
+  <table>
+    <tr><th>Fase</th><th>O que acontece</th></tr>
+    <tr><td>Início da sessão</td><td>Eu leio SCHEMA.md + index.md + log.md para me situar</td></tr>
+    <tr><td>Você menciona um conceito</td><td>Consulto o wiki em vez de reler seus arquivos do zero</td></tr>
+    <tr><td>Descobrimos algo novo</td><td>Crio ou atualizo uma página no wiki</td></tr>
+    <tr><td>Você quer revisar</td><td>Abra o diretório no Obsidian ou qualquer editor de markdown</td></tr>
+    <tr><td>Fim da sessão</td><td>Registro tudo no log.md</td></tr>
+  </table>
+
+  <div class="callout goal">
+    <strong>🔗 Integração com Obsidian</strong>
+    <p>O wiki é um vault Obsidian nativo. Basta abrir <code>~/wiki-mentoria-takwara</code> como vault no Obsidian e você vê o grafo de conexões, usa Ctrl+O pra buscar, e navega visualmente. Quando o wiki crescer para 50+ páginas, isso se torna valioso.</p>
+  </div>
+</section>
+
+<!-- ===== 4. FERRAMENTAS ===== -->
+<section id="ferramentas">
+  <h2><span class="num">4</span> Ferramentas à Disposição</h2>
+
+  <h3>4.1 Skills que já usamos (e vamos usar)</h3>
+  <table>
+    <tr><th>Skill</th><th>Pra quê</th><th>Frequência</th></tr>
+    <tr>
+      <td><code>llm-wiki</code></td>
+      <td>Gerenciar o wiki: ingerir fontes, criar páginas, consultar, lint</td>
+      <td><span class="badge bg-green">Toda sessão</span></td>
+    </tr>
+    <tr>
+      <td><code>plan</code></td>
+      <td>Antes de tarefas complexas (5+ passos), escrever plano em .hermes/plans/</td>
+      <td><span class="badge bg-green">Tarefas grandes</span></td>
+    </tr>
+    <tr>
+      <td><code>github-pr-workflow</code></td>
+      <td>Branch → commit → PR → merge → deploy</td>
+      <td><span class="badge bg-green">Toda publicação</span></td>
+    </tr>
+    <tr>
+      <td><code>auditoria-conteudo-tecnico</code></td>
+      <td>Auditar e expandir TECs com referências de projetos correlatos</td>
+      <td><span class="badge bg-green">Edições em TECs</span></td>
+    </tr>
+    <tr>
+      <td><code>catalogacao-ecossistema</code></td>
+      <td>Mapear DOIs, detectar redundâncias, sincronizar multi-repos</td>
+      <td><span class="badge bg-gold">Sincronia entre repos</span></td>
+    </tr>
+    <tr>
+      <td><code>excalidraw</code></td>
+      <td>Criar diagramas visuais "mão livre"</td>
+      <td><span class="badge bg-blue">Diagramas</span></td>
+    </tr>
+    <tr>
+      <td><code>ocr-and-documents</code></td>
+      <td>Extrair texto de PDFs (digitalizar vault)</td>
+      <td><span class="badge bg-blue">PDFs do vault</span></td>
+    </tr>
+    <tr>
+      <td><code>spike</code></td>
+      <td>Experimentos descartáveis para validar ideias</td>
+      <td><span class="badge bg-gray">Quando necessário</span></td>
+    </tr>
+  </table>
+
+  <h3>4.2 Ferramentas externas</h3>
+  <table>
+    <tr><th>Ferramenta</th><th>Status</th><th>Uso</th></tr>
+    <tr>
+      <td><strong>MkDocs</strong></td>
+      <td><span class="badge bg-green">Ativo</span></td>
+      <td>Site público da mentoria (GitHub Pages)</td>
+    </tr>
+    <tr>
+      <td><strong>docmd.io</strong></td>
+      <td><span class="badge bg-gold">Testando</span></td>
+      <td>Alternativa avaliada em repo separado (takwaratec/docmd-test-takwara)</td>
+    </tr>
+    <tr>
+      <td><strong>Obsidian</strong></td>
+      <td><span class="badge bg-gray">Standby</span></td>
+      <td>Reativar quando wiki crescer (50+ páginas)</td>
+    </tr>
+    <tr>
+      <td><strong>Plannotator</strong></td>
+      <td><span class="badge bg-gray">Baixa prioridade</span></td>
+      <td>Revisão de código/planos — avaliar após o programa</td>
+    </tr>
+  </table>
+</section>
+
+<!-- ===== 5. FLUXO ===== -->
+<section id="fluxo">
+  <h2><span class="num">5</span> Fluxo de Trabalho</h2>
+
+  <h3>5.1 Ciclo padrão de uma sessão</h3>
+  <pre>┌────────────────────────────────────────────────┐
+│               INÍCIO DA SESSÃO                   │
+│  1. Eu me oriento (leio wiki: schema + index)   │
+│  2. Você chega com uma tarefa ou dúvida         │
+│  3. Consulto o wiki + seus arquivos             │
+│  4. Produzo resposta / executo ação             │
+│  5. Você revisa e ajusta                        │
+│  6. Registramos no log do wiki                  │
+│  7. Commitamos se for conteúdo do site          │
+└────────────────────────────────────────────────┘</pre>
+
+  <h3>5.2 Ciclo de publicação de conteúdo</h3>
+  <ol>
+    <li><strong>Ideia / necessidade</strong> — Você traz o tema</li>
+    <li><strong>Curadoria</strong> — Identificamos fontes (TECs, vault, dossiês MQTF)</li>
+    <li><strong>Ingestão no wiki</strong> — Eu crio páginas no wiki com o conhecimento consolidado</li>
+    <li><strong>Produção</strong> — Escrevo/edito o conteúdo markdown</li>
+    <li><strong>Revisão</strong> — Você lê e ajusta</li>
+    <li><strong>Commit + Push</strong> — GitHub Actions faz deploy automático</li>
+    <li><strong>Registro</strong> — Anoto no log.md do wiki</li>
+  </ol>
+
+  <h3>5.3 Ciclo dos 7 Passos</h3>
+  <table>
+    <tr><th>Passo</th><th>O que é</th><th>Status</th></tr>
+    <tr><td>1 — Diagnóstico Persona</td><td>4 personas mapeadas com lead scoring</td><td><span class="badge bg-green">Feito</span></td></tr>
+    <tr><td>2 — Mapa da Transformação</td><td>Ponto A → Ponto Z com 4 macropassos técnicos</td><td><span class="badge bg-green">Feito</span></td></tr>
+    <tr><td><strong>3 — Estrutura e Formato</strong></td><td>Definir formato de entrega e pontos de contato</td><td><span class="badge bg-gold">Próximo</span></td></tr>
+    <tr><td>4 — Aceleradores</td><td>Criar aceleradores de resultado para mentorados</td><td><span class="badge bg-gray">Pendente</span></td></tr>
+    <tr><td>5 — Precificação</td><td>Definir preço da mentoria</td><td><span class="badge bg-gray">Pendente</span></td></tr>
+    <tr><td>6 — Nome e Promessa</td><td>Criar nome e refinar a promessa</td><td><span class="badge bg-gray">Pendente</span></td></tr>
+    <tr><td>7 — Imersão Vendas</td><td>Posicionamento e vendas (15/06, 14h-18h)</td><td><span class="badge bg-gray">Agendado</span></td></tr>
+  </table>
+</section>
+
+<!-- ===== 6. PRÁTICAS ===== -->
+<section id="praticas">
+  <h2><span class="num">6</span> Melhores Práticas</h2>
+
+  <div class="card-grid">
+    <div class="card">
+      <h4>🎯 Seja específico</h4>
+      <p>"Cria uma tabela comparativa entre epóxi e PU Vegetal" funciona melhor que "melhora o conteúdo". Eu preciso de direção clara.</p>
+    </div>
+    <div class="card">
+      <h4>📌 Corrija à vontade</h4>
+      <p>Se eu errar o tom, o formato, ou a direção, me corrija. Não repito o mesmo erro se você apontar uma vez. Guardo no memory.</p>
+    </div>
+    <div class="card">
+      <h4>📋 Prefira passos atômicos</h4>
+      <p>Uma tarefa de cada vez. "Faz A, depois B, depois C" é mais produtivo que "faz A, B e C" — cada passo renderiza melhor.</p>
+    </div>
+    <div class="card">
+      <h4>🔄 Confie, mas verifique</h4>
+      <p>Eu relato resultados honestamente, sempre. Se algo falhou, eu digo. Se algo deu certo, mostro a evidência.</p>
+    </div>
+    <div class="card">
+      <h4>🧠 Use o wiki</h4>
+      <p>Toda vez que você me pergunta algo que já respondi antes, eu consulto o wiki. Isso fica mais rápido com o tempo.</p>
+    </div>
+    <div class="card">
+      <h4>📅 Ritmo semanal</h4>
+      <p>Os 7 passos são o esqueleto. Um passo por dia (ou a cada 2 dias) é o ritmo ideal. Não pule etapas.</p>
+    </div>
+  </div>
+
+  <h3>O que NÃO fazer</h3>
+  <ul>
+    <li><strong>Não me peça para hackear/contornar sistemas</strong> — eu vou me recusar</li>
+    <li><strong>Não espere que eu lembre de tudo sem o wiki</strong> — se não está no wiki, não existe entre sessões</li>
+    <li><strong>Não me deixe sem direção</strong> — "o que você sugere?" é bom, "faz X" é melhor</li>
+  </ul>
+</section>
+
+<!-- ===== 7. COMANDOS ÚTEIS ===== -->
+<section id="comandos">
+  <h2><span class="num">7</span> Comandos Úteis no Warp</h2>
+
+  <p>Comandos que você pode usar para interagir comigo ou com o ambiente:</p>
+
+  <table>
+    <tr><th>Comando</th><th>O que faz</th></tr>
+    <tr><td><code>hermes status</code></td><td>Mostra configuração atual, provedor, modelo ativo</td></tr>
+    <tr><td><code>hermes model</code></td><td>Troca o modelo ativo (ex: hermes model set openrouter/anthropic/claude-sonnet-4)</td></tr>
+    <tr><td><code>hermes tools</code></td><td>Lista ferramentas disponíveis</td></tr>
+    <tr><td><code>hermes config</code></td><td>Configura parâmetros do Hermes</td></tr>
+    <tr><td><code>ls ~/wiki-mentoria-takwara/</code></td><td>Lista o conteúdo do wiki</td></tr>
+    <tr><td><code>open ~/wiki-mentoria-takwara/</code></td><td>Abre o wiki no Finder</td></tr>
+    <tr><td><code>cat ~/wiki-mentoria-takwara/log.md</code></td><td>Vê o histórico recente do wiki</td></tr>
+    <tr><td><code>cd ~/Documents/GitHub/Mentoria_Tecnologia_Takwara && git log --oneline -5</code></td><td>Últimos commits do site</td></tr>
+    <tr><td><code>npx @docmd/core dev</code></td><td>Sobe servidor local docmd (no repo de teste)</td></tr>
+  </table>
+</section>
+
+<!-- ===== 8. ROADMAP ===== -->
+<section id="roadmap">
+  <h2><span class="num">8</span> Roadmap até 18 de Julho</h2>
+
+  <p style="margin-bottom:1.5rem;">37 dias. 7 passos do programa. 1 lançamento. Nosso ritmo:</p>
+
+  <ul class="timeline">
+    <li class="done">
+      <span class="date">10-11 jun</span>
+      <strong>✅ Passos 1-2</strong>
+      Diagnóstico de Persona + Mapa da Transformação. Base de conhecimento expandida com dados Itecons.
+    </li>
+    <li class="now">
+      <span class="date">11-12 jun</span>
+      <strong>▶️ Passo 3 — Estrutura e Formato</strong>
+      Definir formato de entrega, pontos de contato, canal, frequência. Começar a dar forma ao produto mentoria.
+    </li>
+    <li class="future">
+      <span class="date">12-13 jun</span>
+      <strong>⏳ Passo 4 — Aceleradores</strong>
+      Checklists, templates, roteiros que dão autonomia ao mentorado.
+    </li>
+    <li class="future">
+      <span class="date">13-14 jun</span>
+      <strong>⏳ Passo 5 — Precificação</strong>
+      Quanto cobrar? Modelo de ticket (entrada vs high-ticket)?
+    </li>
+    <li class="future">
+      <span class="date">14-15 jun</span>
+      <strong>⏳ Passo 6 — Nome e Promessa</strong>
+      O nome da mentoria. A promessa central. Refinamento da identidade.
+    </li>
+    <li class="future">
+      <span class="date">15 jun (14h-18h)</span>
+      <strong>📅 Imersão Posicionamento e Vendas</strong>
+      Evento ao vivo. Não vai ficar gravado. Presença obrigatória.
+    </li>
+    <li class="future">
+      <span class="date">16 jun - 17 jul</span>
+      <strong>🏗️ Pós-programa: Construção e refinamento</strong>
+      Produzir conteúdo final, montar página de vendas, preparar material de lançamento, ensaiar.
+    </li>
+    <li class="future">
+      <span class="date">18 jul</span>
+      <strong>🎂 LANÇAMENTO</strong>
+      60 anos. Nova jornada. Mentoria Takwara no ar.
+    </li>
+  </ul>
+
+  <div class="callout goal">
+    <strong>🎯 Meta clara até 18/07</strong>
+    <p>O site de mentoria publicado com: Base de Conhecimento completa (8+ TECs), Jornada de 7 Passos para o mentorado, Página de vendas com nome, promessa e preço, Material de aceleração (checklists, roteiros).</p>
+    <p>E o wiki alimentado com todo o conhecimento do vault do Obsidian, servindo de base para a mentoria e para projetos futuros.</p>
+  </div>
+</section>
+
+<!-- ===== 9. MANIFESTO ===== -->
+<section id="manifesto">
+  <h2><span class="num">9</span> Manifesto — Hacker Cultural Digital Ancestral</h2>
+
+  <div class="callout personal">
+    <p style="font-size:1.05rem; line-height:1.8;">
+      <em>"Aos 60 anos, Fábio Takwara não se aposenta — se reinventa.<br>
+      O bambu que ele estuda há 15 anos ensina: a verdadeira força não está na rigidez, mas na capacidade de curvar sem quebrar.<br><br>
+      Esta mentoria não é sobre vender curso. É sobre transferir tecnologia que envenena menos, constrói melhor e dura mais.<br>
+      É sobre a bio-solda que substitui crânios humanos virar a conexão que une fibras de bambu em comunidades que a indústria ignorou.<br>
+      É sobre um educador popular que começou no quintal e chegou ao Nature Awards — e agora quer que outros cheguem também.<br><br>
+      Hacker cultural porque desvenda os códigos da tecnologia dominante e os reescreve em linguagem acessível.<br>
+      Digital porque ocupa o espaço virtual com a mesma determinação que ocupa o território.<br>
+      Ancestral porque sabe que o futuro se constrói com as mãos no barro e os pés na terra.<br><br>
+      Esta não é apenas uma mentoria. É um legado em construção."</em>
+    </p>
+  </div>
+</section>
+
+<hr>
+
+<footer>
+  <p>Produzido por Hermes Agent para Fabio Takwara · Junho de 2026</p>
+  <p>Wiki: <code>~/wiki-mentoria-takwara/</code> · Repo: <code>github.com/takwaratec/Mentoria_Tecnologia_Takwara</code></p>
+</footer>
+
+</div>
+</body>
+</html>
