@@ -61,15 +61,17 @@ O funil de 3 níveis, já esboçado no index.md, é refinado abaixo com cargas h
 ### 2.1 Instrução de Base — Conteúdo Público (já iniciado)
 
 | Item | Status | Responsável |
-|---|---|---|
+|:-----|:-------|:------------|
 | Site MkDocs com TECs | ✅ 8 TECs expandidos | Eu (Hermes) |
-| Manual de Bioeconomia do Bambu | ✅ Publicado (link externo) | Você |
+| Manual de Bioeconomia do Bambu | ✅ Publicado (GH Pages) | Você |
 | Fitorremediação e Carbono | ✅ Publicado | Você |
 | Saneamento Ecológico | ✅ Publicado | Você |
 | Tratamento Sem Veneno | ✅ Publicado | Você |
 | **Vídeos de demonstração** (YouTube) | ⏳ Pendente — gravar | Você |
 | **Time-lapses dos protótipos** | ⏳ Pendente — publicar | Você grava, eu edito |
 | **Playlist "Bastidores Takwara"** | ⏳ Pendente — criar | Eu organizo |
+
+> 💡 **Ideia de distribuição:** Os manuais já publicados (Bioeconomia, Fitorremediação, Saneamento Ecológico, Tratamento Sem Veneno) podem ser empacotados como **e-books no Hotmart** — com preço **zero ou mínimo** (R$ 5-10). Como já estão em CC BY 4.0 no GitHub, a versão gratuita sempre existirá. O Hotmart agrega valor percebido, alcance (25 milhões de compradores) e profissionaliza a entrega sem custo de criação. Hotmart cobra 9,9% + R$ 1 por venda.
 
 ### 2.2 Mentoria de Entrada — Curso
 
@@ -152,7 +154,7 @@ Aplicando à Mentoria Takwara, identifico estas **travas prováveis** e sugestõ
 | "Minha primeira mistura PU deu errado" | **Calculadora de Pot-Life** (temperatura × proporção) | Ferramenta web simples |
 | "Não sei se meu bambu está seco o suficiente" | **Tabela de cores e texturas** (referência visual) | Infográfico + vídeo |
 | "O forno é caro, não tenho como fazer" | **Guia de tratamento alternativo sem forno** (imersão + cura na mata) | PDF |
-|| "Preciso ver resultados antes de investir" | **Portfólio Série T (T01-T12)** — 12 equipamentos com patente e DOI, tijolos de fibra, PET aglutinado, biocompósitos | Página no site + vídeos |
+| "Preciso de provas antes de investir" | **Portfólio de projetos Série T (T01-T12)** — prospecções técnicas para a Amazônia com respaldo científico: ensaios Itecons (Imperveg/Portugal), artigos acadêmicos e fichas técnicas consolidadas | Página no site |
 | "Não consigo furar o nó do bambu sem rachar" | **Vídeo "Os 3 jeitos de furar o nó"** (time-lapse) | YouTube Short |
 | "Meu domo ficou torto" | **Template de gabarito de montagem** em PDF para imprimir | PDF + tutorial |
 | "Preciso de certificação pra obra" | **Modelo de laudo técnico** + lista de normas aplicáveis (ABNT, NBR) | Documento editável |
