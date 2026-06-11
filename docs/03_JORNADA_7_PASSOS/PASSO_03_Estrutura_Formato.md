@@ -152,7 +152,7 @@ Aplicando à Mentoria Takwara, identifico estas **travas prováveis** e sugestõ
 | "Minha primeira mistura PU deu errado" | **Calculadora de Pot-Life** (temperatura × proporção) | Ferramenta web simples |
 | "Não sei se meu bambu está seco o suficiente" | **Tabela de cores e texturas** (referência visual) | Infográfico + vídeo |
 | "O forno é caro, não tenho como fazer" | **Guia de tratamento alternativo sem forno** (imersão + cura na mata) | PDF |
-| "O kit Imperveg está caro pro meu orçamento" | **Lista de fornecedores de PU fracionado** + dicas de economia | Página no site |
+|| "Preciso ver resultados antes de investir" | **Portfólio Série T (T01-T12)** — 12 equipamentos com patente e DOI, tijolos de fibra, PET aglutinado, biocompósitos | Página no site + vídeos |
 | "Não consigo furar o nó do bambu sem rachar" | **Vídeo "Os 3 jeitos de furar o nó"** (time-lapse) | YouTube Short |
 | "Meu domo ficou torto" | **Template de gabarito de montagem** em PDF para imprimir | PDF + tutorial |
 | "Preciso de certificação pra obra" | **Modelo de laudo técnico** + lista de normas aplicáveis (ABNT, NBR) | Documento editável |
