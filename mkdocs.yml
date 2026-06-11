@@ -46,3 +46,25 @@ markdown_extensions:
 
 extra_javascript:
   - https://unpkg.com/mermaid@10.4.0/dist/mermaid.min.js
+
+nav:
+  - Início: index.md
+  - Base de Conhecimento:
+    - Ecologia e Universo do Bambu: 02_BASE_DE_CONHECIMENTO/TEC_01_Ecologia_e_Universo_do_Bambu.md
+    - Tratamentos e a Magia do Boro: 02_BASE_DE_CONHECIMENTO/TEC_02_Tratamentos_e_A_Magia_do_Boro.md
+    - O Poliuretano Vegetal e a Bio-Solda: 02_BASE_DE_CONHECIMENTO/TEC_03_O_Poliuretano_Vegetal_e_Aplicacao.md
+    - Dossiê Comparativo Biopolímeros: 02_BASE_DE_CONHECIMENTO/TEC_03_Dossie_Comparativo_Biopolimeros.md
+    - Engenharia e Escala Industrial: 02_BASE_DE_CONHECIMENTO/TEC_04_Engenharia_e_Escala_Industrial.md
+    - Dossiê Tratamentos Bambu: 02_BASE_DE_CONHECIMENTO/TEC_04_Dossie_Tratamentos_Bambu.md
+    - Bibliografia e Referências: 02_BASE_DE_CONHECIMENTO/TEC_05_Bibliografia_e_Referencias.md
+    - Histórico de Autoridade: 02_BASE_DE_CONHECIMENTO/TEC_06_Historico_Autoridade.md
+  - PU Vegetal:
+    - Linha de Produtos (Catálogo): PU_Vegetal_Linha_de_Produtos.md
+    - Ficha Técnica Consolidada: PU_Vegetal_Ficha_Tecnica_Consolidada.md
+  - Jornada 7 Passos:
+    - Passo 1 - Diagnóstico Persona: 03_JORNADA_7_PASSOS/PASSO_01_Diagnostico_Persona.md
+    - Passo 2 - Jornada do Mentorado: 03_JORNADA_7_PASSOS/PASSO_02_Jornada_do_Mentorado.md
+    - Passo 3 - Estrutura e Formato: 03_JORNADA_7_PASSOS/PASSO_03_Estrutura_Formato.md
+  - Metodologia:
+    - Ecossistema de Ferramentas: 00_METODOLOGIA/ecossistema-ferramentas.html
+    - Manual de Parceria: 00_METODOLOGIA/manual-parceria.html
