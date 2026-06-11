@@ -1,5 +1,7 @@
 # 🌱 Vegetable PU Product Line — Catalog
 
+> [🇧🇷 PT](PU_Vegetal_Linha_de_Produtos.md) · [🇺🇸 EN](PU_Vegetal_Linha_de_Produtos_EN.md)
+>
 > **Manufacturer:** Imperveg Polímeros Vegetais (Brazil) + TecnoVeg (Portugal)
 > **Chemistry base:** Castor oil (*Ricinus Communis*)-based polyurethane
 > **Official site:** [imperveg.com](https://imperveg.com) · [tecnoveg.com](https://tecnoveg.com)
@@ -195,5 +197,5 @@ Expansive resin that **grows ~15x** after mixing, filling cavities with rigid fo
 ---
 
 > 📎 **See also:**
-> - [Consolidated Technical Datasheet](PU_Vegetal_Ficha_Tecnica_Consolidada.en.md) — complete specs, MPa values, didactic analogies
+> - [Consolidated Technical Datasheet](PU_Vegetal_Ficha_Tecnica_Consolidada_EN.md) — complete specs, MPa values, didactic analogies
 > - [TEC_03: Vegetable Polyurethane and Bio-Weld](02_BASE_DE_CONHECIMENTO/TEC_03_O_Poliuretano_Vegetal_e_Aplicacao.md) — history, Itecons tests, handling

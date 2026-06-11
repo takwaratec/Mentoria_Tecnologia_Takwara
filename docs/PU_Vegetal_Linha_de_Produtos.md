@@ -1,5 +1,7 @@
 # 🌱 Linha PU Vegetal — Catálogo de Produtos
 
+> [🇧🇷 PT](PU_Vegetal_Linha_de_Produtos.md) · [🇺🇸 EN](PU_Vegetal_Linha_de_Produtos_EN.md)
+>
 > **Fabricante:** Imperveg Polímeros Vegetais (Brasil) + TecnoVeg (Portugal)
 > **Base química:** Poliuretano derivado do óleo de mamona (*Ricinus Communis*)
 > **Site oficial:** [imperveg.com](https://imperveg.com) · [tecnoveg.com](https://tecnoveg.com)

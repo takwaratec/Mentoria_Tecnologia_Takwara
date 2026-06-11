@@ -1,5 +1,7 @@
 # 🌱 Ficha Técnica Consolidada — Poliuretano Vegetal (PU Vegetal)
 
+> [🇧🇷 PT](PU_Vegetal_Ficha_Tecnica_Consolidada.md) · [🇺🇸 EN](PU_Vegetal_Ficha_Tecnica_Consolidada_EN.md)
+>
 > **Fonte oficial:** fabricante Imperveg (Brasil) + TecnoVeg (Portugal)
 > **Base química:** Óleo de mamona (*Ricinus Communis* L.)
 > **Atualização:** Junho/2026

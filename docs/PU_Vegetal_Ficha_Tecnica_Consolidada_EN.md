@@ -1,5 +1,7 @@
 # 🌱 Consolidated Technical Datasheet — Vegetable Polyurethane (VPU)
 
+> [🇧🇷 PT](PU_Vegetal_Ficha_Tecnica_Consolidada.md) · [🇺🇸 EN](PU_Vegetal_Ficha_Tecnica_Consolidada_EN.md)
+>
 > **Official source:** Imperveg (Brazil) + TecnoVeg (Portugal)
 > **Chemistry base:** Castor oil (*Ricinus Communis* L.)
 > **Updated:** June 2026

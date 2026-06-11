@@ -50,16 +50,6 @@ extra_javascript:
 
 plugins:
   - search
-  - i18n:
-      docs_structure: suffix
-      languages:
-        - locale: pt
-          name: Português
-          default: true
-          build: true
-        - locale: en
-          name: English
-          build: true
 
 nav:
   - Início: index.md
@@ -73,8 +63,10 @@ nav:
     - Bibliografia e Referências: 02_BASE_DE_CONHECIMENTO/TEC_05_Bibliografia_e_Referencias.md
     - Histórico de Autoridade: 02_BASE_DE_CONHECIMENTO/TEC_06_Historico_Autoridade.md
   - PU Vegetal:
-    - Linha de Produtos (Catálogo): PU_Vegetal_Linha_de_Produtos.md
-    - Ficha Técnica Consolidada: PU_Vegetal_Ficha_Tecnica_Consolidada.md
+    - "🇧🇷 Linha de Produtos (Catálogo)": PU_Vegetal_Linha_de_Produtos.md
+    - "🇺🇸 Product Line (Catalog)": PU_Vegetal_Linha_de_Produtos_EN.md
+    - "🇧🇷 Ficha Técnica Consolidada": PU_Vegetal_Ficha_Tecnica_Consolidada.md
+    - "🇺🇸 Consolidated Technical Datasheet": PU_Vegetal_Ficha_Tecnica_Consolidada_EN.md
   - Jornada 7 Passos:
     - Passo 1 - Diagnóstico Persona: 03_JORNADA_7_PASSOS/PASSO_01_Diagnostico_Persona.md
     - Passo 2 - Jornada do Mentorado: 03_JORNADA_7_PASSOS/PASSO_02_Jornada_do_Mentorado.md
