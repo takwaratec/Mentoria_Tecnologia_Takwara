@@ -1,6 +1,13 @@
 # Portal de Mentoria Takwara
 
-Bem-vindo à base de conhecimento da **Mentoria Tecnologia Takwara**. Aqui estruturamos a sua jornada no universo da ecologia ancestral e da tecnologia moderna.
+> **⚠️ AVISO: Este site é um repositório de trabalho em construção.**
+> Este material não é o produto final divulgado publicamente — é o **estudo de implantação** da mentoria, um ambiente de desenvolvimento onde estruturo conteúdo, refino estratégias e organizo a base de conhecimento. Se você chegou aqui por acaso, saiba que o que vê é o **processo**, não o resultado. 😉
+
+Bem-vindo à base de conhecimento da **Mentoria Tecnologia Takwara**.
+
+**Futurismo Ancestral — Arquitetura Vernacular de Alta Tecnologia.**
+
+Aqui estruturamos a jornada de transformação do conhecimento ancestral do bambu e do poliuretano vegetal em tecnologia de ponta, com respaldo científico, ensaios laboratoriais e prospecções de inovação para a bioeconomia amazônica e a construção sustentável.
 
 ## Engajamento e Instrução de Base (A Era da Bioeconomia)
 O material público inicial da jornada baseia-se no **[Manual de Bioeconomia do Bambu](https://takwaratec.github.io/projetos/01_TECNOLOGIA_TAKWARA/TAK_manual-bioeconomia-bambu/)**, introduzindo o aluno aos conceitos fundamentais antes da mentoria técnica. Os eixos resumidos são:
