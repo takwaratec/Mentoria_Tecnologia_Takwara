@@ -68,6 +68,8 @@ O funil de 3 níveis, já esboçado no index.md, é refinado abaixo com cargas h
 | Saneamento Ecológico | ✅ Publicado | Você |
 | Tratamento Sem Veneno | ✅ Publicado | Você |
 | **Vídeos de demonstração** (YouTube) | ⏳ Pendente — gravar | Você |
+| **YouTube Shorts** (roteirizados por Hermes + NotebookLM) | ⏳ Pendente — prioridade | Hermes roteiriza, você grava |
+| **Instagram Reels** (cross-post dos Shorts) | ⏳ Pendente | Hermes edita legenda |
 | **Time-lapses dos protótipos** | ⏳ Pendente — publicar | Você grava, eu edito |
 | **Playlist "Bastidores Takwara"** | ⏳ Pendente — criar | Eu organizo |
 
