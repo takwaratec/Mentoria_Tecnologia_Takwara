@@ -989,50 +989,99 @@
 
   <h3>11.4 Telegram Bot — Comando por Voz Remoto</h3>
 
-  <p>Você pode enviar comandos de voz pelo celular via Telegram e eu executo aqui no seu PC. O áudio é transcrito automaticamente e vira texto que eu processo.</p>
-
-  <h4>Passo a passo — Configuração</h4>
-  <ol>
-    <li><strong>Criar o bot no Telegram</strong> — Abra o Telegram, procure por <code>@BotFather</code>, envie <code>/newbot</code>, escolha um nome (ex: "Takwara Bot") e um username (ex: <code>takwara_bot</code>). O BotFather vai te dar um <strong>token</strong> (algo como <code>123456:ABC-DEF1234...</code>).</li>
-    <li><strong>Descobrir seu ID de usuário</strong> — No Telegram, procure por <code>@userinfobot</code> e envie <code>/start</code>. Ele vai te mostrar seu ID numérico.</li>
-    <li><strong>Configurar no .env</strong> — Edite o arquivo <code>~/.hermes/.env</code> e adicione:<pre><code>TELEGRAM_BOT_TOKEN=seu_token_aqui
-TELEGRAM_ALLOWED_USERS=seu_id_numerico_aqui</code></pre></li>
-    <li><strong>Iniciar o gateway</strong> — No Warp, execute:<pre><code>hermes gateway run</code></pre>Isso inicia o gateway em primeiro plano. Para rodar em segundo plano:<pre><code>hermes gateway install
-hermes gateway start</code></pre></li>
-  </ol>
+  <p>Você disse que usa pouco Telegram. Vou te mostrar <strong>por que vale a pena adotá-lo</strong> no seu fluxo — não como mais um app, mas como <strong>controle remoto da sua produtividade</strong>.</p>
 
   <div class="callout goal">
-    <strong>📱 Como vai funcionar no dia a dia</strong>
+    <strong>🎯 O ganho real pra você</strong>
     <p>
-      <strong>1.</strong> Você está no celular, fora de casa.<br>
-      <strong>2.</strong> Abre o Telegram, vai no chat do seu bot e aperta o microfone.<br>
-      <strong>3.</strong> Fala: <em>"Pede pro Hermes criar o Passo 4 dos aceleradores"</em><br>
-      <strong>4.</strong> O áudio é transcrito automaticamente.<br>
-      <strong>5.</strong> Eu recebo o texto, processo aqui no PC, e respondo no Telegram.<br>
-      <strong>6.</strong> Quando você chegar em casa, o trabalho já está pronto (ou em andamento).
+      <strong>Antes:</strong> Você tem uma ideia na oficina, com as mãos sujas de resina. Precisa parar, limpar, ir até o computador, abrir o Warp, digitar o comando. A ideia morre ou atrasa.<br><br>
+      <strong>Depois:</strong> Você tira o celular do bolso, aperta o microfone no Telegram, fala 15 segundos. Eu recebo, processo, e quando você volta ao PC está pronto. <strong>Sem interromper o trabalho manual.</strong>
     </p>
   </div>
 
-  <h4>O que funciona e o que não funciona</h4>
+  <h4>Cenários reais do seu dia a dia</h4>
   <table>
-    <tr><th>Funciona ✅</th><th>Não funciona ❌</th></tr>
+    <tr><th>Onde você está</th><th>O que fazia antes</th><th>Com Telegram</th></tr>
     <tr>
-      <td>Comandos de texto e voz</td>
-      <td>Edição de vídeo (continua sendo no PC)</td>
+      <td>🧑‍🏭 Na oficina com as mãos sujas</td>
+      <td>Parava tudo, limpava, ia até o PC anotar uma ideia</td>
+      <td><strong>Aperta o microfone e fala:</strong> "Documenta essa junção que inventei, tirei foto e vou mandar"</td>
     </tr>
     <tr>
-      <td>Transcrição automática de áudio</td>
-      <td>Acesso a arquivos locais sem seu comando</td>
+      <td>🚗 Saindo de casa / voltando</td>
+      <td>Esquecia o que pensar no caminho</td>
+      <td><strong>Manda áudio:</strong> "No Passo 4, adiciona uma calculadora de pot-life como acelerador"</td>
     </tr>
     <tr>
-      <td>Respostas no Telegram</td>
-      <td>Envio de fotos grandes (limite do Telegram)</td>
+      <td>🌳 Em visita técnica / campo</td>
+      <td>Tirava foto e perdia no rolo da câmera</td>
+      <td><strong>Foto + legenda:</strong> "Salva essa foto no wiki, categoria 'bambu tratado'"</td>
     </tr>
     <tr>
-      <td>Execução de tarefas no PC</td>
-      <td>Ler sua mente (preciso do comando explícito) 😄</td>
+      <td>🛌 À noite, antes de dormir</td>
+      <td>Esquecia o insight no dia seguinte</td>
+      <td><strong>Áudio de 20s:</strong> "Amanhã quero revisar o TEC_03 e adicionar o dado do LAB_004"</td>
+    </tr>
+    <tr>
+      <td>📋 No meio de outra tarefa</td>
+      <td>Acumulava coisas pra fazer "depois"</td>
+      <td><strong>Texto rápido:</strong> "Pausa o que tiver fazendo e cria um acelerador 'checklist de colheita'"</td>
     </tr>
   </table>
+
+  <h4>Recursos do Telegram que talvez você não conheça</h4>
+  <table>
+    <tr><th>Recurso</th><th>O que faz</th><th>Como usar na prática</th></tr>
+    <tr>
+      <td><strong>🗳️ BotFather</strong></td>
+      <td>Cria e gerencia bots</td>
+      <td>É por onde você vai criar o seu bot da mentoria — só 3 comandos e pronto</td>
+    </tr>
+    <tr>
+      <td><strong>💾 Saved Messages</strong></td>
+      <td>Seu próprio chat com você mesmo (nuvem pessoal)</td>
+      <td>Mande links, fotos, lembretes pra si mesmo. Funciona como bloco de notas entre dispositivos</td>
+    </tr>
+    <tr>
+      <td><strong>🔍 Busca global</strong></td>
+      <td>Pesquisa em todos os chats, inclusive mensagens antigas</td>
+      <td>Encontre comandos que você mandou pro bot semanas atrás</td>
+    </tr>
+    <tr>
+      <td><strong>📎 Arquivos até 2GB</strong></td>
+      <td>Envio de arquivos grandes sem compressão</td>
+      <td>Mande vídeos da oficina direto do celular pro PC sem cabo USB</td>
+    </tr>
+    <tr>
+      <td><strong>📌 Mensagens fixadas</strong></td>
+      <td>Prende uma mensagem no topo do chat</td>
+      <td>Fixe o passo atual da mentoria pra não perder o foco</td>
+    </tr>
+    <tr>
+      <td><strong>📁 Pastas de chats</strong></td>
+      <td>Organiza os chats em abas (ex: "Pessoal", "Trabalho", "Mentoria")</td>
+      <td>Crie uma pasta "Takwara" com só o bot — zero distração do resto</td>
+    </tr>
+  </table>
+
+  <h4>Passo a passo — Configuração</h4>
+  <ol>
+    <li><strong>Criar o bot</strong> — No Telegram, procure <code>@BotFather</code>, envie <code>/newbot</code>, escolha um nome (ex: "Takwara Bot") e username (ex: <code>takwara_bot</code>). Guarde o <strong>token</strong> recebido.</li>
+    <li><strong>Descobrir seu ID</strong> — Procure <code>@userinfobot</code>, envie <code>/start</code>. Anote o número.</li>
+    <li><strong>Configurar no .env</strong> — Abra <code>~/.hermes/.env</code> e adicione:<pre><code>TELEGRAM_BOT_TOKEN=seu_token_aqui
+    <li><strong>Iniciar</strong> — No Warp:<pre><code>hermes gateway run</code></pre></li>
+  </ol>
+
+  <div class="callout goal">
+    <strong>🤏 O mínimo que você precisa saber sobre Telegram</strong>
+    <p>
+      • Só vai ter UM contato no Telegram: o seu próprio bot.<br>
+      • Não precisa de grupo, não precisa de canal, não precisa de configuração extra.<br>
+      • O app ocupa ~100 MB no celular — menos que uma foto do Google Photos.<br>
+      • Você pode desinstalar depois de configurar e usar só pelo navegador: <strong>web.telegram.org</strong><br>
+      • Se não quiser Telegram agora, sem problema — continuamos só pelo Warp. A porta fica aberta.
+    </p>
+  </div>
 
   <h3>11.5 Comandos Rápidos no Terminal</h3>
   <table>
