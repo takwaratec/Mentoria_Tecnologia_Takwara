@@ -27,6 +27,7 @@ theme:
     - navigation.expand
     - navigation.top
     - content.code.copy
+  custom_dir: overrides
 
 copyright: '&copy; 2026 Tecnologia Takwara. Todos os direitos reservados.'
 extra:
