@@ -319,6 +319,7 @@
     <li><a href="#wiki">O LLM Wiki</a></li>
     <li><a href="#fontes">Fontes de Conteúdo</a></li>
     <li><a href="#producao">Modelo de Produção</a></li>
+    <li><a href="#warp">Warp Interface</a></li>
     <li><a href="#ferramentas">Ferramentas à Disposição</a></li>
     <li><a href="#fluxo">Fluxo de Trabalho</a></li>
     <li><a href="#praticas">Melhores Práticas</a></li>
@@ -710,9 +711,94 @@
   </ul>
 </section>
 
-<!-- ===== 10. COMANDOS ÚTEIS ===== -->
+<!-- ===== 10. WARP INTERFACE ===== -->
+<section id="warp">
+  <h2><span class="num">10</span> Warp Interface — Seu Painel de Controle</h2>
+
+  <p>Esta é a tela que você vê quando está conversando comigo. Cada indicador no rodapé tem um significado:</p>
+
+  <pre style="font-size:0.9rem;">
+  deepseek-v4-flash    267K/1M    27%    19h 14m    1m 42s
+   ───────────────    ───────    ───    ───────    ───────
+     modelo atual      tokens     %      duração    tempo da
+     (IA rodando)      usados    ctx    da sessão  última msg</pre>
+
+  <h3>Os indicadores no rodapé</h3>
+  <table>
+    <tr><th>Indicador</th><th>O que significa</th><th>O que fazer</th></tr>
+    <tr>
+      <td><code>deepseek-v4-flash</code></td>
+      <td>O modelo de IA que está rodando agora</td>
+      <td>Pode trocar com <code>hermes model set openrouter/...</code></td>
+    </tr>
+    <tr>
+      <td><code>267K / 1M</code></td>
+      <td>Tokens usados nesta conversa vs. limite total do modelo</td>
+      <td>Não é consumo de dados nem sessão — é o <strong>tamanho da conversa atual</strong></td>
+    </tr>
+    <tr>
+      <td><strong>27%</strong></td>
+      <td>Percentual da janela de contexto ocupado</td>
+      <td>Se chegar em 85-90%, eu começo a resumir partes antigas automaticamente</td>
+    </tr>
+    <tr>
+      <td><code>19h 14m</code></td>
+      <td>Duração total desta sessão (desde que você abriu o terminal)</td>
+      <td>Se fechar o terminal, perde o contexto da conversa — mas o wiki e os commits mantêm tudo</td>
+    </tr>
+    <tr>
+      <td><code>1m 42s</code></td>
+      <td>Tempo que levei para responder seu último comando</td>
+      <td>Quanto maior, mais processamento foi necessário (leitura de arquivos, pesquisa, etc.)</td>
+    </tr>
+  </table>
+
+  <div class="callout goal">
+    <strong>📊 Sobre os 27% — o que NÃO é</strong>
+    <p>Não é seu limite de dados, não é franquia mensal, não é consumo de API. É apenas o quanto da conversa <em>atual</em> já foi preenchido. Quando chega perto do limite, eu comprimo automaticamente. Nada se perde — o que importa está no wiki e nos commits do Git.</p>
+  </div>
+
+  <h3>Warp + VS Code = seu fluxo ideal</h3>
+  <table>
+    <tr><th>Ferramenta</th><th>Pra quê</th><th>Uso recomendado</th></tr>
+    <tr>
+      <td><strong>Warp (terminal)</strong></td>
+      <td>Onde eu (Hermes) executo comandos</td>
+      <td>Dar instruções, ver resultados, acompanhar execução</td>
+    </tr>
+    <tr>
+      <td><strong>VS Code (explorador)</strong></td>
+      <td>Onde você navega pelos arquivos</td>
+      <td>Ver a árvore do repo, abrir HTMLs, conferir diffs, ajustar markdown</td>
+    </tr>
+  </table>
+
+  <h4>Fluxo prático:</h4>
+  <pre>┌────────────────────────────────────────────────────────────┐
+│  ①  WARP: Você me dá um comando                             │
+│  ②  WARP: Eu executo e mostro o resultado                   │
+│  ③  VS CODE: Você abre o arquivo que criei/editei           │
+│  ④  NAVEGADOR: Abre o HTML pra ler com conforto             │
+│  ⑤  WARP: Você volta e me dá o próximo comando              │
+└────────────────────────────────────────────────────────────┘</pre>
+
+  <h3>Comandos rápidos no Warp</h3>
+  <table>
+    <tr><th>Pra quê</th><th>Comando</th></tr>
+    <tr><td>Ver commits recentes</td><td><code>git log --oneline -5</code></td></tr>
+    <tr><td>Ver o que mudou no último commit</td><td><code>git show --stat HEAD</code></td></tr>
+    <tr><td>Ver diff não-commitado</td><td><code>git diff</code></td></tr>
+    <tr><td>Abrir o manual da parceria no navegador</td><td><code>open docs/00_METODOLOGIA/manual-parceria.html</code></td></tr>
+    <tr><td>Ver estrutura do repo</td><td><code>find docs -type f | grep -v site/ | head -40</code></td></tr>
+    <tr><td>Buildar o site local</td><td><code>/Users/fabiotakwara/miniconda3/bin/python3 -m mkdocs build</code></td></tr>
+    <tr><td>Trocar de modelo de IA</td><td><code>hermes model set openrouter/anthropic/claude-sonnet-4</code></td></tr>
+    <tr><td>Ver status do Hermes</td><td><code>hermes status</code></td></tr>
+  </table>
+</section>
+
+<!-- ===== 11. COMANDOS ÚTEIS ===== -->
 <section id="comandos">
-  <h2><span class="num">10</span> Comandos Úteis no Warp</h2>
+  <h2><span class="num">11</span> Comandos Úteis no Warp</h2>
 
   <p>Comandos que você pode usar para interagir comigo ou com o ambiente:</p>
 
@@ -730,9 +816,9 @@
   </table>
 </section>
 
-<!-- ===== 11. ROADMAP ===== -->
+<!-- ===== 12. ROADMAP ===== -->
 <section id="roadmap">
-  <h2><span class="num">11</span> Roadmap até 18 de Julho</h2>
+  <h2><span class="num">12</span> Roadmap até 18 de Julho</h2>
 
   <p style="margin-bottom:1.5rem;">37 dias. 7 passos do programa. 1 lançamento. Nosso ritmo:</p>
 
@@ -786,9 +872,9 @@
   </div>
 </section>
 
-<!-- ===== 12. MANIFESTO ===== -->
+<!-- ===== 13. MANIFESTO ===== -->
 <section id="manifesto">
-  <h2><span class="num">12</span> Manifesto — Hacker Cultural Digital Ancestral</h2>
+  <h2><span class="num">13</span> Manifesto — Hacker Cultural Digital Ancestral</h2>
 
   <div class="callout personal">
     <p style="font-size:1.05rem; line-height:1.8;">
