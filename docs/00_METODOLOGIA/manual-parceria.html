@@ -987,7 +987,54 @@
     </p>
   </div>
 
-  <h3>11.4 Comandos Rápidos no Terminal</h3>
+  <h3>11.4 Telegram Bot — Comando por Voz Remoto</h3>
+
+  <p>Você pode enviar comandos de voz pelo celular via Telegram e eu executo aqui no seu PC. O áudio é transcrito automaticamente e vira texto que eu processo.</p>
+
+  <h4>Passo a passo — Configuração</h4>
+  <ol>
+    <li><strong>Criar o bot no Telegram</strong> — Abra o Telegram, procure por <code>@BotFather</code>, envie <code>/newbot</code>, escolha um nome (ex: "Takwara Bot") e um username (ex: <code>takwara_bot</code>). O BotFather vai te dar um <strong>token</strong> (algo como <code>123456:ABC-DEF1234...</code>).</li>
+    <li><strong>Descobrir seu ID de usuário</strong> — No Telegram, procure por <code>@userinfobot</code> e envie <code>/start</code>. Ele vai te mostrar seu ID numérico.</li>
+    <li><strong>Configurar no .env</strong> — Edite o arquivo <code>~/.hermes/.env</code> e adicione:<pre><code>TELEGRAM_BOT_TOKEN=seu_token_aqui
+TELEGRAM_ALLOWED_USERS=seu_id_numerico_aqui</code></pre></li>
+    <li><strong>Iniciar o gateway</strong> — No Warp, execute:<pre><code>hermes gateway run</code></pre>Isso inicia o gateway em primeiro plano. Para rodar em segundo plano:<pre><code>hermes gateway install
+hermes gateway start</code></pre></li>
+  </ol>
+
+  <div class="callout goal">
+    <strong>📱 Como vai funcionar no dia a dia</strong>
+    <p>
+      <strong>1.</strong> Você está no celular, fora de casa.<br>
+      <strong>2.</strong> Abre o Telegram, vai no chat do seu bot e aperta o microfone.<br>
+      <strong>3.</strong> Fala: <em>"Pede pro Hermes criar o Passo 4 dos aceleradores"</em><br>
+      <strong>4.</strong> O áudio é transcrito automaticamente.<br>
+      <strong>5.</strong> Eu recebo o texto, processo aqui no PC, e respondo no Telegram.<br>
+      <strong>6.</strong> Quando você chegar em casa, o trabalho já está pronto (ou em andamento).
+    </p>
+  </div>
+
+  <h4>O que funciona e o que não funciona</h4>
+  <table>
+    <tr><th>Funciona ✅</th><th>Não funciona ❌</th></tr>
+    <tr>
+      <td>Comandos de texto e voz</td>
+      <td>Edição de vídeo (continua sendo no PC)</td>
+    </tr>
+    <tr>
+      <td>Transcrição automática de áudio</td>
+      <td>Acesso a arquivos locais sem seu comando</td>
+    </tr>
+    <tr>
+      <td>Respostas no Telegram</td>
+      <td>Envio de fotos grandes (limite do Telegram)</td>
+    </tr>
+    <tr>
+      <td>Execução de tarefas no PC</td>
+      <td>Ler sua mente (preciso do comando explícito) 😄</td>
+    </tr>
+  </table>
+
+  <h3>11.5 Comandos Rápidos no Terminal</h3>
   <table>
     <tr><th>Pra quê</th><th>Comando</th></tr>
     <tr><td>Ver commits recentes</td><td><code>git log --oneline -5</code></td></tr>
@@ -1002,7 +1049,7 @@
     <tr><td>Listar skills disponíveis</td><td><code>hermes skills</code></td></tr>
   </table>
 
-  <h3>11.5 Automações que Podemos Implementar</h3>
+  <h3>11.6 Automações que Podemos Implementar</h3>
   <table>
     <tr><th>Automação</th><th>O que faz</th><th>Como</th></tr>
     <tr>
