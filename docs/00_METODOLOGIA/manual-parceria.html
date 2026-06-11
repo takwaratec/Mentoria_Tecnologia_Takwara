@@ -320,6 +320,7 @@
     <li><a href="#fontes">Fontes de Conteúdo</a></li>
     <li><a href="#producao">Modelo de Produção</a></li>
     <li><a href="#warp">Warp Interface</a></li>
+    <li><a href="#vscode">VS Code + Ferramentas</a></li>
     <li><a href="#ferramentas">Ferramentas à Disposição</a></li>
     <li><a href="#fluxo">Fluxo de Trabalho</a></li>
     <li><a href="#praticas">Melhores Práticas</a></li>
@@ -715,90 +716,291 @@
 <section id="warp">
   <h2><span class="num">10</span> Warp Interface — Seu Painel de Controle</h2>
 
-  <p>Esta é a tela que você vê quando está conversando comigo. Cada indicador no rodapé tem um significado:</p>
+  <p>O Warp é o terminal onde você e eu conversamos. Cada elemento da interface tem um propósito.</p>
 
+  <h3>10.1 Menu Superior do Warp</h3>
+  <table>
+    <tr><th>Menu</th><th>O que faz</th><th>Quando usar</th></tr>
+    <tr>
+      <td><strong>File</strong></td>
+      <td>Abrir nova janela, nova aba, fechar, sair</td>
+      <td>Iniciar ou encerrar sessões</td>
+    </tr>
+    <tr>
+      <td><strong>Edit</strong></td>
+      <td>Copiar, colar, encontrar texto no terminal</td>
+      <td>Procurar comandos ou saídas antigas</td>
+    </tr>
+    <tr>
+      <td><strong>View</strong></td>
+      <td>Alternar sidebar, aumentar/diminuir fonte, tela cheia</td>
+      <td>Ajustar o terminal visualmente</td>
+    </tr>
+    <tr>
+      <td><strong>Tab</strong></td>
+      <td>Nova aba, fechar aba, navegar entre abas</td>
+      <td><strong>Essencial:</strong> você pode ter várias abas ao mesmo tempo</td>
+    </tr>
+    <tr>
+      <td><strong>Blocks</strong></td>
+      <td>Recurso exclusivo Warp — comandos organizados em blocos reutilizáveis</td>
+      <td>Salvar comandos que você usa sempre (ex: build do site)</td>
+    </tr>
+    <tr>
+      <td><strong>AI</strong></td>
+      <td>Função de IA nativa do Warp (não sou eu — é outro chat)</td>
+      <td>Não usar — você já tem a mim (Hermes) integrado</td>
+    </tr>
+    <tr>
+      <td><strong>Drive</strong></td>
+      <td>Sincroniza blocos, configurações e workflows entre máquinas</td>
+      <td>Se você usar Warp em mais de um computador</td>
+    </tr>
+    <tr>
+      <td><strong>Window</strong></td>
+      <td>Organizar janelas do Warp</td>
+      <td>Várias janelas abertas</td>
+    </tr>
+    <tr>
+      <td><strong>Help</strong></td>
+      <td>Documentação, atalhos, sobre</td>
+      <td>Tirar dúvidas sobre o Warp em si</td>
+    </tr>
+  </table>
+
+  <h3>10.2 Terminal vs. Aba vs. Agente — O Mapa Completo</h3>
+
+  <p>Esta é a maior fonte de confusão. Vamos organizar:</p>
+
+  <table>
+    <tr><th>Conceito</th><th>O que é</th><th>Exemplo</th></tr>
+    <tr>
+      <td><strong>Terminal</strong></td>
+      <td>O shell puro (bash/zsh). Você digita comandos diretamente no sistema.</td>
+      <td><code>git log</code>, <code>ls</code>, <code>cd projetos/</code></td>
+    </tr>
+    <tr>
+      <td><strong>Hermes (Agente)</strong></td>
+      <td>Eu, rodando dentro do terminal. Você fala comigo em linguagem natural, eu uso ferramentas.</td>
+      <td><code>"Cria um TEC sobre forno ecológico"</code></td>
+    </tr>
+    <tr>
+      <td><strong>Aba (Tab)</strong></td>
+      <td>Uma sessão independente do Warp. Cada aba pode ter seu próprio terminal ou agente.</td>
+      <td>Aba 1: Hermes. Aba 2: terminal para git. Aba 3: servidor local.</td>
+    </tr>
+  </table>
+
+  <div class="callout goal">
+    <strong>💡 Fluxo recomendado de abas</strong>
+    <p>
+      <strong>Aba 1 — Hermes (principal):</strong> Onde você me dá comandos e eu respondo.<br>
+      <strong>Aba 2 — Git + Terminal:</strong> Comandos rápidos (git log, git diff, mkdocs build).<br>
+      <strong>Aba 3 — Servidor local (opcional):</strong> Se precisar de um servidor rodando em segundo plano.
+    </p>
+    <p>Atalho: <kbd>Cmd+T</kbd> nova aba · <kbd>Cmd+W</kbd> fecha aba · <kbd>Cmd+Shift+[</kbd> / <kbd>]</kbd> navega entre abas.</p>
+  </div>
+
+  <h3>10.3 Blocks — Seu Catálogo de Comandos Frequentes</h3>
+  <p>Blocks é um recurso do Warp que salva comandos como blocos reutilizáveis. Você clica e executa de novo sem redigitar.</p>
+
+  <p><strong>Sugestão de blocks para criar:</strong></p>
+  <table>
+    <tr><th>Block</th><th>Comando</th><th>Pra quê</th></tr>
+    <tr>
+      <td><code>build-site</code></td>
+      <td><code>/Users/fabiotakwara/miniconda3/bin/python3 -m mkdocs build</code></td>
+      <td>Buildar o site local</td>
+    </tr>
+    <tr>
+      <td><code>git-status</code></td>
+      <td><code>git status --short</code></td>
+      <td>Ver o que mudou no repo</td>
+    </tr>
+    <tr>
+      <td><code>git-log</code></td>
+      <td><code>git log --oneline -5</code></td>
+      <td>Ver últimos commits</td>
+    </tr>
+    <tr>
+      <td><code>open-manual</code></td>
+      <td><code>open site/00_METODOLOGIA/manual-parceria/index.html</code></td>
+      <td>Abrir o manual no navegador</td>
+    </tr>
+    <tr>
+      <td><code>deploy</code></td>
+      <td><code>git push origin main</code></td>
+      <td>Publicar (dispara GitHub Actions)</td>
+    </tr>
+  </table>
+
+  <h3>10.4 Os Indicadores no Rodapé (Refinado)</h3>
   <pre style="font-size:0.9rem;">
   deepseek-v4-flash    267K/1M    27%    19h 14m    1m 42s
    ───────────────    ───────    ───    ───────    ───────
      modelo atual      tokens     %      duração    tempo da
      (IA rodando)      usados    ctx    da sessão  última msg</pre>
-
-  <h3>Os indicadores no rodapé</h3>
   <table>
-    <tr><th>Indicador</th><th>O que significa</th><th>O que fazer</th></tr>
-    <tr>
-      <td><code>deepseek-v4-flash</code></td>
-      <td>O modelo de IA que está rodando agora</td>
-      <td>Pode trocar com <code>hermes model set openrouter/...</code></td>
-    </tr>
+    <tr><th>Indicador</th><th>Realidade</th><th>Mito</th></tr>
     <tr>
       <td><code>267K / 1M</code></td>
-      <td>Tokens usados nesta conversa vs. limite total do modelo</td>
-      <td>Não é consumo de dados nem sessão — é o <strong>tamanho da conversa atual</strong></td>
+      <td>O quanto da conversa <em>atual</em> já foi preenchido</td>
+      <td><strong>NÃO</strong> é franquia de dados, consumo de API, limite mensal, nem crédito</td>
     </tr>
     <tr>
       <td><strong>27%</strong></td>
       <td>Percentual da janela de contexto ocupado</td>
-      <td>Se chegar em 85-90%, eu começo a resumir partes antigas automaticamente</td>
+      <td><strong>NÃO</strong> é seu plano, seu saldo, nem seu limite de sessões</td>
     </tr>
     <tr>
       <td><code>19h 14m</code></td>
-      <td>Duração total desta sessão (desde que você abriu o terminal)</td>
-      <td>Se fechar o terminal, perde o contexto da conversa — mas o wiki e os commits mantêm tudo</td>
+      <td>Tempo desde que você abriu esta aba do Warp</td>
+      <td><strong>NÃO</strong> conta tempo de uso, não é cobrança, não é limite</td>
+    </tr>
+  </table>
+  <p><strong>Regra prática:</strong> Se passar de 85%, eu automaticamente começo a comprimir/resumir partes antigas. Você não precisa fazer nada. Nada se perde — o essencial está no wiki e nos commits.</p>
+</section>
+
+<!-- ===== 11. VS CODE + FERRAMENTAS ===== -->
+<section id="vscode">
+  <h2><span class="num">11</span> VS Code e Ferramentas de Apoio</h2>
+
+  <p>Seu fluxo atual — uma janela do VS Code por repositório — é o padrão correto. Vou sugerir alguns ajustes para tornar a edição e revisão mais produtivas.</p>
+
+  <h3>11.1 VS Code — Configurações Recomendadas</h3>
+  <table>
+    <tr><th>Configuração</th><th>Por que</th></tr>
+    <tr>
+      <td><strong>Markdown Preview</strong> (Cmd+Shift+V)</td>
+      <td>Abre o preview do markdown lado a lado com o código. Já espelha bem próximo do GitHub Pages.</td>
     </tr>
     <tr>
-      <td><code>1m 42s</code></td>
-      <td>Tempo que levei para responder seu último comando</td>
-      <td>Quanto maior, mais processamento foi necessário (leitura de arquivos, pesquisa, etc.)</td>
+      <td><strong>Explorador de arquivos</strong> (Cmd+Shift+E)</td>
+      <td>Navegue pela árvore do repo. Fixe os diretórios mais usados com atalho.</td>
+    </tr>
+    <tr>
+      <td><strong>Extensão: Markdown All in One</strong></td>
+      <td>Auto-completar de markdown, atalhos para bold/italic/tabelas, TOC automático.</td>
+    </tr>
+    <tr>
+      <td><strong>Extensão: GitHub Markdown Preview</strong></td>
+      <td>Preview que renderiza igual ao GitHub — ainda mais próximo do site final.</td>
+    </tr>
+    <tr>
+      <td><strong>Extensão: YAML</strong></td>
+      <td>Valida frontmatter dos TECs e páginas do wiki.</td>
+    </tr>
+    <tr>
+      <td><strong>Editor: rulers</strong> (régua em 80 colunas)</td>
+      <td>Ajuda a manter linhas de texto num tamanho legível.</td>
     </tr>
   </table>
 
   <div class="callout goal">
-    <strong>📊 Sobre os 27% — o que NÃO é</strong>
-    <p>Não é seu limite de dados, não é franquia mensal, não é consumo de API. É apenas o quanto da conversa <em>atual</em> já foi preenchido. Quando chega perto do limite, eu comprimo automaticamente. Nada se perde — o que importa está no wiki e nos commits do Git.</p>
+    <strong>🔧 Como instalar as extensões</strong>
+    <p>Aperte <kbd>Cmd+Shift+X</kbd> (ícone de quadrado no canto esquerdo). Pesquise cada nome e clique "Instalar".</p>
   </div>
 
-  <h3>Warp + VS Code = seu fluxo ideal</h3>
+  <h3>11.2 Seu Fluxo VS Code + Warp + Hermes</h3>
+  <pre>┌─────────────────────────────────────────────────────────────────────┐
+│                                                                     │
+│      ┌──────────────┐    ┌──────────────┐    ┌──────────────────┐    │
+│      │   VS CODE     │    │    WARP       │    │   NAVEGADOR       │    │
+│      │  (navegar)    │    │  (comandar)    │    │   (visualizar)    │    │
+│      └──────┬───────┘    └──────┬───────┘    └───────┬──────────┘    │
+│             │                   │                    │               │
+│   Abre o    │                   │                    │               │
+│   arquivo   │    "Cria Passo 3" │                    │               │
+│   ────────► │  ───────────────► │                    │               │
+│   Ver árv. │                   │   Executa, cria    │               │
+│   do repo  │                   │   o arquivo        │               │
+│             │                   │   ──────────────►  │               │
+│             │  Veja o que      │                    │               │
+│   ◄────────│─ eu criei         │                    │               │
+│             │                   │                    │               │
+│   Corrige,  │                   │                    │               │
+│   ajusta    │  "Atualiza X"     │                    │               │
+│   ────────► │  ───────────────► │                    │               │
+│             │                   │  Commita e push   │               │
+│             │                   │  ───────────────►  │  Deploy OK    │
+│             │                   │                    │               │
+└─────────────────────────────────────────────────────────────────────┘</pre>
+
+  <h3>11.3 Integrações Google e Automações</h3>
+
   <table>
-    <tr><th>Ferramenta</th><th>Pra quê</th><th>Uso recomendado</th></tr>
+    <tr><th>Ferramenta</th><th>Uso potencial</th><th>Status</th></tr>
     <tr>
-      <td><strong>Warp (terminal)</strong></td>
-      <td>Onde eu (Hermes) executo comandos</td>
-      <td>Dar instruções, ver resultados, acompanhar execução</td>
+      <td><strong>Google Photos</strong></td>
+      <td>Acessar fotos dos protótipos para ilustrar os TECs</td>
+      <td><span class="badge bg-gold">A configurar</span></td>
     </tr>
     <tr>
-      <td><strong>VS Code (explorador)</strong></td>
-      <td>Onde você navega pelos arquivos</td>
-      <td>Ver a árvore do repo, abrir HTMLs, conferir diffs, ajustar markdown</td>
+      <td><strong>Google Drive</strong></td>
+      <td>Backup automático do repositório e do wiki (via sincronização)</td>
+      <td><span class="badge bg-gold">A configurar</span></td>
+    </tr>
+    <tr>
+      <td><strong>Google Calendar</strong></td>
+      <td>Agendar mentorias, lembretes de gravação, cronograma dos 7 passos</td>
+      <td><span class="badge bg-blue">Baixa prioridade</span></td>
+    </tr>
+    <tr>
+      <td><strong>YouTube API</strong></td>
+      <td>Gerenciar playlists da mentoria, programar uploads</td>
+      <td><span class="badge bg-gold">A configurar</span></td>
     </tr>
   </table>
 
-  <h4>Fluxo prático:</h4>
-  <pre>┌────────────────────────────────────────────────────────────┐
-│  ①  WARP: Você me dá um comando                             │
-│  ②  WARP: Eu executo e mostro o resultado                   │
-│  ③  VS CODE: Você abre o arquivo que criei/editei           │
-│  ④  NAVEGADOR: Abre o HTML pra ler com conforto             │
-│  ⑤  WARP: Você volta e me dá o próximo comando              │
-└────────────────────────────────────────────────────────────┘</pre>
-
-  <h3>Comandos rápidos no Warp</h3>
+  <h3>11.4 Comandos Rápidos no Terminal</h3>
   <table>
     <tr><th>Pra quê</th><th>Comando</th></tr>
     <tr><td>Ver commits recentes</td><td><code>git log --oneline -5</code></td></tr>
     <tr><td>Ver o que mudou no último commit</td><td><code>git show --stat HEAD</code></td></tr>
     <tr><td>Ver diff não-commitado</td><td><code>git diff</code></td></tr>
-    <tr><td>Abrir o manual da parceria no navegador</td><td><code>open docs/00_METODOLOGIA/manual-parceria.html</code></td></tr>
+    <tr><td>Abrir o manual da parceria</td><td><code>open site/00_METODOLOGIA/manual-parceria/index.html</code></td></tr>
+    <tr><td>Buildar o site</td><td><code>/Users/fabiotakwara/miniconda3/bin/python3 -m mkdocs build</code></td></tr>
     <tr><td>Ver estrutura do repo</td><td><code>find docs -type f | grep -v site/ | head -40</code></td></tr>
-    <tr><td>Buildar o site local</td><td><code>/Users/fabiotakwara/miniconda3/bin/python3 -m mkdocs build</code></td></tr>
+    <tr><td>Status do repositório</td><td><code>git status --short</code></td></tr>
     <tr><td>Trocar de modelo de IA</td><td><code>hermes model set openrouter/anthropic/claude-sonnet-4</code></td></tr>
     <tr><td>Ver status do Hermes</td><td><code>hermes status</code></td></tr>
+    <tr><td>Listar skills disponíveis</td><td><code>hermes skills</code></td></tr>
+  </table>
+
+  <h3>11.5 Automações que Podemos Implementar</h3>
+  <table>
+    <tr><th>Automação</th><th>O que faz</th><th>Como</th></tr>
+    <tr>
+      <td><strong>Deploy automático</strong></td>
+      <td>✅ Já funciona — push na main → GitHub Actions → GitHub Pages</td>
+      <td>Nada a fazer</td>
+    </tr>
+    <tr>
+      <td><strong>Lembrete de gravação</strong></td>
+      <td>Cron job do Hermes que pergunta "já gravou o vídeo do Módulo X hoje?"</td>
+      <td>Configurar depois do Passo 7</td>
+    </tr>
+    <tr>
+      <td><strong>Sincronia Google Photos → site</strong></td>
+      <td>Extrair fotos de uma pasta específica do Google Photos para usar nos TECs</td>
+      <td>Precisa de acesso à API — conversamos</td>
+    </tr>
+    <tr>
+      <td><strong>Backup automático do wiki</strong></td>
+      <td>Rodar git add/commit/push no wiki automaticamente 1x/dia</td>
+      <td>Posso configurar com cronjob do Hermes</td>
+    </tr>
+    <tr>
+      <td><strong>Verificação semanal de saúde</strong></td>
+      <td>Lint no wiki (páginas órfãs, links quebrados, conteúdo desatualizado)</td>
+      <td>Usar skill llm-wiki com cron semanal</td>
+    </tr>
   </table>
 </section>
 
-<!-- ===== 11. COMANDOS ÚTEIS ===== -->
+<!-- ===== 12. COMANDOS ÚTEIS ===== -->
 <section id="comandos">
-  <h2><span class="num">11</span> Comandos Úteis no Warp</h2>
+  <h2><span class="num">12</span> Comandos Úteis no Warp</h2>
 
   <p>Comandos que você pode usar para interagir comigo ou com o ambiente:</p>
 
@@ -816,9 +1018,9 @@
   </table>
 </section>
 
-<!-- ===== 12. ROADMAP ===== -->
+<!-- ===== 13. ROADMAP ===== -->
 <section id="roadmap">
-  <h2><span class="num">12</span> Roadmap até 18 de Julho</h2>
+  <h2><span class="num">13</span> Roadmap até 18 de Julho</h2>
 
   <p style="margin-bottom:1.5rem;">37 dias. 7 passos do programa. 1 lançamento. Nosso ritmo:</p>
 
@@ -872,9 +1074,9 @@
   </div>
 </section>
 
-<!-- ===== 13. MANIFESTO ===== -->
+<!-- ===== 14. MANIFESTO ===== -->
 <section id="manifesto">
-  <h2><span class="num">13</span> Manifesto — Hacker Cultural Digital Ancestral</h2>
+  <h2><span class="num">14</span> Manifesto — Hacker Cultural Digital Ancestral</h2>
 
   <div class="callout personal">
     <p style="font-size:1.05rem; line-height:1.8;">
