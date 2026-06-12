@@ -58,7 +58,17 @@ A denúncia de Nicolelis não é exagero. O mercado de bioconstrução está inf
 
 Nenhum desses três — arsênio, cromo, formaldeído — deveria estar dentro de uma casa. Mas está. E com selo verde na embalagem.
 
-**E o formaldeído não está só nas paredes.** Ele está nos móveis. Nos utensílios domésticos. Nos pisos laminados. Nos painéis de MDF e compensado que o Brasil exporta aos milhões de metros cúbicos — **2,96 milhões de m³** de madeira serrada e derivados só em 2025, segundo dados oficiais da Comex Stat. A China é o maior comprador. A União Europeia se mexeu: a partir de agosto de 2026, o Regulamento Delegado 2023/1464 reduz **pela metade** o limite de emissão de formaldeído em painéis de madeira. O Brasil — um dos maiores exportadores mundiais — ainda não adotou padrão equivalente. O trabalhador da fábrica de MDF respira formaldeído. O morador da casa popular dorme sobre ele. O consumidor europeu ganha proteção legal. O brasileiro ganha selo verde.
+**E o formaldeído não está só nas paredes de madeira.** Está nos móveis. Nos utensílios domésticos. Nos pisos laminados. Nos painéis de MDF que o Brasil exporta aos milhões de metros cúbicos.
+
+**Mas há um capítulo mais grave que ninguém fiscaliza: o bambu laminado colado (BLC) importado da China.**
+
+O Brasil importa toneladas de produtos acabados de bambu chinês — painéis, revestimentos, móveis, utensílios domésticos — fabricados com **uréia-formol como adesivo**. A técnica chama-se **BLC (Bambu Laminado Colado)**: lâminas de bambu prensadas com resina à base de formaldeído e uréia. O resultado é bonito, barato e chega sem nenhuma certificação ANVISA, INMETRO ou MAPA. Não há lote suspenso, não há recall, não há cobertura da imprensa.
+
+Um desenvolvedor brasileiro que tenta produzir o mesmo material com cola branca atóxica ou PU Vegetal é bombardeado com exigências: laudo de resistência, ensaio de emissão, certificação de fábrica, adequação à NBR 16828. O importador do BLC chinês não precisa de nada disso — o produto entra, vende, instala.
+
+**O paradoxo é global.** Compostos Orgânicos Voláteis (VOCs) — solventes, aglomerantes, selantes — banidos na União Europeia, nos Estados Unidos e no Japão são produzidos livremente na China e despejados nos mercados do Sul Global. O terceiro mundo virou o depósito de veneno que o primeiro mundo proibiu. O formaldeído nos painéis de bambu chinês é só mais um item na lista de produtos que o Brasil consome sem fiscalizar e que a China exporta sem se responsabilizar.
+
+O bambu chinês entra com formol. O bambu brasileiro do Cerrado — quando tratado — entra com selo verde e arsênio. Os dois lados do mesmo mercado intoxicam quem constrói e quem mora.
 
 **Enquanto isso, a ANVISA age — e bem — quando quer.** Em maio de 2026, durante uma fiscalização de **rotina** (não houve denúncia de consumidor), a Vigilância Sanitária do DF coletou amostras de detergente Ypê numa ação padrão de análise de alimentos. O laudo do Lacen-DF detectou *Pseudomonas aeruginosa*. Em dias, a Diretoria Colegiada da ANVISA votou por unanimidade a suspensão de **24 produtos da marca**. Cobertura nacional, recall em massa, pânico nas redes.
 
