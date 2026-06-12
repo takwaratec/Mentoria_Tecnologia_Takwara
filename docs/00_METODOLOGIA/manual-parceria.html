@@ -323,6 +323,7 @@
     <li><a href="#vscode">VS Code + Ferramentas</a></li>
     <li><a href="#organizacao">Organização e Segurança</a></li>
     <li><a href="#avaliacao">Avaliação da Interação</a></li>
+    <li><a href="#vercel">Deploy no Vercel</a></li>
     <li><a href="#ferramentas">Ferramentas à Disposição</a></li>
     <li><a href="#fluxo">Fluxo de Trabalho</a></li>
     <li><a href="#praticas">Melhores Práticas</a></li>
@@ -1240,9 +1241,118 @@
   <p>As sugestões acima são para <strong>otimizar</strong>, não para consertar. Não tem nada quebrado na sua forma de interagir.</p>
 </section>
 
-<!-- ===== 14. COMANDOS ÚTEIS ===== -->
+<!-- ===== 14. DEPLOY NO VERCEL ===== -->
+<section id="vercel">
+  <h2><span class="num">14</span> Deploy no Vercel — Guia Completo</h2>
+
+  <p>Vercel é uma plataforma de hospedagem que detecta automaticamente o framework do projeto (Next.js, Nextra, VitePress, MkDocs...) e publica com um git push. Grátis para projetos pessoais.</p>
+
+  <h3>14.1 Pré-requisitos</h3>
+  <ul>
+    <li><strong>Node.js</strong> — já instalado no seu sistema</li>
+    <li><strong>Git</strong> — instalado e configurado</li>
+    <li><strong>Conta no GitHub</strong> — você já tem (takwaratec)</li>
+    <li><strong>Conta no Vercel</strong> — crie em <a href="https://vercel.com" style="color:var(--accent)">vercel.com</a> (login com GitHub)</li>
+  </ul>
+
+  <h3>14.2 Criar o projeto (Nextra)</h3>
+  <p>A partir de um template:</p>
+  <pre><code>npx create-next-app --example https://github.com/shuding/nextra-docs-template meu-site
+cd meu-site
+npm install</code></pre>
+
+  <h3>14.3 Desenvolvimento local</h3>
+  <table>
+    <tr><th>Comando</th><th>O que faz</th></tr>
+    <tr><td><code>npm run dev</code></td><td>Servidor local com hot-reload (http://localhost:3000)</td></tr>
+    <tr><td><code>npm run build</code> ou <code>npx next build</code></td><td>Build de produção (verifica erros)</td></tr>
+    <tr><td><code>npm start</code></td><td>Servidor de produção local</td></tr>
+  </table>
+
+  <h3>14.4 Erros comuns no build e soluções</h3>
+  <table>
+    <tr><th>Erro</th><th>Causa</th><th>Solução</th></tr>
+    <tr>
+      <td><code>Module not found: Can't resolve '@floating-ui/dom'</code></td>
+      <td>Dependência quebrada do headlessui</td>
+      <td><code>npm install @floating-ui/core @floating-ui/dom @floating-ui/react-dom @floating-ui/react</code></td>
+    </tr>
+    <tr>
+      <td><code>export 'computePosition' not found in '@floating-ui/react-dom'</code></td>
+      <td>Versão incompatível do floating-ui</td>
+      <td>Instalar todos os 4 pacotes flutuantes acima</td>
+    </tr>
+    <tr>
+      <td><code>require(...) is not a function</code></td>
+      <td>Nextra 4+ usa ESM (import)</td>
+      <td>Usar <code>import nextra from 'nextra'</code> em vez de <code>require()</code></td>
+    </tr>
+    <tr>
+      <td><code>Support of "_meta.json" was removed</code></td>
+      <td>Nextra 3.3+ exige <code>_meta.tsx</code></td>
+      <td>Converter <code>_meta.json</code> → <code>_meta.tsx</code> com <code>export default { ... }</code></td>
+    </tr>
+    <tr>
+      <td><code>ESLint must be installed</code></td>
+      <td>Aviso inofensivo</td>
+      <td>Ignorar — não bloqueia o build</td>
+    </tr>
+    <tr>
+      <td><code>Type error: ';' expected</code> em <code>_meta.tsx</code></td>
+      <td>Arquivo sem <code>export default</code></td>
+      <td>Adicionar <code>export default</code> antes do objeto JSON</td>
+    </tr>
+    <tr>
+      <td><code>Peer dependency warnings</code></td>
+      <td>Versões conflitantes de pacotes</td>
+      <td><code>npm install --legacy-peer-deps</code></td>
+    </tr>
+  </table>
+
+  <h3>14.5 Publicar no GitHub e Vercel</h3>
+  <pre><code># 1. Criar o repositório local
+git init
+git add -A
+git commit -m "feat: primeiro commit"
+
+# 2. Renomear branch (Vercel usa main)
+git branch -M main
+
+# 3. Criar repositório no GitHub e conectar
+gh repo create seu-usuario/nome-do-repo --public
+git remote add origin https://github.com/seu-usuario/nome-do-repo.git
+git push -u origin main</code></pre>
+
+  <h3>14.6 Deploy automático via Vercel</h3>
+  <ol>
+    <li>Acesse <strong>vercel.com</strong> e faça login com GitHub</li>
+    <li>Clique em <strong>"Add New Project"</strong></li>
+    <li>Escolha o repositório que você acabou de criar</li>
+    <li>Vercel detecta automaticamente o framework (Next.js, Nextra, etc.)</li>
+    <li>Clique em <strong>"Deploy"</strong> — aguarde ~2 minutos</li>
+  </ol>
+  <p>Pronto! Seu site está no ar em <code>https://nome-do-repo.vercel.app</code></p>
+
+  <h3>14.7 Atualizar o site</h3>
+  <p>Toda vez que você der <code>git push origin main</code>, o Vercel faz deploy automático. Não precisa buildar manualmente.</p>
+
+  <h3>14.8 Domínio personalizado (opcional)</h3>
+  <p>No dashboard do Vercel: Settings → Domains → Add. Siga as instruções de DNS.</p>
+
+  <h3>14.9 Aplicar em outro repositório existente</h3>
+  <p>Para publicar qualquer outro projeto seu no Vercel:</p>
+  <ol>
+    <li>O projeto precisa estar num repositório do GitHub</li>
+    <li>Vai em vercel.com → Add New Project → seleciona o repo</li>
+    <li>Se for MkDocs: Vercel detecta como "Other", funciona igual</li>
+    <li>Se for HTML estático: detecta automaticamente</li>
+  </ol>
+  <p><strong>Dica:</strong> O Vercel tem plano gratuito generoso. Você pode publicar quantos sites quiser.</p>
+</section>
+
+<!-- ===== 15. COMANDOS ÚTEIS ===== -->
 <section id="comandos">
-  <h2><span class="num">14</span> Comandos Úteis no Warp</h2>
+  <h2><span class="num">15</span> Comandos Úteis no Warp</h2>
 
   <p>Comandos que você pode usar para interagir comigo ou com o ambiente:</p>
 
@@ -1260,9 +1370,9 @@
   </table>
 </section>
 
-<!-- ===== 15. ROADMAP ===== -->
+<!-- ===== 16. ROADMAP ===== -->
 <section id="roadmap">
-  <h2><span class="num">15</span> Roadmap até 18 de Julho</h2>
+  <h2><span class="num">16</span> Roadmap até 18 de Julho</h2>
 
   <p style="margin-bottom:1.5rem;">37 dias. 7 passos do programa. 1 lançamento. Nosso ritmo:</p>
 
@@ -1316,9 +1426,9 @@
   </div>
 </section>
 
-<!-- ===== 16. MANIFESTO ===== -->
+<!-- ===== 17. MANIFESTO ===== -->
 <section id="manifesto">
-  <h2><span class="num">16</span> Manifesto — Hacker Cultural Digital Ancestral</h2>
+  <h2><span class="num">17</span> Manifesto — Hacker Cultural Digital Ancestral</h2>
 
   <div class="callout personal">
     <p style="font-size:1.05rem; line-height:1.8;">
