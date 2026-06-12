@@ -50,9 +50,9 @@ A Mentoria Tecnologia Takwara é um projeto que busca transformar o conhecimento
 
 ## A farsa da sustentabilidade de vitrine
 
-Nicolelis abriu a entrevista no Programa 20 Minutos com um alerta que ecoa direto na nossa bancada: *"Ciência e tecnologia não são a mesma coisa. Os perigos de tecnologia sem ética não são abstratos — são concretos."* Ele denunciou o greenwashing na construção civil e citou nominalmente o uso de **formaldeído, CCA e CCB** vendidos como "bio-solução". A tese é a mesma que ele defende há décadas: tecnologia sem ética vira instrumento de dominação — e a construção "sustentável" que envenena quem mora dentro dela é a prova.
+Nicolelis alertou, no Programa 20 Minutos, sobre o **formaldeído** como exemplo de tecnologia aplicada sem controle — um cancerígeno da OMS que inundou o mercado de construção civil sem regulação adequada. Também dedicou parte da entrevista ao impacto dos **data centers** e à necessidade de conter os rumos da tecnologia quando ela serve apenas à concentração de poder.
 
-A fala dele descreve exatamente o que o mercado da bioconstrução pratica: o tratamento CCA (Arseniato de Cobre Cromatado) injeta **arsênio, cromo e cobre** em autoclaves.
+A partir do alerta dele — e da nossa experiência de 15 anos na bancada — a denúncia se aprofunda: o tratamento CCA (Arseniato de Cobre Cromatado) injeta **arsênio, cromo e cobre** em autoclaves.
 
 Nenhum desses três — arsênio, cromo, formaldeído — deveria estar dentro de uma casa. Mas está. E com selo verde na embalagem.
 
