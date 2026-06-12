@@ -293,14 +293,77 @@
 
   @media (max-width: 600px) {
     .hero h1 { font-size: 1.8rem; }
-    nav.toc ol { columns: 1; }
+    .nav-toc ol { columns: 1; }
     .card-grid { grid-template-columns: 1fr; }
   }
 </style>
+
+/* === SEARCH BAR (JS-powered, added below) === */
+.search-bar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--bg);
+  padding: 0.75rem 0;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid var(--border);
+}
+.search-bar input {
+  width: 100%;
+  padding: 0.6rem 1rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text);
+  font-size: 0.9rem;
+  outline: none;
+  transition: border-color 0.2s;
+}
+.search-bar input:focus { border-color: var(--accent); }
+.search-bar input::placeholder { color: var(--text-dim); }
+.search-hidden { display: none !important; }
+.search-match {
+  border-left: 3px solid var(--accent) !important;
+  padding-left: 0.8rem !important;
+  background: rgba(45,212,191,0.05);
+}
+kbd {
+  display: inline-block;
+  padding: 0.1rem 0.4rem;
+  font-size: 0.75rem;
+  font-family: 'SF Mono', monospace;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  color: var(--text-dim);
+}
+</style>
 </head>
 <body>
-
 <div class="container">
+
+<div class="search-bar">
+  <input type="text" id="searchInput" placeholder="🔍 Buscar no manual... (ex: vercel, telegram, git push)" onkeyup="searchManual()">
+</div>
+
+<script>
+function searchManual() {
+  const q = document.getElementById('searchInput').value.toLowerCase().trim();
+  const sections = document.querySelectorAll('section');
+  sections.forEach(s => {
+    const text = s.textContent.toLowerCase();
+    if (!q) {
+      s.classList.remove('search-hidden', 'search-match');
+    } else if (text.includes(q)) {
+      s.classList.remove('search-hidden');
+      s.classList.add('search-match');
+    } else {
+      s.classList.add('search-hidden');
+      s.classList.remove('search-match');
+    }
+  });
+}
+</script>
 
 <!-- ===== HERO ===== -->
 <div class="hero">
