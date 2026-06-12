@@ -7,6 +7,13 @@ category: Manifesto
 
 # Portal de Mentoria Takwara
 
+[![🇧🇷 PT](https://img.shields.io/badge/🇧🇷-Português-green)](https://takwaratec.github.io/Mentoria_Tecnologia_Takwara/)
+[![🇺🇸 EN](https://img.shields.io/badge/🇺🇸-English-blue)](https://takwaratec.github.io/Mentoria_Tecnologia_Takwara/index_en)
+[![🇪🇸 ES](https://img.shields.io/badge/🇪🇸-Español-orange)](https://takwaratec.github.io/Mentoria_Tecnologia_Takwara/index_es)
+[![Status](https://img.shields.io/badge/Status-Em_Construção-yellow)]()
+[![Versão](https://img.shields.io/badge/Versão-0.1.0--alpha-lightgrey)]()
+[![DOI](https://img.shields.io/badge/DOI-10.5281/zenodo.18827106-blue)](https://doi.org/10.5281/zenodo.18827106)
+
 > **⚠️ AVISO:** Este site é um repositório de trabalho em construção.
 > Este material não é o produto final divulgado publicamente — é o **estudo de implantação** da mentoria, um ambiente de desenvolvimento onde estruturo conteúdo, refino estratégias e organizo a base de conhecimento. Se você chegou aqui por acaso, saiba que o que vê é o **processo**, não o resultado. 😊
 

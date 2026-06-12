@@ -1,5 +1,12 @@
 # 🌱 Mentoring Portal Takwara
 
+[![🇺🇸 EN](https://img.shields.io/badge/🇺🇸-English-blue)](https://takwaratec.github.io/Mentoria_Tecnologia_Takwara/index_en)
+[![🇧🇷 PT](https://img.shields.io/badge/🇧🇷-Português-green)](https://takwaratec.github.io/Mentoria_Tecnologia_Takwara/)
+[![🇪🇸 ES](https://img.shields.io/badge/🇪🇸-Español-orange)](https://takwaratec.github.io/Mentoria_Tecnologia_Takwara/index_es)
+[![Status](https://img.shields.io/badge/Status-Work_in_Progress-yellow)]()
+[![Version](https://img.shields.io/badge/Version-0.1.0--alpha-lightgrey)]()
+[![DOI](https://img.shields.io/badge/DOI-10.5281/zenodo.18827106-blue)](https://doi.org/10.5281/zenodo.18827106)
+
 > **⚠️ NOTICE: This site is a work-in-progress research repository.**
 > This material is NOT the final publicly-released product — it is the **mentoring program's implementation study**, a development environment where I structure content, refine strategies, and organize the knowledge base. If you stumbled upon this by accident, what you see is the **process**, not the result. 😉
 
