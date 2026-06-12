@@ -48,13 +48,11 @@ A Mentoria Tecnologia Takwara é um projeto que busca transformar o conhecimento
 | Congresso ligado ao agronegócio | **63%** |
 | Lobistas de combustíveis fósseis na COP30 | **1.600** |
 
-### A farsa da sustentabilidade de vitrine
+## A farsa da sustentabilidade de vitrine
 
-> *"Ciência e tecnologia não são a mesma coisa. Os perigos de tecnologia sem ética não são abstratos — são concretos. Vendem madeira e bambu tratados com formol, CCA e CCB como 'construção sustentável'. Isso não é bio-solução — é greenwashing."*
->
-> — **Miguel Nicolelis**, Programa 20 Minutos, mai/2026
+Nicolelis abriu a entrevista no Programa 20 Minutos com um alerta que ecoa direto na nossa bancada: *"Ciência e tecnologia não são a mesma coisa. Os perigos de tecnologia sem ética não são abstratos — são concretos."* Ele denunciou o greenwashing na construção civil e citou nominalmente o uso de **formaldeído, CCA e CCB** vendidos como "bio-solução". A tese é a mesma que ele defende há décadas: tecnologia sem ética vira instrumento de dominação — e a construção "sustentável" que envenena quem mora dentro dela é a prova.
 
-A denúncia de Nicolelis não é exagero. O mercado de bioconstrução está infestado de produtos que carimbam "selo verde" em material encharcado de veneno. O tratamento CCA (Arseniato de Cobre Cromatado) injeta **arsênio, cromo e cobre** em autoclaves — os mesmos metais pesados que a legislação ambiental classifica como passivo tóxico. O CCB troca o arsênio por **boro**, que se acumula nos lençóis freáticos. E o formaldeído, presente em compensados e painéis de eucalipto, é **cancerígeno reconhecido pela OMS**.
+A fala dele descreve exatamente o que o mercado da bioconstrução pratica: o tratamento CCA (Arseniato de Cobre Cromatado) injeta **arsênio, cromo e cobre** em autoclaves.
 
 Nenhum desses três — arsênio, cromo, formaldeído — deveria estar dentro de uma casa. Mas está. E com selo verde na embalagem.
 
