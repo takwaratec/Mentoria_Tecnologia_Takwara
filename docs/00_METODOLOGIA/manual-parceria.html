@@ -350,6 +350,7 @@ kbd {
 function searchManual() {
   const q = document.getElementById('searchInput').value.toLowerCase().trim();
   const sections = document.querySelectorAll('section');
+  let firstMatch = null;
   sections.forEach(s => {
     const text = s.textContent.toLowerCase();
     if (!q) {
@@ -357,11 +358,15 @@ function searchManual() {
     } else if (text.includes(q)) {
       s.classList.remove('search-hidden');
       s.classList.add('search-match');
+      if (!firstMatch) firstMatch = s;
     } else {
       s.classList.add('search-hidden');
       s.classList.remove('search-match');
     }
   });
+  if (firstMatch) {
+    firstMatch.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
 }
 </script>
 
