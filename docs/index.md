@@ -58,9 +58,13 @@ A denúncia de Nicolelis não é exagero. O mercado de bioconstrução está inf
 
 Nenhum desses três — arsênio, cromo, formaldeído — deveria estar dentro de uma casa. Mas está. E com selo verde na embalagem.
 
-**Enquanto isso, a ANVISA age rápido quando o contaminado é um detergente.** Em maio de 2026, a Agência suspendeu por unanimidade a fabricação e venda de **24 produtos da Ypê** após detectar a bactéria *Pseudomonas aeruginosa* em lotes com final 1. A cobertura da imprensa foi imediata, o recall nacional. Um mês depois, em junho, o mesmo aconteceu com **374 mil garrafas de água Crystal** — mesma bactéria, recall voluntário, 99,2% das unidades retiradas das prateleiras em dias.
+**E o formaldeído não está só nas paredes.** Ele está nos móveis. Nos utensílios domésticos. Nos pisos laminados. Nos painéis de MDF e compensado que o Brasil exporta aos milhões de metros cúbicos — **2,96 milhões de m³** de madeira serrada e derivados só em 2025, segundo dados oficiais da Comex Stat. A China é o maior comprador. A União Europeia se mexeu: a partir de agosto de 2026, o Regulamento Delegado 2023/1464 reduz **pela metade** o limite de emissão de formaldeído em painéis de madeira. O Brasil — um dos maiores exportadores mundiais — ainda não adotou padrão equivalente. O trabalhador da fábrica de MDF respira formaldeído. O morador da casa popular dorme sobre ele. O consumidor europeu ganha proteção legal. O brasileiro ganha selo verde.
 
-A ANVISA está certa em agir rápido com água e detergente. O que assusta é o que ela **não** fiscaliza:
+**Enquanto isso, a ANVISA age — e bem — quando quer.** Em maio de 2026, durante uma fiscalização de **rotina** (não houve denúncia de consumidor), a Vigilância Sanitária do DF coletou amostras de detergente Ypê numa ação padrão de análise de alimentos. O laudo do Lacen-DF detectou *Pseudomonas aeruginosa*. Em dias, a Diretoria Colegiada da ANVISA votou por unanimidade a suspensão de **24 produtos da marca**. Cobertura nacional, recall em massa, pânico nas redes.
+
+Um mês depois, o mesmo roteiro: fiscalização de rotina, água Crystal, mesma bactéria, **374 mil garrafas** recolhidas voluntariamente em 48 horas. A máquina da vigilância sanitária brasileira funcionou com precisão suíça.
+
+A ANVISA está **certíssima** em agir rápido. O que assusta é o **buraco negro** da fiscalização:
 
 | A ANVISA age quando... | A ANVISA ignora quando... |
 |---|---|
