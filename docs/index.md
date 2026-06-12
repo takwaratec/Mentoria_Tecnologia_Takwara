@@ -50,9 +50,34 @@ A Mentoria Tecnologia Takwara é um projeto que busca transformar o conhecimento
 
 ### A farsa da sustentabilidade de vitrine
 
-Nicolelis alertou no Programa 20 Minutos: *"Vendem bambu e eucalipto tratados com formol, CCA e CCB como 'construção sustentável'. Isso não é bio-solução — é greenwashing."*
+> *"Ciência e tecnologia não são a mesma coisa. Os perigos de tecnologia sem ética não são abstratos — são concretos. Vendem madeira e bambu tratados com formol, CCA e CCB como 'construção sustentável'. Isso não é bio-solução — é greenwashing."*
+>
+> — **Miguel Nicolelis**, Programa 20 Minutos, mai/2026
 
-Enquanto a indústria empilha metais pesados nas autoclaves e vende com selo verde, a Tecnologia Takwara prova que **é possível construir sem veneno** — com vapor, pirolenhoso e leite de cinzas. Com o mesmo PU Vegetal que o InCor usa em próteses cranianas. Com certificação MS 888 para água potável.
+A denúncia de Nicolelis não é exagero. O mercado de bioconstrução está infestado de produtos que carimbam "selo verde" em material encharcado de veneno. O tratamento CCA (Arseniato de Cobre Cromatado) injeta **arsênio, cromo e cobre** em autoclaves — os mesmos metais pesados que a legislação ambiental classifica como passivo tóxico. O CCB troca o arsênio por **boro**, que se acumula nos lençóis freáticos. E o formaldeído, presente em compensados e painéis de eucalipto, é **cancerígeno reconhecido pela OMS**.
+
+Nenhum desses três — arsênio, cromo, formaldeído — deveria estar dentro de uma casa. Mas está. E com selo verde na embalagem.
+
+**Enquanto isso, a ANVISA age rápido quando o contaminado é um detergente.** Em maio de 2026, a Agência suspendeu por unanimidade a fabricação e venda de **24 produtos da Ypê** após detectar a bactéria *Pseudomonas aeruginosa* em lotes com final 1. A cobertura da imprensa foi imediata, o recall nacional. Um mês depois, em junho, o mesmo aconteceu com **374 mil garrafas de água Crystal** — mesma bactéria, recall voluntário, 99,2% das unidades retiradas das prateleiras em dias.
+
+A ANVISA está certa em agir rápido com água e detergente. O que assusta é o que ela **não** fiscaliza:
+
+| A ANVISA age quando... | A ANVISA ignora quando... |
+|---|---|
+| Detergente Ypê contaminado | **Arsênio** em paredes de casas populares |
+| Água Crystal com bactéria | **Cromo e cobre** lixiviando para o solo sob habitações |
+| Garrafa de 500ml com *Pseudomonas* | **Bórax** sendo receitado como "tratamento natural" em blogs e cursos |
+| Lote específico na prateleira | **Formaldeído** exalando de painéis de eucalipto por anos |
+
+A diferença é simples: Ypê e Crystal são marcas de consumo de massa — a fiscalização é imediata porque o consumidor reclama. Já o morador da casa popular tratada com CCA não sabe que está dormindo sobre arsênio. Não tem para quem reclamar. Não aparece no Fantástico.
+
+E a conta fecha: o agronegócio madeireiro movimenta bilhões e ocupa 63% do Congresso. A indústria da construção sustentável de fachada — *greenwashing* puro — patrocina feiras, financia campanhas e mantém o tratamento químico como padrão porque é mais barato envenenar o bambu do que desenvolver tratamento limpo.
+
+**É contra esse sistema que a Tecnologia Takwara existe.**
+
+Enquanto o mercado joga arsênio na autoclave e chama de "madeira ecológica", o tratamento Takwara usa **vapor saturado alcalino com leite de cinzas** e **vapor ácido com pirolenhoso** — ambos subprodutos do próprio bambu, em ciclo fechado, sem um grama de metal pesado. Enquanto o mercado vende epóxi petroquímico que libera VOCs e intoxica o trabalhador, a Bio-Solda Takwara usa **Poliuretano Vegetal de Mamona** — o mesmo material que o InCor implanta em crânios humanos e que a **Portaria MS 888 certifica para água potável**.
+
+Não é uma alternativa verde de marketing. É engenharia de materiais com 15 anos de prototipagem, ensaios laboratoriais em Portugal (Itecons), 12 patentes em código aberto no Zenodo, e 1,8 MPa de aderência — o concreto quebrou antes da resina.
 
 ### O movimento de base que o sistema tentou enterrar
 
