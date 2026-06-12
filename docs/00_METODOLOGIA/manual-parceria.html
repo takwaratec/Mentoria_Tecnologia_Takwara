@@ -324,6 +324,7 @@
     <li><a href="#organizacao">Organização e Segurança</a></li>
     <li><a href="#avaliacao">Avaliação da Interação</a></li>
     <li><a href="#vercel">Deploy no Vercel</a></li>
+    <li><a href="#design">DESIGN.md</a></li>
     <li><a href="#ferramentas">Ferramentas à Disposição</a></li>
     <li><a href="#fluxo">Fluxo de Trabalho</a></li>
     <li><a href="#praticas">Melhores Práticas</a></li>
@@ -1350,9 +1351,69 @@ git push -u origin main</code></pre>
   <p><strong>Dica:</strong> O Vercel tem plano gratuito generoso. Você pode publicar quantos sites quiser.</p>
 </section>
 
-<!-- ===== 15. COMANDOS ÚTEIS ===== -->
+<!-- ===== 15. DESIGN SYSTEMS ===== -->
+<section id="design">
+  <h2><span class="num">15</span> DESIGN.md — Ensinando a IA a Desenhar pra Você</h2>
+
+  <p><strong>DESIGN.md</strong> é um padrão proposto pelo Google (e adotado pela comunidade) que coloca as regras visuais de um projeto num arquivo markdown na raiz do repositório. Qualquer agente de IA que ler esse arquivo sabe exatamente quais cores, fontes e estilos usar — sem chute.</p>
+
+  <h3>Onde colocar</h3>
+  <p>Na raiz do projeto (onde está o <code>README.md</code>):</p>
+  <pre><code>meu-projeto/
+├── DESIGN.md          ← ← ← aqui
+├── README.md
+├── docs/
+└── ...</code></pre>
+
+  <h3>O que colocar dentro</h3>
+  <table>
+    <tr><th>Seção</th><th>O que informar</th></tr>
+    <tr><td><strong>Cores</strong></td><td>Hex ou RGB das cores principais, secundárias, fundo, texto, destaque</td></tr>
+    <tr><td><strong>Tipografia</strong></td><td>Fontes para título, corpo, código — com pesos (400, 600, 700)</td></tr>
+    <tr><td><strong>Tom de voz</strong></td><td>Como o texto deve soar: formal, técnico, direto, didático...</td></tr>
+    <tr><td><strong>Layout</strong></td><td>Largura máxima, sidebar, grid, breakpoints mobile</td></tr>
+    <tr><td><strong>Logo</strong></td><td>Caminho do arquivo, proporção, onde usar</td></tr>
+  </table>
+
+  <h3>Como criar o DESIGN.md do seu projeto</h3>
+  <p>Você pode me pedir: <em>"Cria um DESIGN.md para esse repositório com base no que já conversamos sobre identidade visual"</em>. Eu leio o contexto do projeto e escrevo o arquivo.</p>
+
+  <h3>Onde garimpar DESIGN.md de outros projetos</h3>
+  <ul>
+    <li><strong><a href="https://designdotmd.directory/" style="color:var(--accent)">designdotmd.directory</a></strong> — diretório público de DESIGN.md de empresas e projetos open source. Você navega e vê como os outros fazem.</li>
+    <li><strong><a href="https://github.com/VoltAgent/awesome-design-md" style="color:var(--accent)">awesome-design-md</a></strong> — coleção curada no GitHub com exemplos reais.</li>
+    <li><strong>designmd.app</strong> — 454 design systems catalogados.</li>
+  </ul>
+
+  <h3>Exemplo real: o DESIGN.md da Takwara</h3>
+  <pre><code># Takwara Design System
+
+## Cores
+- Verde principal: #4a7c59
+- Verde escuro: #2d5a3a  
+- Verde claro: #e8f0e4
+- Cinza título: #1f2937
+- Cinza corpo: #4b5563
+- Fundo creme: #faf6f0
+
+## Tipografia
+- Títulos: Georgia, serif, 700
+- Corpo: system-ui, sans-serif, 400
+- Código: 'SF Mono', monospace
+
+## Tom de voz
+Direto, técnico mas acessível.
+Tabelas e bullets para escaneabilidade.</code></pre>
+
+  <div class="callout goal">
+    <strong>💡 Por que isso é útil pra você</strong>
+    <p>Com um DESIGN.md no repositório, toda vez que você me pedir "cria uma página sobre X" ou "melhora o visual de Y", eu já sei exatamente quais cores e estilos usar. Sem DESIGN.md, eu chuto. Com ele, eu acerto de primeira.</p>
+  </div>
+</section>
+
+<!-- ===== 16. COMANDOS ÚTEIS ===== -->
 <section id="comandos">
-  <h2><span class="num">15</span> Comandos Úteis no Warp</h2>
+  <h2><span class="num">16</span> Comandos Úteis no Warp</h2>
 
   <p>Comandos que você pode usar para interagir comigo ou com o ambiente:</p>
 
@@ -1370,9 +1431,9 @@ git push -u origin main</code></pre>
   </table>
 </section>
 
-<!-- ===== 16. ROADMAP ===== -->
+<!-- ===== 17. ROADMAP ===== -->
 <section id="roadmap">
-  <h2><span class="num">16</span> Roadmap até 18 de Julho</h2>
+  <h2><span class="num">17</span> Roadmap até 18 de Julho</h2>
 
   <p style="margin-bottom:1.5rem;">37 dias. 7 passos do programa. 1 lançamento. Nosso ritmo:</p>
 
@@ -1426,9 +1487,9 @@ git push -u origin main</code></pre>
   </div>
 </section>
 
-<!-- ===== 17. MANIFESTO ===== -->
+<!-- ===== 18. MANIFESTO ===== -->
 <section id="manifesto">
-  <h2><span class="num">17</span> Manifesto — Hacker Cultural Digital Ancestral</h2>
+  <h2><span class="num">18</span> Manifesto — Hacker Cultural Digital Ancestral</h2>
 
   <div class="callout personal">
     <p style="font-size:1.05rem; line-height:1.8;">
