@@ -34,3 +34,7 @@ O primeiro passo para o bioconstrutor é utilizar tratamentos eficientes que nã
 4. **Tratamento Térmico:** Vaporização em autoclave limpa ou fogo direto, caramelizando o amido e carbonizando a casca para fechar os poros.
 
 *Nota aos Mentores:* Ao orientar um aluno, desconstrói o discurso de que "Bórax é 100% natural e inofensivo". Ele é melhor que o Arsênio, mas está longe de ser escalável de forma responsável. A solução definitiva de impermeabilização é física (térmica) e química limpa (como o PU Vegetal que sela a peça tratada).
+
+---
+
+**📖 Para aprofundamento:** consulte o [TEC_07 — Química dos Tratamentos Convencionais](TEC_07_Quimica_dos_Tratamentos.md), que analisa CCA, CCB, VOCs, ACV, normas técnicas e apresenta um quadro comparativo completo das rotas de tratamento com bibliografia ABNT.

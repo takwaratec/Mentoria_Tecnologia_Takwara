@@ -59,6 +59,19 @@ Na mentoria, os alunos aprendem a lidar com os dois componentes da Bio-Solda (Po
 
 *Nota aos Mentores:* Ao introduzir o Kit Bio-Solda, narre a história do Dr. Chierice. Vender um "kit de resina" soa barato. Vender "o mesmo polímero usado para substituir crânios humanos e resistente a intempéries extremas" vende autoridade de engenharia profunda.
 
+### 🧪 Compósitos e variações do PU Vegetal
+
+O PU de mamona não se limita à bio-solda. Pesquisas do Consórcio MQTF (UnB/UFRR/UFAC) documentam aplicações em:
+
+- **Painéis compósitos bambu-mamona** (2023): PU vegetal como matriz polimérica para painéis estruturais, combinando fibra de bambu com resina de mamona em compósito de alto desempenho.
+- **Sistema de reforço interno de colmos** (2025): PU vegetal + cabos de aço + fibras de bambu como sistema integrado de reforço estrutural para colmos ocos.
+- **Design sustentável** (Santos, Godinho & Pereira, 2017): biocompósitos de bambu e mamona aplicados ao design de produtos.
+- **Biopolímeros e regulação** (2025): análise do ecossistema empresarial e desafios regulatórios do PU vegetal no Brasil.
+
+### 🌱 Biodegradabilidade: o PU vegetal não é plástico
+
+Um estudo conduzido por **Leithold Neto (UTFPR, 2015)** testou bioespumas de poliuretano em solo simulado conforme norma ASTM G 160. Resultado: **perda de massa de até 17% em 30 dias** — biodegradabilidade muito superior ao poliestireno expandido (isopor), que persiste por séculos. Isto significa que o PU Vegetal, além de atóxico e biocompatível, também é **biodegradável em solo**, fechando o ciclo do material: fixa carbono durante o uso e retorna ao ciclo biológico no descarte.
+
 ### 🔗 Aprofundamento
 Para a análise comparativa completa contra epóxi, acrílicos e látex — incluindo metodologia dos 6 pilares e todos os laudos laboratoriais — consulte o **[Dossiê Comparativo de Biopolímeros](TEC_03_Dossie_Comparativo_Biopolimeros.md)**.
 

@@ -28,6 +28,14 @@ Estudos do ciclo de vida do bambu (Araújo, SCI_011; INBAR, SCI_013) apontam:
 
 Para comparação: uma floresta tropical primária sequestra de 2 a 5 tCO₂/ha/ano. O bambu **dobra a quadruplica** essa taxa, com a vantagem de produzir biomassa estrutural colhível anualmente sem desmatar.
 
+### Florestas de Guadua na Amazônia: a maior reserva de bambu nativo do Brasil
+
+Pesquisas da Profa. Dra. **Sonaira Souza da Silva (UFAC)** , no âmbito do Consórcio MQTF, mapearam a extensão das florestas de bambu nativo no Acre: aproximadamente **161.500 km²** da Amazônia Sul-Ocidental são dominados pela espécie *Guadua weberbaueri* (Silva, 2018).
+
+Esta espécie apresenta um fenômeno ecológico raro: a **monocarpia gregária** (mastragem). A cada **27-28 anos**, a Guadua floresce e morre em massa sincronizada, gerando um acúmulo de **143,6 Mg/ha** de biomassa seca morta — volume que eleva drasticamente o risco de incêndios florestais em escala regional.
+
+O paradoxo é duplo: a mesma biomassa que ameaça queimar é também a maior promessa de matéria-prima renovável para bioeconomia na região. O manejo preventivo (colheita antes da mastragem) transforma o passivo ecológico em ativo energético e construtivo — exatamente a abordagem do projeto MQTF e da Tecnologia Takwara.
+
 ### A Filosofia Aplicada à Bioconstrução (As Lições do Bambu)
 No Oriente, o bambu é um arquétipo. Ele ensina o princípio de que o sucesso estrutural de um projeto depende da resiliência e do comportamento em rede (os rizomas).
 Para a mentoria, a principal lição é: **O bambu não é madeira.** Tentar construir com bambu usando a lógica da marcenaria convencional (parafusos, cortes rústicos sem pensar nos nós) é um erro mecânico. A bioconstrução exige que o profissional "esvazie-se" dos velhos conceitos (o bambu é oco) e adote uma engenharia focada em conexões sob medida.
@@ -50,3 +58,4 @@ Esse compromisso técnico nos leva à próxima etapa da jornada: o tratamento e 
 - SCI_013 — INBAR. *Bamboo Preservation Techniques.* INBAR Technical Report, 2020.
 - SCI_019 — INBAR. *Tratamento e Preservação do Bambu.* Acervo MQTF.
 - SCI_021 — *Bambu como Commodity: Potencial Econômico.* Acervo MQTF.
+- SILVA, S. S. Mapeamento de Áreas de Floresta e Uso do Solo no Acre: Potencial de Biomassa e Regeneração Natural. UFAC, 2018.

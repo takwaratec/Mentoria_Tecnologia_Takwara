@@ -37,9 +37,7 @@ A Mentoria Tecnologia Takwara é um projeto que busca transformar o conhecimento
 >
 > — **Carlos Nobre**, entrevista à Repórter Brasil, jan/2026
 
-> "Vivemos o período mais ameaçador do último século. O movimento grassroots da era digital era completamente desacreditado no início. Hoje, ele é o que é."
->
-> — **Miguel Nicolelis**, um dos 20 maiores neurocientistas do mundo
+**Miguel Nicolelis**, um dos 20 maiores neurocientistas do mundo segundo a *Scientific American*, descreve o momento atual como o período mais ameaçador do último século, e aponta o movimento grassroots — a inovação que vem da base, não do topo — como a força real de transformação, ainda que inicialmente desacreditado.
 
 | Indicador | Dado |
 |---|---|
@@ -50,9 +48,9 @@ A Mentoria Tecnologia Takwara é um projeto que busca transformar o conhecimento
 
 ## A farsa da sustentabilidade de vitrine
 
-Nicolelis alertou, no Programa 20 Minutos, sobre o **formaldeído** como exemplo de tecnologia aplicada sem controle — um cancerígeno da OMS que inundou o mercado de construção civil sem regulação adequada. Também dedicou parte da entrevista ao impacto dos **data centers** e à necessidade de conter os rumos da tecnologia quando ela serve apenas à concentração de poder.
+**Miguel Nicolelis**, neurocientista brasileiro de renome internacional, advertiu em entrevista sobre os riscos do **formaldeído** como exemplo de tecnologia aplicada sem controle — um cancerígeno da OMS que inundou o mercado de construção civil. Também chamou atenção para o impacto dos **data centers** e a concentração de poder tecnológica.
 
-A partir do alerta dele — e da nossa experiência de 15 anos na bancada — a denúncia se aprofunda: o tratamento CCA (Arseniato de Cobre Cromatado) injeta **arsênio, cromo e cobre** em autoclaves.
+A partir desse alerta — e da nossa experiência de 15 anos na bancada — a denúncia se aprofunda: o tratamento CCA (Arseniato de Cobre Cromatado) injeta **arsênio, cromo e cobre** em autoclaves.
 
 Nenhum desses três — arsênio, cromo, formaldeído — deveria estar dentro de uma casa. Mas está. E com selo verde na embalagem.
 
@@ -95,7 +93,7 @@ Não é uma alternativa verde de marketing. É engenharia de materiais com 15 an
 
 A Takwara nasceu no quintal de um educador popular em Limeira-SP. Quinze anos de prototipagem. Sem CNPq, sem FAPESP, sem vínculo acadêmico. Quando bateu na porta do CEFET-MG, ouviu: *"Muda o foco para bambu + asfalto."* Quando submeteu ao Nature Awards, a resposta foi: *"Proposta excelente. Não podemos aprovar sem vínculo acadêmico formal."*
 
-Isso é o monopólio do conhecimento que Nicolelis denuncia. A Tecnologia que substitui crânios humanos não pode concorrer a um prêmio porque seu criador não tem crachá de universidade.
+Isso é o monopólio do conhecimento que o neurocientista Miguel Nicolelis descreve. A tecnologia que substitui crânios humanos não pode concorrer a um prêmio porque seu criador não tem crachá de universidade.
 
 ### O que a Takwara prova
 
@@ -113,6 +111,26 @@ Carlos Nobre insiste: *"Zerar as emissões até 2040 depende menos de tecnologia
 A tecnologia que ele diz que já existe está aqui. Não num laboratório de Stanford. Está num forno de ciclo fechado feito com resíduos do próprio bambu. Está num polímero de mamona usado em crânios humanos. Está em doze equipamentos com patentes depositadas em código aberto.
 
 **Não falta tecnologia. Falta coragem para romper com o sistema que vende veneno como solução.**
+
+---
+
+## 🎋 As 7 Lições do Bambu e os 7 Pilares da Educação
+
+Há 150 milhões de anos o bambu aperfeiçoa sua estrutura genética. No Oriente, sua sabedoria foi codificada em **Sete Lições** que dialogam diretamente com os **Sete Pilares para a Educação do Futuro** propostos pelo filósofo Edgar Morin — uma coincidência que o psiquiatra Carl Jung chamaria de **arquétipo**: o bambu como modelo ancestral da condição humana.
+
+| Lição do Bambu | Sabedoria oriental | O que ensina ao mentorando |
+|---|---|---|
+| 1 | Curvar-se diante da tempestade | Partir da própria experiência, receber as forças da natureza com humildade |
+| 2 | Ter raízes profundas para crescer | Filtrar fontes, orientar-se por bases sólidas, criar raízes |
+| 3 | Viver em comunidade e cooperar | Compreender a condição tridimensional humana, desenvolver o espírito comunitário |
+| 4 | Focar no alto sem criar galhos fúteis | Estabelecer empatia, não criar obstáculos ao desenvolvimento mútuo |
+| 5 | Não ter ego — colecionar nós | Aprender com os erros, dissolver o ego, conquistar aliados |
+| 6 | Ser oco, vazio de certezas | Aceitar a complexidade do tempo e do espaço, permanecer disponível |
+| 7 | Buscar a paz e o bem comum | Adotar a ética como limite da ação |
+
+Cada uma dessas lições ecoa um pilar da educação proposta por Morin — e cada uma encontra tradução técnica na bancada: o bambu que se curva é o mesmo que resiste a ventos de 200 km/h; o bambu que coopera em rede é o mesmo que forma rizomas e sustenta ecossistemas; o bambu que coleciona nós é o mesmo que ganha resistência estrutural onde outros materiais quebram.
+
+**A mentoria que você está prestes a iniciar não é sobre dominar o bambu — é sobre aprender com ele.**
 
 ---
 
