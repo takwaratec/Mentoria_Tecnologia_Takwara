@@ -1,81 +1,87 @@
 # PASSO 04: Entrega, Acompanhamento e Aceleradores
 
 **Jornada de Mentoria — Tecnologia Takwara**
-*Rascunho baseado no Dia 4 do programa e nas conversas até 12/06/2026.*
+*Revisado conforme formato real: remoto via Zoom, individual sob demanda.*
 
 ---
 
 ## 1. Formato da Mentoria
 
-**Modelo proposto: híbrido (individual + grupo assíncrono)**
+**Modelo: remoto via Zoom — individual, sob demanda.**
 
-| Nível | Formato | Público | Agendamento |
-|---|---|---|---|
-| Instrução de Base (grátis) | Assíncrono — e-book + vídeos + forms | Aberto | — |
-| **Kit Imperveg (Resina/Impermeabilizante)** | **2 dias — aplicação + conferência** | Compradores do Kit | **Aluno agenda via Google Calendar** após receber o kit |
-| **Kit Espuma Expansiva (futuro)** | Mentoria personalizada individual | Compradores do Kit Espuma | Agendamento individual sob demanda |
-| Consultoria High Ticket | Visita técnica + projeto | Clientes B2B / Comunidades | Sob consulta |
+Não existe turma, não existe data fixa, não existe presencial como regra. Cada pessoa que compra o kit ou já conhece o produto agenda seu próprio horário de atendimento personalizado.
+
+| Nível | Formato | Público | Como acessa |
+|-------|---------|---------|-------------|
+| **Instrução de Base (grátis)** | E-book + vídeos + formulário | Aberto | Site / landing page |
+| **Kit Imperveg (UG 132A)** | Mentoria individual via Zoom — aplicação + conferência | Compradores do kit | Agenda via Google Calendar após receber o kit |
+| **Kit Espuma Expansiva (futuro)** | Mentoria individual via Zoom | Compradores do Kit Espuma | Agendamento individual sob demanda |
+| **Consultoria de Entrada** | Reuniões virtuais de orientação técnica | Arquitetos e engenheiros | Agendamento sob demanda |
+| **Presencial** | **Apenas sob demanda excepcional** | Casos específicos | Conforme disponibilidade física e agenda |
 
 ### Projetos Específicos (sob análise)
+Mentorias focadas em projetos pontuais — uma banqueta, uma maquete geodésica, um móvel sob medida, ou qualquer outra demanda trazida pelo aluno — **serão avaliadas caso a caso**:
+- Disponibilidade do mentor na agenda
+- Complexidade técnica do projeto
+- Interesse do mentor no desafio
 
-Mentorias focadas em projetos pontuais — uma banqueta, uma maquete geodésica, um móvel sob medida, ou qualquer outra demanda trazida pelo aluno — **serão avaliadas caso a caso** de acordo com:
-
-- **Disponibilidade** do mentor na agenda
-- **Complexidade técnica** do projeto
-- **Interesse** do mentor no desafio
-
-> ⚠️ Não sou obrigado a aceitar qualquer projeto. A recusa não é pessoal — é questão de adequação entre o que o aluno quer construir e o que posso entregar com qualidade no momento. Projetos recusados podem ser reavaliados em ciclos futuros.
+> ⚠️ Não sou obrigado a aceitar qualquer projeto. A recusa não é pessoal — é adequação entre o que o aluno quer construir e o que posso entregar com qualidade no momento.
 
 ---
 
-## 2. Duração
+## 2. Duração e Fluxo
 
-**Kit Imperveg (Resina/Impermeabilizante): 2 dias — carga horária flexível (suficiente para aplicar, conferir e corrigir).**
+**Kit Imperveg: 2 dias no total — 1 de aplicação + 1 de conferência.**
 
-**Dia 1 — Aplicação:**
-O aluno recebe o kit, abre, prepara o bambu fornecido e faz a primeira aplicação (mistura A+B, pincelamento, controle de umidade). O tempo é o necessário para cada um — sem pressão de relógio. Alguns terminam em 2h, outros levam 4h.
+Diferentemente de um curso presencial com horário fixo, aqui o aluno **agenda o próprio horário** via Google Calendar. O mentor e o aluno combinam o melhor dia/horário para cada sessão.
 
-**Dia 2 — Conferência e Correção:**
-No dia seguinte, verificamos o resultado da cura. O aluno que acertou de primeira está liberado. Quem errou (proporção errada, umidade alta, pincelamento irregular) recebe orientação para repetir o processo até acertar a mão.
+### Dia 1 — Aplicação (Via Zoom, ~2h)
+O aluno recebeu o kit em casa. Na chamada de vídeo:
+- Abrimos o kit juntos
+- Preparamos o bambu (que o aluno já tem)
+- Misturamos A+B ao vivo
+- Aplicamos o PU Vegetal
+- Tiramos dúvidas em tempo real
 
-> ⚠️ **Variável crítica:** alguns alunos acertam de primeira. Outros precisam de 2, 3 tentativas. O formato de 2 dias com dia 2 dedicado à correção absorve essa variável sem frustrar o aluno e sem sobrecarregar o mentor.
+### Dia 2 — Conferência e Correção (Via Zoom, ~1h)
+No dia seguinte (ou até 2 dias depois, conforme acordo):
+- Verificamos o resultado da cura
+- Se acertou: está liberado ✅
+- Se errou (proporção, umidade, aplicação): orientação personalizada para corrigir
 
-**Produtos futuros (pós-lançamento):**
-- **Kit Espuma Expansiva** — mentoria personalizada individual, agendada sob demanda via Google Calendar
-- Tratamento ecológico de bambu (forno T01) — 2 dias
-- Biorrefinaria (carbonização + pirolenhoso) — 3 dias
-- Domos geodésicos — 5 dias
-- Cada produto com **lançamento independente** em meses subsequentes
+> ⚠️ **Variável crítica:** alguns acertam de primeira. Outros precisam de 2, 3 tentativas. O formato com dia 2 dedicado à correção absorve essa variável sem frustrar o aluno.
+
+### Produtos futuros (pós-lançamento)
+Cada produto terá **lançamento independente** em meses subsequentes:
+- **Kit Espuma Expansiva (MAMONEX RD70)** — mentoria individual via Zoom
+- **Tratamento ecológico de bambu (forno T01)** — orientação remota
+- **Biorrefinaria (carbonização + pirolenhoso)** — orientação remota
+- **Domos geodésicos** — orientação remota + vídeos
 
 ---
 
-## 3. Tipos de Encontro ao Vivo
+## 3. Material de Apoio
 
-Selecionados para a Mentoria do Kit Imperveg (2 dias):
-
-| Tipo | Dia | Como |
-|---|---|---|
-| 📖 **Conteúdo** | Dia 1 (abertura) | O que é o PU Vegetal, química da mamona, história, dados Itecons — **30 min** |
-| 🛠️ **Implementação** | Dia 1 (restante) | Mão na massa: abrir o kit, preparar o bambu, misturar A+B, pincelar, controlar umidade |
-| 📊 **Conferência** | Dia 2 (abertura) | Verificar cura do dia anterior. Aluno que acertou está liberado |
-| 🛠️ **Correção** | Dia 2 (se necessário) | Quem errou repete com orientação até acertar a mão |
-| ❓ **Dúvidas** | Ambos os dias | Contínuo — durante a aplicação e na conferência |
-
-Para os **produtos futuros** (forno, biorrefinaria, domos), a estrutura pode incluir Análise, pois envolvem ciclos mais longos de implementação.
+| Item | Descrição |
+|------|-----------|
+| **Guia de Referência Rápida** | PDF com passo a passo, checklist, dicas de segurança |
+| **Vídeos time-lapse** | Processo de confecção de conexões e produtos de movelaria |
+| **FAQ do PU Vegetal** | Respostas para as 20 perguntas mais frequentes |
+| **Calculadora de Pot Life** | Tempo de trabalho x temperatura x umidade |
+| **Template de gabarito** | PDF para impressão dos ângulos de corte mais comuns |
 
 ---
 
 ## 4. Acompanhamento Pós-Mentoria
 
 | Recurso | Detalhe |
-|---|---|
-| **Grupo de suporte** | WhatsApp (única opção viável — mais acessível e popular, apesar da resistência do mentor) |
-| **Ativação** | Aluno **agenda a mentoria via Google Calendar** assim que recebe o kit físico. O link de agendamento é enviado junto com o código de rastreio |
-| **Suporte no grupo** | Acesso por **15 dias** após o Dia 2 — apenas para dúvidas de aplicação |
-| **Horário de acesso** | Dias úteis, 9h-18h — mentor não responde fora desse horário |
+|---------|---------|
+| **Suporte** | WhatsApp — única opção viável |
+| **Ativação** | Aluno agenda a mentoria via Google Calendar assim que recebe o kit |
+| **Duração do suporte** | **2 dias máx.** após o Dia 1 — apenas para conferência e correção |
+| **Horário** | Dias úteis, 9h-18h (mentor não responde fora desse horário) |
 | **Prazo de resposta** | Até 24h úteis |
-| **Após 15 dias** | Suporte encerrado. Aluno remanejado para conteúdo gravado e FAQ |
-| **Kit Espuma (futuro)** | Fluxo idêntico, mas **individual**: cada aluno agenda seu próprio horário via Google Calendar, sem turma |
+| **Após o período** | Suporte encerrado. Aluno remanejado para conteúdo gravado e FAQ |
 
 ---
 
@@ -84,11 +90,10 @@ Para os **produtos futuros** (forno, biorrefinaria, domos), a estrutura pode inc
 **Onde aplicar:** na entrega dos e-books gratuitos da Instrução de Base.
 
 **Fluxo:**
-
 ```
 Usuário baixa e-book gratuito
         ↓
-Precisa preencher Google Forms primeiro
+Preenche Google Forms primeiro
         ↓
 Forms coleta:
   - Nome, e-mail, WhatsApp
@@ -96,61 +101,43 @@ Forms coleta:
   - Já trabalha com bambu?
   - Qual maior desafio?
   - Já conhece PU Vegetal?
-  - Disponibilidade para mentoria presencial?
         ↓
 Respostas alimentam planilha de leads
         ↓
 Classificação P1-P4 (conforme PASSO 01)
         ↓
-Nutrição: e-mail gratuito + convite para proximo evento
+Nutrição: e-mail gratuito + convite para próximo evento
 ```
 
 **Vantagens:**
 - Segue a lei da permuta (dá conteúdo, recebe dados)
 - Pré-qualifica antes da venda
 - Alimenta base para os próximos lançamentos
-- Dados reais de mercado (saber quem é o público)
 
 ---
 
-## 6. Cronograma de Encontros (Mentoria Kit Imperveg)
-
-| Horário | Atividade | Tipo |
-|---|---|---|
-| 8h-8h30 | Recepção, café, entrega dos kits | Logística |
-| 8h30-10h | **Bloco 1:** O que é o PU Vegetal — história, ciência, dados Itecons | Conteúdo |
-| 10h-10h15 | Intervalo | — |
-| 10h15-12h | **Bloco 2:** Bio-Solda na prática — mistura, preparação do bambu, segurança | Conteúdo + Demo |
-| 12h-13h30 | Almoço | — |
-| 13h30-16h | **Bloco 3:** Mão na massa — cada participante solda suas juntas | Implementação |
-| 16h-16h30 | **Bloco 4:** Resultados, dúvidas, próximos passos | Dúvidas + Feedback |
-| 16h30-17h | Encerramento, entrega de certificado, foto | — |
-
----
-
-## 7. Aceleradores (Pré-projeto para aprofundar no Passo 4 oficial)
+## 6. Aceleradores (Pré-projeto)
 
 | Acelerador | Descrição | Prioridade |
-|---|---|---|
-| ✅ Checklist do Kit | O que vem no kit, o que o aluno precisa levar | Alta |
+|------------|-----------|------------|
+| ✅ Checklist do Kit | O que vem no kit, o que o aluno precisa ter em casa | Alta |
 | ✅ Calculadora de Pot Life | Tempo de trabalho x temperatura x umidade | Alta |
 | ✅ Guia sem forno | Como tratar bambu em pequena escala sem equipamento industrial | Alta |
-| ✅ Template de gabarito | PDF para impressão dos ângulos de corte mais comuns | Média |
 | ✅ FAQ do PU Vegetal | Respostas para as 20 perguntas mais frequentes | Média |
-| ✅ Google Forms template | Modelo de formulário de pré-qualificação | Média |
-| ✅ Vídeo de preparação | Link enviado 7 dias antes: "como chegar, o que vestir, o que esperar" | Média |
-| ✅ Certificado de Participação | PDF editável com logo Takwara + Imperveg | Baixa |
+| ✅ Template de Questionário | Pré-diagnóstico do aluno antes da chamada | Média |
+| ✅ Vídeo de preparação | "Como se preparar para a mentoria: o que ter em mãos" | Média |
 
 ---
 
-## 8. Observações para a Revisão Final (Pós-Dia 7)
+## 7. Observações para Revisão Final
 
-- [ ] Alinhar cronograma estratégico dos próximos lançamentos (forno, biorrefinaria, domos)
-- [ ] Definir frequência entre lançamentos (mensal? bimestral?)
-- [ ] Consolidar precificação (Passo 5)
-- [ ] Definir nome e promessa (Passo 6)
-- [ ] Estruturar imersão de vendas (Passo 7 — 15/06)
+- [ ] Consolidar precificação (Passo 5) — já rascunhado
+- [ ] Definir nome da mentoria (Passo 6) — em análise
+- [ ] Estruturar imersão de vendas (Passo 7 — 15/06, ao vivo)
+- [ ] Gravar vídeos time-lapse de conexões e movelaria
+- [ ] Criar FAQ do PU Vegetal
+- [ ] Criar Google Forms template
 
 ---
 
-*Rascunho produzido em 12/06/2026. Aguarda revisão do mentor após o Dia 7.*
+*Revisado em 14/06/2026 — formato remoto via Zoom, individual sob demanda.*

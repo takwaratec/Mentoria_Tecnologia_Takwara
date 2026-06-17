@@ -31,23 +31,23 @@ O principal concorrente direto é o **Curso Civilização do Bambu, de Lúcio Ve
 
 Na ponta oposta, o **Workshop de Bambu (Eduardo Borba)** custa R$ 249 por um dia — popular e acessível.
 
-A **mentoria Takwara** ocupa um nicho que **ninguém cobre**: kit físico Imperveg + treinamento prático de 2 dias + acompanhamento. Não há concorrência direta. O preço deve refletir tanto o valor do produto físico quanto a transferência de conhecimento especializado.
+| **mentoria Takwara** ocupa um nicho que **ninguém cobre**: kit físico Imperveg + treinamento remoto personalizado + acompanhamento. Não há concorrência direta. O preço deve refletir tanto o valor do produto físico quanto a transferência de conhecimento especializado.
 
 Seguindo a orientação de Marcus Dutra: *"Se não conseguir encontrar mentorias à venda, discover o preço dos produtos de ticket médio e precifique 3 a 5x acima. E compare com a concorrência que faz entrega pior, melhor ou igual."*
 
 **Entrega Takwara vs. Curso Civilização do Bambu (R$ 5.695):**
-- Carga horária: 2 dias vs. 7 dias → menor
+- Formato: remoto individual vs. 7 dias presenciais → mais acessível e flexível
 - Kit físico incluso → **único** com material para aplicar
 - PU Vegetal atóxico → **diferencial exclusivo**
-- Acompanhamento 15 dias → **nenhum concorrente oferece**
-- Mentor: criador da tecnologia com 15 anos de pesquisa → **autoridade máxima no nicho**
+- Acompanhamento 2 dias → foco em conferência e correção
+- Mentor: autodidata com 15 anos de bancada → **autoridade prática no nicho**
 
 | Item | Curso Civilização | Takwara |
 |---|---|---|
 | Dias | 7 | 2 |
 | Preço | R$ 5.695 | ? |
 | Kit físico | ❌ | ✅ Imperveg incluso |
-| Acompanhamento | ❌ | ✅ 15 dias WhatsApp |
+| Acompanhamento | ❌ | ✅ 2 dias conferência |
 | Foco PU Vegetal | ❌ | ✅ Exclusivo |
 | Preço/dia | R$ 813/dia | — |
 
@@ -80,7 +80,7 @@ Seguindo a orientação de Marcus Dutra: *"Se não conseguir encontrar mentorias
 | Kit Imperveg (resina + impermeabilizante) | **R$ 150–250** (custo Imperveg) | Sim |
 | Bambu para prática (fornecido) | **R$ 30–50** (frete incluso) | Sim |
 | Embalagem + frete | **R$ 30–60** | Sim |
-| Suporte (WhatsApp 15 dias) | R$ 0 (tempo do mentor) | Sim |
+| Suporte (WhatsApp 2 dias) | R$ 0 (tempo do mentor) | Sim |
 | Certificado + materiais digitais | R$ 0 (PDF) | Sim |
 | **TOTAL ENTREGA** | **R$ 210–360** | — |
 
@@ -106,7 +106,7 @@ Seguindo a orientação de Marcus Dutra: *"Se não conseguir encontrar mentorias
 | Fator | Nível (1–5) | Definição |
 |---|---|---|
 | Duração (2 dias) | 3 | Intensivo, mas concentrado |
-| Frequência | 4 | Dia 1 + Dia 2 + suporte 15 dias |
+| Frequência | 2 | Dia 1 + Dia 2 + suporte |
 | Sessões individuais | 4 | Mentoria individual ou grupo pequeno |
 | Acesso a você | 5 | Mentor com 15 anos de experiência, Nature Awards |
 | Suporte | 4 | WhatsApp + Google Calendar |
@@ -115,36 +115,63 @@ Seguindo a orientação de Marcus Dutra: *"Se não conseguir encontrar mentorias
 
 ## 4. Proposta de Precificação
 
-### Kit Imperveg + Mentoria (2 dias + suporte 15 dias)
+### Plano A — Mentoria Individual (2 dias, sob demanda)
+Kit Imperveg incluso. Formato remoto via Zoom, após anamnese.
 
 | Componente | Valor |
 |---|---|
-| Mentoria (2 dias, individual ou grupo até 4) | R$ 1.800 |
+| Mentoria (2 dias, individual) | R$ 1.800 |
 | Kit Imperveg (resina + impermeabilizante) | R$ 250 |
 | Bambu para prática + frete | R$ 60 |
 | Certificado + materiais digitais | Grátis |
-| Suporte WhatsApp 15 dias | Incluso |
+| Suporte WhatsApp 2 dias | Incluso |
 | **—** | **—** |
 | **PREÇO TOTAL** | **R$ 2.110** |
-| **PREÇO FINAL SUGERIDO** | **R$ 1.997** ~ou~ **R$ 1.499** |
+| **PREÇO FINAL SUGERIDO** | **R$ 1.997** |
+
+### Plano B — Mentoria em Grupo (7 dias, imersão)
+Kit Imperveg incluso. Formato remoto em grupo (2 períodos/dia). FAQ + BD como tutor IA no site.
+
+| Componente | Valor |
+|---|---|
+| Mentoria (7 dias em grupo, manhã + tarde) | R$ 1.700 |
+| Kit Imperveg (resina + impermeabilizante) | R$ 250 |
+| Bambu para prática + frete | R$ 60 |
+| Suporte WhatsApp (7 dias + até 2 extras) | Incluso |
+| Acesso ao tutor IA (FAQ + BD no site) | Incluso |
+| **—** | **—** |
+| **PREÇO FINAL SUGERIDO** | **R$ 1.999** |
+
+### Opção Pro — Sem Kit (para usuário de atacado)
+Para quem já compra Imperveg em escala (2-3kg+) e visa produção em massa. O unboxing gratuito já cobre a iniciação — a mentoria foca apenas em aplicação avançada e conexões.
+
+| Componente | Valor |
+|---|---|
+| Mentoria (individual 2 dias ou grupo 7 dias) | R$ 1.500 |
+| Certificado + materiais digitais | Grátis |
+| **PREÇO FINAL — Sem Kit** | **R$ 1.500** |
+
+> **Nota:** A opção Pro existe porque o usuário de atacado já decidiu produzir. Ele não precisa do kit fracionado — ele precisa de knowledge transfer. O unboxing gratuito serve como nivelamento para todos os perfis.
 
 ### Opções de pagamento
 
-| Forma | Detalhe |
-|---|---|
-| **À vista (PIX)** | R$ 1.997 → economia de R$ 500 |
-| **Cartão de crédito** | Até 6x de R$ 332 |
-| **Parcelado PIX** | 2x de R$ 998 (com ~20% de juros) |
-| **Recorrência** | Não se aplica (produto único de 2 dias) |
+| Forma | Plano A | Plano B |
+|-------|---------|---------|
+| **À vista (PIX)** | R$ 1.997 | R$ 1.999 |
+| **Cartão de crédito** | Até 6x de R$ 332 | Até 6x de R$ 333 |
+| **Parcelado PIX** | 2x de R$ 998 | 2x de R$ 999 |
 
-### Margem estimada
+### Margem estimada (Plano A / B)
 
 | Item | Valor |
 |---|---|
-| Receita bruta | R$ 1.997 |
+| Receita bruta | R$ 1.997 / R$ 1.999 |
 | Custos de entrega (kit + bambu + frete) | – R$ 310 |
 | Taxas (plataforma + impostos ~20%) | – R$ 400 |
 | **Margem líquida por aluno** | **~R$ 1.287 (64%)** |
+
+### Imperveg como patrocinadora
+Se a Imperveg entrar como **patrocinadora oficial** da mentoria (marca no site público, nos materiais de lançamento e nas mídias), o custo do kit pode ser subsidiado — reduzindo o preço final ou aumentando a margem. A visibilidade da marca Imperveg no mercado de bioconstrução compensa o custo do produto fracionado. Isso é tratado na **wiki privada Vercel** (proposta comercial entre as partes), não no site público.
 
 ---
 
