@@ -48,7 +48,7 @@ A Mentoria Tecnologia Takwara é um projeto que busca transformar o conhecimento
 
 ## A farsa da sustentabilidade de vitrine
 
-**Miguel Nicolelis**, neurocientista brasileiro de renome internacional, advertiu em entrevista sobre os riscos do **formaldeído** como exemplo de tecnologia aplicada sem controle — um cancerígeno da OMS que inundou o mercado de construção civil. Também chamou atenção para o impacto dos **data centers** e a concentração de poder tecnológica.
+**Miguel Nicolelis**, neurocientista brasileiro de renome internacional, advertiu em entrevista sobre os riscos do **formaldeído** como exemplo de tecnologia aplicada sem controle — um cancerígeno apontado pela OMS que inundou o mercado de construção civil. Também chamou atenção para o impacto dos **data centers** e a concentração de poder tecnológica.
 
 A partir desse alerta — e da nossa experiência de 15 anos na bancada — a denúncia se aprofunda: o tratamento CCA (Arseniato de Cobre Cromatado) injeta **arsênio, cromo e cobre** em autoclaves.
 
