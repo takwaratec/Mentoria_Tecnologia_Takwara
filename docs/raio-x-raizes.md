@@ -60,10 +60,6 @@ A tribo ativa é intensamente voltada à **saúde, autodesenvolvimento, maternid
 1. **Fabio Takwara 🤝 Marcello Pedro (Ecologia & Surf):** Marcello Pedro (professor de surf no RJ) demonstrou grande entusiasmo com o trabalho do Fabio sobre bambu termorretificado e PU vegetal para projetar pranchas de surf 100% ecológicas (Método "Lei do Mar").
 2. **A Rede de Pedagogia & Apoio Parental (Mandy Bettega 🤝 Momento Bela - Bruna 🤝 Luciana 🤝 Monica Marques 🤝 Aline Koller):** Bruna e Mandy já iniciaram trocas sobre ABA, TCC e indicação de famílias atípicas.
 3. **Parcerias de Tecnologia & Dados (Fabio Takwara 🤝 Rodrigo Dumont 🤝 Shayenne Moura 🤝 Davi Brasil 🤝 Anderson Gonzaga):** Conexão entre profissionais de tecnologia, dados, IA e agilidade aplicados ao contexto socioambiental.
-4. **Núcleo de Sinergia Neurodivergente (TDAH & AH/SD):**
-   * **Joyce Costa 🤝 Davi Brasil 🤝 Shayenne Moura (Alta Performance Neurodivergente):** Cruzamento entre o método PIU 3.14 (reconfiguração de contexto para mulheres 40+ esgotadas) com a mentoria de Davi Brasil (adultos 2E - Altas Habilidades e TDAH) e Shayenne Moura (equilíbrio e rotina para líderes de TI).
-   * **Aline Koller 🤝 Joey Jacksonn 🤝 Ohanna Pacheco 🤝 Vladia Lima (Apoio e Aprendizado Adaptado):** Aline Koller (psicologia/mãe neurodivergente), Joey (músico/educador TDAH+AH), Ohanna (manejo animal/TDAH+Bipolar) e Vladia (neuropsicologia do TDAH) formam uma rede rica para compartilhar estratégias de rotina, adaptação sensorial, autorregulação e métodos de ensino/adestramento adaptados (como o uso de reforço positivo comportamental em pets não-convencionais e crianças).
-   * **Fabio Takwara 🤝 Davi Brasil 🤝 Shayenne Moura (Tech & Data Neuro-Vanguarda):** Conexão para desenvolvimento de ferramentas de automação, patentes ecológicas baseadas em bambu e workflows cognitivos eficientes para mitigar a exaustão típica do TDAH em ambientes de alta demanda criativa e científica.
 
 ---
 ## 📋 5. Lista Geral Detalhada (Todos os 163+ Identificadores)
