@@ -36,13 +36,13 @@ Este relatório mapeia **todos os 163 membros** identificados nos logs do WhatsA
 
 | Nicho Pretendido | Quantidade | Porcentagem |
 | :--- | :---: | :---: |
-| Não se apresentou / Silencioso | 80 | 49.1% |
+| Não se apresentou / Silencioso | 79 | 48.5% |
 | Saúde Integrativa, Corpo & Movimento | 23 | 14.1% |
 | Gestão Feminina, Transição de Carreira & Maturidade | 16 | 9.8% |
 | Liderança / Organização Corporativa | 13 | 8.0% |
 | Cuidado Parental & Família | 10 | 6.1% |
 | Música, Teatro, Arte & Palhaçaria | 7 | 4.3% |
-| Vendas B2B & Consultoria PME | 7 | 4.3% |
+| Vendas B2B & Consultoria PME | 8 | 4.9% |
 | Outros / Em estruturação | 4 | 2.5% |
 | Inovação Técnica de Base & Sustentabilidade | 3 | 1.8% |
 | **Total Geral** | **163** | **100.0%** |
@@ -169,7 +169,7 @@ A tribo ativa é intensamente voltada à **saúde, autodesenvolvimento, maternid
 | **Leda** | Não Identificado | - | - | Não se apresentou / Silencioso |
 | **Letícia Pozza** | Não Identificado | - | - | Não se apresentou / Silencioso |
 | **Lucas Rodrigues** | Não Identificado | Consultor de Mkt | - | Branding e posicionamento de empresas premium |
-| **Lucas Roel** | Não Identificado | - | - | Não se apresentou / Silencioso |
+| **Lucas Roel** | Não Identificado | Agronegócio (Bioinsumos & Fisiologia) | ROELX | Advisory, mentorias e performance de vendas no Agronegócio |
 | **Lucia Elena** | Não Identificado | - | - | Não se apresentou / Silencioso |
 | **Lucianna Alves  Add Value** | Não Identificado | - | - | Não se apresentou / Silencioso |
 | **Luciana** | SC (Floripa) | Pedagoga / Psicopedagoga | - | Mentoria InPulsa: a saída é para dentro para mulheres 35+ |
