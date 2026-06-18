@@ -1,6 +1,6 @@
-# <img src="assets/images/raizes_logo.png" width="55" style="vertical-align: middle; margin-right: 15px;" /> 🧬 Raio-X Completo: Grupo Raízes (Junho/26)
+# <img src="../assets/images/raizes_logo.png" width="55" style="vertical-align: middle; margin-right: 15px;" /> Raio-X Completo: Grupo Raízes (Junho/26)
 
-> 📅 **Última atualização:** 18/06/2026 às 20:23
+> 📅 **Última atualização:** 18/06/2026 às 19:37
 
 ## 🌿 Apresentação do Programa Raízes
 
