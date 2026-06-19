@@ -81,11 +81,11 @@ Para manter o foco nas estratégias de negócios digitais e preservar a boa conv
 | Não se apresentou / Silencioso | 96 | 48.2% |
 | Saúde Integrativa, Corpo & Movimento | 27 | 13.6% |
 | Gestão Feminina, Transição de Carreira & Maturidade | 19 | 9.5% |
-| Liderança / Organização Corporativa | 17 | 8.5% |
+| Liderança / Organização Corporativa | 18 | 9.0% |
 | Vendas B2B & Consultoria PME | 8 | 4.0% |
 | Cuidado Parental & Família | 8 | 4.0% |
-| Música, Teatro, Arte & Palhaçaria | 7 | 3.5% |
 | Educação & Mentoria Acadêmica | 7 | 3.5% |
+| Música, Teatro, Arte & Palhaçaria | 6 | 3.0% |
 | Inovação Técnica de Base & Sustentabilidade | 5 | 2.5% |
 | Outros / Em estruturação | 5 | 2.5% |
 | **Total Geral** | **199** | **100.0%** |
@@ -115,7 +115,7 @@ Conexões e convergências voltadas estritamente para estruturação de parceria
 2. **A Rede de Pedagogia & Apoio Parental (Mandy Bettega 🤝 Bruna Arciere 🤝 Luciana 🤝 Monica Marques 🤝 Aline Koller 🤝 Tatiana Fávaro Lima):** Integração de psicólogas, pedagogas Waldorf e especialistas em ABA para fornecer materiais consolidados e suporte educacional familiar.
 3. **Parcerias de Tecnologia, Dados & Processos (Fabio Takwara 🤝 Rodrigo Dumont 🤝 Shayenne Moura 🤝 Davi Brasil 🤝 Anderson Gonzaga 🤝 Gabriel Martens):** Sinergia entre líderes de dados, cientistas de dados e gestores de processos de TI para estruturar automações e sistemas eficientes no meio corporativo e ambiental.
 4. **Sinergia Ayurveda, Yoga & Terapias (Carina Vieirat 🤝 Dëbora Nascı̊uti 🤝 Ju Zanella 🤝 Ju Almeida 🤝 Jordana Mol):** Colaboração entre professoras de Yoga, terapeutas Ayurveda e ginecologistas integrativas para estruturação de mentorias corporativas e programas de bem-estar focados na saúde da mulher.
-5. **Rede de Liderança Feminina & Desenvolvimento (Si Briganti 🤝 Bela Giannini 🤝 Michelle Santiago 🤝 Marcia Andrade 🤝 Psi Nara Barreto):** Cruzamento de competências de consultoras de negócios, executivas de RH e psicólogas para criar mentorias de liderança corporativa feminina e superação de burnout.
+5. **Rede de Liderança Feminina & Desenvolvimento (Si Briganti 🤝 Bela Giannini 🤝 Michelle Santiago 🤝 Marcia Andrade 🤝 Psi Nara Barreto 🤝 Evelen Tomaz 🤎):** Cruzamento de competências de consultoras de negócios, executivas de RH, especialistas em experiência do paciente e psicólogas para criar mentorias de liderança corporativa feminina, humanização em saúde, experiência do paciente e superação de burnout.
 6. **Sinergia Cenografia Ecológica & Estruturas Cênicas (Fabio Takwara 🤝 Hernani Albuquerque 🤝 Theo Oliveira 🤝 Arthur Martins 🤝 Alex Reis 🤝 Angelica Martins):** Conexão entre a especialidade de Fabio Takwara em cúpulas geodésicas de bambu e estruturas circenses com Hernani (Naniko's Circus), Theo e Arthur (artistas cênicos/teatro), Alex (músico) e Angelica (design visual da cena). Abre oportunidades para palcos itinerantes sustentáveis, picadeiros ecológicos e instalações cênicas modulares para espetáculos ao ar livre.
 7. **Rede de Educação, Escrita & Mentoria Acadêmica (Ana Carolina Mattoso 🤝 Eron Villar 🤝 Alex Maciel 🤝 Fabrícia Coelho 🤝 Milena 🤝 Joey Jacksonn 🤝 Patrícia Bertachini Bissetti):** Conexão entre mentoras acadêmicas, psicopedagogas, professores e especialistas em escrita/pedagogia para a estruturação de programas de capacitação continuada, destrave de escrita acadêmica/concursos, preparação para seleções de pós-graduação e ensino de idiomas.
 
@@ -166,7 +166,7 @@ Conexões e convergências voltadas estritamente para estruturação de parceria
 | **Dra. Ana Brisolla** | SP (Interior) | Advogada / Amante da Arte | - | Nicho de mentoria em estruturação | - |
 | **Dëbora Nascı̊uti** | - | Prof. Yoga/Meditação | [deboranasciuti](https://www.instagram.com/deboranasciuti) | Método Florescer (Ansiedade/Burnout/PNL) | - |
 | **Eron Villar** | PE (Recife) | Doutorando UFPE | [destravando_a_escrita21](https://www.instagram.com/destravando_a_escrita21) | Redação em concursos (Jornada do Herói) | - |
-| **Evelen Tomaz 🤎** | BA (Salvador) | Ouvidoria Saúde | - | Obras fine art de infância e humanização em saúde | - |
+| **Evelen Tomaz 🤎** | BA (Salvador) | Experiência do Paciente | - | Humanização e experiência do paciente em saúde | - |
 | **Fabiana Fortunato** | MG (Santa Luzia) | Psicóloga | - | Transição de carreira para mulheres | - |
 | **Fabiane Ji | Yoga & Ayurveda** | BA | Instrutora de Yoga | [fabiane_ji](https://www.instagram.com/fabiane_ji) | Sustentabilidade de carreira para viver de Yoga | - |
 | **Fabio Takwara** | SP (Limeira) | Ambientalista / Autodidata | [fabiotakwara](https://www.instagram.com/fabiotakwara) | Bambu termorretificado + PU de Mamona, construção de estruturas leves (cúpulas geodésicas) & workflows de IA. Assista: [Estrutura Leve (Shorts)](https://www.youtube.com/shorts/cR3EY8laLAw) & [Domo de Bambu (Vídeo)](https://youtu.be/OGeVIEGZfb0?si=fB3dTQQi7PW7TnsV) | TDAH |
