@@ -202,7 +202,7 @@ Conexões e convergências voltadas estritamente para estruturação de parceria
 | **Grupo Tech Lucas Vargas** | RS | Consultor Condominial | [lucasvargas.consultor](https://www.instagram.com/lucasvargas.consultor) | Vendas B2B para o setor condominial | - |
 | **Hernani Albuquerque** | Não Identificado | Educador Físico / CEO Naniko's Circus / Dentista | [hernanialbuquerque](https://www.instagram.com/hernanialbuquerque) | Mentoria de carreira e negócios para profissionais circenses | - |
 | **Ilana Lewinsohn** | BA (Arraial d'Ajuda) | Bióloga / Terapeuta | [massixa](https://www.instagram.com/massixa) | Massagem Integrativa Xamânica | - |
-| **Joey Jacksonn** | PR (Curitiba) | Prof. de Musicalização / Coordenador | [joeyjacksonn_](https://www.instagram.com/joeyjacksonn_) | Método PRO Action: estudo de idiomas com autonomia e constância para neurodivergentes (TDAH/AHSD) | TDAH / AH/SD |
+| **Joey Jacksonn** | PR (Curitiba) | Prof. de Musicalização / Coordenador | [joeyjacksonn_](https://www.instagram.com/joeyjacksonn_) | Método PRO Action: aprender idiomas com propósito, autonomia e constância (método geral aplicável a qualquer idioma, e muito eficaz também para TDAH/neurodivergentes) | TDAH / AH/SD |
 | **Jordana Mol** | MG (BH) | Ginecologista | [drajordanamol](https://www.instagram.com/drajordanamol) | Saúde integral no climatério | - |
 | **Joslaene Santos** | SC | Nutricionista | [joslaene.simao](https://www.instagram.com/joslaene.simao) | Diabetes e capacitação de nutricionistas | - |
 | **Joyce Costa** | - | Arquiteta/Cientista Soc. | [eu.joycecosta](https://www.instagram.com/eu.joycecosta) | Mulheres 40+ de alta performance neurodivergentes | Neurodivergente |
