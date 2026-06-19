@@ -51,6 +51,31 @@ Para manter o foco nas estratégias de negócios digitais e preservar a boa conv
 > *Obs: Todos os encontros ao vivo são gravados e sobem na Hotmart em até 24h. A participação é recomendada, mas opcional (siga sua fase).*
 
 ---
+## 🌟 Cases de Sucesso & Depoimentos (Turma Junho/26)
+
+### 🎭 A "Estreia" no Palco das Vendas — Arthur Martins (Ator, Palhaço & Terapeuta)
+> **"Caramba!!! Hoje fiz minha primeira call de venda e fechei minha primeira mentorada!!! Estou em êxtase aqui!!! Destravou!!!"**
+>
+> "Sei que posso ter pulado algumas etapas, mas a urgência financeira falou alto. Segui a intuição. Peguei todas as informações assimiladas no Desafio e fui para o 'palco'.
+>
+> Fiz a call com uma conhecida, minha aluna de meditação. Não é a persona high ticket para a minha mentoria, porém quis fazer com ela para 'ensaiar', destravar meu medo e validar o método.
+>
+> Segui todo o roteiro do Flecha, com muita escuta ativa, falando sobre o que era do interesse da cliente. Travei um pouco ao apresentar a mentoria, pois quis ler direitinho o que estava escrito, mas fluiu. Quando terminei a apresentação, a cliente falou:
+> *— Nossa, você leu meu diagnóstico?* 🤣🤣🤣
+>
+> A conversa seguiu mais um pouco, e eu ali, tranquilamente ansioso, esperando ela perguntar o preço. Quando finalmente a pergunta veio, eu, com toda a cara lisa do mundo, falei o preço cheio.
+>
+> Ela travou. Entrou em pânico e começou a se justificar, para dizer que estava fora das possibilidades dela. Eu sabia que era caro para ela mesmo, mas quis dizer o preço cheio para sentir a reação. E perceber como me sentiria ao falar um preço tão distante do que estou acostumado a cobrar.
+>
+> Como palhaço, sempre tenho cartas na manga. Já tinha calculado três propostas de preço para ver em qual faixa ela se sentiria mais confortável para investir, sem morrer de susto. Fui apresentando uma por uma, até chegar ao valor que foi alegre para ambos. E assim consegui fechar minha primeira venda, na primeira call, por 20% do valor cheio. Vai ser ótimo para treinar, validar o método e ganhar confiança.
+>
+> Ao final, ainda fiz um exercício de yoga do riso com ela para sairmos leves da reunião.
+>
+> Percebi, senti que este formato de trabalho com mentoria é onde todos os meus 'eus' — ator, palhaço, poeta, terapeuta Xamânico/holístico, massoterapia, líder de Yoga do riso, condutor de meditação, pai de menina e observador do viver — encontraram assento.
+>
+> Uau! Funciona! É real! Gratidão, Raízes! Xeros ❤️"
+
+---
 ## 📊 1. Resumo por Estado de Origem
 
 | Estado | Quantidade | Porcentagem |
