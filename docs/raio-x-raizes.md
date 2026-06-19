@@ -82,11 +82,12 @@ Para manter o foco nas estratégias de negócios digitais e preservar a boa conv
 | Saúde Integrativa, Corpo & Movimento | 27 | 13.6% |
 | Gestão Feminina, Transição de Carreira & Maturidade | 19 | 9.5% |
 | Liderança / Organização Corporativa | 17 | 8.5% |
-| Outros / Em estruturação | 11 | 5.5% |
 | Vendas B2B & Consultoria PME | 8 | 4.0% |
 | Cuidado Parental & Família | 8 | 4.0% |
 | Música, Teatro, Arte & Palhaçaria | 7 | 3.5% |
+| Educação & Mentoria Acadêmica | 6 | 3.0% |
 | Inovação Técnica de Base & Sustentabilidade | 5 | 2.5% |
+| Outros / Em estruturação | 5 | 2.5% |
 | **Total Geral** | **199** | **100.0%** |
 
 ## 💤 3. Quadro de Membros Silenciosos
@@ -104,6 +105,7 @@ A tribo ativa é dividida nos seguintes eixos principais de atuação:
 4. **Saúde Integrativa, Corpo & Movimento (Yoga, Ayurveda, Terapias):** Terapias holísticas, clínica moderna e yoga para equilíbrio físico e de carreira.
 5. **Inovação Técnica de Base & Sustentabilidade (Construção, Ecologia, Agro):** Modelos ecológicos, engenharia florestal e bioeconomia circular.
 6. **Vendas B2B & Consultoria PME:** Processos comerciais, consultoria financeira e vendas de alta performance no digital.
+7. **Educação & Mentoria Acadêmica:** Apoio a processos seletivos de mestrado/doutorado, destrave de escrita científica/criativa, formação continuada de professores e ensino de idiomas.
 
 ---
 ## ⚡ 4. Sinergias e Conexões Estratégicas Internas
@@ -115,6 +117,7 @@ Conexões e convergências voltadas estritamente para estruturação de parceria
 4. **Sinergia Ayurveda, Yoga & Terapias (Carina Vieirat 🤝 Dëbora Nascı̊uti 🤝 Ju Zanella 🤝 Ju Almeida 🤝 Jordana Mol):** Colaboração entre professoras de Yoga, terapeutas Ayurveda e ginecologistas integrativas para estruturação de mentorias corporativas e programas de bem-estar focados na saúde da mulher.
 5. **Rede de Liderança Feminina & Desenvolvimento (Si Briganti 🤝 Bela Giannini 🤝 Michelle Santiago 🤝 Marcia Andrade 🤝 Psi Nara Barreto):** Cruzamento de competências de consultoras de negócios, executivas de RH e psicólogas para criar mentorias de liderança corporativa feminina e superação de burnout.
 6. **Sinergia Cenografia Ecológica & Estruturas Cênicas (Fabio Takwara 🤝 Hernani Albuquerque 🤝 Theo Oliveira 🤝 Arthur Martins 🤝 Alex Reis 🤝 Angelica Martins):** Conexão entre a especialidade de Fabio Takwara em cúpulas geodésicas de bambu e estruturas circenses com Hernani (Naniko's Circus), Theo e Arthur (artistas cênicos/teatro), Alex (músico) e Angelica (design visual da cena). Abre oportunidades para palcos itinerantes sustentáveis, picadeiros ecológicos e instalações cênicas modulares para espetáculos ao ar livre.
+7. **Rede de Educação, Escrita & Mentoria Acadêmica (Ana Carolina Mattoso 🤝 Eron Villar 🤝 Alex Maciel 🤝 Fabrícia Coelho 🤝 Milena 🤝 Joey Jacksonn):** Conexão entre mentoras acadêmicas, professores e especialistas em escrita/pedagogia para a estruturação de programas de capacitação continuada, destrave de escrita acadêmica/concursos, preparação para seleções de pós-graduação e ensino de idiomas.
 
 ---
 ## 📋 5. Lista Geral Detalhada (Todos os Membros Mapeados)
