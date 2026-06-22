@@ -1,8 +1,8 @@
 # <img src="../assets/images/raizes_logo.png" width="55" style="vertical-align: middle; margin-right: 15px;" /> Raio-X Completo: Grupo Raízes (Junho/26)
 
-> 📅 **Última atualização:** 22/06/2026 às 16:59
+> 📅 **Última atualização:** 22/06/2026 às 17:28
 
-> 📝 **Resumo da atualização:** Processamento do log `_chat 10.txt` com ativação de membros silenciosos e inclusão de dados de perfil (Rebeca Madureira com reposicionamento digital, Elany Almeida com advocacia digital e mentoria para carreiras jurídicas, e outros). Sincronização do painel e balanceamento estatístico dos eixos de atuação.
+> 📝 **Resumo da atualização:** Processamento completo dos logs `_chat 5` a `_chat 10` com reclassificação de membros silenciosos→ativos (Elen Rezende, Céu Caminhos Da Luz, Su 😁✨️), inclusão de Micheline (Cuidar de Dentro) na lista ativa, novas conexões de sinergia (Neurodivergência Adulta 2E/TDAH, Débora Nascı̊uti 🤝 Carina Vieirat), success stories (Elaine Gama, Ju Zanella, Eron Villar), enriquecimento de Instagrams, e dados de precificação do mercado do grupo. Remoção da publicação pública — documento mantido apenas para consulta interna.
 
 ## 🌿 Apresentação do Programa Raízes
 
@@ -77,6 +77,24 @@ Para manter o foco nas estratégias de negócios digitais e preservar a boa conv
 >
 > Uau! Funciona! É real! Gratidão, Raízes! Xeros ❤️"
 
+### 🚀 Primeiras Vendas do Desafio — Elaine Gama
+
+> **"Fechei minha primeira cliente de mentoria durante o desafio! Ticket alto!"**
+>
+> Elaine Gama, consultora de marketing (@elainegama.co), fechou sua primeira mentorada ainda durante a imersão do Desafio Flecha, validando o método antes mesmo de finalizar a estruturação completa do produto.
+
+### 🎯 Pré-Venda Antes do Produto — Ju Zanella
+
+> **"Fechei 2 pacientes que pagaram a mentoria antes de eu terminar de lapidar o produto!"**
+>
+> Ju Zanella (Nutrição Ayurveda, @juzanella.ayurveda) conseguiu duas clientes pagantes antes mesmo de finalizar a estruturação formal da mentoria — validação de mercado no mais alto nível.
+
+### 📞 Primeira Call com Lead — Eron Villar
+
+> **"Marquei minha primeira call com um lead após a aula da Myca!"**
+>
+> Eron Villar (@destravando_a_escrita21), doutorando UFPE, converteu o primeiro lead em call de vendas logo após a aula de posicionamento, demonstrando a eficácia do método na prática.
+
 ---
 ## 📊 1. Resumo por Estado de Origem
 
@@ -121,8 +139,8 @@ Para manter o foco nas estratégias de negócios digitais e preservar a boa conv
 
 ## 💤 3. Quadro de Membros Silenciosos
 
-* **Membros que se apresentaram (Ativos):** 146 (56.2%)
-* **Membros que não se manifestaram (Silenciosos):** 114 (43.8%)
+* **Membros que se apresentaram (Ativos):** 150 (57.5%)
+* **Membros que não se manifestaram (Silenciosos):** 111 (42.5%)
 
 ---
 ## 🧭 3. Agrupamentos por Semelhança de Propósito (Membros Ativos)
@@ -143,11 +161,55 @@ Conexões e convergências voltadas estritamente para estruturação de parceria
 1. **Fabio Takwara 🤝 Marcello Pedro 🤝 Prem Karima (Ecologia, Surf & Eventos Sustentáveis):** Marcello Pedro (professor de surf no RJ), Fabio Takwara (bambu termorretificado + PU vegetal para projetar pranchas de surf ecológicas) e Prem Karima (especialista em eventos e sustentabilidade - Método Evento Vivo). Sinergia para organizar competições e ativações de surfe ecológico e sustentabilidade no litoral.
 2. **A Rede de Pedagogia, Apoio Parental & Cuidados Familiares (Mandy Bettega 🤝 Bruna Arciere 🤝 Luciana 🤝 Monica Marques 🤝 Aline Koller 🤝 Tatiana Fávaro Lima 🤝 Manoela Couto 🤝 Micheline 🤝 Cristiane Monteiro (Instituto FHE) 🤝 Cris Terrazzan 🤝 Isabela (Isabela Guilen)):** Integração de psicólogas, pedagogas Waldorf, especialistas em ABA e gerontólogas para fornecer materiais consolidados e suporte educacional familiar.
 3. **Parcerias de Tecnologia, Dados & Processos (Fabio Takwara 🤝 Rodrigo Dumont 🤝 Shayenne Moura 🤝 Davi Brasil 🤝 Anderson Gonzaga 🤝 Gabriel Martens 🤝 Lucianna Alves - Mentora 🤝 Elaine Bazilio):** Sinergia entre líderes de dados, cientistas de dados e gestores de processos de TI para estruturar automações e sistemas eficientes no meio corporativo e ambiental.
-4. **Sinergia Ayurveda, Yoga & Terapias (Carina Vieirat 🤝 Dëbora Nascı̊uti 🤝 Ju Zanella 🤝 Ju Almeida 🤝 Jordana Mol 🤝 Bruno Mazetto 🤝 Erika Thiele 🤝 Fernanda (fernanda✨️) 🤝 Giseli Paulon Ayurveda 🤝 Cristina Maria 🤝 Mari Soccol 🤝 Maria Carolina 🤝 Ludmilla Azevedo):** Colaboração entre professoras de Yoga, terapeutas Ayurveda, nutricionistas e ginecologistas integrativas para estruturação de mentorias corporativas e programas de bem-estar focados na saúde da mulher.
+4. **Sinergia Ayurveda, Yoga & Terapias (Carina Vieirat 🤝 Dëbora Nascı̊uti 🤝 Ju Zanella 🤝 Ju Almeida 🤝 Jordana Mol 🤝 Bruno Mazetto 🤝 Erika Thiele 🤝 Fernanda (fernanda✨️) 🤝 Giseli Paulon Ayurveda 🤝 Cristina Maria 🤝 Mari Soccol 🤝 Maria Carolina 🤝 Ludmilla Azevedo):** Colaboração entre professoras de Yoga, terapeutas Ayurveda, nutricionistas e ginecologistas integrativas para estruturação de mentorias corporativas e programas de bem-estar focados na saúde da mulher. **Nova conexão:** Débora Nascı̊uti e Carina Vieirat já alinharam parceria entre Yoga e Respiração.
 5. **Rede de Liderança Feminina & Desenvolvimento (Si Briganti 🤝 Bela Giannini 🤝 Michelle Santiago 🤝 Marcia Andrade 🤝 Psi Nara Barreto 🤝 Evelen Tomaz 🤎 🤝 Marcela Madureira 🤝 Priscila Leite 🤝 Lucia Elena 🤝 Daniel Floriani):** Cruzamento de competências de consultoras de negócios, executivas de RH, especialistas em experiência do paciente e psicólogas para criar mentorias de liderança corporativa feminina, humanização em saúde, experiência do paciente e superação de burnout.
 6. **Sinergia Cenografia Ecológica & Estruturas Cênicas (Fabio Takwara 🤝 Hernani Albuquerque 🤝 Theo Oliveira 🤝 Arthur Martins 🤝 Alex Reis 🤝 Angelica Martins):** Conexão entre a especialidade de Fabio Takwara em cúpulas geodésicas de bambu e estruturas circenses com Hernani (Naniko's Circus), Theo e Arthur (artistas cênicos/teatro), Alex (músico) e Angelica (design visual da cena). Abre oportunidades para palcos itinerantes sustentáveis, picadeiros ecológicos e instalações cênicas modulares para espetáculos ao ar livre.
 7. **Rede de Educação, Escrita & Mentoria Acadêmica (Ana Carolina Mattoso 🤝 Eron Villar 🤝 Alex Maciel 🤝 Fabrícia Coelho 🤝 Milena 🤝 Joey Jacksonn 🤝 Patrícia Bertachini Bissetti 🤝 Luiz Eduardo (Eduardo Rocha) 🤝 João Lima 🤝 Cristiane Silveira):** Conexão entre mentoras acadêmicas, psicopedagogas, professores e especialistas em escrita/pedagogia para a estruturação de programas de capacitação continuada, destrave de escrita acadêmica/concursos, preparação para seleções de pós-graduação e ensino de idiomas.
 8. **Sinergia Negócios Físicos, Varejo, Estética & Escala Local (Bell Nacif 🤝 Ju Silva Estética 🤝 Adriana Gaia 🤝 Lucas Vargas):** Conexão entre especialistas de varejo e operações comerciais (Bell), consultores condominiais (Lucas), empresárias óticas (Adriana) e esteticistas estruturando modelos de negócios escaláveis (Ju). Foco em compartilhar estratégias de ponto físico, serviços locais e atração de clientes.
+
+### 🧠 9. Neurodivergência Prática na Vida Adulta (Dupla Excepcionalidade — 2E/TDAH)
+
+Grupo transdisciplinar de **12 membros** identificados como neurodivergentes (TDAH, Altas Habilidades/Superdotação, Autismo Nível 1) que conecta os eixos de tecnologia, parentalidade, educação e liderança:
+
+| Membro | Perfil | Neurodivergência |
+|---|---|---|
+| Davi Brasil | Gestor Tech (ex-ITA) | TDAH + AH/SD (2E) |
+| Joey Jacksonn | Prof. Musicalização / Idiomas | TDAH + AH/SD |
+| Joyce Costa | Arquiteta / Cientista Social | Neurodivergente |
+| Nandà Luccâs | Bióloga USP (Honey Trace) | TDAH + AH/SD |
+| Ohanna Pacheco | Comportamento Animal | TDAH / Bipolar Tipo 2 |
+| Micheline | Pedagoga / Neuropsicopedagoga | Autismo Nível 1 / TDAH |
+| Aline Koller | Psicóloga Junguiana | TDAH |
+| Shayenne Moura | Data Scientist | AH/SD |
+| Marcello Pedro | Prof. Educação Física / Surf | TDAH |
+| Elany Almeida | Advogada / Pesquisadora | AH/SD |
+| LM | CMO / Marketing | AH/SD |
+| Fabio Takwara | Ambientalista / Autodidata | TDAH |
+
+**Sinergias detectadas:** Potencial para mentorias de rotina adaptada, gestão de tempo para 2E, suporte jurídico para neurodivergentes no mercado de trabalho, e conteúdo direcionado para adultos com TDAH/AH/SD. Conexão com o eixo parental (#2) e tecnológico (#3).
+
+---
+
+## 📊 6. Panorama de Precificação do Mercado Interno (Dia 6 — Transcrição)
+
+Durante o Dia 6 do Desafio (Finalização da Oferta), aproximadamente **20 membros** compartilharam seus preços de mentoria. Dado de inteligência de mercado não capturado em nenhum outro lugar:
+
+| Faixa | Valor | Nicho |
+|:---|:---:|:---|
+| 💎 **Premium** (R$6.000-18.000) | R$6.000 | Mulheres 40+ menopausa |
+| | R$5.000 | Consultoria de imagem / Arquiteto / Odontologia / Comunicação |
+| | R$4.800 | Processo criativo artes visuais |
+| | R$4.500 | Yoga para professores |
+| | R$4.000 | Música |
+| 🟡 **Intermediária** (R$2.000-3.999) | R$3.500 | Odontologia |
+| | R$3.000 | Consultoria de imagem |
+| | R$2.800 | Criação de Conteúdo |
+| | R$2.000-4.500 | Meditação |
+| | R$2.000 | Desenvolvimento pessoal para mães |
+| 🟢 **Entrada** (até R$1.999) | R$1.000 | Finanças para restaurantes |
+| | R$500 | Aplicação de injeção (procedimento) |
+
+**Nota:** Dados brutos compartilhados no chat do Dia 6. Refletem a primeira precificação estimada pelos mentors, não necessariamente o preço final praticado.
 
 ---
 ## 📋 5. Lista Geral Detalhada (Todos os Membros Mapeados)
@@ -189,6 +251,7 @@ Conexões e convergências voltadas estritamente para estruturação de parceria
 | **Carina Vieirat** | RJ | Terapeuta Ayurveda / Prof. de Yoga | [carinavieirat](https://www.instagram.com/carinavieirat) | Mentoria de saúde e bem-estar para mulheres em fase de mudança | - |
 | **Carla Gonçalves** | RJ (Volta Redonda) | Adm / Coach de Bem-Estar | [carlametodorc](https://www.instagram.com/carlametodorc) | Método RC de emagrecimento para famílias | - |
 | **Carolina Bernardo** | DF (Brasília) | Bióloga/Dra. Economia | [carolinidades](https://www.instagram.com/carolinidades) | Leis e políticas ambientais p/ analistas | - |
+| **Céu Caminhos Da Luz (Marinês Korilo)** | Não Identificado | Canalizadora / Madrinha Xamânica | [ceucaminhosdaluz](https://www.instagram.com/ceucaminhosdaluz) / [madrinhamarineskorilo](https://www.instagram.com/madrinhamarineskorilo) | Comunidades xamânicas, medicinas da floresta, espiritualidade e cura. | - |
 | **Cris Sathler** | RJ (Rio de Janeiro) | Psicóloga Clínica / Sexóloga | [psicrissathler](https://www.instagram.com/psicrissathler) | Psicologia clínica, Gestalt-terapia, terapia de casais e sexologia. | - |
 | **Cris Terrazzan** | Não Identificado | Empreendedora / Mentora | - | Transição e reinvenção de carreira pós-maternidade. | - |
 | **Cristiane Monteiro (Instituto FHE)** | SP (Santo André) | Psicopedagoga / Esp. Neurociência | [crismonteiro.fhe](https://www.instagram.com/crismonteiro.fhe) | Método Criança Bonsai: desenvolvimento neural e emocional infantil (0-2 anos e 2-6 anos). Perfil do marido: @libanomonteiro | - |
@@ -209,6 +272,7 @@ Conexões e convergências voltadas estritamente para estruturação de parceria
 | **Dëbora Nascı̊uti** | Não Identificado | Prof. Yoga/Meditação | [deboranasciuti](https://www.instagram.com/deboranasciuti) | Método Florescer (Ansiedade/Burnout/PNL) | - |
 | **Elaine Bazilio** | SP | Fisioterapeuta / Gestora Pública | [elainebaziliooficial](https://www.instagram.com/elainebaziliooficial) | Mentoria de Gestão em Saúde baseada na Ciência da Melhoria para líderes e gestores da saúde. | - |
 | **Elaine Gama** | PR (Curitiba) | Consultora de Marketing | [elainegama.co](https://www.instagram.com/elainegama.co) | Marketing para pequenas empreendedoras organizarem o Instagram e venderem mais. Instagram profissional secundário: @elainegamadigital | - |
+| **Elen Rezende ✨** | MG (Pará de Minas) | Coach / Mentora de Mulheres | [elenrezendee](https://www.instagram.com/elenrezendee) | Mentoria ELEVA: método ORAR (Organização, Rotina, Autoconhecimento, Resultados) para mulheres que buscam transformação pessoal e profissional. | - |
 | **Elany Almeida** | DF (Brasília) | Advogada / Pesquisadora | [elanyalmeidas](https://www.instagram.com/elanyalmeidas) | Advocacia em Direito Médico e da Saúde com foco digital. Consultoria jurídica corporativa e mentoria para carreiras jurídicas. Primeira mulher civil doutora em Ciências Militares no Brasil. | AH/SD |
 | **Erika Thiele** | Não Identificado | Bióloga / Psicoterapeuta Radiestesista | - | Fundadora do Instituto Plasma. Ministra cursos e forma terapeutas em radiestesia clássica profunda. | - |
 | **Eron Villar** | PE (Recife) | Doutorando UFPE | [destravando_a_escrita21](https://www.instagram.com/destravando_a_escrita21) | Redação em concursos (Jornada do Herói). Instagram pessoal: @eronvillar | - |
@@ -364,14 +428,12 @@ Conexões e convergências voltadas estritamente para estruturação de parceria
 | **Claudia Diniz** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
 | **Claudiane Diniz** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
 | **Cris Miyasaka** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
-| **Céu Caminhos Da Luz** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
 | **Damaris Alfredo** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
 | **Denise Moura ArchiMentor** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
 | **Diego Oliveira** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
 | **Dra Graziella Pilan** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
 | **Dra Laury** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
 | **Débora 🦋✨️** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
-| **Elen Rezende ✨** | Minas Gerais | - | - | Não se apresentou / Silencioso | - |
 | **Eliana** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
 | **Eliane Ballester** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
 | **Eliane Foglia** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
