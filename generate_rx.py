@@ -63,7 +63,13 @@ explicit_states = {
     "Cristina Maria": "SC",
     "Deusilene Leão": "GO",
     "Ludmilla Azevedo": "SP",
-    "Elaine Bazilio": "SP"
+    "Elaine Bazilio": "SP",
+    "Elany Almeida": "DF",
+    "Cris Sathler": "RJ",
+    "Karol Marinho": "RN",
+    "Dr Douglas Lima": "SC",
+    "Kelvin Moreira (Tiziu Capoeira)": "SP",
+    "Andrea Santos (ARS Terapias)": "SP"
 }
 
 # Nichos for active members
@@ -213,7 +219,20 @@ active_niches = {
     "Maria Carolina": "Saúde Integrativa, Corpo & Movimento",
     "Cristiane Silveira": "Educação & Mentoria Acadêmica",
     "Lucia Elena": "Liderança / Organização Corporativa",
-    "Daniel Floriani": "Gestão Feminina, Transição de Carreira & Maturidade"
+    "Daniel Floriani": "Gestão Feminina, Transição de Carreira & Maturidade",
+    "Rebeca Madureira": "Vendas B2B & Consultoria PME",
+    "Elany Almeida": "Vendas B2B & Consultoria PME",
+    "Lana Peres": "Saúde Integrativa, Corpo & Movimento",
+    "Aline Seri": "Gestão Feminina, Transição de Carreira & Maturidade",
+    "Juliane do Carmo": "Outros / Em estruturação",
+    "Cris Sathler": "Saúde Integrativa, Corpo & Movimento",
+    "Rui Francisco": "Liderança / Organização Corporativa",
+    "Marcos Mauricio de Souza": "Outros / Em estruturação",
+    "Teacher Jozy Lima": "Educação & Mentoria Acadêmica",
+    "Karol Marinho": "Educação & Mentoria Acadêmica",
+    "Dr Douglas Lima": "Saúde Integrativa, Corpo & Movimento",
+    "Kelvin Moreira (Tiziu Capoeira)": "Saúde Integrativa, Corpo & Movimento",
+    "Andrea Santos (ARS Terapias)": "Saúde Integrativa, Corpo & Movimento"
 }
 
 # Load details for active profiles (Instagram, original description/profession)
@@ -356,7 +375,20 @@ details = {
     "Maria Carolina": ("Não Identificado", "Dentista / Terapeuta Integrativa", "-", "Transição de carreira de odontologia para terapias (EMF Balancing, constelação, reiki, registros akashicos, kabala)."),
     "Cristiane Silveira": ("Não Identificado", "Profa. de História da Arte / Pesquisadora", "-", "Apoio e mentoria para produtos digitais acadêmicos e curadoria de artes visuais, conciliando rotina de cuidados pós-AVC do filho."),
     "Lucia Elena": ("Não Identificado", "Consultora / Ex-Gerente de Seguros (37 anos)", "-", "Mentoria para novos líderes e executivos se preparando para liderar."),
-    "Daniel Floriani": ("Não Identificado", "Mentor de Carreira / Desenvolvimento", "@odanifloriani", "Desenvolvimento pessoal e re-significação de crenças limitantes.")
+    "Daniel Floriani": ("Não Identificado", "Mentor de Carreira / Desenvolvimento", "@odanifloriani", "Desenvolvimento pessoal e re-significação de crenças limitantes."),
+    "Rebeca Madureira": ("Não Identificado", "Consultora de Marketing Digital", "@rebecamadureiradigital", "Estratégia e reposicionamento de marca no Instagram para atração de público qualificado e nichado."),
+    "Elany Almeida": ("DF (Brasília)", "Advogada / Pesquisadora", "@elanyalmeidas", "Advocacia em Direito Médico e da Saúde com foco digital. Consultoria jurídica corporativa e mentoria para carreiras jurídicas. Primeira mulher civil doutora em Ciências Militares no Brasil."),
+    "Lana Peres": ("Não Identificado", "Terapeuta / Condução de práticas de bem-estar", "@institutosinergiaa", "Meditação guiada, fortalecimento interior e conexão espiritual (Instituto Sinergia)."),
+    "Aline Seri": ("Não Identificado", "Mentora de Desenvolvimento Pessoal", "@alineseri_", "Mentoria de desbloqueio emocional, profissional e financeiro para superação de estagnação."),
+    "Juliane do Carmo": ("Não Identificado", "Estratégia / Nicho em estruturação", "@julianeldocarmo", "Nicho de mentoria em estruturação."),
+    "Cris Sathler": ("RJ (Rio de Janeiro)", "Psicóloga Clínica / Sexóloga", "@psicrissathler", "Psicologia clínica, Gestalt-terapia, terapia de casais e sexologia."),
+    "Rui Francisco": ("Não Identificado", "Mentor de Liderança / Autor", "@ruifrancisco.oficial", "Mentoria em liderança e gestão, autor do livro Liderança Pioneira Metaversa."),
+    "Marcos Mauricio de Souza": ("Não Identificado", "Advogado", "@mauriciodesouzaadv", "Nicho de mentoria em estruturação."),
+    "Teacher Jozy Lima": ("Não Identificado", "Professora de Inglês / Idiomas", "-", "Mentoria e ensino de idiomas (Instagram temporariamente indisponível)."),
+    "Karol Marinho": ("RN (Natal)", "Advogada / Professora Universitária", "@karollinsmarinho", "Advocacia e consultoria em Direito Tributário, professora doutora na UFRN."),
+    "Dr Douglas Lima": ("SC (São José)", "Dentista / Implantodontista", "@drdouglaslima.sc", "Odontologia estética, implantes dentários e cirurgia guiada."),
+    "Kelvin Moreira (Tiziu Capoeira)": ("SP", "Educador Físico / Contramestre de Capoeira", "@tiziu.capoeira", "Projeto Profissão Capoeira: formação, cursos e mentorias de profissionalização e psicomotricidade aplicada para capoeiristas."),
+    "Andrea Santos (ARS Terapias)": ("SP", "Psicanalista / Terapeuta Holística", "@arsterapias", "Psicanálise, espiritualidade, tratamentos energéticos e facilitação de workshops da Filosofia Louise Hay.")
 }
 
 # Self-declared neurodivergent mapping
@@ -370,7 +402,8 @@ neurodivergences = {
     "Joyce Costa": "Neurodivergente",
     "Shayenne Moura": "AH/SD",
     "Marcello Pedro": "TDAH",
-    "Micheline": "Autismo Nível 1 / TDAH"
+    "Micheline": "Autismo Nível 1 / TDAH",
+    "Elany Almeida": "AH/SD"
 }
 
 # Name normalizations map
@@ -436,7 +469,11 @@ name_map = {
     "Cristiane Silveira": "Cristiane Silveira",
     "Lucia Elena": "Lucia Elena",
     "Daniel Floriani": "Daniel Floriani",
-    "Rê": "Maria Regina"
+    "Rê": "Maria Regina",
+    "Juliane": "Juliane do Carmo",
+    "Tiziu Capoeira": "Kelvin Moreira (Tiziu Capoeira)",
+    "Marcos Mauricio": "Marcos Mauricio de Souza",
+    "Andrea - ARS Terapias": "Andrea Santos (ARS Terapias)"
 }
 
 def clean_sender(sender):
@@ -444,7 +481,7 @@ def clean_sender(sender):
     return name_map.get(sender, sender)
 
 def get_update_time():
-    return "22/06/2026 às 12:20"
+    return "22/06/2026 às 16:43"
 
 def make_clickable(ig_str):
     if not ig_str or ig_str == "-":
@@ -461,9 +498,9 @@ def make_clickable(ig_str):
         return f"[LinkedIn](https://www.linkedin.com/in/{username})"
     return ig_str
 
-# Read lines from all five files
+# Read lines from all six files
 lines = []
-for file_name in ["_chat 5.txt", "_chat 6.txt", "_chat 7.txt", "_chat 8.txt", "_chat 9.txt"]:
+for file_name in ["_chat 5.txt", "_chat 6.txt", "_chat 7.txt", "_chat 8.txt", "_chat 9.txt", "_chat 10.txt"]:
     path = f"/Users/fabiotakwara/Documents/GitHub/Mentoria_Tecnologia_Takwara/01_TRIAGEM_BRUTA/{file_name}"
     try:
         with open(path, "r", encoding="utf-8") as f:
@@ -574,7 +611,7 @@ def build_markdown(logo_path):
     md = []
     md.append(f'# <img src="{logo_path}" width="55" style="vertical-align: middle; margin-right: 15px;" /> Raio-X Completo: Grupo Raízes (Junho/26)\n')
     md.append(f"> 📅 **Última atualização:** {update_t}\n")
-    md.append("> 📝 **Resumo da atualização:** Processamento do log `_chat 9.txt` com inclusão de 28 novos participantes e reajuste de sinergias. Atualização de dados a pedido de membros (correção de foco da mentoria de Arthur Martins para descompressão/saúde e inserção de Instagram, correção da mentoria de Renata Cardinali, atualização do Instagram de Joyce Muzy, inclusão de Giseli Paulon Ayurveda e Priscila Leite, e conexão de Prem Karima à sinergia de eventos e sustentabilidade).\n")
+    md.append("> 📝 **Resumo da atualização:** Processamento do log `_chat 10.txt` com ativação de membros silenciosos e inclusão de dados de perfil (Rebeca Madureira com reposicionamento digital, Elany Almeida com advocacia digital e mentoria para carreiras jurídicas, e outros). Sincronização do painel e balanceamento estatístico dos eixos de atuação.\n")
     
     md.append("## 🌿 Apresentação do Programa Raízes\n")
     md.append("O **Raízes** é um programa de aceleração e implementação de negócios digitais. O foco principal é apoiar você a criar seu primeiro produto e aprender as melhores estratégias de vendas para quem quer começar no digital. Escolhemos esse formato para garantir que você terá resultados. Simples assim.\n")

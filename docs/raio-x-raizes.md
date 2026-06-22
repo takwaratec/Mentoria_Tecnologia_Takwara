@@ -1,8 +1,8 @@
 # <img src="../assets/images/raizes_logo.png" width="55" style="vertical-align: middle; margin-right: 15px;" /> Raio-X Completo: Grupo Raízes (Junho/26)
 
-> 📅 **Última atualização:** 22/06/2026 às 12:20
+> 📅 **Última atualização:** 22/06/2026 às 16:43
 
-> 📝 **Resumo da atualização:** Processamento do log `_chat 9.txt` com inclusão de 28 novos participantes e reajuste de sinergias. Atualização de dados a pedido de membros (correção de foco da mentoria de Arthur Martins para descompressão/saúde e inserção de Instagram, correção da mentoria de Renata Cardinali, atualização do Instagram de Joyce Muzy, inclusão de Giseli Paulon Ayurveda e Priscila Leite, e conexão de Prem Karima à sinergia de eventos e sustentabilidade).
+> 📝 **Resumo da atualização:** Processamento do log `_chat 10.txt` com ativação de membros silenciosos e inclusão de dados de perfil (Rebeca Madureira com reposicionamento digital, Elany Almeida com advocacia digital e mentoria para carreiras jurídicas, e outros). Sincronização do painel e balanceamento estatístico dos eixos de atuação.
 
 ## 🌿 Apresentação do Programa Raízes
 
@@ -82,18 +82,18 @@ Para manter o foco nas estratégias de negócios digitais e preservar a boa conv
 
 | Estado | Quantidade | Porcentagem |
 | :--- | :---: | :---: |
-| Não Identificado | 135 | 54.9% |
-| São Paulo | 39 | 15.9% |
-| Rio de Janeiro | 16 | 6.5% |
-| Paraná | 12 | 4.9% |
-| Santa Catarina | 8 | 3.3% |
-| Minas Gerais | 6 | 2.4% |
-| Bahia | 6 | 2.4% |
-| Rio Grande do Sul | 5 | 2.0% |
-| Ceará | 5 | 2.0% |
-| Rio Grande do Norte | 3 | 1.2% |
+| Não Identificado | 140 | 53.8% |
+| São Paulo | 41 | 15.8% |
+| Rio de Janeiro | 19 | 7.3% |
+| Paraná | 12 | 4.6% |
+| Santa Catarina | 10 | 3.8% |
+| Minas Gerais | 6 | 2.3% |
+| Bahia | 6 | 2.3% |
+| Rio Grande do Sul | 5 | 1.9% |
+| Ceará | 5 | 1.9% |
+| Rio Grande do Norte | 4 | 1.5% |
+| Distrito Federal | 3 | 1.2% |
 | Paraíba | 2 | 0.8% |
-| Distrito Federal | 2 | 0.8% |
 | Espírito Santo | 1 | 0.4% |
 | Mato Grosso | 1 | 0.4% |
 | Sergipe | 1 | 0.4% |
@@ -101,28 +101,28 @@ Para manter o foco nas estratégias de negócios digitais e preservar a boa conv
 | Goiás | 1 | 0.4% |
 | Pernambuco | 1 | 0.4% |
 | Amazonas | 1 | 0.4% |
-| **Total Geral** | **246** | **100.0%** |
+| **Total Geral** | **260** | **100.0%** |
 
 ## 🎯 2. Resumo por Nicho/Habilidade Pretendida
 
 | Nicho / Habilidade | Quantidade | Porcentagem |
 | :--- | :---: | :---: |
-| Não se apresentou / Silencioso | 114 | 46.3% |
-| Saúde Integrativa, Corpo & Movimento | 38 | 15.4% |
-| Gestão Feminina, Transição de Carreira & Maturidade | 24 | 9.8% |
-| Liderança / Organização Corporativa | 21 | 8.5% |
-| Vendas B2B & Consultoria PME | 12 | 4.9% |
-| Cuidado Parental & Família | 12 | 4.9% |
-| Educação & Mentoria Acadêmica | 10 | 4.1% |
-| Música, Teatro, Arte & Palhaçaria | 5 | 2.0% |
-| Inovação Técnica de Base & Sustentabilidade | 5 | 2.0% |
-| Outros / Em estruturação | 5 | 2.0% |
-| **Total Geral** | **246** | **100.0%** |
+| Não se apresentou / Silencioso | 114 | 43.8% |
+| Saúde Integrativa, Corpo & Movimento | 43 | 16.5% |
+| Gestão Feminina, Transição de Carreira & Maturidade | 26 | 10.0% |
+| Liderança / Organização Corporativa | 22 | 8.5% |
+| Vendas B2B & Consultoria PME | 14 | 5.4% |
+| Educação & Mentoria Acadêmica | 12 | 4.6% |
+| Cuidado Parental & Família | 12 | 4.6% |
+| Outros / Em estruturação | 7 | 2.7% |
+| Música, Teatro, Arte & Palhaçaria | 5 | 1.9% |
+| Inovação Técnica de Base & Sustentabilidade | 5 | 1.9% |
+| **Total Geral** | **260** | **100.0%** |
 
 ## 💤 3. Quadro de Membros Silenciosos
 
-* **Membros que se apresentaram (Ativos):** 132 (53.7%)
-* **Membros que não se manifestaram (Silenciosos):** 114 (46.3%)
+* **Membros que se apresentaram (Ativos):** 146 (56.2%)
+* **Membros que não se manifestaram (Silenciosos):** 114 (43.8%)
 
 ---
 ## 🧭 3. Agrupamentos por Semelhança de Propósito (Membros Ativos)
@@ -162,7 +162,7 @@ Conexões e convergências voltadas estritamente para estruturação de parceria
 > * 📢 **Maré Educação** e **Raízes** (Contas Institucionais / Moderadores)
 > 
 
-> Descontados os administradores, o grupo conta com **188** participantes. A listagem detalhada registra **246** registros devido a uma sobreposição técnica temporária (membros silenciosos que entraram mostrando apenas o número de telefone e depois interagiram usando seus nomes, ou que utilizaram duas contas distintas no processo).
+> Descontados os administradores, o grupo conta com **188** participantes. A listagem detalhada registra **260** registros devido a uma sobreposição técnica temporária (membros silenciosos que entraram mostrando apenas o número de telefone e depois interagiram usando seus nomes, ou que utilizaram duas contas distintas no processo).
 
 | Nome / Identificador | Localização | Profissão Original | Instagram / Contato | Foco Principal / Status | Neurodivergência |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -171,11 +171,13 @@ Conexões e convergências voltadas estritamente para estruturação de parceria
 | **Adriana Gaia** | Não Identificado | Mercado Ótico / Empresária | [oticaadrianagaia](https://www.instagram.com/oticaadrianagaia) | Mentoria Empreender sem Franquia no ramo ótico em 90 dias | - |
 | **Alex Maciel** | Não Identificado | Trainer Educacional | [alexmacielprofessor](https://www.instagram.com/alexmacielprofessor) | Apoio e mentoria de estudos para aprovação escolar/concursos | - |
 | **Aline Koller** | Não Identificado | Psicóloga Junguiana | [alinekollerpsi](https://www.instagram.com/alinekollerpsi) | Maternidade de filhos neurodivergentes | TDAH |
+| **Aline Seri** | Não Identificado | Mentora de Desenvolvimento Pessoal | [alineseri_](https://www.instagram.com/alineseri_) | Mentoria de desbloqueio emocional, profissional e financeiro para superação de estagnação. | - |
 | **Alivinio Econoeduca** | Não Identificado | Economista / Prof. | [alivinioalmeida](https://www.instagram.com/alivinioalmeida) | Análise e Processos de Gestão para PMEs | - |
 | **Amanda Cardoso** | SE (Aracaju) | Fotógrafa | [amandacardosofotografia](https://www.instagram.com/amandacardosofotografia) | Fotografia de partos e famílias | - |
 | **Ana Carolina Mattoso** | Não Identificado | Prof. / Mentora Acadêmica | [professora.mattoso](https://www.instagram.com/professora.mattoso) | Mentoria acadêmica para processos seletivos e escrita | - |
 | **Ana Simões** | Não Identificado | Psicóloga Intensivista | [souanasimoes](https://www.instagram.com/souanasimoes) | Humanização e autoconhecimento hospitalar | - |
 | **Anderson Gonzaga** | Não Identificado | Prof. / Mentor / Facilitador (Tech & Gestão) | [eu.sou.gonzaga](https://www.instagram.com/eu.sou.gonzaga) | Transformação organizacional, Business Agility e liderança | - |
+| **Andrea Santos (ARS Terapias)** | SP | Psicanalista / Terapeuta Holística | [arsterapias](https://www.instagram.com/arsterapias) | Psicanálise, espiritualidade, tratamentos energéticos e facilitação de workshops da Filosofia Louise Hay. | - |
 | **Andréa Claudini ⚡** | PR (Londrina) | Hipnoterapeuta / Metacampo | [Link](https://www.instagram.com/reel/DZAn_BNReU3/?igsh=MTJ4aGNtZmdnMHE3ZA==) | Novo significado para a segunda metade da vida | - |
 | **Angel** | Não Identificado | Designer Visual da Cena | [angelicamartpe](https://www.instagram.com/angelicamartpe) | Design do Espetáculo cênico | - |
 | **Angela** | Não Identificado | Massoterap. Tântrica | - | Cura de traumas e independência emocional | - |
@@ -187,6 +189,7 @@ Conexões e convergências voltadas estritamente para estruturação de parceria
 | **Carina Vieirat** | RJ | Terapeuta Ayurveda / Prof. de Yoga | [carinavieirat](https://www.instagram.com/carinavieirat) | Mentoria de saúde e bem-estar para mulheres em fase de mudança | - |
 | **Carla Gonçalves** | RJ (Volta Redonda) | Adm / Coach de Bem-Estar | [carlametodorc](https://www.instagram.com/carlametodorc) | Método RC de emagrecimento para famílias | - |
 | **Carolina Bernardo** | DF (Brasília) | Bióloga/Dra. Economia | [carolinidades](https://www.instagram.com/carolinidades) | Leis e políticas ambientais p/ analistas | - |
+| **Cris Sathler** | RJ (Rio de Janeiro) | Psicóloga Clínica / Sexóloga | [psicrissathler](https://www.instagram.com/psicrissathler) | Psicologia clínica, Gestalt-terapia, terapia de casais e sexologia. | - |
 | **Cris Terrazzan** | Não Identificado | Empreendedora / Mentora | - | Transição e reinvenção de carreira pós-maternidade. | - |
 | **Cristiane Monteiro (Instituto FHE)** | SP (Santo André) | Psicopedagoga / Esp. Neurociência | [crismonteiro.fhe](https://www.instagram.com/crismonteiro.fhe) | Método Criança Bonsai: desenvolvimento neural e emocional infantil (0-2 anos e 2-6 anos). Perfil do marido: @libanomonteiro | - |
 | **Cristiane Silveira** | Não Identificado | Profa. de História da Arte / Pesquisadora | - | Apoio e mentoria para produtos digitais acadêmicos e curadoria de artes visuais, conciliando rotina de cuidados pós-AVC do filho. | - |
@@ -200,11 +203,13 @@ Conexões e convergências voltadas estritamente para estruturação de parceria
 | **Deusilene Leão** | GO (Goiânia) | Profa. Dra. em Ciências da Religião | - | Mentoria de saúde e cura baseada em Inteligência Espiritual (processo complementar para mulheres com câncer de mama). | - |
 | **Diego Americo** | SP | Cabeleireiro / Beauty | [diegoamerico](https://www.instagram.com/diegoamerico) | Artista da Beleza (Direção de Carreira) | - |
 | **Diulio Gomes✝️⚓** | RS | Ator / Teólogo | [diulio_gomes](https://www.instagram.com/diulio_gomes) | Comunicação e oratória para especialistas | - |
+| **Dr Douglas Lima** | SC (São José) | Dentista / Implantodontista | [drdouglaslima.sc](https://www.instagram.com/drdouglaslima.sc) | Odontologia estética, implantes dentários e cirurgia guiada. | - |
 | **Dra Alessandra Menegario** | SP (Promissão) | Fisioterapeuta | [anastore_as](https://www.instagram.com/anastore_as) | Saúde integrativa, mente e corpo | - |
 | **Dra. Ana Brisolla** | SP (Interior) | Advogada / Amante da Arte | - | Nicho de mentoria em estruturação | - |
 | **Dëbora Nascı̊uti** | Não Identificado | Prof. Yoga/Meditação | [deboranasciuti](https://www.instagram.com/deboranasciuti) | Método Florescer (Ansiedade/Burnout/PNL) | - |
 | **Elaine Bazilio** | SP | Fisioterapeuta / Gestora Pública | [elainebaziliooficial](https://www.instagram.com/elainebaziliooficial) | Mentoria de Gestão em Saúde baseada na Ciência da Melhoria para líderes e gestores da saúde. | - |
 | **Elaine Gama** | PR (Curitiba) | Consultora de Marketing | [elainegama.co](https://www.instagram.com/elainegama.co) | Marketing para pequenas empreendedoras organizarem o Instagram e venderem mais. Instagram profissional secundário: @elainegamadigital | - |
+| **Elany Almeida** | DF (Brasília) | Advogada / Pesquisadora | [elanyalmeidas](https://www.instagram.com/elanyalmeidas) | Advocacia em Direito Médico e da Saúde com foco digital. Consultoria jurídica corporativa e mentoria para carreiras jurídicas. Primeira mulher civil doutora em Ciências Militares no Brasil. | AH/SD |
 | **Erika Thiele** | Não Identificado | Bióloga / Psicoterapeuta Radiestesista | - | Fundadora do Instituto Plasma. Ministra cursos e forma terapeutas em radiestesia clássica profunda. | - |
 | **Eron Villar** | PE (Recife) | Doutorando UFPE | [destravando_a_escrita21](https://www.instagram.com/destravando_a_escrita21) | Redação em concursos (Jornada do Herói). Instagram pessoal: @eronvillar | - |
 | **Evelen Tomaz 🤍** | BA (Salvador) | Experiência do Paciente | - | Humanização e experiência do paciente em saúde | - |
@@ -233,16 +238,21 @@ Conexões e convergências voltadas estritamente para estruturação de parceria
 | **Ju Silva Estética** | Não Identificado | Esteticista / Mentora de Beleza | - | Mentoria para esteticistas/profissionais da beleza faturarem mais a partir de casa com estratégias e protocolos simples. | - |
 | **Ju Zanella Nutri | Ayurv.** | Não Identificado | Nutri. Ayurveda | [juzanella.ayurveda](https://www.instagram.com/juzanella.ayurveda) | Longevidade saudável e cuidados paliativos | - |
 | **Juliana Köenig (Dra. Babosa)** | Não Identificado | Engenheira Agrônoma / Terapeuta | [drababosaoficial](https://www.instagram.com/drababosaoficial) | Cocriadora da Medicina da Babosa® e Mentoria MMB para terapeutas e profissionais da saúde natural. | - |
+| **Juliane do Carmo** | Não Identificado | Estratégia / Nicho em estruturação | [julianeldocarmo](https://www.instagram.com/julianeldocarmo) | Nicho de mentoria em estruturação. | - |
 | **Karime Neder** | RJ (Ilha Grande) | Prof. Yoga | - | Formação de professores de Vinyasa Yoga | - |
 | **Karla Barreiros** | RJ (Araruama) | Advogada / Ceramista | - | Transição de carreira e análise consciencial | - |
 | **Karla Santos** | Não Identificado | Psicóloga / RH | [karlasantoscarreira](https://www.instagram.com/karlasantoscarreira) | Planejamento e posicionamento de carreira | - |
+| **Karol Marinho** | RN (Natal) | Advogada / Professora Universitária | [karollinsmarinho](https://www.instagram.com/karollinsmarinho) | Advocacia e consultoria em Direito Tributário, professora doutora na UFRN. | - |
 | **Kaua (ka.consciente)** | RJ | Tatuador | [ka.consciente](https://www.instagram.com/ka.consciente) | Projeto Caverna (reconstrução de identidade) | - |
-| **LM** | SP | CMO / Mkt / Eventos | [LinkedIn](https://www.linkedin.com/in/jualmeidaa) | Valor estratégico para líderes e executivos | - |
+| **Kelvin Moreira (Tiziu Capoeira)** | SP | Educador Físico / Contramestre de Capoeira | [tiziu.capoeira](https://www.instagram.com/tiziu.capoeira) | Projeto Profissão Capoeira: formação, cursos e mentorias de profissionalização e psicomotricidade aplicada para capoeiristas. | - |
+| **LM** | SP | CMO / Mkt / Eventos | [LinkedIn](https://www.linkedin.com/in/jualmeidaa) | Valor estratégico para líderes e executivos | AH/SD |
+| **Lana Peres** | Não Identificado | Terapeuta / Condução de práticas de bem-estar | [institutosinergiaa](https://www.instagram.com/institutosinergiaa) | Meditação guiada, fortalecimento interior e conexão espiritual (Instituto Sinergia). | - |
 | **Lari Gaigher** | SP (Guararema) | Prof. Yoga | [larissagaigher](https://www.instagram.com/larissagaigher) | Espiritualidade viva além do tapetinho | - |
 | **Lucas Rodrigues** | Não Identificado | Consultor de Mkt | - | Branding e posicionamento de empresas premium | - |
 | **Lucas Roel** | Não Identificado | Agronegócio (Bioinsumos & Fisiologia) | ROELX | Advisory, mentorias e performance de vendas no Agronegócio | - |
 | **Lucia Elena** | Não Identificado | Consultora / Ex-Gerente de Seguros (37 anos) | - | Mentoria para novos líderes e executivos se preparando para liderar. | - |
 | **Luciana** | SC (Floripa) | Pedagoga / Psicopedagoga | - | Mentoria InPulsa: a saída é para dentro para mulheres 35+ | - |
+| **Luciana Canto e Mello** | SC (Floripa) | Pedagoga / Psicopedagoga | - | Mentoria InPulsa: a saída é para dentro para mulheres 35+ | - |
 | **Luciana Mota** | SC (Floripa) | Pedagoga / Psicopedagoga | - | Mentoria InPulsa: a saída é para dentro para mulheres 35+ | - |
 | **Lucianna Alves - Mentora** | Não Identificado | Especialista em B2B & TI | [luciannaalves85](https://www.instagram.com/luciannaalves85) | Mentoria de Arquitetura Comercial para PMEs destravarem faturamento e estruturarem máquina de vendas. LinkedIn: luciannapalves | - |
 | **Ludmilla Azevedo** | SP | Professora de Yoga / Designer de Moda | [lud_yoga](https://www.instagram.com/lud_yoga) | Consultoria Carreira Sustentável no Yoga (posicionamento e negócios para novos professores). Letramento Racial. | - |
@@ -256,6 +266,7 @@ Conexões e convergências voltadas estritamente para estruturação de parceria
 | **Marcello Pedro** | RJ | Prof. Ed. Física / Surf | [bodyboardlgendsclub](https://www.instagram.com/bodyboardlgendsclub) | Performance no surf e PCDs (Lei do Mar) | TDAH |
 | **Marcia Andrade** | SP | Terapeuta Transpessoal / ex-Oficial PM SP | [marcitaregina_terapeuta](https://www.instagram.com/marcitaregina_terapeuta) | Mentoria de descompressão emocional para mulheres sobrecarregadas | - |
 | **Marcia Penna de Castro** | Não Identificado | Psicanalista | [marciacastropsi](https://www.instagram.com/marciacastropsi) | Desenvolvimento emocional | - |
+| **Marcos Mauricio de Souza** | Não Identificado | Advogado | [mauriciodesouzaadv](https://www.instagram.com/mauriciodesouzaadv) | Nicho de mentoria em estruturação. | - |
 | **Mari Soccol** | Não Identificado | Nutricionista especialista em Saúde da Mulher | [nutrimarisoccol](https://www.instagram.com/nutrimarisoccol) | Mentoria de saúde e bem-estar para mulheres 40+. | - |
 | **Maria Carolina** | Não Identificado | Dentista / Terapeuta Integrativa | - | Transição de carreira de odontologia para terapias (EMF Balancing, constelação, reiki, registros akashicos, kabala). | - |
 | **Maria Regina** | RS (Porto Alegre) | Biomédica Esteta | - | Exames laboratoriais e suplementação | - |
@@ -275,10 +286,12 @@ Conexões e convergências voltadas estritamente para estruturação de parceria
 | **Priscila Leite** | Não Identificado | Coach de Carreira / ex-Seguros | [priscilaleiteagir](https://www.instagram.com/priscilaleiteagir) | Mentoria Rota da Senioridade: protagonismo e crescimento profissional para quem está invisível na empresa e busca promoção. | - |
 | **Psi Nara Barreto** | RJ | Psicóloga TCC | [narabarretopsicologa](https://www.instagram.com/narabarretopsicologa) | Mentoria Desperte seu valor (autoestima e independência emocional pós-abuso) | - |
 | **Raquel Peres** | Não Identificado | Psicóloga Infanto-Juvenil / Esp. ABA | - | Mentoria para profissionais de saúde e educação sobre raciocínio clínico criativo em ABA | - |
+| **Rebeca Madureira** | Não Identificado | Consultora de Marketing Digital | [rebecamadureiradigital](https://www.instagram.com/rebecamadureiradigital) | Estratégia e reposicionamento de marca no Instagram para atração de público qualificado e nichado. | - |
 | **Renata Cardinali | Direcionadora Familiar** | Não Identificado | Direcionadora Familiar | [renata.cardinali](https://www.instagram.com/renata.cardinali) | Minha mentoria une famílias | - |
 | **Ricardo Arruda** | CE (Fortaleza) | TikToker / Mentor | [ricardoarrudamentor](https://www.instagram.com/ricardoarrudamentor) | Sair do zero no TikTok Shopping | - |
 | **Rodrigo Dumont** | Não Identificado | Líder de Dados / Tech | [dumontrodrigo](https://www.instagram.com/dumontrodrigo) | Liderança em Dados no meio corporativo | - |
 | **Rogê Biuzo** | RJ (Saquarema) | Palestrante / Mágico | [rogebiuzo](https://www.instagram.com/rogebiuzo) | Além do Contracheque (renda extra p/ pais e profs.) | - |
+| **Rui Francisco** | Não Identificado | Mentor de Liderança / Autor | [ruifrancisco.oficial](https://www.instagram.com/ruifrancisco.oficial) | Mentoria em liderança e gestão, autor do livro Liderança Pioneira Metaversa. | - |
 | **Sandra** | SP (Promissão) | Fisioterapeuta | [anastore_as](https://www.instagram.com/anastore_as) | Saúde integrativa, mente e corpo | - |
 | **Sandra Azzari** | SP (Promissão) | Fisioterapeuta | [anastore_as](https://www.instagram.com/anastore_as) | Saúde integrativa, mente e corpo | - |
 | **Shayenne Moura** | Não Identificado | Data Scientist | - | Equilíbrio de rotina para líderes de TI | AH/SD |
@@ -290,6 +303,7 @@ Conexões e convergências voltadas estritamente para estruturação de parceria
 | **Tais Jardim** | CE (Fortaleza) | Artesã | [teaatelie](https://www.instagram.com/teaatelie) | Macramê em grandes obras e decoração | - |
 | **Tatiana Fávaro Lima** | PR (Curitiba) | Pedagoga Waldorf / ex-TI Prof. | - | Orientação familiar para gestantes ou famílias com crianças de 0 a 3 anos | - |
 | **Taynara Mattos - Massoterapia clínica e Acupuntura.** | Não Identificado | Fisioterapeuta | [taynaramattosfisio](https://www.instagram.com/taynaramattosfisio) | Massoterapia Clínica e Acupuntura | - |
+| **Teacher Jozy Lima** | Não Identificado | Professora de Inglês / Idiomas | - | Mentoria e ensino de idiomas (Instagram temporariamente indisponível). | - |
 | **Telma Psicoterapeuta Integrativa** | RN (Parnamirim) | Enfermeira | - | Psicoterapia Integrativa | - |
 | **Thays Toyofuku** | Não Identificado | Consultora DE&I | [thaystoyofuku](https://www.instagram.com/thaystoyofuku) | Comunicação inclusiva e DEI corporativo | - |
 | **Theo Oliveira (ele/elu) 🏳️‍⚧️** | SP (Capital/Lapa) | Ator / Palhaço | [circodisoladies](https://www.instagram.com/circodisoladies) | Palhaçaria cênica e neurodivergência | - |
@@ -313,6 +327,8 @@ Conexões e convergências voltadas estritamente para estruturação de parceria
 | **+55 19 99341‑9209** | São Paulo | - | - | Não se apresentou / Silencioso | - |
 | **+55 19 99449‑0101** | São Paulo | - | - | Não se apresentou / Silencioso | - |
 | **+55 19 99672‑8511** | São Paulo | - | - | Não se apresentou / Silencioso | - |
+| **+55 21 3024‑6800** | Rio de Janeiro | - | - | Não se apresentou / Silencioso | - |
+| **+55 21 96560‑4328** | Rio de Janeiro | - | - | Não se apresentou / Silencioso | - |
 | **+55 21 96846‑0109** | Rio de Janeiro | - | - | Não se apresentou / Silencioso | - |
 | **+55 21 99690‑3499** | Rio de Janeiro | - | - | Não se apresentou / Silencioso | - |
 | **+55 22 97405‑1265** | Rio de Janeiro | - | - | Não se apresentou / Silencioso | - |
@@ -332,12 +348,11 @@ Conexões e convergências voltadas estritamente para estruturação de parceria
 | **+55 84 99451‑0968** | Rio Grande do Norte | - | - | Não se apresentou / Silencioso | - |
 | **+55 85 99187‑2550** | Ceará | - | - | Não se apresentou / Silencioso | - |
 | **+55 85 99223‑1587** | Ceará | - | - | Não se apresentou / Silencioso | - |
+| **+55 91 99252‑4715** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
 | **.Sofia Rambo** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
-| **Aline Seri** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
 | **Amanda Medeiros** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
 | **Ana Paula Modesto** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
 | **Analista Emocional** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
-| **Andrea - ARS Terapias** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
 | **Andrea Rupestre** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
 | **Andreza Staiger** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
 | **Bianca Sìlva** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
@@ -349,16 +364,13 @@ Conexões e convergências voltadas estritamente para estruturação de parceria
 | **Claudia Diniz** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
 | **Claudiane Diniz** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
 | **Cris Miyasaka** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
-| **Cris Sathler** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
 | **Céu Caminhos Da Luz** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
 | **Damaris Alfredo** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
 | **Denise Moura ArchiMentor** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
 | **Diego Oliveira** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
-| **Dr Douglas Lima** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
 | **Dra Graziella Pilan** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
 | **Dra Laury** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
 | **Débora 🦋✨️** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
-| **Elany Almeida** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
 | **Elen Rezende ✨** | Minas Gerais | - | - | Não se apresentou / Silencioso | - |
 | **Eliana** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
 | **Eliane Ballester** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
@@ -371,15 +383,18 @@ Conexões e convergências voltadas estritamente para estruturação de parceria
 | **Flavía Albbarran** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
 | **Gea Viva  Despertar** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
 | **Gilson Kolenez** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
+| **Innov Builders 🇧🇷 Joanne** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
 | **Jessica.** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
+| **Josie Correa** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
+| **Joyce|Respire Inspire Ame** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
 | **Juliana Tavares Leirião** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
 | **Juliana Tigre** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
+| **Jéssica Levy** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
 | **Jônia Quédma** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
 | **Kamala Cunha** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
-| **Karol Marinho** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
-| **Lana Peres** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
 | **Leandro Garcia** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
 | **Leda** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
+| **Letícia** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
 | **Letícia Pozza** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
 | **Lucimara** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
 | **Luiza Osuntomilola 🌻Puri** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
@@ -390,16 +405,15 @@ Conexões e convergências voltadas estritamente para estruturação de parceria
 | **Nutrição Funcional** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
 | **Paulo Vivacqua** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
 | **Rapuso** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
-| **Rebeca Madureira** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
 | **Rede Flap - Inovacao, Vida & Negocios** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
 | **Ricardo .'.** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
-| **Rui Francisco** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
 | **Sabrina Ribeiro** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
 | **Samantha Nobre** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
+| **Santabaia Studio** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
+| **Sara🔓** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
 | **Sunset** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
-| **Teacher Jozy Lima** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
+| **Thalita Lìano** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
 | **Thiago Reno** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
-| **Tiziu Capoeira** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
 | **VC Sustentabilidade Valesca** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
 | **Valquiria Symphoroso** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
 | **Victor 🏁** | Não Identificado | - | - | Não se apresentou / Silencioso | - |
