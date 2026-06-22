@@ -1,6 +1,6 @@
 # <img src="../assets/images/raizes_logo.png" width="55" style="vertical-align: middle; margin-right: 15px;" /> Raio-X Completo: Grupo Raízes (Junho/26)
 
-> 📅 **Última atualização:** 22/06/2026 às 16:43
+> 📅 **Última atualização:** 22/06/2026 às 16:59
 
 > 📝 **Resumo da atualização:** Processamento do log `_chat 10.txt` com ativação de membros silenciosos e inclusão de dados de perfil (Rebeca Madureira com reposicionamento digital, Elany Almeida com advocacia digital e mentoria para carreiras jurídicas, e outros). Sincronização do painel e balanceamento estatístico dos eixos de atuação.
 
@@ -82,8 +82,8 @@ Para manter o foco nas estratégias de negócios digitais e preservar a boa conv
 
 | Estado | Quantidade | Porcentagem |
 | :--- | :---: | :---: |
-| Não Identificado | 140 | 53.8% |
-| São Paulo | 41 | 15.8% |
+| Não Identificado | 139 | 53.5% |
+| São Paulo | 42 | 16.2% |
 | Rio de Janeiro | 19 | 7.3% |
 | Paraná | 12 | 4.6% |
 | Santa Catarina | 10 | 3.8% |
@@ -110,10 +110,10 @@ Para manter o foco nas estratégias de negócios digitais e preservar a boa conv
 | Não se apresentou / Silencioso | 114 | 43.8% |
 | Saúde Integrativa, Corpo & Movimento | 43 | 16.5% |
 | Gestão Feminina, Transição de Carreira & Maturidade | 26 | 10.0% |
-| Liderança / Organização Corporativa | 22 | 8.5% |
+| Liderança / Organização Corporativa | 23 | 8.8% |
 | Vendas B2B & Consultoria PME | 14 | 5.4% |
 | Educação & Mentoria Acadêmica | 12 | 4.6% |
-| Cuidado Parental & Família | 12 | 4.6% |
+| Cuidado Parental & Família | 11 | 4.2% |
 | Outros / Em estruturação | 7 | 2.7% |
 | Música, Teatro, Arte & Palhaçaria | 5 | 1.9% |
 | Inovação Técnica de Base & Sustentabilidade | 5 | 1.9% |
@@ -298,7 +298,7 @@ Conexões e convergências voltadas estritamente para estruturação de parceria
 | **Sheila Voos** | Não Identificado | Educadora | [sheilavoos](https://www.instagram.com/sheilavoos) | Soft skills e Neurociência aplicada | - |
 | **Si Briganti** | SP (Embu das Artes) | Pesquisadora de Mercado / ex-Executiva | [sousibriganti](https://www.instagram.com/sousibriganti) | Mentoria Lead2Be (liderança feminina para novas gestoras) | - |
 | **Simone Inês** | RJ | Pedagoga | [simoneinesescritora](https://www.instagram.com/simoneinesescritora) | Maternidade espiritual e seres de luz | - |
-| **Simone Tamega 🪻** | RJ | Pedagoga | [simoneinesescritora](https://www.instagram.com/simoneinesescritora) | Maternidade espiritual e seres de luz | - |
+| **Simone Tamega** | SP | Ortodontista / Produtora | [flavio_calcada](https://www.instagram.com/flavio_calcada) | Suporte clínico para recém-especialistas em Ortodontia (planejamento, discussão de casos e travas clínicas). Produzido por ela, mentorado por Flavio Calçada. | - |
 | **Su 😁✨️** | Não Identificado | Biomédica / Servidora Pública / Terapeuta | - | Ressignificação de crenças e liberação de padrões repetitivos para terapeutas | - |
 | **Tais Jardim** | CE (Fortaleza) | Artesã | [teaatelie](https://www.instagram.com/teaatelie) | Macramê em grandes obras e decoração | - |
 | **Tatiana Fávaro Lima** | PR (Curitiba) | Pedagoga Waldorf / ex-TI Prof. | - | Orientação familiar para gestantes ou famílias com crianças de 0 a 3 anos | - |

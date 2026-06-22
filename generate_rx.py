@@ -44,7 +44,7 @@ explicit_states = {
     "Arthur Martins": "AL", "Diego Americo": "SP", "Bela Giannini": "MG", "Karime Neder": "RJ", "Nandà Luccâs": "SP",
     "Daniela Teixeira": "SP", "Nathália Pantaleão": "DF", "Maria Regina": "RS", "Rê": "RS", "Ynglety Barros": "AM",
     "Karla Barreiros": "RJ", "Cínthya Alcântara": "SC", "Lari Gaigher": "SP", "Fabiana Fortunato": "MG", "Ilana Lewinsohn": "BA",
-    "Evelen Tomaz": "BA", "Evelen Tomaz 🤎": "BA", "Simone Hykavei": "RJ", "Simone Inês": "RJ", "Maíra Salomão": "SP",
+    "Evelen Tomaz": "BA", "Evelen Tomaz 🤎": "BA", "Simone Hykavei": "RJ", "Simone Inês": "RJ", "Simone Tamega": "SP", "Maíra Salomão": "SP",
     "Joyce Muzy": "SP", "Fernanda Moraes": "RS", "Elen Rezende": "MG", "Elen Rezende ✨": "MG", "Prem Karima": "RJ",
     "Eron Villar": "PE", "Destrave sua Escrita": "PE", "Jordana Mol": "MG", "Wanúbia": "MG", "Ricardo Arruda": "CE",
     "Joslaene Santos": "SC", "Adriana Barbetta": "PR", "Carolina Bernardo": "DF", "Kaua": "RJ", "ka.consciente": "RJ",
@@ -143,8 +143,8 @@ active_niches = {
     "Evelen Tomaz": "Liderança / Organização Corporativa",
     "Evelen Tomaz 🤎": "Liderança / Organização Corporativa",
     "Thays Toyofuku": "Liderança / Organização Corporativa",
-    "Simone": "Cuidado Parental & Família",
     "Simone Inês": "Cuidado Parental & Família",
+    "Simone Tamega": "Liderança / Organização Corporativa",
     "Ju Zanella": "Saúde Integrativa, Corpo & Movimento",
     "Maíra Salomão": "Gestão Feminina, Transição de Carreira & Maturidade",
     "Joyce Muzy": "Gestão Feminina, Transição de Carreira & Maturidade",
@@ -301,8 +301,8 @@ details = {
     "Evelen Tomaz": ("BA (Salvador)", "Experiência do Paciente", "-", "Humanização e experiência do paciente em saúde"),
     "Evelen Tomaz 🤎": ("BA (Salvador)", "Experiência do Paciente", "-", "Humanização e experiência do paciente em saúde"),
     "Thays Toyofuku": ("Não Identificado", "Consultora DE&I", "@thaystoyofuku", "Comunicação inclusiva e DEI corporativo"),
-    "Simone": ("RJ", "Pedagoga", "@simoneinesescritora", "Maternidade espiritual e seres de luz"),
     "Simone Inês": ("RJ", "Pedagoga", "@simoneinesescritora", "Maternidade espiritual e seres de luz"),
+    "Simone Tamega": ("SP", "Ortodontista / Produtora", "@flavio_calcada", "Suporte clínico para recém-especialistas em Ortodontia (planejamento, discussão de casos e travas clínicas). Produzido por ela, mentorado por Flavio Calçada."),
     "Ju Zanella": ("Não Identificado", "Nutri. Ayurveda", "@juzanella.ayurveda", "Longevidade saudável e cuidados paliativos"),
     "Maíra Salomão": ("SP", "Psicóloga", "-", "Transição de vida para mulheres 30+"),
     "Joyce Muzy": ("SP", "Psicóloga TCC", "@joycemuzy_", "Mentoria para mulheres sobrecarregadas"),
@@ -426,6 +426,7 @@ name_map = {
     "Destrave sua Escrita": "Eron Villar",
     "Cuidar de Dentro": "Micheline",
     "Simone": "Simone Inês",
+    "Simone Tamega 🪻": "Simone Tamega",
     "Priscila Kalil Psi": "Priscila Kalil",
     "Priscila": "Priscila Leite",
     "Elaine": "Elaine Bazilio",
@@ -481,7 +482,7 @@ def clean_sender(sender):
     return name_map.get(sender, sender)
 
 def get_update_time():
-    return "22/06/2026 às 16:43"
+    return "22/06/2026 às 16:59"
 
 def make_clickable(ig_str):
     if not ig_str or ig_str == "-":
