@@ -101,7 +101,7 @@ active_niches = {
     "Angelica Martins": "Música, Teatro, Arte & Palhaçaria",
     "Aline Koller": "Cuidado Parental & Família",
     "Amanda Cardoso": "Música, Teatro, Arte & Palhaçaria",
-    "Arthur Martins": "Música, Teatro, Arte & Palhaçaria",
+    "Arthur Martins": "Saúde Integrativa, Corpo & Movimento",
     "Diego Americo": "Liderança / Organização Corporativa",
     "Giovanna Sequeira": "Outros / Em estruturação",
     "Mychael Marcel": "Vendas B2B & Consultoria PME",
@@ -249,7 +249,7 @@ details = {
     "Angelica Martins": ("Não Identificado", "Designer Visual da Cena", "@angelicamartpe", "Design do Espetáculo cênico"),
     "Aline Koller": ("Não Identificado", "Psicóloga Junguiana", "@alinekollerpsi", "Maternidade de filhos neurodivergentes"),
     "Amanda Cardoso": ("SE (Aracaju)", "Fotógrafa", "@amandacardosofotografia", "Fotografia de partos e famílias"),
-    "Arthur Martins": ("AL (Maceió)", "Ator / Palhaço", "-", "Mentoria Exale (pausa criativa e palhaçaria)"),
+    "Arthur Martins": ("AL (Maceió)", "Ator / Diretor / Terapeuta", "@arthur.martins.barros", "Mentoria Exale: descompressão, criatividade e espaço interno para quem vive sob pressão e urgência constante (ludicidade da palhaçaria, jogos teatrais, escrita criativa, yoga do riso)."),
     "Diego Americo": ("SP", "Cabeleireiro / Beauty", "@diegoamerico", "Artista da Beleza (Direção de Carreira)"),
     "Giovanna Sequeira": ("Não Identificado", "Atriz / Mentora", "@gisequeira", "Comunicação e escrita de livros"),
     "Mychael Marcel": ("Não Identificado", "SEO / Ads", "@mychaelmarcel", "Posicionamento local no Google e IAs"),
@@ -619,7 +619,7 @@ def build_markdown(logo_path):
     
     md.append("---")
     md.append("## 🌟 Cases de Sucesso & Depoimentos (Turma Junho/26)\n")
-    md.append("### 🎭 A \"Estreia\" no Palco das Vendas — Arthur Martins (Ator, Palhaço & Terapeuta)")
+    md.append("### 🎭 A \"Estreia\" no Palco das Vendas — Arthur Martins (Ator, Diretor & Terapeuta)")
     md.append("> **\"Caramba!!! Hoje fiz minha primeira call de venda e fechei minha primeira mentorada!!! Estou em êxtase aqui!!! Destravou!!!\"**")
     md.append(">")
     md.append("> \"Sei que posso ter pulado algumas etapas, mas a urgência financeira falou alto. Segui a intuição. Peguei todas as informações assimiladas no Desafio e fui para o 'palco'.")

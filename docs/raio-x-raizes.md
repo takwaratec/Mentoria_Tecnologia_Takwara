@@ -53,7 +53,7 @@ Para manter o foco nas estratégias de negócios digitais e preservar a boa conv
 ---
 ## 🌟 Cases de Sucesso & Depoimentos (Turma Junho/26)
 
-### 🎭 A "Estreia" no Palco das Vendas — Arthur Martins (Ator, Palhaço & Terapeuta)
+### 🎭 A "Estreia" no Palco das Vendas — Arthur Martins (Ator, Diretor & Terapeuta)
 > **"Caramba!!! Hoje fiz minha primeira call de venda e fechei minha primeira mentorada!!! Estou em êxtase aqui!!! Destravou!!!"**
 >
 > "Sei que posso ter pulado algumas etapas, mas a urgência financeira falou alto. Segui a intuição. Peguei todas as informações assimiladas no Desafio e fui para o 'palco'.
@@ -106,13 +106,13 @@ Para manter o foco nas estratégias de negócios digitais e preservar a boa conv
 | Nicho / Habilidade | Quantidade | Porcentagem |
 | :--- | :---: | :---: |
 | Não se apresentou / Silencioso | 114 | 46.3% |
-| Saúde Integrativa, Corpo & Movimento | 37 | 15.0% |
+| Saúde Integrativa, Corpo & Movimento | 38 | 15.4% |
 | Gestão Feminina, Transição de Carreira & Maturidade | 24 | 9.8% |
 | Liderança / Organização Corporativa | 21 | 8.5% |
 | Vendas B2B & Consultoria PME | 12 | 4.9% |
 | Cuidado Parental & Família | 12 | 4.9% |
 | Educação & Mentoria Acadêmica | 10 | 4.1% |
-| Música, Teatro, Arte & Palhaçaria | 6 | 2.4% |
+| Música, Teatro, Arte & Palhaçaria | 5 | 2.0% |
 | Inovação Técnica de Base & Sustentabilidade | 5 | 2.0% |
 | Outros / Em estruturação | 5 | 2.0% |
 | **Total Geral** | **246** | **100.0%** |
@@ -178,7 +178,7 @@ Conexões e convergências voltadas estritamente para estruturação de parceria
 | **Angel** | Não Identificado | Designer Visual da Cena | [angelicamartpe](https://www.instagram.com/angelicamartpe) | Design do Espetáculo cênico | - |
 | **Angela** | Não Identificado | Massoterap. Tântrica | - | Cura de traumas e independência emocional | - |
 | **Arlete D'arc  Mentora e Psicanalista Cristã de Mulheres** | SP (Poá) | Psicanalista Cristã | [arletedarc_mentorapsicanalista](https://www.instagram.com/arletedarc_mentorapsicanalista) | Recomeço de mulheres após relações abusivas | - |
-| **Arthur Martins** | AL (Maceió) | Ator / Palhaço | - | Mentoria Exale (pausa criativa e palhaçaria) | - |
+| **Arthur Martins** | AL (Maceió) | Ator / Diretor / Terapeuta | [arthur.martins.barros](https://www.instagram.com/arthur.martins.barros) | Mentoria Exale: descompressão, criatividade e espaço interno para quem vive sob pressão e urgência constante (ludicidade da palhaçaria, jogos teatrais, escrita criativa, yoga do riso). | - |
 | **Bela Giannini** | MG (Ouro Preto) | Recursos Humanos | - | Transição de carreira de RH | - |
 | **Bell Nacif** | Não Identificado | Consultora / Mentora de Varejo | [bellnacif](https://www.instagram.com/bellnacif) | Especialista em operações de varejo e gestão comercial de lojas. | - |
 | **Bruno Mazetto** | Não Identificado (Nômade) | Professor de Yoga (17 anos) | - | Monetização para professores de Yoga (nômade há 6 anos) ou desenvolvimento pessoal/estilo de vida para profissionais digitais. | - |
