@@ -2,6 +2,8 @@
 
 > 📅 **Última atualização:** 22/06/2026 às 12:20
 
+> 📝 **Resumo da atualização:** Processamento do log `_chat 9.txt` com inclusão de 28 novos participantes e reajuste de sinergias. Atualização de dados a pedido de membros (correção de foco da mentoria de Arthur Martins para descompressão/saúde e inserção de Instagram, correção da mentoria de Renata Cardinali, atualização do Instagram de Joyce Muzy, inclusão de Giseli Paulon Ayurveda e Priscila Leite, e conexão de Prem Karima à sinergia de eventos e sustentabilidade).
+
 ## 🌿 Apresentação do Programa Raízes
 
 O **Raízes** é um programa de aceleração e implementação de negócios digitais. O foco principal é apoiar você a criar seu primeiro produto e aprender as melhores estratégias de vendas para quem quer começar no digital. Escolhemos esse formato para garantir que você terá resultados. Simples assim.

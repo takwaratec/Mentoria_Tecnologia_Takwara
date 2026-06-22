@@ -574,6 +574,7 @@ def build_markdown(logo_path):
     md = []
     md.append(f'# <img src="{logo_path}" width="55" style="vertical-align: middle; margin-right: 15px;" /> Raio-X Completo: Grupo Raízes (Junho/26)\n')
     md.append(f"> 📅 **Última atualização:** {update_t}\n")
+    md.append("> 📝 **Resumo da atualização:** Processamento do log `_chat 9.txt` com inclusão de 28 novos participantes e reajuste de sinergias. Atualização de dados a pedido de membros (correção de foco da mentoria de Arthur Martins para descompressão/saúde e inserção de Instagram, correção da mentoria de Renata Cardinali, atualização do Instagram de Joyce Muzy, inclusão de Giseli Paulon Ayurveda e Priscila Leite, e conexão de Prem Karima à sinergia de eventos e sustentabilidade).\n")
     
     md.append("## 🌿 Apresentação do Programa Raízes\n")
     md.append("O **Raízes** é um programa de aceleração e implementação de negócios digitais. O foco principal é apoiar você a criar seu primeiro produto e aprender as melhores estratégias de vendas para quem quer começar no digital. Escolhemos esse formato para garantir que você terá resultados. Simples assim.\n")
