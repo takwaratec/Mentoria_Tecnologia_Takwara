@@ -147,7 +147,46 @@ Durante a conversa, posso usar comandos internos:
 
 ---
 
-## 7. Dicas para Máximo Aproveitamento
+## 7. Telegram Bot — @takwara_bot
+
+O bot já está **configurado e rodando** no gateway do Hermes. Você pode interagir com ele pelo Telegram.
+
+### Como usar
+
+1. Abra o Telegram e busque **@takwara_bot**
+2. Inicie a conversa com `/start`
+3. Mande mensagens de texto, áudio, documentos ou imagens
+4. O bot responde com o processamento do Hermes
+
+### O que funciona pelo bot
+
+| Tipo | O que acontece |
+|---|---|
+| **Texto** | O Hermes lê e responde normalmente |
+| **Áudio** | O gateway transcreve automaticamente (faster-whisper) e processa |
+| **Documentos** (PDF, DOCX) | Extraio o conteúdo e respondo |
+| **Imagens** | Analiso com visão computacional |
+| **Comandos** | `/model`, `/new`, `/help` funcionam pelo bot também |
+
+### Importante
+
+- O bot usa o **mesmo Hermes** da sessão CLI — mesmo contexto, mesmas regras
+- Áudios enviados pelo Telegram já chegam transcritos (não preciso processar manualmente)
+- Para tarefas longas, posso pedir confirmação antes de executar
+
+### Comandos úteis no Telegram
+
+| Comando | Efeito |
+|---|---|
+| `/start` | Inicia conversa |
+| `/help` | Lista comandos disponíveis |
+| `/new` | Reseta a sessão |
+| `/model` | Troca modelo |
+| `/sethome` | Define este chat como canal principal |
+
+---
+
+## 8. Dicas para Máximo Aproveitamento
 
 1. **Uma tarefa por mensagem** — processar áudio + buscar + atualizar = tudo certo, mas rende mais se for passo a passo
 2. **Contexto é rei** — quanto mais informação der no pedido, mais preciso sou
