@@ -221,7 +221,47 @@ O bot já está **configurado e rodando** no gateway do Hermes. Você pode inter
 
 ---
 
-## 8. Dicas para Máximo Aproveitamento
+## 8. Busca Semântica Vetorial (Chromadb)
+
+> Implementado em 27/06/2026. Roda 100% local, sem API key, sem internet depois de instalado.
+
+### O que é
+Um sistema de busca por **significado**, não por palavra-chave. Você pergunta em português natural e ele encontra documentos nos 5 repositórios (Mentoria, ECOSALA, Vaga Lúmen, MST, Acervo Científico) que têm conteúdo relacionado.
+
+### Como usar
+```bash
+# A partir da raiz da Mentoria:
+./scripts/busca.sh "PU vegetal aplicacoes bambu"
+
+# Ou diretamente com Python:
+/Users/fabiotakwara/miniconda3/envs/whisper_env/bin/python3 \
+  scripts/busca_vector.py buscar "banheiro seco compostagem"
+```
+
+### Exemplos de busca
+- `"PU vegetal Imperveg"` → encontra fichas técnicas, linha de produtos, artigos
+- `"saneamento ecologico zoneamento"` → projetos relacionados
+- `"proposta FINEP orcamento prototipagem"` → documentos do Vaga Lúmen
+- `"bambu laminado colado resistencia"` → artigos do acervo técnico
+- `"bioeconomia amazonia comunidades"` → links com bioeconomia
+
+### Reindexar (quando adicionar/alterar arquivos)
+```bash
+./scripts/busca_vector.py indexar
+```
+### Como funciona
+- Modelo: *all-MiniLM-L6-v2* (79MB, via ONNX) — leve, roda em CPU
+- Banco vetorial: Chromadb persistente em `~/.hermes/vector_db`
+- 311 documentos indexados em 5 repositórios (filtra TRIAGEM e site/)
+
+### Limitações atuais
+- Cada documento é limitado a 5000 caracteres (cabeçalho do .md)
+- Não indexa .pdf, .txt, .docx — só .md
+- Reindexar é manual (rodar indexar após modificações)
+
+---
+
+## 9. Dicas para Máximo Aproveitamento
 
 1. **Uma tarefa por mensagem** — processar áudio + buscar + atualizar = tudo certo, mas rende mais se for passo a passo
 2. **Contexto é rei** — quanto mais informação der no pedido, mais preciso sou
