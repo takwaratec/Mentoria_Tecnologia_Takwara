@@ -234,6 +234,7 @@ Uma membrana de PU de 10 cm de comprimento pode esticar até **mais de 15 cm** s
 - PU em ecocompósitos com fibras de piaçava, coco, miriti (UFRGS, 2021)
 - Impermeabilização — resistência superior a UV, H₂S e agentes químicos (USP, 2019)
 - Espuma MAMONEX — isolamento térmico e acústico (USP São Carlos, 2024)
+- **Imperveg RQI 132 — ensaios de permeabilidade ao vapor e adesão em concreto (ITecons, Coimbra, Portugal)** — Resenha Científica disponível no Acervo Científico Takwara: [resenha-polimeros-mamona-permeabilidade.md](https://github.com/takwaratec/Analises-e-escrita-cientifica/blob/main/docs/analyses/tecnologia-takwara/resenha-polimeros-mamona-permeabilidade.md)
 - Patente: BR 10 2022 022464-1 A2 (INPI, 2022)
 
 ---
