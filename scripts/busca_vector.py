@@ -14,6 +14,8 @@ REPOS = {
     "Vaga_Lumen": "/Users/fabiotakwara/Documents/GitHub/fundo-vaga-lumen-2026",
     "MST_Mario_Lago": "/Users/fabiotakwara/Documents/MST-IFSP-MArio_Lago",
     "Acervo_Cientifico": "/Users/fabiotakwara/Documents/GitHub/Analises e escrita científica",
+    "Mulheres_Amazonia": "/Users/fabiotakwara/Documents/GitHub/Mulheres-Tecem-Amazonia_Clone",
+    "UnB_TecTakwara": "/Users/fabiotakwara/Documents/GitHub/UnB",
 }
 
 DB_DIR = os.path.expanduser("~/.hermes/vector_db")

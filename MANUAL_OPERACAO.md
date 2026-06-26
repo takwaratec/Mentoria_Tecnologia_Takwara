@@ -130,6 +130,8 @@ VOCÊ                              HERMES
 | **Analises-e-escrita-cientifica** | ✅ | Acervo científico ~80 fichas |
 | **Personagens-Bambu** | — | 8 personas |
 | **Mulheres_Bioeconomia_Amazonia** | Zenodo | Série Técnica, cartilhas |
+| **Mulheres_Amazonia (Clone)** | ✅ | Mulheres-Tecem-Amazonia, biblioteca legada |
+| **UnB_TecTakwara** | — | Acervo UnB: PU+bambu, processos, bioeconomia |
 
 ---
 
@@ -147,7 +149,7 @@ Durante a conversa, posso usar comandos internos:
 
 ---
 
-## 8. Dicas do Ravi — O que Podemos Aplicar no Fluxo
+## 7. Dicas do Ravi — O que Podemos Aplicar no Fluxo
 
 Das ~40 recomendações pendentes, estas são aplicáveis agora no nosso ecossistema:
 
@@ -182,7 +184,7 @@ Das ~40 recomendações pendentes, estas são aplicáveis agora no nosso ecossis
 
 ---
 
-## 9. Telegram Bot — @takwara_bot
+## 8. Telegram Bot — @takwara_bot
 
 O bot já está **configurado e rodando** no gateway do Hermes. Você pode interagir com ele pelo Telegram.
 
@@ -221,12 +223,12 @@ O bot já está **configurado e rodando** no gateway do Hermes. Você pode inter
 
 ---
 
-## 8. Busca Semântica Vetorial (Chromadb)
+## 9. Busca Semântica Vetorial (Chromadb)
 
 > Implementado em 27/06/2026. Roda 100% local, sem API key, sem internet depois de instalado.
 
 ### O que é
-Um sistema de busca por **significado**, não por palavra-chave. Você pergunta em português natural e ele encontra documentos nos 5 repositórios (Mentoria, ECOSALA, Vaga Lúmen, MST, Acervo Científico) que têm conteúdo relacionado.
+Um sistema de busca por **significado**, não por palavra-chave. Você pergunta em português natural e ele encontra documentos nos 7 repositórios (Mentoria, ECOSALA, Vaga Lúmen, MST, Acervo Científico, **Mulheres_Amazonia, UnB_TecTakwara**) que têm conteúdo relacionado.
 
 ### Como usar
 ```bash
@@ -261,7 +263,7 @@ Um sistema de busca por **significado**, não por palavra-chave. Você pergunta 
 
 ---
 
-## 9. Dicas para Máximo Aproveitamento
+## 10. Dicas para Máximo Aproveitamento
 
 1. **Uma tarefa por mensagem** — processar áudio + buscar + atualizar = tudo certo, mas rende mais se for passo a passo
 2. **Contexto é rei** — quanto mais informação der no pedido, mais preciso sou
