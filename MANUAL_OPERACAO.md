@@ -147,7 +147,42 @@ Durante a conversa, posso usar comandos internos:
 
 ---
 
-## 7. Telegram Bot — @takwara_bot
+## 8. Dicas do Ravi — O que Podemos Aplicar no Fluxo
+
+Das ~40 recomendações pendentes, estas são aplicáveis agora no nosso ecossistema:
+
+### 🔥 Alta Prioridade (fácil de implementar, alto retorno)
+
+| Dica | Como aplicar no fluxo | Esforço |
+|---|---|---|
+| **Bases vetoriais locais** | Já temos PyMuPDF + python-docx. Posso criar um script que transforma nossos .md em buscas semânticas com embeddings locais (sem Pinecone). Tipo um "Google particular" dos repositórios | Médio |
+| **Engenharia reversa de prompts** | Me manda uma imagem de referência que eu extraio o prompt usado para gerar. Aprendemos a estrutura e replicamos | Baixo |
+| **Design.md Directory** | Escolhe um template visual no https://designdotmd.directory/ que eu aplico no tema MkDocs de qualquer repositório | Baixo |
+| **Open Memory** | O Hermes já tem memória permanente (o que salvamos com `memory`). Posso criar uma ficha de memória expandida para cada repositório | Baixo |
+
+### 🟡 Média Prioridade (precisa de setup)
+
+| Dica | Como aplicar | Setup necessário |
+|---|---|---|
+| **n8n** | Automação visual de workflows (ex: ao receber áudio no Telegram → transcrever → salvar → notificar). R$ 20/mês self-hosted | Instalação via Docker |
+| **OpenRouter.ai** | Acesso a GPT-4-oss, Claude, etc. por centavos. Útil para tarefas pesadas | Criar conta + configurar chave |
+| **Docling** | Alternativa ao PyMuPDF para PDFs complexos (tabelas, imagens). `pip install docling` | Testar |
+
+### 🔵 Baixa Prioridade (úteis mas não urgentes)
+
+| Dica | Pra que serve |
+|---|---|
+| **Lovable.dev** | Criar landing pages e sites com IA |
+| **Feynman.is** | Ferramenta de estudo/aprendizado |
+| **Cal.com** | Agenda online para reuniões do ECOSALA |
+| **Google Workspace CLI** | Acessar Google Drive/Docs via terminal |
+
+### ❌ Não aplicável por enquanto
+- Peptídeos (questão médica), Starlink (infraestrutura física), Canva/Plannotator (design especializado)
+
+---
+
+## 9. Telegram Bot — @takwara_bot
 
 O bot já está **configurado e rodando** no gateway do Hermes. Você pode interagir com ele pelo Telegram.
 
