@@ -263,70 +263,41 @@ Um sistema de busca por **significado**, não por palavra-chave. Você pergunta 
 
 ---
 
-## 10. Revisão Semântica dos 4 READMEs (27/06/2026)
+## 10. Revisão Semântica dos 4 READMEs (27/06/2026 — 2ª rodada)
 
-### Apontamentos
+### Nova introdução (substituiu Bem Viver)
 
-| # | Repositório | Problema encontrado | Correção |
-|---|---|---|---|
-| 1 | Acervo Científico | Dizia "11 membros" — ECOSALA tem 12 (Daniela incluída 26/06) | Corrigido para 12 |
-| 2 | Acervo Científico | Dizia "~80 fichas" — acervo real ~270 | Corrigido para ~270 |
-| 3 | Acervo Científico | "84 referências IFB" — após remoção das 5 sem DOI, são 70 | Corrigido para 70 |
-| 4 | ECOSALA | Diagrama Mermaid sem nó "Novos Editais" | Nó NB adicionado |
-| 5 | Vaga Lúmen | Diagrama Mermaid sem nó "Novos Editais" | Nó NB adicionado |
-| 6 | Todos | Introdução Bem Viver antiga era genérica, usava "Este repositório" (3ª pessoa) e regionalismos ("amazônica") | Substituída por texto holístico universal com identidade do coletivo em 1ª pessoa |
-| 7 | Todos | Cada README tinha introdução idêntica — sem personalidade do repositório | Agora cada um tem parágrafo final customizado: "memória científica" (Acervo), "espaço coletivo" (ECOSALA), "proposta de captação" (Vaga Lúmen), "ponte com o território" (MSTJS) |
+A introdução agora é inspirada nas **7 Lições do Bambu** e nos **7 Pilares de Edgar Morin**, com três camadas:
 
-### Nova introdução Bem Viver
-
-A introdução unificada agora:
-
-- Fala em **1ª pessoa do plural** ("Somos um encontro..."), não em 3ª ("Este repositório é parte de...")
-- Lista as **disciplinas reais** do grupo (agrônomos, arquitetos, microbiologistas, etc.)
-- Eliminou o termo "bioeconomia amazônica" (regionalismo) — substituído por "bioeconomia regenerativa"
-- Eliminou "ativistas" e "pensadores" como categorias separadas — todos são pesquisadores que agem
-- Incluiu **reconhecimento aos que vieram antes**: povos originários e mestres do bambu
-- Termina com **convite inclusivo**: "Seja bem-vinda, bem-vindo. Há lugar para quem chega"
-- Cada repositório ganhou um **parágrafo-âncora** diferenciado que identifica seu papel no ecossistema
-
-### Personalidade dos membros ativos (impresso no texto)
-
-| Membro | Experiência refletida no texto |
+| Camada | Conteúdo |
 |---|---|
-| **Marcos Paron** | "microbiologistas" + "institutos federais" + coordenação acadêmica |
-| **André Blanco** | "arquitetos" + "bioconstrução" + "geodésicas" |
-| **Fabio Takwara** | "pesquisadores autodidatas" + "bambu e poliuretano vegetal" — a teoria que encontra o chão |
-| **Gisele Vilela** | "centros de pesquisa" (Embrapa) + "produção orgânica e bioeconomia regenerativa" |
-| **Joaquim Sando** | "assentamentos da reforma agrária" + engenharia agronômica |
-| **Vicente Borges** | "educadoras" + "institutos federais" + tradição do bambu |
-| **Raphaela Palma** | "nutricionistas, psicólogas" + saúde integral |
-| **Luci Okino** | "gestoras comunitárias" + espaço de acolhimento |
-| **Murillo Miguel** | "desenvolvedores" + operação de campo no território |
-| **Henrique Bueno** | "periferias urbanas" + gestão |
-| **Luis Felipe** | "arquitetos" + projeto complementar |
-| **Daniela Maciel** | "transferência de tecnologia" + inovação nos territórios |
+| ⚠️ **Aviso no topo** | Compartilhamento seletivo — somente pessoas com vínculo ao propósito (cooperativas, pesquisadores, analistas, avaliadores, orientadores). Entrada de membros exclusivamente por projeto irmão ativo. |
+| 🎋 **Acelerador** | O ecossistema não é vitrine — é ferramenta de aceleração de resultados. Como o bambu em rede de rizomas, cada repo só ganha sentido vinculado a um projeto real. |
+| 📚 **Bússolas** | 7 Lições do Bambu (curvar, criar raízes, cooperar, focar, colecionar nós, ser oco, buscar o bem comum) + 7 Pilares de Morin (conhecimento pertinente, condição humana, incerteza, ética) |
 
-### Continuidade relacional
+### Mermaid + tabela de identidade
 
-A estrutura agora garante que qualquer pessoa que acesse um README:
+O diagrama Mermaid foi padronizado nos 4 repos com:
+- Nós com **identidade + público + papel** (ex: "📚 Fichas · Resenhas · Perfis / 👥 Pesquisadores · Avaliadores / 🔗 Lastro científico com DOI")
+- Tabela abaixo do Mermaid: **O que é | Para quem | Relação com os irmãos**
+- Todos os 6 nós (Acervo, ECOSALA, Vaga Lúmen, MSTJS, Fábrica Modelo, Novos Editais) presentes
 
-1. **Entende o coletivo** (introdução unificada em 1ª pessoa)
-2. **Sabe em qual repositório está** (parágrafo-âncora customizado)
-3. **Vê o ecossistema completo** (diagrama Mermaid idêntico em todos)
-4. **Consegue navegar** (links para os irmãos na ordem: Acervo → ECOSALA → Vaga Lúmen → MSTJS)
-5. **Sabe quem são as pessoas** (tabela de membros no ECOSALA; links no Acervo)
+### Parágrafo-âncora por repositório
 
-### Padronização do diagrama Mermaid
+Cada repo tem parágrafo final customizado na intro:
+- 📚 **Acervo Científico**: "memória científica — fichas com DOI rastreável, 8 seções Cavichioli"
+- 🌱 **ECOSALA**: "espaço coletivo — 12 pesquisadores, demandas reais dos territórios"
+- 💰 **Vaga Lúmen**: "transforma ciência em projeto FINEP — TRL honesto, referência rastreável"
+- 🌾 **MSTJS**: "ponte com o território — a teoria que encontra o chão do Assentamento Mário Lago"
 
-Todos os 4 repositórios agora compartilham o mesmo diagrama com 6 nós:
+### Mudanças específicas
 
-```
-Central: Acervo Científico
-Projetos: ECOSALA, Vaga Lúmen, MSTJS
-Futuro: Fábrica Modelo, Novos Editais
-```
-
-Fluxo: Acervo → fornece referências → Projetos → demandas entre si → Futuro recebe sinergia/tecnologias.
+| # | Repo | Mudança |
+|---|---|---|
+| 1 | Acervo | Eixos temáticos mantidos (compactados em 4 linhas); links removidos (substituídos pela tabela) |
+| 2 | ECOSALA | Seção "O que é este repositório" removida (conteúdo migrou pro parágrafo-âncora) |
+| 3 | Vaga Lúmen | Seção "Repositórios irmãos" duplicada removida; aviso seletivo substituiu Bem Viver |
+| 4 | MSTJS | Mermaid corrigido (adicionado nó NB + arestas faltantes); status do recurso no parágrafo-âncora |
 
 ---
 
