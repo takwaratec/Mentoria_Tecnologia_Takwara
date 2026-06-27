@@ -274,3 +274,5 @@ Um sistema de busca por **significado**, não por palavra-chave. Você pergunta 
 ---
 
 *Manual mantido pelo Hermes Agent · Tecnologia Takwara · 2026*
+
+> ⚠️ **Nota sobre digitação:** O usuário ocasionalmente tem palavras truncadas ou caracteres faltantes devido a um defeito físico no teclado. O agente deve interpretar o contexto e completar mentalmente as palavras quando possível. Se uma instrução parecer truncada, considerar a intenção completa pelo contexto antes de pedir esclarecimento.
