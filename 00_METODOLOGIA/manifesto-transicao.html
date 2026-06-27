@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Manifesto — A Transição Já Começou</title>
+<style>
+  :root {
+    --bg: #0d1117;
+    --surface: #161b22;
+    --border: #30363d;
+    --text: #e6edf3;
+    --text-dim: #8b949e;
+    --accent: #4ade80;
+    --accent-dark: #166534;
+    --red: #f87171;
+    --gold: #facc15;
+    --purple: #c084fc;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.8;
+    font-size: 18px;
+    padding: 0;
+  }
+  .container { max-width: 800px; margin: 0 auto; padding: 2rem 1.5rem; }
+
+  /* Hero */
+  .hero {
+    text-align: center;
+    padding: 6rem 1rem 4rem;
+    background: linear-gradient(180deg, rgba(74,222,128,0.05) 0%, transparent 100%);
+    border-bottom: 1px solid var(--accent-dark);
+    margin-bottom: 3rem;
+  }
+  .hero h1 {
+    font-size: 2.6rem;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: 1.5rem;
+    background: linear-gradient(135deg, var(--accent), #86efac, #facc15);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .hero .subtitle {
+    font-size: 1.2rem;
+    color: var(--text-dim);
+    font-style: italic;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  /* Sections */
+  section { margin-bottom: 3rem; }
+  h2 {
+    font-size: 1.5rem;
+    color: var(--accent);
+    border-left: 3px solid var(--accent);
+    padding-left: 1rem;
+    margin-bottom: 1.2rem;
+  }
+  h3 {
+    font-size: 1.3rem;
+    color: var(--text);
+    margin: 2rem 0 0.8rem;
+  }
+
+  /* Block quote */
+  .quote {
+    background: var(--surface);
+    border-left: 4px solid var(--gold);
+    border-radius: 0 8px 8px 0;
+    padding: 1.5rem 2rem;
+    margin: 1.5rem 0;
+    font-style: italic;
+  }
+  .quote p { margin-bottom: 0.5rem; }
+  .quote .attribution {
+    font-size: 0.85rem;
+    color: var(--gold);
+    font-style: normal;
+    font-weight: 600;
+  }
+
+  .quote.red { border-left-color: var(--red); }
+  .quote.red .attribution { color: var(--red); }
+
+  .quote.green { border-left-color: var(--accent); }
+  .quote.green .attribution { color: var(--accent); }
+
+  /* Stat grid */
+  .stat-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin: 1.5rem 0;
+  }
+  .stat {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1.5rem;
+    text-align: center;
+  }
+  .stat .number {
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--accent);
+    display: block;
+  }
+  .stat .label {
+    font-size: 0.85rem;
+    color: var(--text-dim);
+    margin-top: 0.3rem;
+  }
+
+  /* Comparison table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+    font-size: 0.95rem;
+  }
+  th, td {
+    text-align: left;
+    padding: 0.75rem 0.5rem;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+  }
+  th {
+    color: var(--text-dim);
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  th:first-child { color: var(--red); }
+  th:last-child { color: var(--accent); }
+  tr:hover td { background: rgba(74,222,128,0.03); }
+
+  /* Final call */
+  .final {
+    background: linear-gradient(135deg, rgba(74,222,128,0.08), rgba(250,204,21,0.05));
+    border: 1px solid var(--accent-dark);
+    border-radius: 8px;
+    padding: 2rem;
+    text-align: center;
+    margin: 3rem 0;
+  }
+  .final h2 { border: none; color: var(--accent); padding-left: 0; }
+  .final p { font-size: 1.05rem; }
+
+  footer {
+    text-align: center;
+    padding: 3rem 0;
+    color: var(--text-dim);
+    font-size: 0.85rem;
+    border-top: 1px solid var(--border);
+  }
+
+  @media (max-width: 600px) {
+    .hero h1 { font-size: 1.8rem; }
+    .container { padding: 1rem; }
+  }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <h1>A Transição Já Começou.<br>Quem Vai Chegar Primeiro?</h1>
+  <p class="subtitle">
+    Enquanto o sistema empurra a humanidade para o colapso climático, 
+    uma tecnologia de quintal brasileira prova que o futuro 
+    não depende de patentes — depende de gente que faz.
+  </p>
+</div>
+
+<div class="container">
+
+<!-- SEÇÃO 1: O DIAGNÓSTICO -->
+<section>
+  <h2>1. O Que os Maiores Cientistas do Brasil Estão Gritando</h2>
+
+  <div class="quote red">
+    <p>"A Amazônia, o Cerrado, o Pantanal e a Caatinga estão na beira do ponto de não retorno."</p>
+    <div class="attribution">— Carlos Nobre, PhD em Meteorologia pelo MIT, coautor do primeiro relatório do IPCC</div>
+  </div>
+
+  <div class="quote">
+    <p>"O agronegócio é negacionista da mudança climática. Vota em presidentes claramente negacionistas. A última vez que me chamaram para dar uma palestra foi há 23 anos."</p>
+    <div class="attribution">— Carlos Nobre, entrevista à Repórter Brasil, jan/2026</div>
+  </div>
+
+  <div class="quote red">
+    <p>"Não faz sentido, em nenhum lugar do mundo, abrir novas explorações de combustíveis fósseis. Se o mundo inteiro fizer isso, vamos ultrapassar os 2°C até 2050 — o que chamamos de ecocídio."</p>
+    <div class="attribution">— Carlos Nobre, Conselheiro Científico do Papa Leão XIV</div>
+  </div>
+
+  <div class="stat-grid">
+    <div class="stat">
+      <span class="number">1,5°C</span>
+      <span class="label">Aquecimento global já atingido — antes do previsto (era esperado pós-2040)</span>
+    </div>
+    <div class="stat">
+      <span class="number">80%</span>
+      <span class="label">Desmate LEGAL permitido no Cerrado — o bioma inteiro pode virar semiárido</span>
+    </div>
+    <div class="stat">
+      <span class="number">1.600</span>
+      <span class="label">Lobistas de combustíveis fósseis credenciados na COP30</span>
+    </div>
+    <div class="stat">
+      <span class="number">63%</span>
+      <span class="label">Do Congresso Nacional tem ligação com o agronegócio</span>
+    </div>
+  </div>
+</section>
+
+<!-- SEÇÃO 2: O GREENWASHING -->
+<section>
+  <h2>2. A Farsa da Sustentabilidade de Vitrine</h2>
+
+  <div class="quote">
+    <p>"Vendem bambu e eucalipto tratados com formol, CCA e CCB como 'construção sustentável'. Isso não é bio-solução — é greenwashing. O formaldeído é cancerígeno. O arsênio do CCA contamina o lençol freático. Mas o selo verde está lá, e o consumidor compra."</p>
+    <div class="attribution">— Do alerta de Miguel Nicolelis, Programa 20 Minutos, mai/2026</div>
+  </div>
+
+  <p>O que chamam de <strong style="color:var(--accent)">"construção sustentável"</strong> no mercado atual é, na maioria dos casos, madeira e bambu encharcados de veneno industrial. O tratamento CCA (Cromo, Cobre, Arsênio) e CCB (Cromo, Cobre, Boro) injeta metais pesados em autoclaves — e vende o resultado com selo verde.</p>
+
+  <table>
+    <tr>
+      <th>O que o mercado chama de "sustentável"</th>
+      <th>O que realmente é sustentável</th>
+    </tr>
+    <tr>
+      <td>Bambu tratado com CCA/CCB — arsênio no solo</td>
+      <td>Bambu tratado com vapor + pirolenhoso + leite de cinzas</td>
+    </tr>
+    <tr>
+      <td>Eucalipto com formaldeído cancerígeno</td>
+      <td>Poliuretano Vegetal atóxico (certificado MS 888 para água potável)</td>
+    </tr>
+    <tr>
+      <td>Epóxi petroquímico — libera VOCs, trabalhadores intoxicados</td>
+      <td>Bio-Solda de mamona — mesmo material usado em próteses cranianas</td>
+    </tr>
+    <tr>
+      <td>Conectores metálicos enferrujando em 5 anos</td>
+      <td>Conexão estrutural com PU Vegetal — 1,8 MPa, 365m de barreira ao CO₂</td>
+    </tr>
+    <tr>
+      <td>Patentes fechadas, royalties, dependência tecnológica</td>
+      <td>Código aberto, DOI público, conhecimento na mão de quem faz</td>
+    </tr>
+  </table>
+
+  <div class="stat-grid">
+    <div class="stat">
+      <span class="number" style="color:var(--red)">25 kg</span>
+      <span class="label">de Bórax num tanque de 500L — "tratamento natural" que contamina lençóis freáticos</span>
+    </div>
+    <div class="stat">
+      <span class="number" style="color:var(--red)">3 kg</span>
+      <span class="label">de Bórax por hectare — o máximo recomendado pela agricultura para todo o campo</span>
+    </div>
+    <div class="stat">
+      <span class="number" style="color:var(--accent)">0</span>
+      <span class="label">VOCs, 0 solventes, 0 metais pesados — o PU Vegetal Takwara</span>
+    </div>
+  </div>
+</section>
+
+<!-- SEÇÃO 3: O MOVIMENTO GRASSROOTS -->
+<section>
+  <h2>3. O Movimento de Base que o Sistema Tentou Enterrar</h2>
+
+  <div class="quote green">
+    <p>"O movimento grassroots da era digital era completamente desacreditado no início. Hoje, ele é o que é. A transformação real nunca vem de cima — vem da margem."</p>
+    <div class="attribution">— Miguel Nicolelis, um dos 20 maiores neurocientistas do mundo segundo a Scientific American</div>
+  </div>
+
+  <p>A <strong style="color:var(--accent)">Tecnologia Takwara</strong> é exatamente esse movimento. Nasceu no quintal de um educador popular em Limeira-SP. Quinze anos de prototipagem. Sem vínculo acadêmico formal, sem CNPq, sem FAPESP. Quando bateu na porta da academia, ouviu:</p>
+
+  <blockquote style="background:var(--surface); padding:1rem; margin:1rem 0; border-radius:4px;">
+    <p style="color:var(--text-dim); font-style:italic;">"Muda o foco para bambu + asfalto. É a demanda da nossa incubadora."</p>
+  </blockquote>
+
+  <p>— Foi a resposta da Incubadora Nascente do CEFET-MG, que admitiu o projeto e depois o abandonou.</p>
+
+  <p>No mesmo ano, a Nature Awards recebeu a submissão da Takwara. A resposta dos curadores:</p>
+
+  <blockquote style="background:var(--surface); padding:1rem; margin:1rem 0; border-radius:4px;">
+    <p style="color:var(--text-dim); font-style:italic;">"Proposta excelente. Infelizmente, não podemos aprovar sem vínculo acadêmico formal."</p>
+  </blockquote>
+
+  <p>A tecnologia que substitui próteses cranianas humanas não pode concorrer a um prêmio porque seu criador não tem crachá de universidade.</p>
+
+  <p>Isso é o que Nicolelis descreve como <span style="color:var(--gold); font-style:italic;">"o monopólio da tecnologia em prol de quem já controla o sistema."</span> O conhecimento que desafia o status quo é barrado pelo mesmo status quo que financia o colapso climático.</p>
+</section>
+
+<!-- SEÇÃO 4: O QUE A TAKWARA PROVA -->
+<section>
+  <h2>4. O Que a Takwara Prova</h2>
+
+  <div class="stat-grid">
+    <div class="stat">
+      <span class="number">15</span>
+      <span class="label">Anos de prototipagem empírica — tratamentos, fornos, domos geodésicos, bio-solda</span>
+    </div>
+    <div class="stat">
+      <span class="number">1,8 MPa</span>
+      <span class="label">Aderência do PU Vegetal — o concreto quebrou antes da resina (Itecons Portugal)</span>
+    </div>
+    <div class="stat">
+      <span class="number">22 t</span>
+      <span class="label">CO₂/ha/ano sequestrado pelo bambu Moso — até 4x mais que uma floresta tropical</span>
+    </div>
+    <div class="stat">
+      <span class="number">365 m</span>
+      <span class="label">Barreira ao CO₂ do PU Vegetal — uma película de 0,67mm equivale a 365m de ar estático</span>
+    </div>
+  </div>
+
+  <p>Carlos Nobre insiste: <span style="color:var(--gold);">"zerar as emissões até 2040 depende menos de tecnologia — que já existe — e mais de vontade política."</span></p>
+
+  <p>A tecnologia que ele diz que <strong>já existe</strong> está aqui. Não num laboratório de Stanford. Não numa patente da BASF. Está num forno de ciclo fechado feito com resíduos do próprio bambu, operando a 452°C com zero emissão de fumaça visível. Está num polímero de mamona que o InCor usa em crânios humanos e que a Portaria MS 888 certifica para água potável. Está em 12 equipamentos da Série T com patentes depositadas em código aberto no Zenodo.</p>
+
+  <p><strong>Não falta tecnologia. Falta coragem para romper com o sistema que vende veneno como solução.</strong></p>
+</section>
+
+<!-- SEÇÃO 5: O CHAMADO -->
+<section>
+  <div class="final">
+    <h2>A Mentoria Não É Sobre Ensinar.</h2>
+    <h2 style="margin-top:0;">É Sobre Multiplicar.</h2>
+    <br>
+    <p>
+      Cada arquiteto que abandona o epóxi pelo PU Vegetal.<br>
+      Cada comunidade que troca o CCA pelo vapor e pelo pirolenhoso.<br>
+      Cada maker que injeta Bio-Solda em vez de parafusar aço numa fibra viva.<br>
+    </p>
+    <br>
+    <p style="font-size:1.1rem; color:var(--accent); font-weight:700;">
+      Cada um desses é uma rachadura no monopólio.
+    </p>
+    <br>
+    <p>
+      A Tecnologia Takwara não espera mais por chancela de quem nunca apoiou.<br>
+      Ela vai direto para as mãos de quem constrói.<br>
+      <strong>Grassroots. Código aberto. Sem veneno. Sem formaldeído. Sem desculpa.</strong>
+    </p>
+    <br>
+    <p style="font-size:0.95rem; color:var(--text-dim);">
+      Nicolelis disse que o movimento de base começa desacreditado e vira o que é.<br>
+      Nobre disse que a tecnologia já existe — o que falta é vontade.<br>
+      A Takwara é as duas coisas ao mesmo tempo.
+    </p>
+    <br>
+    <p style="font-size:1.2rem; color:var(--gold);">
+      <strong>🌿 A transição já começou. Quem vai chegar primeiro?</strong>
+    </p>
+  </div>
+</section>
+
+<footer>
+  <p>Este manifesto foi produzido em 12 de junho de 2026, durante o programa de criação da Mentoria Tecnologia Takwara.</p>
+  <p>Com base nas entrevistas de Carlos Nobre (Repórter Brasil, jan/2026) e Miguel Nicolelis (Programa 20 Minutos, mai/2026).</p>
+  <p>Repositório: <a href="https://github.com/takwaratec/Mentoria_Tecnologia_Takwara" style="color:var(--accent)">takwaratec/Mentoria_Tecnologia_Takwara</a></p>
+</footer>
+
+</div>
+</body>
+</html>

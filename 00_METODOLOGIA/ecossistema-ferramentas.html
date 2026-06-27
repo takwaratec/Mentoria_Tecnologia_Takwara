@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ecossistema de Ferramentas — Mentoria Takwara</title>
+<style>
+  :root {
+    --bg: #0d1117;
+    --surface: #161b22;
+    --border: #30363d;
+    --text: #e6edf3;
+    --text-dim: #8b949e;
+    --accent: #2dd4bf;
+    --accent-dim: #1a8f82;
+    --red: #f85149;
+    --yellow: #d29922;
+    --blue: #58a6ff;
+    --purple: #bc8cff;
+    --green: #3fb950;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    padding: 2rem 1rem;
+  }
+  .container { max-width: 960px; margin: 0 auto; }
+
+  /* Header */
+  header {
+    text-align: center;
+    padding: 3rem 0 2rem;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 2.5rem;
+  }
+  header h1 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    background: linear-gradient(135deg, var(--accent), var(--blue));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  header p {
+    color: var(--text-dim);
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+  }
+  header .meta {
+    font-size: 0.85rem;
+    color: var(--text-dim);
+    margin-top: 0.75rem;
+  }
+
+  /* Sections */
+  section { margin-bottom: 3rem; }
+  h2 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--accent);
+    border-bottom: 2px solid var(--border);
+    padding-bottom: 0.4rem;
+    margin-bottom: 1.2rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  h3 {
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: var(--text);
+    margin: 1.5rem 0 0.5rem;
+  }
+  h3 .tag {
+    font-size: 0.7rem;
+    font-weight: 500;
+    padding: 0.15rem 0.5rem;
+    border-radius: 999px;
+    margin-left: 0.5rem;
+    vertical-align: middle;
+  }
+  .tag-now { background: var(--green); color: #000; }
+  .tag-next { background: var(--yellow); color: #000; }
+  .tag-later { background: var(--blue); color: #000; }
+  .tag-opt { background: var(--purple); color: #000; }
+
+  /* Cards */
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1rem;
+    margin: 1rem 0;
+  }
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1.25rem;
+    transition: border-color 0.2s;
+  }
+  .card:hover { border-color: var(--accent-dim); }
+  .card h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--accent);
+    margin-bottom: 0.4rem;
+  }
+  .card .sub {
+    font-size: 0.82rem;
+    color: var(--text-dim);
+    margin-bottom: 0.6rem;
+  }
+  .card p { font-size: 0.9rem; color: var(--text-dim); margin-bottom: 0.5rem; }
+  .card code {
+    font-size: 0.8rem;
+    background: rgba(255,255,255,0.06);
+    padding: 0.15rem 0.4rem;
+    border-radius: 4px;
+    color: var(--yellow);
+  }
+  .card strong { color: var(--text); }
+
+  /* Tables */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+    margin: 1rem 0;
+  }
+  th, td {
+    text-align: left;
+    padding: 0.65rem 0.75rem;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+  }
+  th {
+    color: var(--accent);
+    font-weight: 600;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border-bottom: 2px solid var(--accent-dim);
+  }
+  td { color: var(--text-dim); }
+  td:first-child { color: var(--text); font-weight: 500; }
+  tr:hover td { background: rgba(45,212,191,0.03); }
+
+  /* Flow diagram (ASCII-ish HTML) */
+  .flow {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1.5rem;
+    font-family: 'SF Mono', 'Fira Code', monospace;
+    font-size: 0.85rem;
+    line-height: 1.8;
+    overflow-x: auto;
+    white-space: pre;
+    color: var(--text-dim);
+    margin: 1rem 0;
+  }
+  .flow .hl { color: var(--accent); }
+  .flow .hl2 { color: var(--blue); }
+  .flow .hl3 { color: var(--purple); }
+
+  /* Badge */
+  .badge {
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 600;
+    padding: 0.15rem 0.5rem;
+    border-radius: 999px;
+    margin-right: 0.3rem;
+  }
+  .badge-green { background: rgba(63,185,80,0.15); color: var(--green); }
+  .badge-yellow { background: rgba(210,153,34,0.15); color: var(--yellow); }
+  .badge-blue { background: rgba(88,166,255,0.15); color: var(--blue); }
+  .badge-purple { background: rgba(188,140,255,0.15); color: var(--purple); }
+  .badge-gray { background: rgba(139,148,158,0.15); color: var(--text-dim); }
+
+  /* Divider */
+  hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
+
+  /* Lists */
+  ul { margin: 0.5rem 0 0.5rem 1.2rem; }
+  li { color: var(--text-dim); font-size: 0.9rem; margin-bottom: 0.3rem; }
+  li strong { color: var(--text); }
+
+  /* Code block */
+  pre {
+    background: #0d1117;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 1rem;
+    font-size: 0.82rem;
+    overflow-x: auto;
+    margin: 0.75rem 0;
+  }
+  pre code { background: none; padding: 0; color: var(--yellow); }
+
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 2rem 0;
+    color: var(--text-dim);
+    font-size: 0.85rem;
+    border-top: 1px solid var(--border);
+  }
+
+  @media (max-width: 600px) {
+    header h1 { font-size: 1.5rem; }
+    .card-grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+<header>
+  <h1>🌿 Ecossistema de Ferramentas</h1>
+  <p>Infraestrutura técnica para a construção da Mentoria Takwara</p>
+  <div class="meta">10 de junho de 2026 · Análise preparatória para o Passo 3</div>
+</header>
+
+<!-- ========== SEÇÃO 1: VISÃO GERAL ========== -->
+<section>
+  <h2>1. Visão Geral do Fluxo</h2>
+  <p style="color:var(--text-dim);margin-bottom:1rem;">
+    Três camadas distintas. Cada ferramenta resolve um problema específico. Nenhuma substitui a outra.
+  </p>
+
+  <div class="flow">
+<span class="hl">┌──────────────────────────────────────────────────────────┐</span>
+<span class="hl">│                   VOCÊ (CUradoria)                       │</span>
+<span class="hl">│  Define direção · Revisa · Aprova · Decide               │</span>
+<span class="hl">└──────────────────────┬───────────────────────────────────┘</span>
+<span class="hl">                       │</span>
+<span class="hl">                       ▼</span>
+<span class="hl">┌──────────────────────────────────────────────────────────┐</span>
+<span class="hl2">│               EU (Hermes Agent)                          │</span>
+<span class="hl2">│  Executa · Escreve · Pesquisa · Mantém o wiki           │</span>
+<span class="hl2">│  Skills: llm-wiki, plan, github-pr-workflow...          │</span>
+<span class="hl2">└──────┬──────────────────────────────┬────────────────────┘</span>
+<span class="hl2">       │                              │</span>
+<span class="hl2">       ▼                              ▼</span>
+<span class="hl">┌─────────────────────┐   ┌──────────────────────────────┐</span>
+<span class="hl">│   LLM WIKI           │   │   SITE PÚBLICO (MkDocs)      │</span>
+<span class="hl">│  (meu cérebro        │   │  (ou docmd.io no futuro)     │</span>
+<span class="hl">│   persistente)       │   │                              │</span>
+<span class="hl">│  ~/wiki-mentoria/    │   │  GitHub Pages                │</span>
+<span class="hl">└─────────────────────┘   └──────────────────────────────┘</span></div>
+</section>
+
+<!-- ========== SEÇÃO 2: FERRAMENTAS EXTERNAS ========== -->
+<section>
+  <h2>2. Ferramentas Externas</h2>
+
+  <div class="card-grid">
+
+    <div class="card">
+      <h4>🧠 LLM Wiki (Karpathy)</h4>
+      <div class="sub">Base de conhecimento persistente · <span class="badge badge-green">Fazer AGORA</span></div>
+      <p><strong>O que é:</strong> Um diretório de markdown interligado (wiki) que eu mantenho entre sessões. Inspirado no método de Andrej Karpathy.</p>
+      <p><strong>Problema que resolve:</strong> Hoje eu releio seus TECs do zero toda sessão. Com o wiki, eu ingiro uma vez e consulto depois — respostas mais rápidas, sem repetir trabalho.</p>
+      <p><strong>Como usamos:</strong> <code>~/wiki-mentoria-takwara/</code> com páginas para cada conceito (bambu, PU vegetal, Imperveg, MQTF, Série T...). Você pode abrir no Obsidian e ver o grafo.</p>
+      <p><a href="https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f" style="color:var(--accent);font-size:0.85rem;">Referência original →</a></p>
+    </div>
+
+    <div class="card">
+      <h4>📄 docmd.io</h4>
+      <div class="sub">Gerador de site de documentação · <span class="badge badge-yellow">Testar depois</span></div>
+      <p><strong>O que é:</strong> Alternativa ao MkDocs. Zero-config, framework-free, produz sites Lighthouse 100 com busca offline e geração automática de <code>llms.txt</code>.</p>
+      <p><strong>Problema que resolve:</strong> MkDocs funciona, mas docmd.io é mais leve, mais rápido de configurar e já gera contexto para IA (<code>llms.txt</code>).</p>
+      <p><strong>Como testar:</strong> Criar um repo separado com <code>npx @docmd/core dev</code> e comparar com o MkDocs atual. Decidir após o programa de 7 dias.</p>
+      <p><a href="https://docmd.io/" style="color:var(--accent);font-size:0.85rem;">Site oficial →</a></p>
+    </div>
+
+    <div class="card">
+      <h4>🔍 Plannotator</h4>
+      <div class="sub">Revisão de planos de agentes AI · <span class="badge badge-blue">Baixa prioridade</span></div>
+      <p><strong>O que é:</strong> Camada de revisão visual para planos e código gerados por agentes AI. Intercepta o passo de aprovação e mostra diff interativo.</p>
+      <p><strong>Problema que resolve:</strong> Se você quiser revisar meus planos antes de eu executar, com edição inline e feedback estruturado de volta pra mim.</p>
+      <p><strong>Quando usar:</strong> Ideal para projetos com código complexo (backend, apps). No seu caso (markdown + documentação), o ganho é menor porque você já me corrige no chat. Reveja após o programa.</p>
+      <p><a href="https://plannotator.ai/" style="color:var(--accent);font-size:0.85rem;">Site oficial →</a></p>
+    </div>
+
+  </div>
+
+  <h3>Comparativo rápido</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Critério</th>
+        <th>LLM Wiki</th>
+        <th>docmd.io</th>
+        <th>Plannotator</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Finalidade</td>
+        <td>Base de conhecimento interno</td>
+        <td>Site público de documentação</td>
+        <td>Revisão de planos/código AI</td>
+      </tr>
+      <tr>
+        <td>Quem mantém</td>
+        <td>Eu (agente) + você (curadoria)</td>
+        <td>Você + GitHub Actions</td>
+        <td>Você (revisor)</td>
+      </tr>
+      <tr>
+        <td>Roda onde</td>
+        <td>Local (seu computador)</td>
+        <td>GitHub Pages (público)</td>
+        <td>Local (plugin)</td>
+      </tr>
+      <tr>
+        <td>Já tem substituto?</td>
+        <td>Não — é novo</td>
+        <td>Sim (MkDocs)</td>
+        <td>Não — mas não urgent</td>
+      </tr>
+      <tr>
+        <td>Prioridade</td>
+        <td><span class="badge badge-green">AGORA</span></td>
+        <td><span class="badge badge-yellow">TESTAR</span></td>
+        <td><span class="badge badge-gray">DEPOIS</span></td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- ========== SEÇÃO 3: SKILLS DO HERMES ========== -->
+<section>
+  <h2>3. Skills do Hermes Relevantes</h2>
+  <p style="color:var(--text-dim);margin-bottom:1rem;">
+    Skills são procedimentos que eu carrego sob demanda. Cada uma contém instruções especializadas, comandos e armadilhas conhecidas. Abaixo, as mais úteis para a construção da sua mentoria.
+  </p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Skill</th>
+        <th>Pra quê serve</th>
+        <th>Quando usar</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code>llm-wiki</code></td>
+        <td>Manter a base de conhecimento persistente — ingerir fontes, criar/atualizar páginas, consultar conhecimento compilado</td>
+        <td><span class="badge badge-green">Toda sessão</span></td>
+      </tr>
+      <tr>
+        <td><code>plan</code></td>
+        <td>Antes de executar tarefas complexas, escrever um plano markdown em <code>.hermes/plans/</code> para você aprovar</td>
+        <td><span class="badge badge-green">Tarefas 5+ passos</span></td>
+      </tr>
+      <tr>
+        <td><code>github-pr-workflow</code></td>
+        <td>Criar branch, fazer commits, abrir PR, revisar, mergear — fluxo completo GitHub</td>
+        <td><span class="badge badge-green">Mudanças no repositório</span></td>
+      </tr>
+      <tr>
+        <td><code>github-code-review</code></td>
+        <td>Revisar diffs de PR com comentários inline via API do GitHub</td>
+        <td><span class="badge badge-green">Antes de merge</span></td>
+      </tr>
+      <tr>
+        <td><code>auditoria-conteudo-tecnico</code></td>
+        <td>Auditar, expandir e publicar conteúdo técnico MkDocs com referências de projetos correlatos (como fizemos hoje)</td>
+        <td><span class="badge badge-green">Edições em TECs</span></td>
+      </tr>
+      <tr>
+        <td><code>content-review</code></td>
+        <td>Auditar, pontuar e enriquecer repositórios de documentação — mapeamento estrutural, análise de lacunas, enriquecimento cross-repo</td>
+        <td><span class="badge badge-yellow">Revisões trimestrais</span></td>
+      </tr>
+      <tr>
+        <td><code>catalogacao-ecossistema</code></td>
+        <td>Auditar e catalogar ecossistemas multi-repositório — mapear estrutura, detectar DOIs/Zenodo, inventariar local vs remoto</td>
+        <td><span class="badge badge-yellow">Sincronia entre repos</span></td>
+      </tr>
+      <tr>
+        <td><code>obsidian</code></td>
+        <td>Ler, criar e editar notas no vault Obsidian — útil se o wiki for integrado com Obsidian</td>
+        <td><span class="badge badge-yellow">Se usar Obsidian</span></td>
+      </tr>
+      <tr>
+        <td><code>excalidraw</code></td>
+        <td>Criar diagramas "mão livre" (arquitetura, fluxo, sequência) em JSON renderizável</td>
+        <td><span class="badge badge-yellow">Diagramas visuais</span></td>
+      </tr>
+      <tr>
+        <td><code>sketch</code></td>
+        <td>Protótipos HTML descartáveis — 2 a 3 variantes de design para comparar</td>
+        <td><span class="badge badge-blue">Mockups de páginas</span></td>
+      </tr>
+      <tr>
+        <td><code>jupyter-live-kernel</code></td>
+        <td>Python interativo via kernel Jupyter ao vivo — análise de dados, experimentos</td>
+        <td><span class="badge badge-blue">Análises numéricas</span></td>
+      </tr>
+      <tr>
+        <td><code>ocr-and-documents</code></td>
+        <td>Extrair texto de PDFs e scans (pymupdf, marker-pdf)</td>
+        <td><span class="badge badge-blue">Digitalizar documentos</span></td>
+      </tr>
+      <tr>
+        <td><code>nano-pdf</code></td>
+        <td>Editar texto em PDFs via CLI com comandos em linguagem natural</td>
+        <td><span class="badge badge-blue">Ajustes em PDFs</span></td>
+      </tr>
+      <tr>
+        <td><code>notion</code></td>
+        <td>API do Notion + CLI <code>ntn</code>: páginas, databases, markdown</td>
+        <td><span class="badge badge-opt">Se migrar pro Notion</span></td>
+      </tr>
+      <tr>
+        <td><code>arxiv</code></td>
+        <td>Buscar papers no arXiv por palavra-chave, autor, categoria</td>
+        <td><span class="badge badge-opt">Pesquisa acadêmica</span></td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- ========== SEÇÃO 4: FLUXO DE TRABALHO ========== -->
+<section>
+  <h2>4. Fluxo de Trabalho Proposto</h2>
+
+  <h3>🧠 A cada sessão (com LLM Wiki)</h3>
+  <ol style="color:var(--text-dim);">
+    <li><strong>Orientação automática</strong> — eu leio <code>SCHEMA.md</code>, <code>index.md</code> e <code>log.md</code> para saber o estado atual do conhecimento</li>
+    <li><strong>Consulto o wiki</strong> antes de responder — se o conceito já existe, não preciso re-ler seus TECs</li>
+    <li><strong>Registro no log</strong> — tudo que fizermos fica registrado no <code>log.md</code> do wiki</li>
+    <li><strong>Atualizo páginas</strong> — novos insights viram novas páginas ou atualizações nas existentes</li>
+  </ol>
+
+  <h3>📝 Para criar/editar conteúdo do site</h3>
+  <ol style="color:var(--text-dim);">
+    <li>Carrego a skill <code>plan</code> e escrevo um plano markdown</li>
+    <li>Você aprova ou ajusta</li>
+    <li>Executo com <code>github-pr-workflow</code> — branch → commits → PR</li>
+    <li>Você revisa via <code>github-code-review</code> ou diretamente</li>
+    <li>Merge dispara GitHub Actions → deploy automático</li>
+  </ol>
+
+  <h3>🔁 Sincronia entre repositórios</h3>
+  <p style="color:var(--text-dim);">
+    Você tem pelo menos <strong>3 repositórios</strong> com conteúdo relacionado:
+  </p>
+  <ul>
+    <li><strong>Mentoria_Tecnologia_Takwara</strong> — site da mentoria (MkDocs)</li>
+    <li><strong>Mulheres-Tecem-Amazonia</strong> — dossiê BNDES completo (referência científica)</li>
+    <li><strong>plataforma-juventude-solidaria-2026</strong> — projeto social (referência de aplicação)</li>
+  </ul>
+  <p style="color:var(--text-dim);">
+    A skill <code>catalogacao-ecossistema</code> foi feita para isso: mapear DOIs, detectar redundâncias, manter tudo consistente.
+  </p>
+</section>
+
+<!-- ========== SEÇÃO 5: CONFIGURAÇÕES ========== -->
+<section>
+  <h2>5. Configurações Necessárias</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Item</th>
+        <th>O que configurar</th>
+        <th>Prioridade</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code>WIKI_PATH</code></td>
+        <td>Variável de ambiente apontando para o diretório do wiki (ex: <code>~/wiki-mentoria-takwara</code>)</td>
+        <td><span class="badge badge-green">Antes de criar o wiki</span></td>
+      </tr>
+      <tr>
+        <td><code>OBSIDIAN_VAULT_PATH</code></td>
+        <td>Se quiser ver o wiki no Obsidian — aponta pro mesmo diretório do <code>WIKI_PATH</code></td>
+        <td><span class="badge badge-yellow">Opcional (recomendado)</span></td>
+      </tr>
+      <tr>
+        <td>GitHub Token</td>
+        <td>Para <code>gh</code> CLI e API do GitHub (operações de PR, issues)</td>
+        <td><span class="badge badge-green">Já deve ter</span></td>
+      </tr>
+      <tr>
+        <td><code>docmd.io</code></td>
+        <td><code>npx @docmd/core dev</code> — teste num repo separado antes de migrar</td>
+        <td><span class="badge badge-blue">Após o programa</span></td>
+      </tr>
+      <tr>
+        <td><code>Plannotator</code></td>
+        <td><code>curl -fsSL https://plannotator.ai/install.sh | bash</code></td>
+        <td><span class="badge badge-gray">Baixa prioridade</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>Para configurar o WIKI_PATH</h3>
+  <pre><code># Adicionar ao ~/.hermes/.env ou ~/.zshrc:
+export WIKI_PATH="$HOME/wiki-mentoria-takwara"</code></pre>
+</section>
+
+<!-- ========== SEÇÃO 6: RECOMENDAÇÕES PRIORIZADAS ========== -->
+<section>
+  <h2>6. Plano de Ação Recomendado</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Ação</th>
+        <th>Quando</th>
+        <th>Duração</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td><strong>Criar o LLM Wiki</strong> — definir WIKI_PATH, criar estrutura (SCHEMA, index, log)</td>
+        <td><span class="badge badge-green">Agora</span></td>
+        <td>~10 min</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td><strong>Ingerir TECs no wiki</strong> — eu leio todos os 8 TECs e crio páginas no wiki</td>
+        <td><span class="badge badge-green">Logo após #1</span></td>
+        <td>~15 min</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td><strong>Ingerir dossiês MQTF</strong> — referências científicas, ensaios Itecons, patentes Série T</td>
+        <td><span class="badge badge-green">Após #2</span></td>
+        <td>~15 min</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td><strong>Passo 3 da mentoria</strong> — estrutura, formato de entrega, pontos de contato</td>
+        <td><span class="badge badge-green">Com wiki pronto</span></td>
+        <td>Definir</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td><strong>Testar docmd.io</strong> — repo separado, <code>npx @docmd/core dev</code>, avaliar</td>
+        <td><span class="badge badge-yellow">Fim de semana</span></td>
+        <td>~30 min</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td><strong>Catalogar ecossistema</strong> — rodar skill <code>catalogacao-ecossistema</code> nos 3 repositórios</td>
+        <td><span class="badge badge-yellow">Após Passo 4</span></td>
+        <td>~20 min</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td><strong>Avaliar Plannotator</strong> — instalar e testar em um ciclo de revisão</td>
+        <td><span class="badge badge-blue">Pós-programa</span></td>
+        <td>~20 min</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- ========== SEÇÃO 7: PERGUNTAS PARA DECIDIR ========== -->
+<section>
+  <h2>7. O que você precisa decidir agora</h2>
+
+  <div class="card-grid">
+    <div class="card" style="border-left: 3px solid var(--green);">
+      <h4>📁 Caminho do Wiki</h4>
+      <p>Onde criar o LLM Wiki?</p>
+      <p><code>~/wiki-mentoria-takwara/</code> (sugestão) ou prefere outro nome/local?</p>
+    </div>
+    <div class="card" style="border-left: 3px solid var(--green);">
+      <h4>📚 Escopo inicial</h4>
+      <p>Ingiro só os TECs da Mentoria, ou também os dossiês do MQTF (Mulheres-Tecem-Amazonia) e o Juventude Solidária?</p>
+    </div>
+    <div class="card" style="border-left: 3px solid var(--yellow);">
+      <h4>🔗 Integração com Obsidian</h4>
+      <p>Usa Obsidian? Se sim, posso configurar o wiki como vault — você navega visualmente, eu escrevo por código.</p>
+    </div>
+    <div class="card" style="border-left: 3px solid var(--blue);">
+      <h4>📄 docmd.io</h4>
+      <p>Quer que eu crie um repo de teste agora, ou deixa pra depois do programa?</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>Gerado por Hermes Agent · Mentoria Tecnologia Takwara · 2026</p>
+</footer>
+
+</div>
+</body>
+</html>
