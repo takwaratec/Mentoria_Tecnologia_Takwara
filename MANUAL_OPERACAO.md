@@ -5,6 +5,17 @@
 
 ---
 
+## ⚠️ Centralização de referências (27/06)
+
+Todo conteúdo da Mentoria Takwara sobre PU Vegetal, Bambu e Tratamento Limpo deve referenciar **exclusivamente** o Acervo Científico (`Analises-e-escrita-cientifica`) como fonte de citações:
+
+- ❌ Nunca linkar fontes duplicadas ou PDFs avulsos externos
+- ❌ Nunca criar acervos paralelos de citações
+- ✅ Toda referência → DOI rastreável no Acervo Científico
+- ✅ O acervo foi depurado exaustivamente em 26-27/06 e é a base irreprensível
+
+---
+
 ## 1. Como Pedir — Frases que Funcionam
 
 ### Processamento de Arquivos
