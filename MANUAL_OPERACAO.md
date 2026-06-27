@@ -263,7 +263,74 @@ Um sistema de busca por **significado**, não por palavra-chave. Você pergunta 
 
 ---
 
-## 10. Dicas para Máximo Aproveitamento
+## 10. Revisão Semântica dos 4 READMEs (27/06/2026)
+
+### Apontamentos
+
+| # | Repositório | Problema encontrado | Correção |
+|---|---|---|---|
+| 1 | Acervo Científico | Dizia "11 membros" — ECOSALA tem 12 (Daniela incluída 26/06) | Corrigido para 12 |
+| 2 | Acervo Científico | Dizia "~80 fichas" — acervo real ~270 | Corrigido para ~270 |
+| 3 | Acervo Científico | "84 referências IFB" — após remoção das 5 sem DOI, são 70 | Corrigido para 70 |
+| 4 | ECOSALA | Diagrama Mermaid sem nó "Novos Editais" | Nó NB adicionado |
+| 5 | Vaga Lúmen | Diagrama Mermaid sem nó "Novos Editais" | Nó NB adicionado |
+| 6 | Todos | Introdução Bem Viver antiga era genérica, usava "Este repositório" (3ª pessoa) e regionalismos ("amazônica") | Substituída por texto holístico universal com identidade do coletivo em 1ª pessoa |
+| 7 | Todos | Cada README tinha introdução idêntica — sem personalidade do repositório | Agora cada um tem parágrafo final customizado: "memória científica" (Acervo), "espaço coletivo" (ECOSALA), "proposta de captação" (Vaga Lúmen), "ponte com o território" (MSTJS) |
+
+### Nova introdução Bem Viver
+
+A introdução unificada agora:
+
+- Fala em **1ª pessoa do plural** ("Somos um encontro..."), não em 3ª ("Este repositório é parte de...")
+- Lista as **disciplinas reais** do grupo (agrônomos, arquitetos, microbiologistas, etc.)
+- Eliminou o termo "bioeconomia amazônica" (regionalismo) — substituído por "bioeconomia regenerativa"
+- Eliminou "ativistas" e "pensadores" como categorias separadas — todos são pesquisadores que agem
+- Incluiu **reconhecimento aos que vieram antes**: povos originários e mestres do bambu
+- Termina com **convite inclusivo**: "Seja bem-vinda, bem-vindo. Há lugar para quem chega"
+- Cada repositório ganhou um **parágrafo-âncora** diferenciado que identifica seu papel no ecossistema
+
+### Personalidade dos membros ativos (impresso no texto)
+
+| Membro | Experiência refletida no texto |
+|---|---|
+| **Marcos Paron** | "microbiologistas" + "institutos federais" + coordenação acadêmica |
+| **André Blanco** | "arquitetos" + "bioconstrução" + "geodésicas" |
+| **Fabio Takwara** | "pesquisadores autodidatas" + "bambu e poliuretano vegetal" — a teoria que encontra o chão |
+| **Gisele Vilela** | "centros de pesquisa" (Embrapa) + "produção orgânica e bioeconomia regenerativa" |
+| **Joaquim Sando** | "assentamentos da reforma agrária" + engenharia agronômica |
+| **Vicente Borges** | "educadoras" + "institutos federais" + tradição do bambu |
+| **Raphaela Palma** | "nutricionistas, psicólogas" + saúde integral |
+| **Luci Okino** | "gestoras comunitárias" + espaço de acolhimento |
+| **Murillo Miguel** | "desenvolvedores" + operação de campo no território |
+| **Henrique Bueno** | "periferias urbanas" + gestão |
+| **Luis Felipe** | "arquitetos" + projeto complementar |
+| **Daniela Maciel** | "transferência de tecnologia" + inovação nos territórios |
+
+### Continuidade relacional
+
+A estrutura agora garante que qualquer pessoa que acesse um README:
+
+1. **Entende o coletivo** (introdução unificada em 1ª pessoa)
+2. **Sabe em qual repositório está** (parágrafo-âncora customizado)
+3. **Vê o ecossistema completo** (diagrama Mermaid idêntico em todos)
+4. **Consegue navegar** (links para os irmãos na ordem: Acervo → ECOSALA → Vaga Lúmen → MSTJS)
+5. **Sabe quem são as pessoas** (tabela de membros no ECOSALA; links no Acervo)
+
+### Padronização do diagrama Mermaid
+
+Todos os 4 repositórios agora compartilham o mesmo diagrama com 6 nós:
+
+```
+Central: Acervo Científico
+Projetos: ECOSALA, Vaga Lúmen, MSTJS
+Futuro: Fábrica Modelo, Novos Editais
+```
+
+Fluxo: Acervo → fornece referências → Projetos → demandas entre si → Futuro recebe sinergia/tecnologias.
+
+---
+
+## 11. Dicas para Máximo Aproveitamento
 
 1. **Uma tarefa por mensagem** — processar áudio + buscar + atualizar = tudo certo, mas rende mais se for passo a passo
 2. **Contexto é rei** — quanto mais informação der no pedido, mais preciso sou
