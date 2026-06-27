@@ -13,7 +13,10 @@
 - ✅ **Atribuição correta** — cada autor com seu crédito. O que está em chat/áudio/e-mail é delegado ao agente e atribuído ao autor correspondente
 - ✅ **Referências públicas** — só artigos com DOI e literatura pública como evidência. Documentos internos (LAB_, ENG_, RES_, SCI_, TAK_) nunca são citados como prova
 - ✅ **Linguagem clara** — sem termos metafóricos internos ("biosoberano", "protocolos disso/daquilo") em textos públicos
-- ❌ **Nunca fabricar citações** — usar paráfrase explícita quando não houver transcrição literal verificada
+### ❌ Nunca fabricar citações — usar paráfrase explícita quando não houver transcrição literal verificada
+- ❌ **Nunca criar fichas científicas sem autor, DOI/ISBN/ISSN identificados** — documentos incompletos não entram no acervo
+- ❌ **Nunca publicar fichas com seções vazias** — toda ficha deve ter 8 seções Cavichioli (2025) completas, com conteúdo extraído do PDF original
+- ❌ **Sempre alertar o usuário** sobre dados faltantes antes de prosseguir com a criação de qualquer ficha
 
 ---
 
