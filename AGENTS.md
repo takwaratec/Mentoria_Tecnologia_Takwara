@@ -31,6 +31,8 @@
 | **Analises-e-escrita-cientifica** | ✅ [takwaratec.github.io/...](https://takwaratec.github.io/Analises-e-escrita-cientifica/) | Acervo ~80 fichas, 7 eixos | Acadêmico |
 | **Personagens-Bambu** | — | 8 personas bambu + biotipos | Geral |
 | **Mulheres_Bioeconomia_Amazonia** | Zenodo DOI: 10.5281/zenodo.18827106 | Série Técnica, cartilhas | Zenodo |
+| **Mulheres-Tecem-Amazonia** | ✅ [takwaratec.github.io/...](https://takwaratec.github.io/Mulheres-Tecem-Amazonia/) | Consórcio UnB/UFAC/UFRR — bioeconomia, dossiê BNDES, série Técnica | Acadêmico |
+| **unb-desafios-amazonia-2026** 🆕 | ✅ [takwaratec.github.io/...](https://takwaratec.github.io/unb-desafios-amazonia-2026/) | Proposta Desafios da Amazônia (Amazônia+10) — edital R$107M | Avaliadores, Profa Tânia |
 
 > ⚠️ **Regra de ouro:** Cada repo tem seu próprio GH Pages (ou nenhum). NUNCA cruzar links entre repositórios. Links compartilhados com grupos não podem quebrar.
 
@@ -48,6 +50,7 @@
 | **Vicente Borges** | Dr. Educação, prof. IFB | Bambu, MPTDF |
 | **Daniela Maciel** | Drª Embrapa Territorial | Transferência de tecnologia, avaliação de impacto (reunião pendente) |
 | **Murilo Miguel** | Coletivo Terra Viva | Operação de campo, viveiro |
+| **Profa. Dra. Tânia** 🆕 | Pesquisadora, UnB | Parceria UnB — MQTF/Desafios da Amazônia. Articulação com UFAC/UFRR |
 | **Demais membros** | ECOSALA | Fichas pessoais |
 
 ---
@@ -93,6 +96,11 @@ for seg in segments: print(seg.text)
 - ✅ Tecnologia descrita pelo que faz, não por codificação interna
 - ✅ Atribuir com honestidade
 - ✅ Se não tem transcrição literal verificada, usar paráfrase explícita
+- ✅ **Filtro público vs. interno** — codinomes internos (Frente X, Prancha Vegetal, MQTF, "cozinha") NUNCA aparecem em docs públicos. Parceiro externo vê o nome real da tecnologia
+- ✅ **Protocolo de governança** — trabalhos de campo com comunidades só após observância das Salvaguardas de Cancún (REDD+). Link direto: [GOV_PROTOCOLO_SEGURANCA_CANCUN.md](https://github.com/takwaratec/Mulheres-Tecem-Amazonia/blob/main/docs/01_GOVERNANCA/GOV_PROTOCOLO_SEGURANCA_CANCUN.md)
+- ✅ **MQTF** (Mulheres Que Tecem a Floresta) é sigla de uso interno. Em docs públicos, referenciar como "projeto de bioeconomia amazônica do consórcio UnB/UFAC/UFRR" com link direto ao repositório
+- ✅ **Parceiros enviam só áudio** (nunca vídeo) — identificando-se no início e um assunto por mensagem
+- ✅ **Staff de modelagem e escrita** = nós (Hermes processa, Fabio modela). Termo "cozinha" é metáfora interna do Fabio, não usar em docs
 
 ---
 
@@ -180,4 +188,4 @@ Consulte o arquivo `FRENTES_DE_TRABALHO.md` (na raiz deste repositório) para:
 ---
 
 *AGENTS.md Master mantido pelo Hermes Agent · Tecnologia Takwara · 2026*
-*Consolida todo o aprendizado das sessões com Fabio Takwara — ECOSALA, Vaga Lúmen, MST, Acervo Científico*
+*Consolida todo o aprendizado das sessões com Fabio Takwara — ECOSALA, Vaga Lúmen, MST, Acervo Científico, MQTF, Desafios da Amazônia*
