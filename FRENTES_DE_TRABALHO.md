@@ -290,8 +290,8 @@ Cada frente tem:
 
 | Campo | Valor |
 |---|---|
-| **Repositório** | ❌ AINDA NÃO TEM — precisa decidir |
-| **Caminho local** | `/Users/fabiotakwara/Documents/GitHub/UnB/` |
+| **Repositório** | ✅ `takwaratec/unb-desafios-amazonia-2026` (criado em 28/06) |
+| **Caminho local** | `/Users/fabiotakwara/Documents/GitHub/unb-desafios-amazonia-2026/` |
 
 🎯 Parceria com Profa Tania (UnB) — MQTF (Marco da Qualidade do Tratamento de Fitoterápicos? a confirmar). Novo edital sugerido.
 
