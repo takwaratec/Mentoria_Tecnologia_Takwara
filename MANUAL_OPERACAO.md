@@ -312,7 +312,15 @@ Cada repo tem parágrafo final customizado na intro:
 
 ---
 
-## 11. Dicas para Máximo Aproveitamento
+## 11. Gestão de Frentes de Trabalho
+
+Consulte `FRENTES_DE_TRABALHO.md` (na raiz) para o mapa completo de todas as frentes,
+repositórios, status, triagem e próximos passos. Este documento é o quadrante central
+atualizado a cada sessão.
+
+---
+
+## 12. Dicas para Máximo Aproveitamento
 
 1. **Uma tarefa por mensagem** — processar áudio + buscar + atualizar = tudo certo, mas rende mais se for passo a passo
 2. **Contexto é rei** — quanto mais informação der no pedido, mais preciso sou

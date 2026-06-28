@@ -165,5 +165,19 @@ mkdocs gh-deploy --clean
 
 ---
 
+## 9. Gestão de Frentes de Trabalho
+
+Consulte o arquivo `FRENTES_DE_TRABALHO.md` (na raiz deste repositório) para:
+
+- Raio-X completo de todos os repositórios
+- Mapa das 10 frentes de atuação (com escopo, triagem, status, parceiros)
+- O que Hermes faz e não faz em cada frente
+- Prioridades de ação
+- Regras de fronteira entre frentes (NÃO misturar)
+
+**Regra:** Toda conversa começa com Hermes consultando este documento para te situar.
+
+---
+
 *AGENTS.md Master mantido pelo Hermes Agent · Tecnologia Takwara · 2026*
 *Consolida todo o aprendizado das sessões com Fabio Takwara — ECOSALA, Vaga Lúmen, MST, Acervo Científico*
