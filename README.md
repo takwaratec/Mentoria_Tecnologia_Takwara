@@ -32,7 +32,7 @@ O ecossistema Takwara se desenvolve em três camadas históricas:
 
 | Repositório | Função | GH Pages | Originador |
 |---|---|---|---|
-| **[Takwara-Tech](https://github.com/Resck/Takwara-Tech)** | 🌱 Repositório inaugural. Primeira documentação da Tecnologia Takwara (PU+Bambu, tratamentos, geodésicas, COP30, Holambra). Precisa de triagem. | ✅ | Resck |
+| **[Takwara-Tech](https://github.com/Resck/Takwara-Tech)** | 🌱 Repositório inaugural. Primeira documentação da Tecnologia Takwara (PU+Bambu, tratamentos, geodésicas, COP30, Holambra). Triagem concluída. | ✅ | Resck |
 | **[projetos](https://github.com/takwaratec/projetos)** | 📦 Expansão para bioeconomia amazônica. Série técnica, cartilhas, Zenodo 10.5281/zenodo.18827106 | ❌ | takwaratec |
 
 ### Geração 2 — Bioeconomia e Consórcios
@@ -44,22 +44,24 @@ O ecossistema Takwara se desenvolve em três camadas históricas:
 
 ### Geração 3 — Projetos Ativos
 
-| Repositório | Função | GH Pages | Frente |
-|---|---|---|---|
-| **Mentoria_Tecnologia_Takwara** ← **MAESTRO** | 🎯 Regência do ecossistema. AGENTS.md master, FRENTES_DE_TRABALHO.md, metodologia, 7 módulos TEC | ✅ | — |
-| **[ECOSALA](https://github.com/takwaratec/ECOSALA)** | 🌱 Coletivo 12 pesquisadores. Atas, projetos, editais | ✅ | F2 |
-| **[fundo-vaga-lumen-2026](https://github.com/takwaratec/fundo-vaga-lumen-2026)** | 💰 Proposta FINEP Vaga Lúmen | ❌ | F3 |
-| **[plataforma-juventude-solidaria-2026](https://github.com/takwaratec/plataforma-juventude-solidaria-2026)** | 🌾 Viveiro-Educador MST Mário Lago | ✅ | F4 |
-| **[Analises-e-escrita-cientifica](https://github.com/takwaratec/Analises-e-escrita-cientifica)** | 📚 Acervo científico. ~80 fichas, 7 eixos, DOI rastreável | ✅ | F5 |
-| **[Personagens-Bambu](https://github.com/takwaratec/Personagens-Bambu)** | 🎭 8 personas bambu + biotipos, design system | ❌ | F6 |
-| **[unb-desafios-amazonia-2026](https://github.com/takwaratec/unb-desafios-amazonia-2026)** 🆕 | 🌎 Proposta UnB + Consórcio para o Edital Desafios da Amazônia (R$107M) | ✅ | F9 |
+| Repositório | Função | GH Pages | Frente | Status |
+|---|---|---|---|---|
+| **Mentoria_Tecnologia_Takwara** ← **MAESTRO** | 🎯 Regência do ecossistema. AGENTS.md master, FRENTES_DE_TRABALHO.md | ✅ | — | 🟢 Ativo |
+| **[ECOSALA](https://github.com/takwaratec/ECOSALA)** | 🌱 Coletivo pesquisadores. Atas, projetos, editais | ✅ | F2 | 🟢 Ativo |
+| **[fundo-vaga-lumen-2026](https://github.com/takwaratec/fundo-vaga-lumen-2026)** | 💰 Proposta FINEP Vaga Lúmen | ❌ | F3 | ⏳ Aguardando reunião André/Maurilho |
+| **[plataforma-juventude-solidaria-2026](https://github.com/takwaratec/plataforma-juventude-solidaria-2026)** | 🌾 Viveiro-Educador MST Mário Lago | ✅ | F4 | 🟢 Ativo |
+| **[Analises-e-escrita-cientifica](https://github.com/takwaratec/Analises-e-escrita-cientifica)** | 📚 Acervo científico. **319 fichas, 8 sub-eixos**, DOI rastreável | ✅ | F5 | 🟢 Ativo |
+| **[Personagens-Bambu](https://github.com/takwaratec/Personagens-Bambu)** | 🎭 8 personas bambu + biotipos, design system | ❌ | F6 | 🟢 Publicado |
+| **[unb-desafios-amazonia-2026](https://github.com/takwaratec/unb-desafios-amazonia-2026)** | 🌎 Proposta UnB + Consórcio Desafios da Amazônia (R$107M) | ✅ | F9 | ⏳ Pré-proposta 01/09/2026 |
+| **[fabrica-modelo](https://github.com/takwaratec/fabrica-modelo)** 🆕 | 🏭 Industrialização da construção civil — André/Maurilho | ❌ | F10 | ⏳ Aguardando reunião André |
+| **[eco-prancha](https://github.com/takwaratec/eco-prancha)** 🆕 | 🏄 Prancha de surf vegetal — Marcello Pedro (Raízes) | ❌ | F11 | ⏳ Aguardando call Marcello |
 
-### Geração 4 — Em Estruturação
+### Geração 4 — Carreira e Articulação
 
-| Repositório | Função | GH Pages | Frente |
-|---|---|---|---|
-| *Prancha Vegetal* (a criar) | 🏄 Protótipo de prancha de surf vegetal com PU+Bambu | — | F10 |
-| *MQTF Desdobramentos* (expansão) | 🌿 Novos editais e parcerias do consórcio UnB/UFAC/UFRR | — | F8 |
+| Frente | Descrição | Status |
+|---|---|---|
+| **LaPCiS — Pesquisador Voluntário** | Vinculação ao LaPCiS (UnB Planaltina) como pesquisador voluntário, com CNPJ Ecolaborativa para contratos. Carta de intenções e proposta de parceria encaminhadas. | ⏳ **Aguardando resposta da Profa. Tânia** |
+| **MQTF Desdobramentos** | Novos editais e parcerias do consórcio UnB/UFAC/UFRR | ⏳ Aguardando |
 
 ### Suporte / Complementares
 
@@ -71,12 +73,27 @@ O ecossistema Takwara se desenvolve em três camadas históricas:
 
 ---
 
+## 📋 Status Geral — 29/06/2026
+
+| Frente | Status | Pendente |
+|---|---|---|
+| **LaPCiS (carreira)** | ⏳ Carta de intenções + proposta encaminhadas | Aguardando resposta Profa. Tânia |
+| **Vaga Lúmen (F3)** | ⏳ Espelho FINEP Mais Inovação baixado | Aguardando reunião André/Maurilho |
+| **Fábrica Modelo (F10)** | 🆕 Repositório criado, edital baixado | Aguardando reunião André |
+| **Eco Prancha (F11)** | 🆕 Repositório criado, estado da arte compilado | Aguardando call Marcello |
+| **Desafios Amazônia (F9)** | ⏳ Em articulação | Pré-proposta 01/09/2026 |
+| **ECOSALA (F2)** | 🟢 Ativo | — |
+| **MSTJS (F4)** | 🟢 Ativo | — |
+| **Acervo Científico (F5)** | 🟢 319 fichas | — |
+
+---
+
 ## 📋 O que este repositório contém
 
 | Documento | Função |
 |---|---|
-| [`AGENTS.md`](AGENTS.md) | **Fonte única de verdade.** Consolida regras, ferramentas, atores e workflows para todos os agentes de IA do ecossistema |
-| [`FRENTES_DE_TRABALHO.md`](FRENTES_DE_TRABALHO.md) | **Gestão das 10 frentes.** Raio-X completo, escopo, triagem, status, parceiros, regras de fronteira |
+| [`AGENTS.md`](AGENTS.md) | **Fonte única de regência.** Consolida regras, ferramentas, atores e workflows para todos os agentes de IA do ecossistema |
+| [`FRENTES_DE_TRABALHO.md`](FRENTES_DE_TRABALHO.md) | **Gestão das 11 frentes.** Raio-X completo, escopo, triagem, status, parceiros, regras de fronteira |
 | [`MANUAL_OPERACAO.md`](MANUAL_OPERACAO.md) | **Guia prático de interação.** Como pedir, fluxo de trabalho, comandos, dicas |
 | `docs/` | **7 módulos TEC** (Ecologia, Tratamentos, PU Vegetal, Engenharia, Dossiê, Histórico, Química) + metodologia |
 | `PLANOS/` | Planos de ação por frente |
@@ -106,7 +123,7 @@ A Tecnologia Takwara é o conjunto de soluções que combinam:
 
 - **Poliuretano Vegetal de Mamona** (Imperveg) — impermeabilizante, selante, biocompósito, não tóxico, biodegradável
 - **Bambu Tratado** (processo MPTDF) — estruturas, habitação, equipamentos, embarcações
-- **Tecnologias integradas** — forno ecológico, biochar, geodésicas, saneamento ecológico, catamarã vegetal
+- **Tecnologias integradas** — forno ecológico, biochar, geodésicas, saneamento ecológico, catamarã vegetal, **prancha de surf vegetal**
 
 Esta tecnologia é o fio condutor de todos os projetos do ecossistema — da bioeconomia amazônica à mentoria, dos editais FINEP às pranchas de surf vegetais.
 
@@ -114,5 +131,5 @@ Esta tecnologia é o fio condutor de todos os projetos do ecossistema — da bio
 
 ---
 
-> *Mantido pelo Hermes Agent · Tecnologia Takwara · 2026*
+> *Mantido pelo Hermes Agent · Tecnologia Takwara · Atualizado em 29/06/2026*
 > *"Do fundo de quintal para o mundo — com rigor técnico e honestidade absoluta."*
