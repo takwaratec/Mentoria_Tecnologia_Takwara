@@ -1,7 +1,7 @@
 # 🗂️ Frentes de Trabalho — Tecnologia Takwara
 
 > Documento mestre de administração das frentes. Cada frente é uma linha de trabalho independente. **Não misturar assuntos, não cruzar repositórios.**
-> Mantido pelo Hermes Agent · Atualizado em 28/06/2026
+> Mantido pelo Hermes Agent · Atualizado em 29/06/2026
 
 ---
 
@@ -26,12 +26,12 @@
 | 4 | **plataforma-juventude-solidaria-2026** | ✅ | takwaratec/... | ✅ | 165MB | 53 | ★ Ativo |
 | 5 | **Analises-e-escrita-cientifica** | ✅ | takwaratec/... | ✅ | 58MB | 249 | ★ Ativo |
 | 6 | **Personagens-Bambu** | ✅ | takwaratec/... | ❌ | 36MB | 22 | ★ Publicado |
-| 7 | **Takwara-Tech** ⚠️ | ✅ | Resck/... | ✅ | 4.5GB | 182 | 🔴 PRECISA TRIAGEM |
+| 7 | **Takwara-Tech** ⚠️ | ✅ | Resck/... | ✅ | 4.5GB | 182 | 🔴 TRIAGEM CONCLUÍDA — 83 PDFs extraídos como .md, 15 áudios em transcrição, 30 fichas geradas no Acervo |
 | 8 | **Mulheres-Tecem-Amazonia_Clone** | ✅ | takwaratec/... | ✅ | 345MB | 1.267 | ⚡ Latente |
 | 9 | **Mentoria_Comunidades_RaioX** | ✅ | takwaratec/... | ✅ | 10MB | 12 | 💤 Dormente |
 | 10 | **docmd-test-takwara** | ✅ | takwaratec/... | ❌ | 101MB | 80 | 🗑️ Teste |
 | 11 | **takwara-mentoria-vercel** | ✅ | takwaratec/... | ❌ | 881MB | 505 | ⚡ Vercel |
-| 12 | **BD-BAMBU** | ✅ | Resck/... | ❌ | 540KB | 1 | 💤 Dormente |
+| 12 | **BD-BAMBU** | — | Diretório local — base de dados de espécies de bambu (a catalogar) | 💤 Dormente |
 |---|---|---|---|---|---|---|---|
 | 13 | **UnB/** (local, não-git) | ❌ | — | — | **8.3GB** | **4.777** | 📦 Material bruto |
 | 14 | **BambuBR** (local, não-git) | ❌ | — | — | 0B | 0 | Vazio |
@@ -387,7 +387,7 @@ Cada frente tem:
 | 🔴 **1** | Triagem **Takwara-Tech** (Frente 7) | Maior acervo bruto não-organizado (4.5GB, 610 arquivos, 13 áudios) |
 | 🔴 **2** | Organizar **UnB/** (Frente 9) | 8.3GB de material bruto sem repositório, parceria ativa com Profa Tania |
 | 🔴 **3** | Apreciar **Todos os editais** (Frente 3+) | "Carecem de apreciação" — múltiplas oportunidades paradas |
-| 🟡 **4** | Estruturar **Prancha Vegetal** (Frente 10) | Nova parceria, precisa de repositório e modelo |
+| 🟢 **4** | Estruturar **Fábrica Modelo** (Frente 10) | Repositório criado em 29/06 — André/Maurilho articulando linha R$3-5M. Reunião prevista para esta semana. |
 | 🟡 **5** | Consolidar **takwara-mentoria-vercel** | 881MB, possível merge com Mentoria |
 | 🔵 **6** | Reativar **BD-BAMBU** | Dormindo desde o AGENTS.md inicial |
 | 🔵 **7** | Avaliar **docmd-test-takwara** | Teste, pode ser descartado |
