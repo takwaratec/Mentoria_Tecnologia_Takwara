@@ -51,7 +51,6 @@ Baseado nos documentos publicados na Série Técnica (Zenodo 10.5281/zenodo.1882
 | Risco | Como evitar |
 |---|---|
 | Projeto virar "concreto verde" com maquiagem de bambu | Definir claramente onde minha pesquisa entra e onde não entra — se for descartada ou inadequada (TRL incerta), paciência, sigo meu caminho |
-| A universidade parceira não ter interesse em materiais vegetais | Levar carta de intenções do LaPCiS se necessário |
 | O recurso FINEP forçar tecnologia convencional | Conhecer o regulamento a fundo antes |
 
 ---
