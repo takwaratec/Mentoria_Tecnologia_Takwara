@@ -214,7 +214,7 @@ Triagem completa: 83 PDFs extraídos, 15 áudios processados, conteúdo distribu
 
 | Prioridade | O quê | Status |
 |---|---|---|
-| 🔴 **1** | Reunião André (Fábrica Modelo + Vaga Lúmen) — FINEP prazo 31/08 | Aguardando agendamento |
+| 🔴 **1** | Reunião André (Fábrica Modelo + Vaga Lúmen) — FINEP prazo 31/08 | Reunião hoje 10h |
 | 🔴 **2** | Responder Profa Tânia (LaPCiS) | Carta enviada, aguardando |
 | 🟡 **3** | Call Marcello (Eco Prancha) | Estado da arte pronto, aguardando |
 | 🟡 **4** | Criar fichas PU Vegetal e concorrentes eco-prancha no acervo | Em andamento |
