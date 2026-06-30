@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prévia — Mentoria Tecnologia Takwara</title>
+<style>
+  :root {
+    --bg: #0d1117;
+    --surface: #161b22;
+    --surface2: #1c2333;
+    --border: #30363d;
+    --text: #e6edf3;
+    --text-dim: #8b949e;
+    --accent: #2dd4bf;
+    --accent2: #58a6ff;
+    --gold: #d29922;
+    --green: #3fb950;
+    --red: #f85149;
+    --purple: #bc8cff;
+    --orange: #f0883e;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; font-size: 15px; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+  }
+  .container { max-width: 960px; margin: 0 auto; padding: 0 1.5rem; }
+
+  /* HERO */
+  .hero {
+    text-align: center; padding: 4rem 1rem 2.5rem;
+    position: relative; overflow: hidden;
+  }
+  .hero::before {
+    content: ''; position: absolute; top: -50%; left: -50%;
+    width: 200%; height: 200%;
+    background: radial-gradient(circle at 30% 50%, rgba(45,212,191,0.05) 0%, transparent 50%),
+                radial-gradient(circle at 70% 50%, rgba(88,166,255,0.05) 0%, transparent 50%);
+    z-index: 0;
+  }
+  .hero * { position: relative; z-index: 1; }
+  .hero h1 {
+    font-size: 2.4rem; font-weight: 800;
+    background: linear-gradient(135deg, var(--accent), var(--accent2), var(--purple));
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 0.5rem;
+  }
+  .hero .subtitle {
+    font-size: 1.1rem; color: var(--text-dim); margin-bottom: 1rem;
+  }
+  .hero .meta-badge {
+    display: inline-flex; gap: 1rem; flex-wrap: wrap; justify-content: center;
+    margin-top: 0.5rem;
+  }
+  .hero .meta-badge span {
+    display: inline-block; padding: 0.3rem 1rem;
+    border: 1px solid var(--border); border-radius: 999px;
+    font-size: 0.8rem; color: var(--text-dim);
+    background: var(--surface);
+  }
+  .hero .meta-badge .destaque {
+    border-color: var(--gold); color: var(--gold); background: rgba(210,153,34,0.08);
+  }
+
+  /* NAV */
+  nav.toc {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 8px; padding: 1.5rem; margin: 1.5rem 0;
+  }
+  nav.toc h2 {
+    font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.08em;
+    color: var(--accent); margin-bottom: 0.8rem;
+  }
+  nav.toc ol {
+    list-style: none; columns: 2; column-gap: 2rem;
+  }
+  nav.toc li {
+    margin-bottom: 0.35rem; break-inside: avoid;
+  }
+  nav.toc a {
+    color: var(--text-dim); text-decoration: none; font-size: 0.88rem;
+    transition: color 0.2s;
+  }
+  nav.toc a:hover { color: var(--accent); }
+
+  /* SECTIONS */
+  section { margin: 2.5rem 0; padding-top: 0.5rem; }
+  h2 {
+    font-size: 1.5rem; font-weight: 700; color: var(--accent);
+    border-bottom: 2px solid var(--border); padding-bottom: 0.4rem;
+    margin-bottom: 1rem; display: flex; align-items: center; gap: 0.6rem;
+  }
+  h2 .status-icon { font-size: 1.3rem; }
+  h3 {
+    font-size: 1.1rem; font-weight: 600; color: var(--text);
+    margin: 1.3rem 0 0.5rem;
+  }
+  h4 {
+    font-size: 0.95rem; font-weight: 600; color: var(--text);
+    margin: 1rem 0 0.3rem;
+  }
+  p { color: var(--text-dim); margin-bottom: 0.7rem; }
+  strong { color: var(--text); }
+  ul, ol { margin: 0.4rem 0 0.7rem 1.3rem; }
+  li { color: var(--text-dim); margin-bottom: 0.25rem; }
+
+  /* Status tags */
+  .tag {
+    display: inline-block; font-size: 0.7rem; font-weight: 600;
+    padding: 0.15rem 0.55rem; border-radius: 999px;
+    vertical-align: middle;
+  }
+  .tag-done { background: rgba(63,185,80,0.15); color: var(--green); }
+  .tag-wip { background: rgba(210,153,34,0.15); color: var(--gold); }
+  .tag-todo { background: rgba(139,148,158,0.15); color: var(--text-dim); }
+
+  /* TABLES */
+  table {
+    width: 100%; border-collapse: collapse; font-size: 0.85rem;
+    margin: 0.8rem 0;
+  }
+  th, td {
+    text-align: left; padding: 0.5rem 0.7rem;
+    border-bottom: 1px solid var(--border); vertical-align: top;
+  }
+  th {
+    color: var(--accent); font-weight: 600; font-size: 0.75rem;
+    text-transform: uppercase; letter-spacing: 0.05em;
+    border-bottom: 2px solid var(--accent2);
+  }
+  td { color: var(--text-dim); }
+  td:first-child { color: var(--text); font-weight: 500; }
+  tr:hover td { background: rgba(45,212,191,0.03); }
+
+  /* PROGRESS BAR */
+  .progress-bar {
+    display: flex; width: 100%; height: 24px; border-radius: 12px;
+    overflow: hidden; background: var(--surface); margin: 0.5rem 0 1rem;
+    border: 1px solid var(--border);
+  }
+  .progress-bar .seg {
+    display: flex; align-items: center; justify-content: center;
+    font-size: 0.65rem; font-weight: 700; color: #000; transition: width 0.5s;
+  }
+  .seg-done { background: var(--green); }
+  .seg-wip { background: var(--gold); }
+  .seg-todo { background: var(--border); color: var(--text-dim); }
+
+  /* TIMELINE */
+  .timeline { list-style: none; margin: 1rem 0; padding: 0; }
+  .timeline li {
+    position: relative; padding: 0 0 1.2rem 2rem;
+    border-left: 2px solid var(--border); margin: 0;
+  }
+  .timeline li::before {
+    content: ''; position: absolute; left: -7px; top: 0.3rem;
+    width: 12px; height: 12px; border-radius: 50%; background: var(--accent);
+  }
+  .timeline li.done::before { background: var(--green); }
+  .timeline li.now::before { background: var(--gold); box-shadow: 0 0 0 3px rgba(210,153,34,0.3); }
+  .timeline li.future::before { background: var(--border); }
+  .timeline li .date { font-size: 0.78rem; color: var(--text-dim); }
+  .timeline li strong { display: block; }
+
+  /* CARDS */
+  .card-grid {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 0.8rem; margin: 0.8rem 0;
+  }
+  .card {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 8px; padding: 1rem; transition: border-color 0.2s;
+  }
+  .card h4 { font-size: 0.9rem; color: var(--accent); margin-bottom: 0.3rem; }
+  .card p { font-size: 0.82rem; margin-bottom: 0; }
+  .card .card-stat { font-size: 1.5rem; font-weight: 700; color: var(--text); }
+
+  /* CODE */
+  code {
+    font-family: 'SF Mono', 'Fira Code', monospace; font-size: 0.8rem;
+    background: rgba(255,255,255,0.06); padding: 0.15rem 0.4rem;
+    border-radius: 4px; color: var(--gold);
+  }
+  pre {
+    background: #0d1117; border: 1px solid var(--border); border-radius: 6px;
+    padding: 0.8rem; font-size: 0.8rem; overflow-x: auto;
+    margin: 0.6rem 0; line-height: 1.5;
+  }
+  pre code { background: none; padding: 0; color: #e6edf3; }
+
+  /* CALLOUTS */
+  .callout {
+    background: var(--surface2); border-left: 3px solid var(--accent);
+    border-radius: 0 6px 6px 0; padding: 0.8rem 1rem; margin: 0.8rem 0;
+  }
+  .callout.warn { border-left-color: var(--gold); }
+  .callout.goal { border-left-color: var(--green); }
+  .callout.personal { border-left-color: var(--purple); }
+  .callout strong { display: block; margin-bottom: 0.2rem; font-size: 0.85rem; }
+  .callout p { font-size: 0.85rem; margin-bottom: 0; }
+
+  /* CHECKLIST */
+  .checklist { list-style: none; margin: 0.5rem 0; padding: 0; }
+  .checklist li {
+    padding: 0.3rem 0 0.3rem 1.6rem; position: relative; color: var(--text-dim);
+  }
+  .checklist li::before {
+    content: ''; position: absolute; left: 0; top: 0.45rem;
+    width: 16px; height: 16px; border: 2px solid var(--border);
+    border-radius: 3px;
+  }
+  .checklist li.done { color: var(--text); }
+  .checklist li.done::before {
+    background: var(--green); border-color: var(--green);
+    content: '✓'; display: flex; align-items: center; justify-content: center;
+    color: #000; font-size: 0.7rem; font-weight: 700;
+  }
+  .checklist li.wip { color: var(--text); }
+  .checklist li.wip::before {
+    border-color: var(--gold); background: rgba(210,153,34,0.1);
+    content: '◷'; display: flex; align-items: center; justify-content: center;
+    color: var(--gold); font-size: 0.7rem;
+  }
+
+  /* FOOTER */
+  footer {
+    text-align: center; padding: 2rem 0 2rem;
+    border-top: 1px solid var(--border); color: var(--text-dim);
+    font-size: 0.8rem;
+  }
+
+  @media (max-width: 600px) {
+    .hero h1 { font-size: 1.5rem; }
+    nav.toc ol { columns: 1; }
+    .card-grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+<!-- HERO -->
+<div class="hero">
+  <h1>🎋 Mentoria Tecnologia Takwara</h1>
+  <div class="subtitle">Prévia completa de andamento — 22 de junho de 2026</div>
+  <div class="meta-badge">
+    <span>📦 Repositório principal</span>
+    <span>🌐 GitHub Pages + Vercel</span>
+    <span class="destaque">🎂 Lançamento: 18 jul 2026</span>
+  </div>
+</div>
+
+<!-- NAV -->
+<nav class="toc">
+  <h2>Navegação</h2>
+  <ol>
+    <li><a href="#progresso">Progresso Geral</a></li>
+    <li><a href="#passos">7 Passos da Jornada</a></li>
+    <li><a href="#base-conhecimento">Base de Conhecimento</a></li>
+    <li><a href="#infra">Infraestrutura</a></li>
+    <li><a href="#reflexoes">Reflexões & Correções de Rota</a></li>
+    <li><a href="#projetos-novos">Projetos Derivados</a></li>
+    <li><a href="#pendente">O que Falta Fazer</a></li>
+    <li><a href="#proximos">Próximos Passos</a></li>
+  </ol>
+</nav>
+
+<!-- 1. PROGRESSO GERAL -->
+<section id="progresso">
+  <h2><span class="status-icon">📊</span> Progresso Geral</h2>
+
+  <div class="card-grid">
+    <div class="card">
+      <h4>✅ Passos da Jornada</h4>
+      <div class="card-stat">7/7</div>
+      <p>100% concluídos — do Diagnóstico à Imersão de Vendas</p>
+    </div>
+    <div class="card">
+      <h4>📚 Base de Conhecimento</h4>
+      <div class="card-stat">8/8</div>
+      <p>TECs publicados — Ecologia a Histórico Takwara</p>
+    </div>
+    <div class="card">
+      <h4>🌐 Sites no Ar</h4>
+      <div class="card-stat">2</div>
+      <p>GitHub Pages (MkDocs) + Vercel (Nextra)</p>
+    </div>
+    <div class="card">
+      <h4>📁 Projetos</h4>
+      <div class="card-stat">2</div>
+      <p>Mentoria Takwara + Mentoria Comunidades RaioX</p>
+    </div>
+  </div>
+
+  <div class="progress-bar">
+    <div class="seg seg-done" style="width:60%">60% base</div>
+    <div class="seg seg-wip" style="width:15%">15% aprimoramento</div>
+    <div class="seg seg-todo" style="width:25%">25% pendente</div>
+  </div>
+  <p style="font-size:0.82rem; color:var(--text-dim); text-align:center;">
+    🟢 Base consolidada · 🟡 Em refinamento · ⚪ Pendente (anamnese, FAQ, lote final)
+  </p>
+</section>
+
+<!-- 2. PASSOS -->
+<section id="passos">
+  <h2><span class="status-icon">👣</span> Os 7 Passos da Jornada</h2>
+  <p>Todos os 7 passos estão escritos e publicados em <code>docs/03_JORNADA_7_PASSOS/</code>.</p>
+
+  <table>
+    <tr><th>Passo</th><th>Tema</th><th>Status</th><th>Arquivo</th></tr>
+    <tr>
+      <td>PASSO_01</td>
+      <td>Diagnóstico de Persona</td>
+      <td><span class="tag tag-done">✅</span></td>
+      <td><code>4 personas + lead scoring</code></td>
+    </tr>
+    <tr>
+      <td>PASSO_02</td>
+      <td>Jornada do Mentorado</td>
+      <td><span class="tag tag-done">✅</span></td>
+      <td><code>4 macropassos técnicos</code></td>
+    </tr>
+    <tr>
+      <td>PASSO_03</td>
+      <td>Estrutura e Formato</td>
+      <td><span class="tag tag-done">✅</span></td>
+      <td><code>Formato remoto definido</code></td>
+    </tr>
+    <tr>
+      <td>PASSO_04</td>
+      <td>Entrega e Acompanhamento</td>
+      <td><span class="tag tag-done">✅</span></td>
+      <td><code>Remoto (Zoom), 2 dias máx</code></td>
+    </tr>
+    <tr>
+      <td>PASSO_05</td>
+      <td>Precificação</td>
+      <td><span class="tag tag-done">✅</span></td>
+      <td><code>Plano A, B, Pro + concorrência</code></td>
+    </tr>
+    <tr>
+      <td>PASSO_06</td>
+      <td>Oferta e Naming</td>
+      <td><span class="tag tag-done">✅</span></td>
+      <td><code>6 mentorias + fluxo anamnese</code></td>
+    </tr>
+    <tr>
+      <td>PASSO_07</td>
+      <td>Imersão de Vendas</td>
+      <td><span class="tag tag-done">✅</span></td>
+      <td><code>Posicionamento + Método Flecha</code></td>
+    </tr>
+  </table>
+
+  <div class="callout goal">
+    <strong>📌 Estrutura de Preços Atual</strong>
+    <p><strong>Plano A</strong> (Individual, 2 dias): ~R$ 1.997 · <strong>Plano B</strong> (Grupo, 7 dias): R$ 1.999 · <strong>Opção Pro</strong> (sem kit): ~R$ 1.500</p>
+    <p style="margin-top:0.3rem;">Imperveg como patrocinadora oficial dos kits.</p>
+  </div>
+</section>
+
+<!-- 3. BASE DE CONHECIMENTO -->
+<section id="base-conhecimento">
+  <h2><span class="status-icon">📚</span> Base de Conhecimento (TECs)</h2>
+
+  <table>
+    <tr><th>Código</th><th>Tema</th><th>Status</th></tr>
+    <tr><td>TEC_01</td><td>Ecologia e Universo do Bambu</td><td><span class="tag tag-done">✅</span></td></tr>
+    <tr><td>TEC_02</td><td>Tratamentos e o Mito do Boro</td><td><span class="tag tag-done">✅</span></td></tr>
+    <tr><td>TEC_03</td><td>Poliuretano Vegetal (PU)</td><td><span class="tag tag-done">✅</span></td></tr>
+    <tr><td>TEC_03b</td><td>Dossiê Comparativo Biopolímeros</td><td><span class="tag tag-done">✅</span></td></tr>
+    <tr><td>TEC_04</td><td>Dossiê Tratamentos Bambu</td><td><span class="tag tag-done">✅</span></td></tr>
+    <tr><td>TEC_04b</td><td>Engenharia e Escala Industrial</td><td><span class="tag tag-done">✅</span></td></tr>
+    <tr><td>TEC_05</td><td>Bibliografia e Referências</td><td><span class="tag tag-done">✅</span></td></tr>
+    <tr><td>TAK</td><td>Histórico de Autoridade Takwara</td><td><span class="tag tag-done">✅</span></td></tr>
+  </table>
+</section>
+
+<!-- 4. INFRAESTRUTURA -->
+<section id="infra">
+  <h2><span class="status-icon">🌐</span> Infraestrutura no Ar</h2>
+
+  <table>
+    <tr><th>Plataforma</th><th>Stack</th><th>URL</th><th>Status</th></tr>
+    <tr>
+      <td>GitHub Pages</td><td>MkDocs + Material</td>
+      <td><code>takwaratec.github.io/Mentoria_Tecnologia_Takwara</code></td>
+      <td><span class="tag tag-done">🟢</span></td>
+    </tr>
+    <tr>
+      <td>Vercel (Nextra)</td><td>Next.js + MDX</td>
+      <td><code>takwara-mentoria-vercel.vercel.app</code></td>
+      <td><span class="tag tag-done">🟢</span></td>
+    </tr>
+    <tr>
+      <td>Comunidades RaioX</td><td>MkDocs + Material</td>
+      <td><code>takwaratec.github.io/Mentoria_Comunidades_RaioX</code></td>
+      <td><span class="tag tag-done">🟢</span></td>
+    </tr>
+  </table>
+
+  <div class="callout">
+    <strong>🔧 Logos Oficiais</strong>
+    <p>Logos Imperveg e Tecnoveg aplicadas no Vercel (identidade visual oficial, sem alterações). Tema creme suave + bold no menu lateral.</p>
+  </div>
+</section>
+
+<!-- 5. REFLEXÕES E CORREÇÕES -->
+<section id="reflexoes">
+  <h2><span class="status-icon">🧠</span> Reflexões & Correções de Rota</h2>
+
+  <p>Ao longo do processo, identificamos e corrigimos vários desvios importantes:</p>
+
+  <table>
+    <tr><th>O que estava errado</th><th>Correção aplicada</th></tr>
+    <tr><td>Mentoria presencial como regra</td><td><strong>Remoto via Zoom</strong> — presencial só exceção sob demanda</td></tr>
+    <tr><td>15 dias de acompanhamento</td><td><strong>Máximo 2 dias</strong> para conferência/correção</td></tr>
+    <tr><td>"Pós-graduação IFSP" no curriculum</td><td><strong>Autodidata</strong> — nunca inventar títulos</td></tr>
+    <tr><td>Prometer pontes, bioindústrias, fábricas</td><td><strong>Consultoria de entrada</strong> para arquitetos/engenheiros</td></tr>
+    <tr><td>Camadas 2/3 com conteúdo instrucional</td><td><strong>Vídeos meramente demonstrativos</strong> — conteúdo real na mentoria paga</td></tr>
+    <tr><td>Anamnese opcional</td><td><strong>Anamnese obrigatória</strong> + filtro do mentor antes de aceitar</td></tr>
+  </table>
+
+  <h3>📊 Concorrência Mapeada</h3>
+  <table>
+    <tr><th>Concorrente</th><th>Preço</th><th>Duração</th><th>Observação</th></tr>
+    <tr><td>Lúcio Ventania / Cerbambu Ravena</td><td>R$ 5.695</td><td>7 dias</td><td>Curso Civilização do Bambu — sem kit</td></tr>
+    <tr><td>Celina Llerena / Ebiobambu</td><td>Sob consulta</td><td>—</td><td>24 anos de referência</td></tr>
+    <tr><td>Frederico Rosalino</td><td>Sob consulta</td><td>4 dias</td><td>Chapada dos Veadeiros</td></tr>
+    <tr><td>Rodrigo Istchuk</td><td>R$ 249</td><td>1 dia</td><td>Workshop popular</td></tr>
+    <tr><td>Bambu Mantiqueira</td><td>Sob consulta</td><td>Intensivo</td><td>Curso intensivo</td></tr>
+  </table>
+
+  <h3>🔍 Análise do Grupo Raízes (Marcus Dutra & Myca)</h3>
+  <div class="callout warn">
+    <strong>⚠️ Parecer emitido em 19/06</strong>
+    <p>Programa avaliado com base em dados públicos. Pontos de atenção: Mycaela Borges tem LinkedIn de estudante de Arquitetura (não marketing), produto é recursivo ("vender como vender"), queixas públicas encontradas. Sua intuição sobre a dinâmica não é infundada.</p>
+    <p style="margin-top:0.3rem;"><strong>Decisão sua:</strong> reunião de entrada hoje (22/06) — vai avaliar depois do encontro.</p>
+  </div>
+</section>
+
+<!-- 6. PROJETOS DERIVADOS -->
+<section id="projetos-novos">
+  <h2><span class="status-icon">💡</span> Projetos Derivados</h2>
+
+  <div class="card" style="margin-bottom:0.8rem;">
+    <h4>🗂️ Mentoria Comunidades RaioX</h4>
+    <p>Metodologia de 7 passos para gestão de comunidades WhatsApp. Surgiu da sua experiência no grupo Raízes — transformou insatisfação em produto. Já no ar com: censo de participantes, agendamento, glossário, precificação, cases de sucesso.</p>
+    <p style="margin-top:0.3rem;"><code>github.com/takwaratec/Mentoria_Comunidades_RaioX</code></p>
+  </div>
+</section>
+
+<!-- 7. PENDENTE -->
+<section id="pendente">
+  <h2><span class="status-icon">⏳</span> O que Falta Fazer</h2>
+
+  <h3>🔴 Prioridade Alta</h3>
+  <ul class="checklist">
+    <li class="wip"><strong>Verificar working tree</strong> — os PASSOS 04-07 e DIA_06 precisam de commit? Preciso confirmar contigo</li>
+    <li><strong>Criar formulário de anamnese</strong> — 16 perguntas em 6 blocos</li>
+    <li><strong>Página de FAQ / Mentor IA</strong> no Vercel (Nextra + acordeão)</li>
+    <li><strong>Apresentação no grupo Raízes</strong> — ainda não enviada. Aguardando sua avaliação pós-reunião</li>
+  </ul>
+
+  <h3>🟡 Média Prioridade</h3>
+  <ul class="checklist">
+    <li>Wiki privada Imperveg (Vercel com senha)</li>
+    <li>Tradução EN dos conteúdos (já iniciada nos TECs)</li>
+    <li>Avaliar Plano B com comparsas</li>
+    <li>Sincronização automática entre repositório raiz e Vercel</li>
+  </ul>
+
+  <h3>⚪ Futuro</h3>
+  <ul class="checklist">
+    <li>Mentor IA via chatbot LLM (Opção C — evolução do FAQ)</li>
+    <li>Conteúdo em vídeo (unboxing demonstrativo)</li>
+    <li>Automação de pipeline de deploy</li>
+  </ul>
+
+  <div class="callout goal">
+    <strong>🎯 Meta Final: 18 de julho de 2026</strong>
+    <p>🎂 Seus 60 anos — lançamento da Mentoria Takwara. Site completo, material pronto, pipeline de vendas funcionando.</p>
+    <p>Faltam <strong>26 dias</strong>.</p>
+  </div>
+</section>
+
+<!-- 8. PRÓXIMOS PASSOS -->
+<section id="proximos">
+  <h2><span class="status-icon">🎯</span> Próximos Passos Imediatos</h2>
+
+  <div class="callout personal">
+    <strong>📋 Plano de Ação sugerido (pós-reunião Raízes)</strong>
+    <p>1. Reunião hoje → avalie se continua ou não no programa</p>
+    <p>2. Decisão tomada → fechamos o ciclo de commits pendentes</p>
+    <p>3. Iniciamos a triagem do que falta (anamnese, FAQ)</p>
+    <p>4. Plano de implementação detalhado (cronograma até 18/07)</p>
+  </div>
+
+  <p style="text-align:center; margin-top:1.5rem;">
+    <strong>Este HTML é o novo formato de revisão.</strong><br>
+    <span style="color:var(--text-dim); font-size:0.85rem;">
+      Toda vez que eu produzir conteúdo longo, entrego num arquivo como este.<br>
+      Você lê no navegador — formatado, organizado, clicável.
+    </span>
+  </p>
+</section>
+
+<footer>
+  <p>Produzido por Hermes Agent para Fabio Takwara · 22 de junho de 2026</p>
+  <p style="font-size:0.75rem; margin-top:0.3rem;">
+    📁 <code>01_TRIAGEM_BRUTA/_reviews/previa_andamento_mentoria.html</code>
+  </p>
+</footer>
+
+</div>
+</body>
+</html>

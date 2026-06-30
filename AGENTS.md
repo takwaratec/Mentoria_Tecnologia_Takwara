@@ -156,7 +156,7 @@ mkdocs gh-deploy --clean
 ├── 03_JORNADA_7_PASSOS/   ← Jornada do mentorado
 📂 _privado/               ← Documentos restritos
 📂 raiz/                   ← Documentos consolidados
-├── PU_Vegetal_Ficha_Tecnica_Consolidada.md
+├── docs/PU_Vegetal_Ficha_Tecnica_Consolidada.md → movido para Acervo Científico (analises/01_nucleo-tecnologico/)
 ├── PU_Vegetal_Linha_de_Produtos.md
 ├── TAK_proposta_estrategica_imperveg.md
 └── mapa-acervo-personagens.md

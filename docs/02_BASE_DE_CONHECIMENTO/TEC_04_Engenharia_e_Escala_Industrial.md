@@ -68,7 +68,7 @@ Equipamento para preparação superficial de colmos de bambu por abrasão térmi
 - **Capacidade:** 1 vara de 1–6 m por ciclo
 - **Processo:** Abrasão térmica a 120–200 °C + escovamento rotativo
 - **Aplicação:** Pré-tratamento para resinagem (T03) e solda vegetal (T06)
-- **Referência:** Ficha Científica T08 — [ficha-tamboreador-t08.md](https://github.com/takwaratec/Analises-e-escrita-cientifica/blob/main/docs/analyses/tecnologia-takwara/ficha-tamboreador-t08.md)
+- **Referência:** Ficha Científica T08 — [ficha-tamboreador-t08.md](https://github.com/takwaratec/Analises-e-escrita-cientifica/blob/main/docs/analises/tecnologia-takwara/ficha-tamboreador-t08.md)
 
 ### T09 - Escariador Interno de Nós de Bambu
 Dispositivo para remoção dos diafragmas internos (nós) dos colmos de bambu, permitindo o livre fluxo de resinas, espumas expansivas (MAMONEX RD70) e cabos de ancoragem. Opera com cabeçote de corte rotativo acoplado a uma haste flexível, guiado manualmente ao longo do lúmen do colmo. Essencial para a técnica de preenchimento estrutural com espuma de PU vegetal.
@@ -76,7 +76,7 @@ Dispositivo para remoção dos diafragmas internos (nós) dos colmos de bambu, p
 - **Diâmetro de corte:** 20–100 mm (ajustável)
 - **Comprimento útil:** Até 6 m
 - **Aplicação:** Preparação de colmos para preenchimento com MAMONEX RD70 e ancoragem de insertos metálicos
-- **Referência:** Ficha Científica T09 — [ficha-escariador-t09.md](https://github.com/takwaratec/Analises-e-escrita-cientifica/blob/main/docs/analyses/tecnologia-takwara/ficha-escariador-t09.md)
+- **Referência:** Ficha Científica T09 — [ficha-escariador-t09.md](https://github.com/takwaratec/Analises-e-escrita-cientifica/blob/main/docs/analises/tecnologia-takwara/ficha-escariador-t09.md)
 
 ### T11 - Domo-Fábrica: Células Industriais Descentralizadas
 Conceito de unidade fabril em estrutura geodésica de bambu, projetada para abrigar o ecossistema completo da Série T (T01–T10) em um raio de 15 metros. Integra forno de pirólise, resinador, prensas, tamboreador e escariador em layout radial, com captação de água pluvial, energia solar e tratamento de efluentes. O Domo-Fábrica é a unidade mínima replicável da Plataforma Amazônia Regenerativa — uma fábrica biocompósitos autossuficiente que cabe em qualquer comunidade.
@@ -85,7 +85,7 @@ Conceito de unidade fabril em estrutura geodésica de bambu, projetada para abri
 - **Capacidade:** Linha de produção integrada T01–T10
 - **Estrutura:** Geodésica de bambu tratado (Protocolo Diquada-Pirolenhoso-PU) com cobertura em lona de PEAD
 - **Energia:** Solar fotovoltaica 6 kWp + queima de syngas do forno T01
-- **Referência:** Ficha Científica T11 — [ficha-domo-fabrica-t11.md](https://github.com/takwaratec/Analises-e-escrita-cientifica/blob/main/docs/analyses/tecnologia-takwara/ficha-domo-fabrica-t11.md)
+- **Referência:** Ficha Científica T11 — [ficha-domo-fabrica-t11.md](https://github.com/takwaratec/Analises-e-escrita-cientifica/blob/main/docs/analises/tecnologia-takwara/ficha-domo-fabrica-t11.md)
 
 > [!TIP]
 > **Venda a Visão:** Mentores devem usar este material para mostrar que o aluno não está apenas aprendendo um "truque com resina", mas ingressando em um ecossistema fabril. O investimento inicial na mentoria básica é o primeiro passo para o licenciamento de uma planta industrial regenerativa em suas próprias cidades ou comunidades.
@@ -93,15 +93,15 @@ Conceito de unidade fabril em estrutura geodésica de bambu, projetada para abri
 ### 📚 Referências
 - ENG-MEM-T01 a T07 — Memorial Técnico da Série T. Acervo MQTF.
 - DOI: [10.5281/zenodo.18827106](https://doi.org/10.5281/zenodo.18827106) — Memorial Único de Equipamentos e Tecnologias Takwara (Dossiê de Patentes 5.1).
-- **Fichas Científicas do Acervo Científico Takwara** (10 fichas disponíveis em [github.com/takwaratec/Analises-e-escrita-cientifica/tree/main/docs/analyses/tecnologia-takwara/](https://github.com/takwaratec/Analises-e-escrita-cientifica/tree/main/docs/analyses/tecnologia-takwara/)):
-  - [ficha-serie-t-patentes-sociais.md](https://github.com/takwaratec/Analises-e-escrita-cientifica/blob/main/docs/analyses/tecnologia-takwara/ficha-serie-t-patentes-sociais.md) — Visão geral do portfólio Série T (T01–T12)
-  - [ficha-pirolise-t01.md](https://github.com/takwaratec/Analises-e-escrita-cientifica/blob/main/docs/analyses/tecnologia-takwara/ficha-pirolise-t01.md) — Forno Ecológico de Pirólise
-  - [ficha-resinador-t03.md](https://github.com/takwaratec/Analises-e-escrita-cientifica/blob/main/docs/analyses/tecnologia-takwara/ficha-resinador-t03.md) — Resinador Rotativo "Frangueira"
-  - [ficha-misturador-biocompositos-t04.md](https://github.com/takwaratec/Analises-e-escrita-cientifica/blob/main/docs/analyses/tecnologia-takwara/ficha-misturador-biocompositos-t04.md) — Misturador de Biocompósitos
-  - [ficha-prensa-cassetes-t05.md](https://github.com/takwaratec/Analises-e-escrita-cientifica/blob/main/docs/analyses/tecnologia-takwara/ficha-prensa-cassetes-t05.md) — Prensa de Cassetes
-  - [ficha-solda-vegetal-t06.md](https://github.com/takwaratec/Analises-e-escrita-cientifica/blob/main/docs/analyses/tecnologia-takwara/ficha-solda-vegetal-t06.md) — Solda Vegetal/Gabaritos
-  - [ficha-tamboreador-t08.md](https://github.com/takwaratec/Analises-e-escrita-cientifica/blob/main/docs/analyses/tecnologia-takwara/ficha-tamboreador-t08.md) — Tamboreador de Bambu
-  - [ficha-escariador-t09.md](https://github.com/takwaratec/Analises-e-escrita-cientifica/blob/main/docs/analyses/tecnologia-takwara/ficha-escariador-t09.md) — Escariador Interno de Nós
-  - [ficha-domo-fabrica-t11.md](https://github.com/takwaratec/Analises-e-escrita-cientifica/blob/main/docs/analyses/tecnologia-takwara/ficha-domo-fabrica-t11.md) — Domo-Fábrica
-  - [resenha-polimeros-mamona-permeabilidade.md](https://github.com/takwaratec/Analises-e-escrita-cientifica/blob/main/docs/analyses/tecnologia-takwara/resenha-polimeros-mamona-permeabilidade.md) — Imperveg RQI 132: ensaios de permeabilidade (ITecons, Coimbra)
+- **Fichas Científicas do Acervo Científico Takwara** (10 fichas disponíveis em [github.com/takwaratec/Analises-e-escrita-cientifica/tree/main/docs/analises/tecnologia-takwara/](https://github.com/takwaratec/Analises-e-escrita-cientifica/tree/main/docs/analises/tecnologia-takwara/)):
+  - [ficha-serie-t-patentes-sociais.md](https://github.com/takwaratec/Analises-e-escrita-cientifica/blob/main/docs/analises/tecnologia-takwara/ficha-serie-t-patentes-sociais.md) — Visão geral do portfólio Série T (T01–T12)
+  - [ficha-pirolise-t01.md](https://github.com/takwaratec/Analises-e-escrita-cientifica/blob/main/docs/analises/tecnologia-takwara/ficha-pirolise-t01.md) — Forno Ecológico de Pirólise
+  - [ficha-resinador-t03.md](https://github.com/takwaratec/Analises-e-escrita-cientifica/blob/main/docs/analises/tecnologia-takwara/ficha-resinador-t03.md) — Resinador Rotativo "Frangueira"
+  - [ficha-misturador-biocompositos-t04.md](https://github.com/takwaratec/Analises-e-escrita-cientifica/blob/main/docs/analises/tecnologia-takwara/ficha-misturador-biocompositos-t04.md) — Misturador de Biocompósitos
+  - [ficha-prensa-cassetes-t05.md](https://github.com/takwaratec/Analises-e-escrita-cientifica/blob/main/docs/analises/tecnologia-takwara/ficha-prensa-cassetes-t05.md) — Prensa de Cassetes
+  - [ficha-solda-vegetal-t06.md](https://github.com/takwaratec/Analises-e-escrita-cientifica/blob/main/docs/analises/tecnologia-takwara/ficha-solda-vegetal-t06.md) — Solda Vegetal/Gabaritos
+  - [ficha-tamboreador-t08.md](https://github.com/takwaratec/Analises-e-escrita-cientifica/blob/main/docs/analises/tecnologia-takwara/ficha-tamboreador-t08.md) — Tamboreador de Bambu
+  - [ficha-escariador-t09.md](https://github.com/takwaratec/Analises-e-escrita-cientifica/blob/main/docs/analises/tecnologia-takwara/ficha-escariador-t09.md) — Escariador Interno de Nós
+  - [ficha-domo-fabrica-t11.md](https://github.com/takwaratec/Analises-e-escrita-cientifica/blob/main/docs/analises/tecnologia-takwara/ficha-domo-fabrica-t11.md) — Domo-Fábrica
+  - [resenha-polimeros-mamona-permeabilidade.md](https://github.com/takwaratec/Analises-e-escrita-cientifica/blob/main/docs/analises/tecnologia-takwara/resenha-polimeros-mamona-permeabilidade.md) — Imperveg RQI 132: ensaios de permeabilidade (ITecons, Coimbra)
 - Consórcio UnB/UFRR/UFAC. Projeto Mulheres Que Tecem a Floresta.

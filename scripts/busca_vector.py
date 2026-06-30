@@ -16,6 +16,7 @@ REPOS = {
     "Acervo_Cientifico": "/Users/fabiotakwara/Documents/GitHub/Analises e escrita científica",
     "Mulheres_Amazonia": "/Users/fabiotakwara/Documents/GitHub/Mulheres-Tecem-Amazonia_Clone",
     "UnB_TecTakwara": "/Users/fabiotakwara/Documents/GitHub/UnB",
+    "Takwara_Tech": "/Users/fabiotakwara/Documents/GitHub/Takwara-Tech",
 }
 
 DB_DIR = os.path.expanduser("~/.hermes/vector_db")

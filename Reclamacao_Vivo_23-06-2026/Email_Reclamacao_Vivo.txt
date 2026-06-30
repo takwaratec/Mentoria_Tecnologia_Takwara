@@ -1,0 +1,247 @@
+================================================================================
+E-MAIL DE RECLAMAÇÃO — VIVO EMPRESAS
+================================================================================
+
+Para:      atendimentoempresas@vivo.com.br
+Cc:        ouvidoriamovelpj@vivo.com.br, anatel@anatel.gov.br,
+           atendimento@grupoidealcelulares.com.br
+Assunto:   RECLAMACAO URGENTE — 3 meses sem habilitar linha contratada + falha
+           nos canais de suporte — 24 protocolos abertos sem solucao
+
+================================================================================
+
+Prezados,
+
+Meu nome é Fabio Takwara, sou sócio e responsável pela empresa
+ECOLABORATIVA LTDA, inscrita sob o CNPJ 41.620.744/0001-96, cliente Vivo
+Empresas (conta nº 0444777075).
+
+Venho por este e-mail registrar reclamação formal sobre a completa
+impossibilidade de ativar um chip físico para a linha (19) 99879-4700,
+contratada há aproximadamente 3 meses, e sobre a total inoperância dos
+canais de suporte da Vivo para solucionar o problema.
+
+1. HISTÓRICO DO PROBLEMA
+
+   a) A linha (19) 99879-4700 foi contratada há cerca de 3 meses e consta
+      como "Ativa" no sistema, mas o chip físico nunca foi entregue pelo
+      correio. Necessito de chip físico obrigatoriamente pois a linha será
+      utilizada em um telefone de mesa (fixo), incompatível com eSIM.
+
+   b) Seguindo orientações da própria Vivo, adquiri um chip virgem em uma
+      loja autorizada (etiqueta com código de barras, lote 267706, fabricado
+      em Out/2025). No entanto, não consigo realizar a ativação porque o
+      portal de autogestão Vivo Empresas está inoperante.
+
+2. AS TRÊS TENTATIVAS DE SUPORTE NO MESMO DIA (23/06/2026)
+
+   TENTATIVA 1 — VIVO WISEVISION (WhatsApp)
+   Horario: 13:56 as 16:57
+   Consultor(a): nao identificado(a) — perfil "VIVO WISEVISION"
+   Resultado:
+     - O consultor perguntou se eu queria contratar uma linha nova
+       (evidenciando falta de leitura do problema relatado).
+     - Solicitou meu login e senha de acesso ao portal.
+     - Enviou QR Code e link para autenticacao biometrica
+       (mve.vivo.com.br/biometria/confirmar-sua-identidade).
+     - A biometria falhou em todas as tentativas — sistema informou
+       "Nao conseguimos tirar a foto do seu rosto" (anexo 06).
+     - Troquei de navegador (Chrome, Edge, Edge Dev, Mozilla Firefox,
+       Safari) e o erro persistiu.
+     - A orientacao final foi: "encaminhar um e-mail para
+       atendimentoempresas@vivo.com.br relatando todo o ocorrido".
+
+   TENTATIVA 2 — Vivo CONNECT (WhatsApp)
+   Horario: 13:29 as 17:33 (com retorno as 16:58)
+   Consultor(a): nao identificado(a) — perfil "Vivo CONNECT"
+   Resultado:
+     - Primeiro contato as 13:29; informei que ja estava sendo atendido
+       por outro representante.
+     - Retornei as 16:58 apos o fracasso com o primeiro consultor.
+     - Novamente solicitaram meu login e senha de acesso ao portal.
+     - Enviaram QR Code de autenticacao biometrica (anexo 07).
+     - As instrucoes foram: "deixar o celular bem reto em frente ao
+       rosto e virado para a luz" — tentei e nada funcionou.
+     - Informei que uso biometria em apps bancarios e gov.br sem qualquer
+       problema no mesmo aparelho.
+     - A consultora sugeriu contatar a "More Tel" (parceira autorizada
+       Vivo) como unica saida.
+     - Minha resposta: "Nao fosse a fidelidade cancelaria o contrato".
+
+   TENTATIVA 3 — Millene, Consultora Corporativa Vivo (WhatsApp)
+   Horario: 17:18 as 18:00 (+ retorno em 24/06 as 08:33)
+   Consultora: Millene
+   Resultado:
+     - A consultora pediu meu login e senha de acesso (gravissimo
+       problema de seguranca).
+     - Tentou gerar novos QR Codes de biometria pelo sistema interno.
+     - Todas as tentativas de biometria falharam (anexo 06 e 08).
+     - Sugeriu que o co-gestor (Daniel Ravi, meu filho) tentasse — ele
+       esta em viagem de trabalho em territorio isolado, sem acesso.
+     - Orientou tentar por WiFi — nao tenho, uso o celular como
+       roteador (justamente por isso preciso da linha nova).
+     - Conclusao: "encaminhar e-mail para atendimentoempresas@vivo.com.br".
+     - Em 24/06 as 08:33 disse que "ia ver e ja orientava" — sem retorno
+       efetivo ate o momento.
+
+3. RESUMO DAS FALHAS TECNICAS
+
+   3.1. PORTAL DE GESTAO VIVO EMPRESAS INOPERANTE
+        - URL: mve.vivo.com.br/sec/gestao-chips
+        - Ao acessar a funcionalidade "Trocar SIM cards", o sistema
+          exibe o erro "Nao e possivel exibir esta funcionalidade" com
+          a justificativa "E necessario mais espaço na tela. Aumente o
+          tamanho da janela ou use um computador com uma tela maior"
+          (anexos 02 e 03).
+        - Esta justificativa NAO PROCEDE: testei em 5 navegadores
+          diferentes (Chrome, Edge, Edge Dev, Mozilla Firefox, Safari)
+          em monitor de grande porte (TV de parede — anexo 03) em
+          diversos tamanhos de janela, e o erro persistiu em TODOS.
+        - Em outras ocasoes, o sistema exibe o erro generico "Algo deu
+          errado com este servico" (anexo 01).
+
+   3.2. BIOMETRIA FALHA SISTEMATICAMENTE
+        - O sistema de biometria facial da Vivo
+          (edoc.vivo.com.br) falha em absolutamente todas as
+          tentativas.
+        - Mensagem de erro: "Nao conseguimos tirar a foto do seu
+          rosto" (anexo 06).
+        - Utilizei o mesmo aparelho para biometria em aplicacoes
+          bancarias e gov.br, onde funciona perfeitamente.
+        - O problema e EXCLUSIVO do sistema de biometria da Vivo.
+        - Foram feitas dezenas de tentativas em 3 canais de suporte
+          diferentes (anexo 08 — selfie de uma das tentativas).
+
+   3.3. CONDUTA DOS CONSULTORES
+        - Em MULTIPLOS atendimentos, consultores solicitaram meu login
+          e senha de acesso ao portal — pratica grave de seguranca que
+          jamais deve ser exigida, pois permite acesso irrestrito a
+          dados sigilosos da empresa.
+        - Em vez de solucionar, os consultores simplesmente
+          repassaram o problema para o mesmo canal ja esgotado
+          (e-mail atendimentoempresas@vivo.com.br).
+
+4. IMPACTO NO NEGOCIO
+
+   A linha (19) 99879-4700 foi contratada especificamente para
+   viabilizar um roteador de mesa (telefone fixo com funcao de
+   repetidor de sinal). Atualmente, sou forcado a utilizar meu unico
+   celular pessoal como roteador para acesso a internet no escritorio,
+   comprometendo minha disponibilidade para ligacoes e o funcionamento
+   basico do negocio.
+
+   A linha esta "Ativa" ha 3 meses, pagando por um servico que nao
+   posso utilizar, e preso a contrato de fidelidade.
+
+5. PROTOCOLOS DE ATENDIMENTO ABERTOS
+
+   Todos os protocolos abaixo foram gerados automaticamente pela Vivo
+   apos contatos previos e permanecem SEM SOLUCAO:
+
+   MARCO 2026 (8 protocolos):
+     20261710638476  — 23/03/2026
+     20261762870314  — 23/03/2026
+     20261792504384  — 23/03/2026
+     20261792510170  — 23/03/2026
+     20261821936555  — 23/03/2026 12:23
+     20261822050179  — 23/03/2026 12:23
+     20261822076751  — 23/03/2026 12:33
+     20261826797659  — 24/03/2026 13:45
+
+   JUNHO 2026 (16 protocolos):
+     20262216314924  — ?/06/2026
+     20262230376652  — ?/06/2026
+     20262230390422  — ?/06/2026
+     20262253849458  — ?/06/2026
+     20262253976230  — ?/06/2026
+     20262254001520  — ?/06/2026
+     20262254338985  — ?/06/2026
+     20262257922236  — ?/06/2026
+     20262257986460  — 24/06/2026 08:07
+     20262257987369  — 24/06/2026 08:07
+     20262258007650  — 24/06/2026 08:07
+     20262258008669  — 24/06/2026 08:08
+     20262258011187  — 24/06/2026 08:09
+     20262258013257  — 24/06/2026 08:10
+     20262260626154  — 24/06/2026 15:29
+     20262261840992  — 25/06/2026
+
+   Total: 24 protocolos registrados pela Vivo, nenhum resolvido.
+
+6. PROVIDENCIAS SOLICITADAS
+
+   a) Entrega IMEDIATA de chip fisico para a linha (19) 99879-4700,
+      com urgencia e por meio de entrega monitorada (Sedex ou similar).
+
+   b) Correcao do erro na funcionalidade "Trocar SIM cards" do portal
+      Vivo Empresas (mve.vivo.com.br/sec/gestao-chips).
+
+   c) Correcao do sistema de biometria facial ou disponibilizacao de
+      canal alternativo para validacao de identidade (presencial em
+      loja, videochamada, ou outro meio).
+
+   d) Protocolo formal deste chamado com numero de acompanhamento.
+
+   e) Isencao de multa de fidelidade caso o problema nao seja resolvido
+      em prazo razoavel, visto que o descumprimento do servico parte
+      exclusivamente da Vivo.
+
+7. PROXIMOS PASSOS
+
+   Caso nao obtenha retorno efetivo e solucao definitiva em ate
+   10 (dez) dias corridos, registrarei esta ocorrencia nos seguintes
+   orgaos e plataformas:
+
+     - Reclame Aqui
+     - PROCON
+     - ANATEL (Agencia Nacional de Telecomunicacoes)
+
+   Todas as evidenias — capturas de tela dos erros, fotos do chip
+   adquirido, comprovantes das tres tentativas de suporte e registro
+   de solicitacao de senha pelos consultores — serao anexadas as
+   denuncias.
+
+Aguardo manifestacao urgente.
+
+Atenciosamente,
+
+Fabio Takwara
+ECOLABORATIVA LTDA
+CNPJ: 41.620.744/0001-96
+Conta Vivo: 0444777075
+Linha: (19) 99879-4700
+
+================================================================================
+ARQUIVOS ANEXOS (disponiveis na pasta Reclamacao_Vivo_23-06-2026/imagens/)
+================================================================================
+
+  01-erro-algo-deu-errado-edge.jpg
+      Erro generico "Algo deu errado com este servico" — navegador Edge
+
+  02-erro-espaco-tela-chrome.jpg
+      Erro "Nao e possivel exibir esta funcionalidade — mais espaco na tela"
+      — navegador Chrome
+
+  03-erro-monitor-grande-tv.jpg
+      Mesmo erro exibido em TV de parede (monitor de grande porte),
+      comprovando que a justificativa de "tamanho da tela" nao procede
+
+  04-linha-19998794700-ativa-portal.jpg
+      Print do portal Vivo Empresas mostrando a linha (19) 99879-4700
+      como "Ativa", tipo SIM card
+
+  05-etiqueta-chip-adquirido.jpg
+      Etiqueta do chip virgem adquirido conforme orientacao da Vivo
+      (codigo de barras, lote 267706, fabricacao Out/2025)
+
+  06-erro-biometria-nao-conssegue-foto.jpg
+      Erro do sistema de biometria Vivo: "Nao conseguimos tirar a foto
+      do seu rosto" (edoc.vivo.com.br) — Android/Chrome
+
+  07-qrcode-biometria-vivo.jpg
+      QR Code de autenticacao biometrica enviado pelo consultor
+
+  08-selfie-tentativa-biometria.jpg
+      Selfie de uma das varias tentativas frustradas de biometria facial
+
+================================================================================
