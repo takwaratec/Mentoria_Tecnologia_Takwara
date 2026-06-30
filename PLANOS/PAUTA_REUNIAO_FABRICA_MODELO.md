@@ -22,20 +22,20 @@ André mencionou no áudio:
 
 ## 2. Onde a Tecnologia Takwara entra?
 
-### O que eu posso oferecer de fato — Série Técnica
+### O que eu posso oferecer de fato — Série Técnica Takwara
 
 Baseado nos documentos publicados na Série Técnica (Zenodo 10.5281/zenodo.18827106):
 
-| Tecnologia | Aplicação na construção | TRL | Fonte |
+| Tecnologia | Aplicação na construção | TRL | Ficha no Acervo Científico |
 |---|---|---|---|
-| **Forno Ecológico MPTDF (T01)** | Tratamento térmico de bambu para uso estrutural — secagem, imunização por vapor saturado | 🔬 4-5 | Patente + Série T |
-| **PU Vegetal (Imperveg)** | Impermeabilização, resina para compósitos | ✅ 7+ (impermeabilizante) / 🔬 4-5 (expansivo) | Relatório Técnico PU Vegetal |
-| **Tratamento Sem Veneno** | Preservação de bambu por vapor saturado — substituto de CCA/CCB | 🔬 4-5 | Boletim Técnico |
-| **Biorrefinaria (T02)** | Pirólise de biomassa — biochar, extrato pirolenhoso, energia | 🔬 3-4 | Memorial Técnico |
-| **Briquetes/Biochar** | Bioenergia a partir de resíduos | 🔬 3-4 | Nota Técnica |
-| **Domos Geodésicos** | Estufas, coberturas, microclima controlado | 🔬 4-5 | Nota Técnica |
-| **Maquinário (T03-T07)** | Resinador, misturador, prensas, tamboreador | 🔬 3-4 | Memoriais |
-| **SMGA** — Sistema de Monitoramento Geoespacial Automatizado | Monitoramento geoespacial de biomassa — MRV para crédito de carbono (https://github.com/takwaratec/Analises-e-escrita-cientifica/blob/main/docs/analises/tecnologia-takwara/ficha-smga-monitoramento-geoespacial.md) | 🔬 3-4 | Nota Técnica |
+| **Forno Ecológico MPTDF (T01)** | Tratamento térmico de bambu para uso estrutural — secagem, imunização por vapor saturado | 🔬 4-5 | [ficha-forno-ecologico-multifuncional.md](https://github.com/takwaratec/Analises-e-escrita-cientifica/blob/main/docs/analises/tecnologia-takwara/ficha-forno-ecologico-multifuncional.md) |
+| **PU Vegetal (Imperveg)** | Impermeabilização, resina para compósitos, espuma expansiva para isolamento/acabamento | ✅ 7+ / 🔬 4-5 | [resenha-imperveg-ug132a.md](https://github.com/takwaratec/Analises-e-escrita-cientifica/blob/main/docs/analises/tecnologia-takwara/resenha-imperveg-ug132a-ficha-tecnica.md) + [resenha-mamonex-rd70.md](https://github.com/takwaratec/Analises-e-escrita-cientifica/blob/main/docs/analises/tecnologia-takwara/resenha-mamonex-rd70-pu-vegetal.md) |
+| **Tratamento Sem Veneno** | Preservação de bambu por vapor saturado — substituto de CCA/CCB | 🔬 4-5 | Zenodo (Série T) |
+| **Biorrefinaria (T02)** | Pirólise de biomassa — biochar, extrato pirolenhoso, energia | 🔬 3-4 | [memorial-5.1-biorrefinaria-bambu.md](https://github.com/takwaratec/Analises-e-escrita-cientifica/blob/main/docs/analises/tecnologia-takwara/memorial-5.1-biorrefinaria-bambu.md) |
+| **Briquetes/Biochar** | Bioenergia a partir de resíduos | 🔬 3-4 | [ficha-tijolos-briquetes-bambu.md](https://github.com/takwaratec/Analises-e-escrita-cientifica/blob/main/docs/analises/tecnologia-takwara/ficha-tijolos-briquetes-bambu.md) |
+| **Domos Geodésicos** | Estufas, coberturas, microclima controlado | 🔬 4-5 | [ficha-domos-geodesicos.md](https://github.com/takwaratec/Analises-e-escrita-cientifica/blob/main/docs/analises/tecnologia-takwara/ficha-domos-geodesicos.md) |
+| **Maquinário (T03-T07)** | Resinador, misturador, prensas, tamboreador | 🔬 3-4 | [ficha-resinador-t03.md](https://github.com/takwaratec/Analises-e-escrita-cientifica/blob/main/docs/analises/tecnologia-takwara/ficha-resinador-t03.md), [ficha-misturador-biocompositos-t04.md](https://github.com/takwaratec/Analises-e-escrita-cientifica/blob/main/docs/analises/tecnologia-takwara/ficha-misturador-biocompositos-t04.md), [ficha-prensa-cassetes-t05.md](https://github.com/takwaratec/Analises-e-escrita-cientifica/blob/main/docs/analises/tecnologia-takwara/ficha-prensa-cassetes-t05.md), [ficha-tamboreador-t08.md](https://github.com/takwaratec/Analises-e-escrita-cientifica/blob/main/docs/analises/tecnologia-takwara/ficha-tamboreador-t08.md) |
+| **SMGA** — Sistema de Monitoramento Geoespacial Automatizado | MRV para crédito de carbono — inventário de biomassa | 🔬 3-4 | [ficha-smga-monitoramento-geoespacial.md](https://github.com/takwaratec/Analises-e-escrita-cientifica/blob/main/docs/analises/tecnologia-takwara/ficha-smga-monitoramento-geoespacial.md) |
 
 ### Forma de participação proposta
 
