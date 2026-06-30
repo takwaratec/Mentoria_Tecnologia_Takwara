@@ -315,6 +315,7 @@ Triagem completa: 83 PDFs extraídos, 15 áudios processados, conteúdo distribu
 - Fichas = referência geral, sem vínculo a projeto específico
 - Siglas (SMGA, MPTDF, T01) sempre com nome completo + link ficha
 - Dúvida? Perguntar antes de assumir/inventar
+- 🚫 **NUNCA citar o repositório Takwara-Tech** em fichas, cartas ou documentos externos. Fontes dele são "documento interno de referência" ou "acervo próprio do autor".
 
 ### 🚫 Regras de Fronteira Entre Repositórios
 
