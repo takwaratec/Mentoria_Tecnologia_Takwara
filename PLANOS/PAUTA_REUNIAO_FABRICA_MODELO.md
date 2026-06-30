@@ -1,5 +1,9 @@
 # Pauta — Reunião Fábrica Modelo (André + Maurilho)
 
+> **Data:** 30/06/2026 | **Horário:** 10:00
+> **Plataforma:** Google Meet (criar link em meet.google.com)
+> **Participantes:** André Blanco, Maurilho, Michel, Fabio Takwara
+>
 > **Honesta.** Meu foco é eliminar o concreto da construção civil. Preciso entender se e como minha pesquisa entra neste projeto.
 
 ---
