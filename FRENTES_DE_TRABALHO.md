@@ -223,7 +223,7 @@ Triagem completa: 83 PDFs extraídos, 15 áudios processados, conteúdo distribu
 
 ---
 
-## 🤖 Regras da Memória
+## 🤖 Regras de Memória e Fronteira
 
 - Referências SEMPRE do acervo científico, nunca Zenodo/externo
 - LaPCiS = só carreira pessoal, nunca citar em projetos parceiros
@@ -231,6 +231,28 @@ Triagem completa: 83 PDFs extraídos, 15 áudios processados, conteúdo distribu
 - Fichas = referência geral, sem vínculo a projeto específico
 - Siglas (SMGA, MPTDF, T01) sempre com nome completo + link ficha
 - Dúvida? Perguntar antes de assumir/inventar
+
+### 🚫 Regras de Fronteira Entre Repositórios
+
+| Repositório | Guarda | NÃO guarda |
+|-------------|--------|------------|
+| **Mentoria_Tecnologia_Takwara** (master) | AGENTS.md master, FRENTES_DE_TRABALHO.md, MANUAL_OPERACAO.md, 7 módulos TEC, Jornada 7 passos, Metodologia, PLANOS de frentes (exceto planos de reunião de projetos específicos), documentação do ecossistema | Fichas científicas (vão pro Acervo), documentos de projetos parceiros (vão pros seus repos), transcrições de reunião de projetos específicos |
+| **Analises-e-escrita-cientifica** (acervo) | Fichas científicas (8 seções), análises, referências (REF_*), fichas técnicas de tecnologias (PU Vegetal, etc.), perfil de pesquisadores | Documentos de gestão de projetos, atas de reunião, materiais de mentoria |
+| **fabrica-modelo** (projeto) | Edital FINEP, atas/transcrições/ organização das reuniões, pautas do projeto, documentos específicos da Fábrica Modelo | Fichas científicas, documentação geral do ecossistema, planos de outras frentes |
+| **fundo-vaga-lumen-2026** (projeto) | Documentos específicos da proposta Vaga Lúmen | Tudo que não é da proposta |
+| **eco-prancha** (projeto) | Documentos específicos do projeto Eco Prancha | Tudo que não é do projeto |
+| **Personagens-Bambu** | Personagens, biotipos | Fichas técnicas, documentos de projeto |
+| **unb-desafios-amazonia-2026** | Proposta Desafios da Amazônia | Carreira LaPCiS (é pessoal), outros projetos |
+
+### ⚡ Regras de Ouro
+
+1. **Um documento, um repositório** — cada arquivo pertence a UM lugar. Se está em dois, um está errado.
+2. **Fichas científicas SEMPRE no Acervo** — inclusive fichas técnicas de tecnologias (PU Vegetal, forno MPTDF, etc.)
+3. **Planos de reunião de projetos específicos** → repositório do projeto, não na Mentoria
+4. **Transcrições de reunião** → repositório do projeto (docs/transcricoes/)
+5. **Material bruto de triagem (TRIAGEM_BRUTA)** → Mentoria (é curadoria do ecossistema)
+6. **Referências científicas (REF_*)** → Acervo Científico
+7. **PROPOSIÇÃO DE FABIO NÃO É FORNECEDOR** — nunca colocar documentos que sugiram vínculo comercial
 
 ---
 
