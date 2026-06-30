@@ -35,7 +35,7 @@ Baseado nos documentos publicados na Série Técnica (Zenodo 10.5281/zenodo.1882
 | **Briquetes/Biochar** | Bioenergia a partir de resíduos | 🔬 3-4 | Nota Técnica |
 | **Domos Geodésicos** | Estufas, coberturas, microclima controlado | 🔬 4-5 | Nota Técnica |
 | **Maquinário (T03-T07)** | Resinador, misturador, prensas, tamboreador | 🔬 3-4 | Memoriais |
-| **SMGA** | Monitoramento geoespacial de biomassa | 🔬 3-4 | Nota Técnica |
+| **SMGA** — Sistema de Monitoramento Geoespacial Automatizado | Monitoramento geoespacial de biomassa — MRV para crédito de carbono (https://github.com/takwaratec/Analises-e-escrita-cientifica/blob/main/docs/analises/tecnologia-takwara/ficha-smga-monitoramento-geoespacial.md) | 🔬 3-4 | Nota Técnica |
 
 ### Forma de participação proposta
 
