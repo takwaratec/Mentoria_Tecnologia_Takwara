@@ -44,11 +44,15 @@
 
 | Ator | Papel | Tipo de contribuição |
 |---|---|---|
-| **Fabio Takwara** | Autodidata, tecnologias sociais | Inserções manuais de documentos (Chapada, Holambra, PU Vegetal, Série Técnica). Chat/áudio/e-mail → delegado ao agente |
-| **André Blanco** | Arquiteto, diretor TEIA | TEIA - Tecnologia, Educação, Inovação e Ambiente Ltda. Labiapa = projeto de Gestão de APAs. Áudios WhatsApp |
-| **Marcos Paron** | Dr. Microbiologia, prof. IFSP | Coordenação ECOSALA, ecoformação, articulação acadêmica |
-| **Gisele Vilela** | Pesquisadora Embrapa | Documentos técnicos, articulação institucional |
-| **Joaquim Sando** | Eng. Agrônomo, MST | Articulação territorial |
+|| **Fabio Takwara** | Autodidata, tecnologias sociais | Pesquisador cidadão. Conduz: acervo científico, LaPCiS (carreira), ECOSALA. Participação como assessoria técnica em projetos parceiros — nunca como fornecedor. |
+|| **André Blanco** | Arquiteto, diretor TEIA | TEIA - Tecnologia, Educação, Inovação e Ambiente Ltda. Labiapa = projeto de Gestão de APAs. Frente: **Fábrica Modelo** (industrialização construção civil) |
+|| **Maurilho** | Habitação social, sindicatos | Parceiro de André na **Fábrica Modelo**. Articulação com movimentos sociais |
+|| **Michel** | Indústria / fábrica | Parceiro de André na **Fábrica Modelo**. Capacidade industrial |
+|| **Marcos Paron** | Dr. Microbiologia, prof. IFSP | Coordenação ECOSALA, ecoformação, articulação acadêmica |
+|| **Gisele Vilela** | Pesquisadora Embrapa | Documentos técnicos, articulação institucional |
+|| **Joaquim Sando** | Eng. Agrônomo, MST | Articulação territorial |
+|| **Marcello Pedro** | Surfista profissional, instrutor, Grupo Raízes | Frente: **Eco Prancha** (prancha surf vegetal). RJ. Contatos: shapers, fábrica espuma. |
+|| **Ravi Reck** | Filho, sócio administrativo Ecolaborativa | Assina contratos da empresa. Qualquer vínculo formal depende da assinatura dele. |
 | **Vicente Borges** | Dr. Educação, prof. IFB | Bambu, MPTDF |
 | **Daniela Maciel** | Drª Embrapa Territorial | Transferência de tecnologia, avaliação de impacto (reunião pendente) |
 | **Murilo Miguel** | Coletivo Terra Viva | Operação de campo, viveiro |
