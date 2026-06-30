@@ -42,7 +42,20 @@ Baseado nos documentos publicados na Série Técnica (Zenodo 10.5281/zenodo.1882
 - **Papel:** Assessoria técnica para elaboração do projeto (curadoria científica, tecnologias Takwara)
 - **Remuneração:** Percentual mínimo a ser definido, **somente quando o projeto for aprovado e o recurso liberado**
 - **Sem vínculo comercial** — não forneço material, não vendo produto, não sou subcontratado
+- **Reconhecimento institucional** — apresento Carta de Intenções genérica que explica minha situação formativa e propõe modelo de vinculação, já em tramitação na UnB (Profa. Tânia/LaPCiS) como exemplo de formalização
 - Se a abordagem tecnológica não se encaixar, não há problema — cada um segue seu caminho
+
+### Documentos de apoio para a reunião
+
+1. **Carta de Intenções — Pesquisador Colaborador (genérica):**
+   https://github.com/takwaratec/Mentoria_Tecnologia_Takwara/blob/main/docs/carta-intencoes-pesquisador-colaborador-generica.md
+
+2. **Pauta da reunião** (este documento)
+
+3. **Edital FINEP Mais Inovação** (já baixado no repositório `fabrica-modelo/EDITAIS/`)
+
+4. **Repositório Fábrica Modelo:**
+   https://github.com/takwaratec/fabrica-modelo
 
 ---
 
