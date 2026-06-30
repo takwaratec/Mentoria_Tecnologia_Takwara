@@ -1,15 +1,62 @@
-# Pastas e Arquivos Sensíveis
-01_TRIAGEM_BRUTA/
-_privado/
-*.pdf
-*.docx
-*.doc
+# ============================================
+# .gitignore — Mentoria Tecnologia Takwara
+# ============================================
 
-# Python e MkDocs
-venv/
-env/
-.env
+# --- Python ---
 __pycache__/
-site/
-.mkdocs/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# --- macOS ---
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# --- IDEs ---
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# --- MkDocs build ---
+site/
+
+# --- Transcrições de conversas (NUNCA versionar) ---
+# Conversas de WhatsApp, Telegram, chats em geral
+**/WhatsApp Chat - */
+**/_chat*.txt
+**/Conversa do WhatsApp*.txt
+
+# Áudios e vídeos brutos (decupados → .md versionado)
+*.wav
+*.opus
+*.mp3
+*.mp4
+*.webm
+*.ogg
+
+# PDFs originais (extraídos → .md versionado)
+*.pdf
+
+# --- EXCEÇÃO: manter pautas e ATAs de reunião ---
+# Pautas e ATAs são .md organizados em docs/ - NÃO ignorar
+# docs/**/*.md  ← NÃO incluir esta linha
+
+# --- Arquivos temporários de extração ---
+_*.txt
+_*.py
+_*.json
+
+# --- Arquivos grandes / mídia ---
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.webp
