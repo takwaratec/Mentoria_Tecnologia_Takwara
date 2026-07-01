@@ -1,7 +1,39 @@
 # 🗂️ Frentes de Trabalho — Tecnologia Takwara
 
 > Documento mestre de administração das frentes. Cada frente é uma linha de trabalho independente. **Não misturar assuntos, não cruzar repositórios.**
-> Mantido pelo Hermes Agent · Atualizado em 30/06/2026 (23:59)
+> Mantido pelo Hermes Agent · Atualizado em 01/07/2026 (tarde)
+
+---
+
+## ⚠️ Como Usar Este Documento
+
+1. **Toda conversa começa com** — Hermes consulta este documento e te atualiza: "Status das frentes hoje:..."
+2. **Para baixar material** — use o caminho de TRIAGEM da frente correspondente
+3. **Para consultar** — cada frente tem seu repositório, seu escopo, suas regras de fronteira
+4. **Para criar nova frente** — Fabio autoriza, Hermes executa
+
+---
+
+## 📊 Raio-X Geral (01/07/2026)
+
+### Resumo da Sessão de Hoje (01/07) — Fábrica Modelo
+
+| Ação | Resultado |
+|------|-----------|
+| **Resultado Gemini — Perfis ECOSALA** | 3 novas fichas (Paron, Gisele, Daniela) + Vicente confirmado. README e Acervo index atualizados com Membros Ativos (8) e Prospecção (18) |
+| **Resultado Gemini — ICTs Multiplicadoras (AC, BA, RJ, SC, GO)** | 5 novos perfis fichados (Marcondes/UFAC, Guilherme/UFBA, Romildo/UFRJ, Humberto/UFSC, Alan/IF Goiano) + 5 cartas-convite Tipo B criadas |
+| **Cartas Tânia + Ludmila** | Tipo A personalizadas criadas |
+| **Carta Vicente** | Tipo A criada para formalizar participação no ECOSALA |
+| **Emissários definidos** | André (Bliska, Rocco, Carvalho, Romildo) · Tânia (Marcondes, Guilherme) · Vicente (Humberto, Alan) · Fabio (Tânia, Ludmila, Vicente) |
+| **👥 ECOSALA — Quadro de Pessoas** | Seção reformulada: Membros Ativos com colunas Enviado por/Resposta. Prospecção em Andamento com 18 pessoas e 5 status (✅ 📄 🔍 🔄 ⏳) |
+| **Protocolo de envio** | Regra fixa: carta redigida ≠ carta enviada. Consentimento grupo gestor → envio com Cc → atualização. Prazo máx: **03/07** |
+| **Dinâmica do ecossistema** | README agora aberto para visitantes indicarem contatos, redigirem cartas ou serem emissários |
+| **Cartas padronizadas** | Todas as 11 cartas com header De/Para/Email/Cc/Data + Cc obrigatório para Fabio |
+| **Prompt revisado** | `prompt-hermes-icts-multiplicadoras.md` com escaping limpo, status corrigidos, checkpoint de validação |
+
+### Lembretes recorrentes ativos no cron:
+- **Diário 08:00** — Fábrica Modelo: cartas pendentes de envio (prazo 03/07)
+- **Diário 08:00** — Pendências a resolver (Lattes perdidos, CPF/LinkedIn do Paron)
 
 ---
 
@@ -199,7 +231,7 @@ Triagem completa: 83 PDFs extraídos, 15 áudios processados, conteúdo distribu
 |-------|-------|
 | **Repositório** | fabrica-modelo |
 | **Criado** | 29/06/2026 |
-| **Status** | 🟢 Reunião realizada (30/06 10h, meet kkf-vwby-vas) |
+| **Status** | 🟢 11 cartas prontas · Aguardando envio (prazo 03/07) |
 
 👥 André Blanco (TEIA), Maurilho (habitação social, vice-presidente FNA), Michel (indústria — Texos).
 
@@ -215,6 +247,20 @@ Triagem completa: 83 PDFs extraídos, 15 áudios processados, conteúdo distribu
 - proposal-teaser.md
 - materiais-andre/ (6 .md extraídos do Drive)
 - transcricoes/TRANSCRICAO_REUNIAO_3006.md
+
+📄 **Produzido em 01/07:**
+- **Acervo:** 8 novas fichas (Paron, Gisele, Daniela, Marcondes, Guilherme, Romildo, Humberto, Alan)
+- **Cartas:** 11 cartas-convite redigidas (Tânia, Ludmila, Vicente, Bliska, Rocco, Carvalho, Marcondes, Romildo, Guilherme, Humberto, Alan)
+- **README:** Quadro ECOSALA ativos/prospecção, dinâmica do ecossistema, protocolo de envio, 5 status
+- **ICTs SP/MG:** Tabela atualizada com 8 ICTs (⭐3-5)
+- **ICTs Multiplicadoras:** Nova tabela AC/BA/RJ/SC/GO
+- **Prompt revisado:** `prompt-hermes-icts-multiplicadoras.md`
+
+📌 **Protocolo de envio de cartas:**
+1. Consentimento do grupo gestor
+2. Envio pelo emissário designado com Cc para Fabio
+3. Atualização da tabela (📄 → ✅)
+4. Prazo máximo: **03/07/2026**
 
 📌 **Ponto crítico:** Contrapartida mínima FINEP = R$5.000.000,00. Michel dispõe de ~R$160.000 (insuficiente). Buscar alternativas (cooperativa de crédito, consórcio com TEIA e parceiros).
 
@@ -278,32 +324,34 @@ Triagem completa: 83 PDFs extraídos, 15 áudios processados, conteúdo distribu
 
 ---
 
-## 📋 Prioridades (30/06/2026)
+## 📋 Prioridades (01/07/2026)
 
 | Prioridade | O quê | Status |
 |------------|-------|--------|
-| 🔴 **1** | Fábrica Modelo — executar T01 a T11 (7 dias) | ⏳ Prazo: 07/07 |
-| 🔴 **2** | UnB/Desafios Amazônia — aguardar Procuradoria + Profa Tânia | ⏳ Aguardando |
-| 🔴 **3** | Eco Prancha — call com Marcello | ⏳ Aguardando |
-| 🟡 **4** | Imperveg (Donizete) — scouting de materiais | ⏳ Em triagem |
-| 🟡 **5** | Ludmila — enviar mensagem (Fabio aprova) | ⏳ Aguardando Fabio |
+| 🔴 **1** | Fábrica Modelo — enviar 11 cartas-convite (prazo 03/07) | ⏳ 11 cartas prontas · 0 enviadas |
+| 🔴 **2** | Fábrica Modelo — definir contrapartida (R$5M mínimo) | ⏳ Michel ~R$160K insuficiente |
+| 🔴 **3** | UnB/Desafios Amazônia — aguardar Procuradoria + Profa Tânia | ⏳ Aguardando |
+| 🟡 **4** | Eco Prancha — call com Marcello | ⏳ Aguardando |
+| 🟡 **5** | Imperveg (Donizete) — scouting de materiais | ⏳ Em triagem |
 | 🟡 **6** | Vaga Lúmen — aguardar André definir prioridade vs Fábrica Modelo | ⏳ Aguardando André |
-| 🔵 **7** | Acervo Científico — continuar fichamento (Texos, materiais Eco Prancha) | ⏳ Em standby |
+| 🔵 **7** | Acervo Científico — completar fichas pendentes (Michel, Lattes perdidos) | ⏳ Em standby |
 | 🔵 **8** | Mentoria — preparar módulos TEC restantes | ⏳ Em segundo plano |
-
----
 
 ## 📋 Pendências / Itens de Regularização
 
 | Item | Repositório | O quê fazer | Urgência |
 |------|-------------|-------------|----------|
 | P01 | Acervo Científico | Confirmar grafia "Texos" (Michel) com André para finalizar ficha | 🟡 Média |
-| P02 | fabrica-modelo | Baixar 4 PDFs do Drive André (VITAU 164MB, Estudos Viabilidade) — acesso restrito | 🟡 Média |
-| P03 | Mentoria | Remover completamente do disco o diretório fantasma "Analises e escrita cientifica" | 🔴 Alta |
-| P04 | eco-prancha | .gitignore corrigido (30/06) — verificar se há outros arquivos não-md no tracking | 🟢 OK |
+| P02 | fabrica-modelo | Baixar 4 PDFs do Drive André (VITAU 164MB, Estudos Viabilidade) | 🟡 Média |
+| P03 | Mentoria | Remover do disco diretório fantasma "Analises e escrita cientifica" | 🔴 Alta |
+| P04 | eco-prancha | Verificar se há outros arquivos não-md no tracking (pós .gitignore) | 🟢 OK |
 | P05 | unb-desafios | Preparar SPOA / proposta completa para 01/09 | 🟡 Média |
 | P06 | ludmila-athis-df | Fabio aprovar mensagem antes do envio | 🟡 Média |
-| P07 | Geral | Transcrições de áudio NUNCA versionadas (só pautas/ATAS) — verificar se há restantes | 🟢 OK |
+| P07 | Geral | Transcrições de áudio NUNCA versionadas — verificar | 🟢 OK |
+| **P08** 🆕 | **fabrica-modelo** | **Enviar 11 cartas-convite até 03/07** (coordenar com André, Tânia, Vicente) | 🔴 **Crítico** |
+| **P09** 🆕 | **Acervo Científico** | **3 Lattes não localizados** (Guilherme UFBA, Humberto UFSC, Alan IF Goiano) — solicitar aos pesquisadores | 🟡 Média |
+| **P10** 🆕 | **Acervo Científico** | **CPF/LinkedIn C1-C4 (ECOSALA)** — solicitar ao Marcos Paron | 🟡 Média |
+| **P11** 🆕 | **fabrica-modelo** | **E-mail Ludmila Correia** — ainda não confirmado (marcado como pendente) | 🟡 Média |
 
 ---
 
