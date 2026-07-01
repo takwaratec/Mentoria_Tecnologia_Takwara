@@ -352,6 +352,7 @@ Triagem completa: 83 PDFs extraídos, 15 áudios processados, conteúdo distribu
 | **P09** 🆕 | **Acervo Científico** | **3 Lattes não localizados** (Guilherme UFBA, Humberto UFSC, Alan IF Goiano) — solicitar aos pesquisadores | 🟡 Média |
 | **P10** 🆕 | **Acervo Científico** | **CPF/LinkedIn C1-C4 (ECOSALA)** — solicitar ao Marcos Paron | 🟡 Média |
 | **P11** 🆕 | **fabrica-modelo** | **E-mail Ludmila Correia** — ainda não confirmado (marcado como pendente) | 🟡 Média |
+| **P12** 🆕 | **fabrica-modelo** | **Criar cartas cooperação técnica para Imperveg, Kehl, Purcom** (modelo de acordo pronto em docs/editais/) | 🟡 Média |
 
 ---
 
