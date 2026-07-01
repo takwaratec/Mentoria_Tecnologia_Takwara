@@ -353,6 +353,7 @@ Triagem completa: 83 PDFs extraídos, 15 áudios processados, conteúdo distribu
 | **P10** 🆕 | **Acervo Científico** | **CPF/LinkedIn C1-C4 (ECOSALA)** — solicitar ao Marcos Paron | 🟡 Média |
 | **P11** 🆕 | **fabrica-modelo** | **E-mail Ludmila Correia** — ainda não confirmado (marcado como pendente) | 🟡 Média |
 | **P12** 🆕 | **fabrica-modelo** | **Criar cartas cooperação técnica para Imperveg, Kehl, Purcom** (modelo de acordo pronto em docs/editais/) | 🟡 Média |
+| **P13** 🆕 | **Acervo Científico** | **Migrar 30 SCI + 31 FICHA + 6 LAB do MQTF** (Prof. Cavichioli, BNDES dossiê) — já copiados para 01_nucleo-tecnologico, pendente de indexação e padronização Cavichioli | 🟡 Média |
 
 ---
 
