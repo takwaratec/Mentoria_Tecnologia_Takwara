@@ -50,7 +50,7 @@ O ecossistema Takwara se desenvolve em três camadas históricas:
 | **[ECOSALA](https://github.com/takwaratec/ECOSALA)** | 🌱 Coletivo pesquisadores. Atas, projetos, editais | ✅ | F2 | 🟢 Ativo |
 | **[fundo-vaga-lumen-2026](https://github.com/takwaratec/fundo-vaga-lumen-2026)** | 💰 Proposta FINEP Vaga Lúmen | ❌ | F3 | ⏳ Aguardando reunião André/Maurilho |
 | **[plataforma-juventude-solidaria-2026](https://github.com/takwaratec/plataforma-juventude-solidaria-2026)** | 🌾 Viveiro-Educador MST Mário Lago | ✅ | F4 | 🟢 Ativo |
-| **[Analises-e-escrita-cientifica](https://github.com/takwaratec/Analises-e-escrita-cientifica)** | 📚 Acervo científico. **319 fichas, 8 sub-eixos**, DOI rastreável | ✅ | F5 | 🟢 Ativo |
+| **[acervo-soberania-tecnologica](https://github.com/takwaratec/acervo-soberania-tecnologica)** | 📚 Acervo científico. **319 fichas, 8 sub-eixos**, DOI rastreável | ✅ | F5 | 🟢 Ativo |
 | **[Personagens-Bambu](https://github.com/takwaratec/Personagens-Bambu)** | 🎭 8 personas bambu + biotipos, design system | ❌ | F6 | 🟢 Publicado |
 | **[unb-desafios-amazonia-2026](https://github.com/takwaratec/unb-desafios-amazonia-2026)** | 🌎 Proposta UnB + Consórcio Desafios da Amazônia (R$107M) | ✅ | F9 | ⏳ Pré-proposta 01/09/2026 |
 | **[fabrica-modelo](https://github.com/takwaratec/fabrica-modelo)** 🆕 | 🏭 Industrialização da construção civil — André/Maurilho | ❌ | F10 | ⏳ Aguardando reunião André |
@@ -127,7 +127,7 @@ A Tecnologia Takwara é o conjunto de soluções que combinam:
 
 Esta tecnologia é o fio condutor de todos os projetos do ecossistema — da bioeconomia amazônica à mentoria, dos editais FINEP às pranchas de surf vegetais.
 
-**Acervo Científico (fonte única de referências):** https://takwaratec.github.io/Analises-e-escrita-cientifica/
+**Acervo Científico (fonte única de referências):** https://takwaratec.github.io/acervo-soberania-tecnologica/
 
 ---
 

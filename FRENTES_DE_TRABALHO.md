@@ -85,7 +85,7 @@
 | 2 | **ECOSALA** | ✅ | ✅ | ~25 | ★ Ativo |
 | 3 | **fundo-vaga-lumen-2026** | ✅ | ❌ | ~40 | ⏳ Aguardando reunião André |
 | 4 | **plataforma-juventude-solidaria-2026** | ✅ | ✅ | ~53 | ★ Ativo |
-| 5 | **Analises-e-escrita-cientifica** | ✅ | ✅ | ~395 | ★ Ativo (+65 novas fichas/docs) |
+| 5 | **acervo-soberania-tecnologica** | ✅ | ✅ | ~395 | ★ Ativo (+65 novas fichas/docs) |
 | 6 | **Personagens-Bambu** | ✅ | ❌ | ~22 | ★ Publicado |
 | 7 | **Takwara-Tech** ⚠️ | ✅ (Resck) | ✅ | ~182 | 🔴 Triagem concluída |
 | 8 | **Mulheres-Tecem-Amazonia** | ✅ | ✅ | ~1.267 | ⚡ Latente |
@@ -154,7 +154,7 @@
 
 | Campo | Valor |
 |-------|-------|
-| **Repositório** | Analises-e-escrita-cientifica |
+| **Repositório** | acervo-soberania-tecnologica |
 | **GH Pages** | ✅ |
 | **Status** | ★ Ativo (+65 novas entradas em 30/06) |
 
@@ -372,7 +372,7 @@ Triagem completa: 83 PDFs extraídos, 15 áudios processados, conteúdo distribu
 | Repositório | Guarda | NÃO guarda |
 |-------------|--------|------------|
 | **Mentoria_Tecnologia_Takwara** (master) | AGENTS.md master, FRENTES_DE_TRABALHO.md, MANUAL_OPERACAO.md, 7 módulos TEC, Jornada 7 passos, Metodologia, PLANOS de frentes (exceto planos de reunião de projetos específicos), documentação do ecossistema | Fichas científicas (vão pro Acervo), documentos de projetos parceiros (vão pros seus repos), transcrições de reunião de projetos específicos |
-| **Analises-e-escrita-cientifica** (acervo) | Fichas científicas (8 seções), análises, referências (REF_*), fichas técnicas de tecnologias (PU Vegetal, etc.), perfil de pesquisadores | Documentos de gestão de projetos, atas de reunião, materiais de mentoria |
+| **acervo-soberania-tecnologica** (acervo) | Fichas científicas (8 seções), análises, referências (REF_*), fichas técnicas de tecnologias (PU Vegetal, etc.), perfil de pesquisadores | Documentos de gestão de projetos, atas de reunião, materiais de mentoria |
 | **fabrica-modelo** (projeto) | Edital FINEP, atas/transcrições/organização das reuniões, pautas do projeto, cartas de intenção, documentos específicos da Fábrica Modelo | Fichas científicas, documentação geral do ecossistema, planos de outras frentes |
 | **fundo-vaga-lumen-2026** (projeto) | Documentos específicos da proposta Vaga Lúmen | Tudo que não é da proposta |
 | **eco-prancha** (projeto) | Documentos específicos do projeto Eco Prancha | Tudo que não é do projeto |

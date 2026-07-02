@@ -1,7 +1,7 @@
 Oi filho! Tudo certo aí? Por aqui boas novas.
 
 Terminei de organizar aquele acervo da Takwara-Tech que tava largado. Tudo fichado e indexado:
-- Acervo: https://github.com/takwaratec/Analises-e-escrita-cientifica
+- Acervo: https://github.com/takwaratec/acervo-soberania-tecnologica
 - README do ecossistema completo: https://github.com/takwaratec/Mentoria_Tecnologia_Takwara
 
 A Profa Tânia respondeu. O MQTF ficou pro ano que vem por causa da mesa suspensa, mas ela já me chamou pra outros editais. Conversei sobre formalizar meu vínculo — ela foi super receptiva: me acolhe como pesquisador voluntário no LaPCiS (UnB Planaltina) e sugeriu usar a **Ecolaborativa** como CNPJ pra contratos, de modo que o trabalho tenha canal pra remuneração.

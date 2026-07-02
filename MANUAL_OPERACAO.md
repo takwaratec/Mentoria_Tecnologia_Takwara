@@ -7,7 +7,7 @@
 
 ## ⚠️ Centralização de referências (27/06)
 
-Todo conteúdo da Mentoria Takwara sobre PU Vegetal, Bambu e Tratamento Limpo deve referenciar **exclusivamente** o Acervo Científico (`Analises-e-escrita-cientifica`) como fonte de citações:
+Todo conteúdo da Mentoria Takwara sobre PU Vegetal, Bambu e Tratamento Limpo deve referenciar **exclusivamente** o Acervo Científico (`acervo-soberania-tecnologica`) como fonte de citações:
 
 - ❌ Nunca linkar fontes duplicadas ou PDFs avulsos externos
 - ❌ Nunca criar acervos paralelos de citações
@@ -138,7 +138,7 @@ VOCÊ                              HERMES
 | **ECOSALA** | ✅ | Grupo 12 membros, atas, editais |
 | **fundo-vaga-lumen-2026** | ❌ Só GitHub | Proposta FINEP |
 | **plataforma-juventude-solidaria-2026** | ✅ | MST Mário Lago |
-| **Analises-e-escrita-cientifica** | ✅ | Acervo científico ~80 fichas |
+| **acervo-soberania-tecnologica** | ✅ | Acervo científico ~80 fichas |
 | **Personagens-Bambu** | — | 8 personas |
 | **Mulheres_Bioeconomia_Amazonia** | Zenodo | Série Técnica, cartilhas |
 | **Mulheres_Amazonia (Clone)** | ✅ | Mulheres-Tecem-Amazonia, biblioteca legada |

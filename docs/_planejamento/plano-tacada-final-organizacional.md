@@ -67,7 +67,7 @@ Cada AGENTS.md deve ter:
 
 | Arquivo | Link antigo | Novo caminho |
 |---------|-------------|--------------|
-| `AGENTS.md` (Mentoria) | `docs/PU_Vegetal_Ficha_Tecnica_Consolidada.md` | `https://github.com/takwaratec/Analises-e-escrita-cientifica/.../pu-vegetal-ficha-tecnica-consolidada.md` |
+| `AGENTS.md` (Mentoria) | `docs/PU_Vegetal_Ficha_Tecnica_Consolidada.md` | `https://github.com/takwaratec/acervo-soberania-tecnologica/.../pu-vegetal-ficha-tecnica-consolidada.md` |
 | `AGENTS.md` (Mentoria) | `docs/carta-intencoes-pesquisador-colaborador-generica.md` | `docs/carta-intencoes-pesquisador-colaborador-generica.md` (mantido) |
 | `FRENTES_DE_TRABALHO.md` | Referências a `PLANOS/PAUTA_REUNIAO_FABRICA_MODELO.md` | `fabrica-modelo/docs/pauta-reuniao-fabrica-modelo.md` |
 | `MENSAGEM_ANDRE_CONFIRMACAO_3006.md` | Link para pauta no GitHub | Link atualizado |

@@ -2,7 +2,7 @@
 # 
 # Tudo abaixo pode ser deletado APÓS confirmação do Fabio.
 # Critério: conteúdo já extraído como .md em Mentoria/TRIAGEM_BRUTA/PARA_REVISAO_TT/
-# As fichas acadêmicas foram salvas no Acervo Científico (Analises-e-escrita-cientifica)
+# As fichas acadêmicas foram salvas no Acervo Científico (acervo-soberania-tecnologica)
 #
 # Instruções de deleção:
 #   1. Fabio revisa os .md em PARA_REVISAO_TT/

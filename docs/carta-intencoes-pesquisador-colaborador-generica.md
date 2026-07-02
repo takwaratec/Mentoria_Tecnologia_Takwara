@@ -83,4 +83,4 @@ Propõe-se que minha participação em projetos parceiros seja formalizada como:
 Pesquisador Autodidata — Ciência Cidadã
 ORCID: 0000-0001-8815-3885
 Ecolaborativa — CNPJ 41.620.744.0001-96
-Acervo Científico: https://github.com/takwaratec/Analises-e-escrita-cientifica
+Acervo Científico: https://github.com/takwaratec/acervo-soberania-tecnologica

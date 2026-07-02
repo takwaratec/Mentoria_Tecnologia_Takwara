@@ -28,7 +28,7 @@
 | **ECOSALA** | ✅ [takwaratec.github.io/ECOSALA](https://takwaratec.github.io/ECOSALA/) | Coletivo — atas, projetos, editais, fichas | Grupo |
 | **fundo-vaga-lumen-2026** | ❌ Só GitHub | Proposta FINEP Vaga Lúmen | FINEP |
 | **plataforma-juventude-solidaria-2026** | ✅ [takwaratec.github.io/...](https://takwaratec.github.io/plataforma-juventude-solidaria-2026/) | MST Mário Lago, Viveiro-Educador | MST |
-| **Analises-e-escrita-cientifica** | ✅ [takwaratec.github.io/...](https://takwaratec.github.io/Analises-e-escrita-cientifica/) | Acervo ~319 fichas, 8 sub-eixos | Acadêmico |
+| **acervo-soberania-tecnologica** | ✅ [takwaratec.github.io/...](https://takwaratec.github.io/acervo-soberania-tecnologica/) | Acervo ~319 fichas, 8 sub-eixos | Acadêmico |
 | **Personagens-Bambu** | — | 8 personas bambu + biotipos | Geral |
 | **Mulheres_Bioeconomia_Amazonia** | Zenodo DOI: 10.5281/zenodo.18827106 | Série Técnica, cartilhas | Zenodo |
 | **Mulheres-Tecem-Amazonia** | ✅ [takwaratec.github.io/...](https://takwaratec.github.io/Mulheres-Tecem-Amazonia/) | Consórcio UnB/UFAC/UFRR — bioeconomia, dossiê BNDES, série Técnica | Acadêmico |
