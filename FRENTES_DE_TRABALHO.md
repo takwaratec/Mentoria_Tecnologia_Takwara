@@ -1,7 +1,7 @@
 # 🗂️ Frentes de Trabalho — Tecnologia Takwara
 
 > Documento mestre de administração das frentes. Cada frente é uma linha de trabalho independente. **Não misturar assuntos, não cruzar repositórios.**
-> Mantido pelo Hermes Agent · Atualizado em 08/07/2026
+> Mantido pelo Hermes Agent · Atualizado em 30/07/2026
 
 ---
 
@@ -14,19 +14,23 @@
 
 ---
 
-## 📊 Raio-X Geral (08/07/2026)
+## 📊 Raio-X Geral (30/07/2026)
 
-### Mudança Estratégica Pós-Reunião ECOSALA (07/07)
+### Mudanças desde 08/07
 
-| O que mudou | Antes (01/07) | Agora (08/07) |
+| O que mudou | Antes (08/07) | Agora (30/07) |
 |-------------|---------------|----------------|
-| **FINEP ECOSALA** | Não existia como frente — só Vaga Lumen parado | **ECOSALA + Vaga Lumen = proposta "Puro-Sangue"** — mesmo edital, R$5M, território RP+Campinas |
-| **ICTs Multiplicadoras** | 11 cartas-convite para AC/BA/RJ/SC/GO com emissários | ❌ **Descartado** — FINEP só Techsus em SP |
-| **Fábrica Modelo** | 11 cartas para enviar (prazo 03/07) | ⏳ **Aguardando retorno** de André, Maurilio e Michel — proposta prévia e contrato encaminhados |
-| **Vaga Lúmen** | Separado, aguardando André | 🔗 **Fusionado com ECOSALA** — mesma proposta, mesmo território |
-| **Estratégia** | Linear (só FINEP Fábrica Modelo) | **Dupla narrativa**: Zayed Award (retrospectivo, USD $1M) + FINEP (prospectivo, R$5M) |
+| **FRENTES_DE_TRABALHO.md** | Atualizado | ⏳ **22 dias sem revisão** — este documento |
+| **ECOSALA** | Prazos T00-T06 definidos | 🟡 **Editais suspensos para ação posterior.** Grupo em fase de organização — vide README e index |
+| **Fábrica Modelo** | ⏳ Aguardando retorno André/Maurilio/Michel | ⏳ **Aguardando definição de patrocinadores.** Reunião com IPT realizada. Fabio formalizou posicionamento técnico e condições de continuidade |
+| **ludmila-athis-df** | ~35 .md, 🟢 Documentado aguardando | ✅ **~12+ novos:** decupagem, oportunidades, app REURB, roteiro visita 08/08 |
+| **plataforma-juventude-solidaria-2026** | ~53 .md | ✅ **App triagem regularização** publicado — repositório redefinido como "memória canônica do Coletivo Terra Viva" |
+| **acervo-soberania-tecnologica** | Pendências P06/P07 | ✅ Perfil Tânia commitado. **8 novas alterações não commitadas** |
+| **unb-desafios-amazonia-2026** | Aguardando Profa Tânia | ✅ **Mensagem de refutação** com 3 dispositivos legais + recurso cabível |
+| **Mentalidade estratégica** | Dupla narrativa Zayed+FINEP | **Mantida** — Zayed como narrativa retrospectiva, FINEP como prospectiva |
 
-### Resumo da Sessão (07/07) — Reunião ECOSALA
+### Resumo da Sessão Anterior (07/07)
+*(mantido como registro histórico — reunião ECOSALA)*
 
 | Ação | Resultado |
 |------|-----------|
@@ -36,16 +40,17 @@
 | **Plano Multiprojetos** | `ECOSALA/TRIAGEM-BRUTA/04_DOCUMENTOS/Plano Estratégico Multiprojetos.md` — dualidade narrativa Zayed + FINEP |
 | **Próxima reunião** | 1ª semana de agosto (Marcos convoca). Reuniões semanais definidas |
 
-### Resumo da Sessão Anterior (30/06–01/07)
+### Resumo do Período 08/07–30/07
 
 | Ação | Resultado |
 |------|-----------|
-| **Reunião Fábrica Modelo (André/Maurilho/Michel)** | Organizada, transcrição decupada, ATA produzida, 7 blocos do roteiro de defesa contra concreto, cartas de intenção (Michel, Imperveg) |
-| **Cartas ICTs Multiplicadoras** | 11 redigidas, emissários definidos — **plano mudou, descartado** |
-| **Documentos legais UnB/Profa Tânia** | 6 estratégias legais, minuta para procurador, refutação técnica ao DECANATO |
-| **Consolidação Acervo Científico** | 269 arquivos consolidados, diretório fantasma eliminado, estrutura de 5 áreas e 28 subgrupos |
-| **Consolidação Vaga Lúmen** | PDFs movidos, estrutura padronizada |
-| **Fichas no Acervo** | Perfis Fabio, André, Ludmila, Protocolo Cancún, Ficha Texos/Michel (rascunho) |
+| **ludmila-athis-df** | Documentação consolidada: site gh-pages, decupagem tematica da abertura, oportunidades, app triagem REURB adaptado, roteiro visita 08/08, protocolo drone SARPAS/DECEA |
+| **plataforma-juventude-solidaria-2026** | App triagem regularização fundiária publicado (fluxo offline, PWA, 13 etapas) |
+| **Fábrica Modelo** | Planos P&D, memoriais de patente (forno + conexões), plano de trabalho FINEP, cartas ICTs revisadas — reativado após período de espera |
+| **ECOSALA** | Site limpo: BNDES bioinsumos e estudos técnicos antigos removidos. Plano estratégico multiprojetos atualizado |
+| **Acervo Científico** | Perfil Tânia, ajustes especificações forno ecológico, coordenadores adicionados nos Anais |
+| **UnB/Desafios Amazônia** | Mensagem Fabio->Tânia com refutação técnica em 3 dispositivos legais + recurso cabível |
+| **Mentoria Master** | PLANOS/INVENTARIO-ATIVOS-GITHUB, PLANO-MESTRE-ATUALIZACAO criados (não commitados) |
 
 ### Mapa de Todos os Diretórios
 
@@ -54,15 +59,15 @@
 | 1 | **Mentoria_Tecnologia_Takwara** | ✅ | ✅ | ~210 | ★ Ativo (Master) |
 | 2 | **ECOSALA** | ✅ | ✅ | ~30 | ★ Ativo · **Frente principal FINEP** |
 | 3 | **fundo-vaga-lumen-2026** | ✅ | ❌ | ~40 | 🔗 **Fusionado com ECOSALA** |
-| 4 | **plataforma-juventude-solidaria-2026** | ✅ | ✅ | ~53 | ★ Ativo |
-| 5 | **acervo-soberania-tecnologica** | ✅ | ✅ | ~400 | ★ Ativo (base de referências) |
-| 6 | **Personagens-Bambu** | ✅ | ❌ | ~22 | ★ Publicado |
-| 7 | **Takwara-Tech** ⚠️ | ✅ (Resck) | ✅ | ~182 | 🔴 Triagem concluída |
-| 8 | **Mulheres-Tecem-Amazonia** | ✅ | ✅ | ~1.267 | ⚡ Latente (fonte MQTF) |
-| 9 | **fabrica-modelo** | ✅ | ❌ | ~20 | ⏳ **Aguardando André/Maurilio/Michel** |
-| 10 | **eco-prancha** | ✅ | ❌ | ~3 | 🟢 Aguardando call Marcello |
-| 11 | **unb-desafios-amazonia-2026** | ✅ | ✅ | ~18 | ⏳ Pré-proposta 01/09 |
-| 12 | **ludmila-athis-df** | ✅ | ❌ | ~35 | 🟢 Documentado, aguardando |
+|| 4 | **plataforma-juventude-solidaria-2026** | ✅ | ✅ | ~60 | ★ Ativo · app triagem regularização incluído |
+|| 5 | **acervo-soberania-tecnologica** | ✅ | ✅ | ~410 | ★ Ativo · 8 alterações não commitadas |
+|| 6 | **Personagens-Bambu** | ✅ | ❌ | ~22 | 🟢 Publicado (parado desde 24/06) |
+|| 7 | **Takwara-Tech** ⚠️ | ✅ (Resck) | ✅ | ~182 | 🔴 Legacy · 3 commits ahead · 8 alterações |
+|| 8 | **Mulheres-Tecem-Amazonia_Clone** | ✅ | ✅ | ~1.267 | ⚡ Latente (apenas .DS_Store alterado) |
+|| 9 | **fabrica-modelo** | ✅ | ✅ | ~130 | ✅ **Ativo** — planos P&D, memoriais, cartas revisadas |
+|| 10 | **eco-prancha** | ✅ | ❌ | ~3 | 🟢 Aguardando call Marcello |
+|| 11 | **unb-desafios-amazonia-2026** | ✅ | ✅ | ~20 | ⏳ Pré-proposta 01/09 · refutação encaminhada |
+|| 12 | **ludmila-athis-df** | ✅ | ✅ | ~50 | ✅ **Ativo** — gh-pages, decupagem, oportunidades, roteiro |
 
 ---
 
@@ -82,68 +87,30 @@
 
 ---
 
-### FRENTE 2 — ECOSALA + VAGA LUMEN "PURO-SANGUE" ⭐
+### FRENTE 2 — ECOSALA
 
 | Campo | Valor |
 |-------|-------|
 | **Repositórios** | ECOSALA (principal) + fundo-vaga-lumen-2026 (documentos da proposta) |
 | **GH Pages ECOSALA** | ✅ |
-| **Status** | 🔴 **URGENTE — Prazo 31/08** |
-| **Edital** | FINEP Subvenção Econômica — Fluxo Contínuo (mesmo da Fábrica Modelo) |
-| **Teto** | R$ 5.000.000 + contrapartida 5% (R$ 250.000) |
-| **Território** | Ribeirão Preto + Campinas — 4 assentamentos + 5 acampamentos MST |
+| **Status** | 🟡 **Em reorganização.** Editais suspensos para ação posterior. Grupo definindo prioridades e alinhamento interno |
 
-**👥 Grupo Gestor (06/07):**
+**👥 Grupo Gestor:**
 | Ator | Papel | Contribuição |
 |------|-------|-------------|
-| **Marcos Paron** (IFSP) | Convocante, ecoformação | Curso EaD, plantas medicinais, férias em 15 dias ⚠️ |
-| **André Blanco** (TEIA/Labiapa) | Bio-arquiteto | Plataforma Labiapa, contatos CAU/SP, Priorize |
+| **Marcos Paron** (IFSP) | Convocante, ecoformação | Curso EaD, plantas medicinais |
+| **André Blanco** (TEIA/Labiapa) | Bio-arquiteto | Plataforma Labiapa, contatos CAU/SP |
 | **Daniela Maciel** (Embrapa Territorial) | Avaliação de impacto | TerImpact/AgroRadar, Teoria da Mudança |
-| **Gisele Vilela** (Embrapa) | Submissão FINEP | Comitê curador, Plataforma Brasil, cartas anuência |
-| **Murillo Miguel** (Terra Viva/MST) | Território Mario Lago | Demandas reais: CAF, saneamento, habitação, renda |
-| **Fabio Takwara** | Curadoria, IA, documentação | Agente Hermes, acervo científico, PU Vegetal, editais |
+| **Gisele Vilela** (Embrapa) | Submissão FINEP | Comitê curador, Plataforma Brasil |
+| **Murillo Miguel** (Terra Viva/MST) | Território Mario Lago | Demandas reais: CAF, saneamento, habitação |
+| **Fabio Takwara** | Curadoria, IA, documentação | Agente Hermes, acervo científico, PU Vegetal |
 
-**📄 Documentos Produzidos (07/07):**
-- `ECOSALA/docs/12_REUNIOES/2026-07-07_REUNIAO_ALINHAMENTO_FINEP_ECOSALA.md` — ATA completa
-- `ECOSALA/docs/editais/plano-estrategico-vaga-lumen-ecosala-finep.md` — Plano estratégico c/ matriz de convergências, 4 pilares, grade T00-T06, riscos
-- `ECOSALA/TRIAGEM-BRUTA/04_DOCUMENTOS/Plano Estratégico Multiprojetos.md` — Dualidade narrativa Zayed + FINEP
+> **Diretriz atual (30/07):** Editais e prospecção ativa estão suspensos até o grupo consolidar sua organização interna. O README foi simplificado para refletir apenas vinculos já alinhados. Vide index do repositorio ECOSALA.
 
-**🎯 Estratégia de Dupla Narrativa:**
-| Abordagem | Prêmio Zayed (2027) | FINEP Subvenção |
-|-----------|---------------------|-----------------|
-| **Tempo verbal** | Passado (retrospectivo) | Futuro (prospectivo) |
-| **Narrativa** | "Nós realizamos e impactamos" | "Propomos validar e transferir" |
-| **Foco** | Fraternidade, Paz, Dignidade Humana | Incerteza Tecnológica, TRL, Ciência Aberta |
-| **Atores** | Coletivo Terra Viva, MST Mário Lago | Trupe ECOSALA, IPT, USP, Unicamp, Ceaflor |
-| **Recurso** | USD $1.000.000 (sem glosas) | R$ 5.000.000 (subvenção) |
-| **Objetivo** | Fundo semente para Trupe Vaga Lúmen | Validar ciência social do método |
-
-**🎯 Os 4 Pilares da Proposta:**
-1. **Diagnóstico Participativo** — Mapeamento de dores (Murillo + Daniela/TerImpact)
-2. **Curadoria de Tecnologias** — Soluções do acervo para cada dor (Gisele + Marcos)
-3. **Canteiro-Escola Itinerante** — Formação prática nos modais (André + Fabio)
-4. **Governança e Consentimento** — Protocolo Cancún + Plataforma Brasil (Gisele + Fabio)
-
-**📌 Grade de Trabalho (T00-T06):**
-| Fase | Atividade | Marco | Prazo |
-|:----:|-----------|-------|:-----:|
-| **T00** | Definir **empresa proponente** (cooperativa/associação) | CNPJ + cadastro FINEP regular | **15/07** |
-| **T01** | Alinhamento proposta unificada | Documento-base aprovado pelo grupo | **20/07** |
-| **T02** | Comitê curador formalizado | Portaria/minuta de criação | **25/07** |
-| **T03** | Cartas de anuência ICTs (IFSP, Labiapa, Embrapa, IFB) | 4 cartas assinadas | **31/07** |
-| **T04** | Orçamento detalhado (R$5M + R$250k) | Planilha FINEP | **05/08** |
-| **T05** | Versão final para revisão | Documento completo | **15/08** |
-| **T06** | **Submissão na plataforma FINEP** | Protocolo | **31/08** |
-
-**🔴 Lacunas Críticas:**
-| Lacuna | O que precisa | Responsável | Prioridade |
-|--------|---------------|-------------|:----------:|
-| **Empresa proponente** | CNPJ de cooperativa/associação c/ cadastro FINEP | Murillo (MST), André (BIA) | 🔴 **15/07** |
-| **Contrapartida R$ 250k** | Parceiro disposto a aportar | André (BIA, montadoras), Maurilio | 🔴 Crítica |
-| **Carta IFSP** | Anuência institucional | Marcos Paron | 🔴 **31/07** |
-| **Carta Labiapa** | Anuência institucional | André Blanco | 🔴 **31/07** |
-| **Carta Embrapa** | Anuência institucional | Daniela + Gisele | 🔴 **31/07** |
-| **Cadastro FINEP ICTs** | Regularização de todos | Cada participante | 🔴 Imediato |
+**📄 Documentos produzidos (07/07):**
+- ATA completa da reuniao de alinhamento FINEP ECOSALA
+- Plano estratégico com matriz de convergências, 4 pilares, grade T00-T06, riscos
+- Plano Multiprojetos — dualidade narrativa Zayed + FINEP
 
 ---
 
@@ -164,15 +131,25 @@
 | Campo | Valor |
 |-------|-------|
 | **Repositório** | fabrica-modelo |
-| **GH Pages** | ❌ (Vercel: https://fabrica-modelo.vercel.app) |
-| **Status** | ⏳ **Aguardando pronunciamento** de André, Maurilio e Michel Techsus |
+| **GH Pages** | ✅ (gh-pages ativo) |
+| **Status** | ⏳ **Aguardando definição de patrocinadores.** Reunião com IPT realizada |
 
 👥 André Blanco (TEIA), Maurilho (habitação social), Michel (Texos/Techsus).
 
-📄 **Status atual (08/07):**
-- Proposta prévia e contrato de execução **já encaminhados** aos parceiros
-- **Aguardando retorno** de André, Maurilio e/ou Michel Techsus
-- Landing page ativa: https://fabrica-modelo.vercel.app
+📄 **Status atual (30/07):**
+- Fabio formalizou **posicionamento técnico e condições de continuidade**
+  (documento reservado: `ACERVO_RESTRITO/2026-07-29_POSICIONAMENTO_FABIO_TAKWARA/`)
+- **Reunião com IPT** realizada — alinhamento de ensaios de desempenho e certificação
+- Proposta dividida em **2 blocos**: A (Techsus indispensável) e B (núcleo mínimo Takwara)
+- Definição pendente: modelo de participação de Fabio (coexecução, contrato técnico ou via ICT)
+- Depende de: patrocinadores definirem escopo, orçamento e governança
+- Memorias de patente revisados, cartas de cooperação atualizadas
+- Landing page: https://fabrica-modelo.vercel.app
+
+📌 **Posição de Fabio (29/07):** Permanece no projeto desde que o grupo consolide
+imediatamente escopo, participantes, atribuições, orçamento, ICTs, propriedade
+intelectual e governança documental. Sem essa formalização, não continua como
+parceiro Tecnologia Takwara.
 
 📌 **Ponto crítico:** Contrapartida mínima FINEP = R$5M. Michel dispõe de ~R$160K (insuficiente). Alternativas: cooperativa de crédito, consórcio TEIA + parceiros.
 
@@ -186,9 +163,14 @@
 |-------|-------|
 | **Repositório** | plataforma-juventude-solidaria-2026 |
 | **GH Pages** | ✅ |
-| **Status** | ★ Ativo |
+| **Status** | ★ Ativo · app triagem regularização incluso |
 
 👥 Joaquim Sando (MST), Murilo Miguel (Terra Viva).
+
+📌 **Novo (30/07):** Aplicativo offline de triagem documental para regularização
+fundiária — fluxo de 13 etapas (coleta → triagem → dossiê → assinatura →
+protocolo), adaptado para celular, PWA, questionário condicional por
+procedimento. Documento em `docs/app-triagem-regularizacao.md`.
 
 ---
 
@@ -198,14 +180,15 @@
 |-------|-------|
 | **Repositório** | acervo-soberania-tecnologica |
 | **GH Pages** | ✅ |
-| **Status** | ★ Ativo (base de referências para TODAS as frentes) |
+| **Status** | ★ Ativo · **8 alterações não commitadas** |
 
 🎯 **Fonte ÚNICA de referências.** 5 áreas, 28 subgrupos, método Cavichiolli (8 seções).
 
 📌 **Pendências:**
-- Uncommitted: perfil-tania-cruz modificado, .agent-instructions/, 05_perfis-e-referencias/
-- Limpeza POL_ (74+10+49 fichas movidas para quarentena — aguardando commit+deploy)
-- Confirmar grafia "Texos" (Michel) c/ André
+- Uncommitted: docs/analyses/percecao-social/ (ludmila 2010, 2023), respaldo-academico/
+  (perfil-ludmila-correia), docs/index.md, mkdocs.yml, analyses/reforma-agraria/
+- Site precisa de `mkdocs gh-deploy` para refletir as alterações atuais
+- Último deploy: 24/07
 
 ---
 
@@ -219,12 +202,14 @@
 
 ---
 
-### FRENTE 8 — TAKWARA-TECH (LEGACY)
+### FRENTE 8 — TAKWARA-TECH (LEGACY ⚠️)
 
 | Campo | Valor |
 |-------|-------|
 | **Repositório** | Resck/Takwara-Tech |
-| **Status** | 🔴 Triagem concluída |
+| **Status** | 🔴 **Legacy.** 3 commits ahead do origin. 8 alterações não commitadas |
+| | Docs avulsos (Casa_Floresta_COP30, Floresta_em_Pe, cop-da-verdade) |
+| | **Regra:** NUNCA citar este repositório em documentos públicos |
 
 ---
 
@@ -232,7 +217,8 @@
 
 | Campo | Valor |
 |-------|-------|
-| **Repositório** | Mulheres-Tecem-Amazonia |
+| **Repositório** | Mulheres-Tecem-Amazonia_Clone |
+| **GH Pages** | ✅ |
 | **Status** | ⚡ Latente (fonte de metodologia MQTF para ECOSALA) |
 
 📌 MQTF é sigla INTERNA. Template de diagnóstico e canteiro-escola pode ser aproveitado na proposta ECOSALA.
@@ -283,46 +269,48 @@
 | Campo | Valor |
 |-------|-------|
 | **Repositório** | ludmila-athis-df |
-| **Status** | 🟢 Documentado, aguardando |
+| **GH Pages** | ✅ https://takwaratec.github.io/ludmila-athis-df/ |
+| **Status** | ✅ **Ativo** — site consolidado com decupagem, oportunidades, app, roteiro |
 
 👥 Ludmila de Araújo Correia (CAU-DF, LaPeCFaS UnB).
 
-📌 Contexto histórico documentado, 30 transcrições de áudio, decupagem 2021-2025.
+📌 **Novo (30/07):**
+- Site gh-pages com MkDocs Material (tema escuro/claro)
+- Decupagem temática da abertura (17/07) — 15 seções, 14 oradores
+- Mapeamento de oportunidades (programas federais, parceiros, dados DIAT)
+- App triagem REURB adaptado do SP para o urbano
+- Roteiro de reconhecimento em 08/08 com protocolo drone SARPAS/DECEA
+- Visita de Fabio a Brasília entre 5 e 9 de agosto
 
 ---
 
-## 📋 Prioridades (08/07/2026)
+## 📋 Prioridades (30/07/2026)
 
 | Prioridade | O quê | Status |
 |------------|-------|--------|
-| 🔴 **1** | ECOSALA — Definir **empresa proponente** (T00) | ⏳ Murillo consulta MST, André aciona BIA · Prazo **15/07** |
-| 🔴 **2** | ECOSALA — **Reunião extraordinária** para decidir | ⏳ Marcos + Fabio convocam · Prazo **10/07** |
-| 🔴 **3** | ECOSALA — Contrapartida R$ 250k | ⏳ André + Maurilio buscam |
-| 🔴 **4** | ECOSALA — Verificar cadastro FINEP de todos | ⏳ Imediato — alerta Gisele |
-| 🔴 **5** | Fábrica Modelo — **Aguardando retorno** André/Maurilio/Michel | ⏳ Proposta prévia + contrato encaminhados |
-| 🟡 **6** | ECOSALA — Cartas de anuência ICTs (T03) | ⏳ Paron, André, Daniela/Gisele · Prazo **31/07** |
-| 🟡 **7** | Acervo Científico — Commitar pendências + deploy MkDocs | ⏳ Uncommitted: perfil-tania-cruz, 05_perfis |
-| 🟡 **8** | Acervo Científico — Finalizar curadoria POL_ | ⏳ 74+10+49 fichas em quarentena |
-| 🔵 **9** | UnB/Desafios Amazônia — Pré-proposta | ⏳ Prazo **01/09** |
-| 🔵 **10** | Eco Prancha — Call Marcello | ⏳ Aguardando |
-| 🔵 **11** | Zayed Award 2027 — Preparar candidatura | ⏳ Narrativa retrospectiva pronta no plano multiprojetos |
+| 🟡 **1** | **ECOSALA** — Grupo em reorganização. Editais suspensos. Nenhuma açao externa ate alinhamento interno | 🟡 Em espera |
+| 🟡 **2** | **Fábrica Modelo** — Patrocinadores definirem escopo, orçamento e governança. Posição de Fabio formalizada (29/07) | ⏳ Aguardando Andre/Maurilio/Michel + IPT |
+| 🟡 **3** | **Acervo Científico** — Commitar 8 alterações + mkdocs gh-deploy | ⏳ Pendente |
+| 🟡 **4** | **Mentoria Master** — Commitar PLANOS/ e alterações TEC_04 | ⏳ Pendente |
+| 🟡 **5** | **ludmila-athis-df** — Commitar alterações pendentes | 🟡 Pendente |
+| 🔵 **6** | UnB/Desafios Amazônia — Acompanhar resposta da Profa Tânia | ⏳ Refutação encaminhada |
+| 🔵 **7** | Zayed Award 2027 — Preparar candidatura | ⏳ Em prospecção via Ludmila |
+| 🔵 **8** | Eco Prancha — Call Marcello | ⏳ Aguardando |
 
 ---
 
 ## 📋 Pendências / Itens de Regularização
 
-| Item | Repositório | O que fazer | Urgência |
-|------|-------------|-------------|----------|
-| P01 | ECOSALA | Definir CNPJ proponente FINEP até 15/07 | 🔴 Crítico |
-| P02 | ECOSALA | Convocar reunião extraordinária (Marcos + Fabio) | 🔴 10/07 |
-| P03 | ECOSALA | Verificar cadastro FINEP de todos os membros | 🔴 Imediato |
-| P04 | ECOSALA | Paron, André, Gisele/Daniela iniciarem cartas anuência | 🟡 31/07 |
-| P05 | fabrica-modelo | Aguardar retorno André/Maurilio/Michel | ⏳ |
-| P06 | Acervo | Commitar alterações (perfil-tania-cruz, .agent-instructions/) | 🟡 Média |
-| P07 | Acervo | Deploy MkDocs gh-deploy (pendente desde 30/06) | 🟡 Média |
-| P08 | Acervo | Confirmar grafia "Texos" (Michel) com André | 🟡 Média |
-| P09 | eco-prancha | Aguardar call Marcello | 🟢 Baixa |
-| P10 | unb-desafios | Preparar proposta completa para 01/09 | 🟡 Média |
+| Item | Repositório | O que fazer | Urgência | Status |
+|------|-------------|-------------|----------|--------|
+| P01 | ECOSALA | Grupo em reorganização. **Nenhuma ação externa** até alinhamento interno | 🟡 Media | ⏳ Em espera |
+| P02 | **Fabrica Modelo** | Patrocinadores definirem escopo. Posição Fabio formalizada (29/07) | 🟡 Media | ⏳ |
+| P03 | **Acervo** | Commitar 8 alterações + mkdocs gh-deploy | 🟡 Media | ⏳ |
+| P04 | **Mentoria** | Commitar PLANOS/ + TEC_04 | 🟡 Media | ⏳ |
+| P05 | **ludmila-athis-df** | Commitar alterações pendentes | 🟡 Baixa | ⏳ |
+| P06 | eco-prancha | Aguardar call Marcello | 🟢 Baixa | ⏳ |
+| P07 | unb-desafios | Acompanhar resposta Profa Tânia (refutação) | 🟡 Media | ⏳ |
+| P08 | Takwara-Tech | Reparar divergência 3 commits ahead + docs avulsos | 🟢 Baixa | ⏳ |
 
 ---
 
@@ -363,5 +351,5 @@
 
 ---
 
-> *Documento mantido pelo Hermes Agent · Tecnologia Takwara · 08/07/2026*
+> *Documento mantido pelo Hermes Agent · Tecnologia Takwara · 30/07/2026*
 > *Consulte sempre no início de cada sessão para saber onde estamos.*
