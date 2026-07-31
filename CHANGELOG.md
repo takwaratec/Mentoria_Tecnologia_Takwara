@@ -4,7 +4,40 @@
 > repositório-mestre. Detalhes técnicos nos commits; este arquivo resume
 > marcos e decisões de governança.
 
-## 2026-07-31 — Sanitização + Governança (Etapas 1–3 do Plano)
+## 2026-07-31 — Plano de Governança 2026 — 5 ETAPAS CONCLUÍDAS ✅
+
+### Etapa 5 — Publicação segura (verificação final)
+- Deploy final do Mentoria corrigido: `requirements.txt` ausente no CI
+  causava falha silenciosa de deploy (2 runs falharam antes da correção).
+  Commit `5517c1a` adicionou o arquivo; run `Deploy MkDocs` passou.
+- Sites verificados (HTTP 200): Mentoria, acervo, ludmila.
+- Varredura de segurança nos 3 sites: 0 ocorrências de termos sensíveis
+  (bliska=perfil legítimo; carta privada, Reclamacao_Vivo, TRIAGEM,
+  WhatsApp, CPF/CNPJ: 0 em todos).
+- URLs privadas testadas retornam 404 nos 3 sites
+  (_privado, _quarentena, TRIAGEM, transcricoes/audios, carta-bliska).
+
+### Etapa 3 — Registros canônicos (commit `022e53b`, push)
+- `ADMIN/FRENTES.yaml` — 12 frentes com IDs permanentes `FR-*`.
+- `ADMIN/REPOSITORIOS.yaml` — 15 repos com IDs permanentes `REPO-*`
+  (backup local `*.bak-2026-07-31`, ignorado pelo git).
+- `ADMIN/POLITICA-BUSCA-VETORIAL.md` — deny-list completa.
+- `scripts/busca_vector.py` — aplica a deny-list da política.
+- `CHANGELOG.md` criado; `.gitignore` ganhou `*.bak-*`.
+
+### Etapa 4 — Automação (emergencial, antes da Etapa 3)
+- Ludmila: GitHub Actions `gh-pages.yml` criado (deploy automático no
+  push, `mkdocs gh-deploy --force`) — commit `e315de0`. Run inicial:
+  success. Motivo: sem CI, a página de conversa pessoal 2021-2025
+  continuou no ar após o push; agora deploy é automático.
+
+### Etapa 2 — Integridade do acervo (commit `651166a`, push, deploy OK)
+- Gavetas lógicas registradas em `GOVERNANCA_DOCUMENTAL.md`.
+- Máquina de estados + equivalência dos 8 valores em uso.
+- Ficha `SCI_014_...` renomeada para padrão autor-ano com redirect.
+
+### Etapa 1 — Sanitização (commit `626b96d`, push)
+- Ver seção abaixo.
 
 ### Commit 626b96d — Sanitização do repositório
 - **D1:** TRIAGEM_BRUTA sem binários (10 áudios + 7 PDFs movidos para
