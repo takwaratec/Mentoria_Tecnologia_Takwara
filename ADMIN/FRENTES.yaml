@@ -1,0 +1,86 @@
+# ADMIN/FRENTES.yaml
+# Registro canônico de frentes de trabalho do ecossistema Tecnologia Takwara.
+# IDs permanentes (FR-*): a posição na lista pode mudar, o ID não.
+# Fonte: FRENTES_DE_TRABALHO.md + ADMIN/REPOSITORIOS.yaml (30/07/2026).
+# Regra: uma frente = um repositório canônico. NUNCA cruzar documentos.
+
+frentes:
+
+  - id: FR-MENTORIA
+    nome: Mentoria (Maestro)
+    repositorio: REPO-MENTORIA
+    status: ativo
+    observacao: "Regência do ecossistema. AGENTS.md master, manual de operação, regras metodológicas."
+
+  - id: FR-ECOSALA
+    nome: ECOSALA
+    repositorio: REPO-ECOSALA
+    status: em-reorganizacao
+    observacao: "Coletivo de 12 pesquisadores. Editais suspensos até alinhamento interno."
+
+  - id: FR-FABRICA-MODELO
+    nome: Fábrica Modelo (FINEP SP)
+    repositorio: REPO-FABRICA-MODELO
+    status: aguardando-patrocinadores
+    observacao: "Industrialização da construção civil. Reunião IPT realizada; escopo/orçamento/governança aguardando patrocinadores."
+
+  - id: FR-MST-JUVENTUDE
+    nome: MST Juventude Solidária
+    repositorio: REPO-JUVENTUDE-SOLIDARIA
+    status: ativo
+    observacao: "Memória do Coletivo Terra Viva, Assentamento Mário Lago. 8 subfrentes."
+
+  - id: FR-LUDMILA-ATHIS
+    nome: Ludmila / ATHIS-DF
+    repositorio: REPO-LUDMILA-ATHIS
+    status: ativo
+    observacao: "Parceria com Dra. Ludmila Correia (CAU-DF). Formação ATHIS 2026, Sol Nascente, Zayed."
+
+  - id: FR-UNB-AMAZONIA
+    nome: UnB / Desafios Amazônia
+    repositorio: REPO-UNB-DESAFIOS-AMAZONIA
+    status: pre-proposta
+    observacao: "Desafios da Amazônia (Amazônia+10). Pré-proposta 01/09. Carreira LaPCiS/UnB."
+
+  - id: FR-ECO-PRANCHA
+    nome: Eco Prancha
+    repositorio: REPO-ECO-PRANCHA
+    status: aguardando-call
+    observacao: "Prancha de surf 100% vegetal. Marcello Pedro (Grupo Raízes) + Fabio."
+
+  - id: FR-ACERVO
+    nome: Acervo Científico
+    repositorio: REPO-ACERVO
+    status: ativo
+    observacao: "Fichas científicas (8 seções Cavichioli), resenhas, estados da arte, perfis. Fonte única de referências."
+
+  - id: FR-PERSONAGENS-BAMBU
+    nome: Personagens-Bambu
+    repositorio: REPO-PERSONAGENS-BAMBU
+    status: publicado
+    observacao: "8 personas bambu + biotipos. Material de divulgação e formação."
+
+  - id: FR-TAKWARA-TECH
+    nome: Takwara-Tech (Legacy)
+    repositorio: REPO-TAKWARA-TECH
+    status: legado
+    observacao: "Histórico. NUNCA citar em documentos públicos."
+
+  - id: FR-MQTF
+    nome: Mulheres Bioeconomia Amazônia / MQTF
+    repositorio: REPO-MQTF-CLONE
+    status: latente
+    observacao: "MQTF é sigla interna. Em docs públicos: 'projeto de bioeconomia amazônica do consórcio UnB/UFAC/UFRR'."
+
+  - id: FR-CARREIRA-LAPCIS
+    nome: Carreira / LaPCiS (Pessoal)
+    repositorio: null
+    status: pessoal
+    observacao: "Frente pessoal. NÃO misturar com projetos parceiros."
+
+# Repositórios sem frente atribuída (a auditar):
+#   REPO-RAIOX (Mentoria_Comunidades_RaioX) — confirmar função/estado
+#   REPO-VERCEL (takwara-mentoria-vercel) — auditar publicação e dados
+#   REPO-DOCMD-TEST (docmd-test-takwara) — definir necessidade; arquivar ou restringir
+# Frentes fusionadas (não criam entrada própria):
+#   FR-VAGA-LUMEN → incorporada à FR-ECOSALA (documentação em REPO-VAGA-LUMEN, arquivado)

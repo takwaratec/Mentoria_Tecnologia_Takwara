@@ -7,6 +7,7 @@
 repositorios:
 
   - nome: Mentoria_Tecnologia_Takwara
+    id: REPO-MENTORIA
     classe: maestro
     descricao: "Repositório mestre de instruções. Regência do ecossistema, AGENTS.md, FRENTES_DE_TRABALHO.md, manual de operação, regras metodológicas."
     caminho_local: /Users/fabiotakwara/Documents/GitHub/Mentoria_Tecnologia_Takwara
@@ -22,6 +23,7 @@ repositorios:
       - receber_documentos_de_projeto
 
   - nome: acervo-soberania-tecnologica
+    id: REPO-ACERVO
     classe: referencia-cientifica
     descricao: "Fichas científicas (8 seções Cavichioli), resenhas, estados da arte, perfis documentais. Fonte única de referências para todas as frentes."
     caminho_local: /Users/fabiotakwara/Documents/GitHub/acervo-soberania-tecnologica
@@ -36,6 +38,7 @@ repositorios:
     observacoes: "8 alterações não commitadas. Site com dados de 24/07."
 
   - nome: ECOSALA
+    id: REPO-ECOSALA
     classe: projeto
     descricao: "Coletivo de 12 pesquisadores. Atas, projetos, editais, fichas dos membros."
     caminho_local: /Users/fabiotakwara/Documents/GitHub/ECOSALA
@@ -50,6 +53,7 @@ repositorios:
     observacoes: "Editais suspensos. Grupo em reorganização. Nenhuma ação externa até alinhamento interno."
 
   - nome: fundo-vaga-lumen-2026
+    id: REPO-VAGA-LUMEN
     classe: projeto
     descricao: "Documentos históricos da proposta FINEP Vaga Lúmen. Agora fusionado com ECOSALA."
     caminho_local: /Users/fabiotakwara/Documents/GitHub/fundo-vaga-lumen-2026
@@ -61,6 +65,7 @@ repositorios:
     ultima_verificacao: 2026-07-30
 
   - nome: fabrica-modelo
+    id: REPO-FABRICA-MODELO
     classe: projeto
     descricao: "Industrialização da construção civil com redução de impacto ambiental. Proposta FINEP Mais Inovação."
     caminho_local: /Users/fabiotakwara/Documents/GitHub/fabrica-modelo
@@ -74,6 +79,7 @@ repositorios:
     observacoes: "Reunião com IPT realizada. Posicionamento de Fabio formalizado (29/07). Aguardando patrocinadores definirem escopo, orçamento e governança."
 
   - nome: plataforma-juventude-solidaria-2026
+    id: REPO-JUVENTUDE-SOLIDARIA
     classe: projeto
     descricao: "Repositório canônico de memória do Coletivo Terra Viva no Assentamento Mário Lago. 8 frentes: memória, viveiro, juventude, Zayed, app triagem."
     caminho_local: /Users/fabiotakwara/Documents/GitHub/plataforma-juventude-solidaria-2026
@@ -87,6 +93,7 @@ repositorios:
     ultima_verificacao: 2026-07-30
 
   - nome: ludmila-athis-df
+    id: REPO-LUDMILA-ATHIS
     classe: projeto
     descricao: "Acompanhamento da parceria com Dra. Ludmila Correia (CAU-DF). Formação ATHIS 2026, Sol Nascente, Zayed."
     caminho_local: /Users/fabiotakwara/Documents/GitHub/ludmila-athis-df
@@ -100,6 +107,7 @@ repositorios:
     ultima_verificacao: 2026-07-30
 
   - nome: unb-desafios-amazonia-2026
+    id: REPO-UNB-DESAFIOS-AMAZONIA
     classe: projeto
     descricao: "Proposta Desafios da Amazônia (Amazônia+10). Carreira LaPCiS/UnB."
     caminho_local: /Users/fabiotakwara/Documents/GitHub/unb-desafios-amazonia-2026
@@ -113,6 +121,7 @@ repositorios:
     observacoes: "Refutação técnica encaminhada à Profa Tânia. Pré-proposta para 01/09."
 
   - nome: eco-prancha
+    id: REPO-ECO-PRANCHA
     classe: projeto
     descricao: "Prancha de surf 100% vegetal. Marcello Pedro (Grupo Raízes) + Fabio Takwara."
     caminho_local: /Users/fabiotakwara/Documents/GitHub/eco-prancha
@@ -124,6 +133,7 @@ repositorios:
     ultima_verificacao: 2026-07-30
 
   - nome: Personagens-Bambu
+    id: REPO-PERSONAGENS-BAMBU
     classe: divulgacao
     descricao: "8 personas bambu + biotipos. Material de divulgação e formação."
     caminho_local: /Users/fabiotakwara/Documents/GitHub/Personagens-Bambu
@@ -135,6 +145,7 @@ repositorios:
     ultima_verificacao: 2026-07-30
 
   - nome: Takwara-Tech
+    id: REPO-TAKWARA-TECH
     classe: legado
     descricao: "Repositório histórico. NUNCA citar em documentos públicos."
     caminho_local: /Users/fabiotakwara/Documents/GitHub/Takwara-Tech
@@ -150,6 +161,7 @@ repositorios:
     observacoes: "3 commits ahead do origin. 8 alterações não commitadas. Docs avulsos (COP30, Floresta_em_Pe)."
 
   - nome: Mulheres-Tecem-Amazonia_Clone
+    id: REPO-MQTF-CLONE
     classe: projeto
     descricao: "Clone local do MQTF. Cópia canônica do histórico Git. Latente."
     caminho_local: /Users/fabiotakwara/Documents/GitHub/Mulheres-Tecem-Amazonia_Clone
@@ -163,6 +175,7 @@ repositorios:
     observacoes: "MQTF é sigla de uso interno. Em docs públicos, referenciar como 'projeto de bioeconomia amazônica do consórcio UnB/UFAC/UFRR'."
 
   - nome: Mentoria_Comunidades_RaioX
+    id: REPO-RAIOX
     classe: coordenacao
     descricao: "Raio-X de comunidades. Auditoria de conteúdo e fronteira pendente."
     caminho_local: /Users/fabiotakwara/Documents/GitHub/Mentoria_Comunidades_RaioX
@@ -175,6 +188,7 @@ repositorios:
     observacoes: "Listado no INVENTARIO-ATIVOS. Confirmar função e estado."
 
   - nome: takwara-mentoria-vercel
+    id: REPO-VERCEL
     classe: interface
     descricao: "Interface Vercel. Auditar publicação e dados."
     caminho_local: /Users/fabiotakwara/Documents/GitHub/takwara-mentoria-vercel
@@ -186,6 +200,7 @@ repositorios:
     ultima_verificacao: desconhecida
 
   - nome: docmd-test-takwara
+    id: REPO-DOCMD-TEST
     classe: teste
     descricao: "Repositório de teste. Definir necessidade; depois arquivar ou restringir."
     caminho_local: /Users/fabiotakwara/Documents/GitHub/docmd-test-takwara

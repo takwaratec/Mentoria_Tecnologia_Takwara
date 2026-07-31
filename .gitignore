@@ -63,3 +63,4 @@ _*.json
 
 # --- Conteúdo privado (NUNCA versionar) ---
 _privado/
+*.bak-*

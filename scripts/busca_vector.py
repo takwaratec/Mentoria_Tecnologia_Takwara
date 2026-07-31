@@ -52,8 +52,20 @@ def indexar():
             continue
         
         md_files = glob.glob(os.path.join(repo_path, "**/*.md"), recursive=True)
-        # Filtra site/ e TRIAGEM-BRUTA/
-        md_files = [f for f in md_files if "/site/" not in f and "/TRIAGEM-BRUTA/" not in f and "/TRIAGEM_BRUTA/" not in f and ".git/" not in f]
+        # Filtra por política de busca vetorial (ADMIN/POLITICA-BUSCA-VETORIAL.md)
+        DENY_PARTS = [
+            "/site/", "/.git/", "/TRIAGEM-BRUTA/", "/TRIAGEM_BRUTA/",
+            "/_privado/", "/_quarentena/", "/_quarentena_old/",
+            "/_acervo_completo/", "/ACERVO_RESTRITO/", "/transcripts/",
+        ]
+        md_files = [
+            f for f in md_files
+            if not any(d in f for d in DENY_PARTS)
+            and not f.endswith(".env")
+            and "/WhatsApp Chat - " not in f
+            and not f.endswith("_chat.txt")
+            and "Conversa do WhatsApp" not in f
+        ]
         
         print(f"  📂 {repo_name}: {len(md_files)} arquivos .md")
         
