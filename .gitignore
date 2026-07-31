@@ -60,3 +60,6 @@ _*.json
 *.png
 *.gif
 *.webp
+
+# --- Conteúdo privado (NUNCA versionar) ---
+_privado/

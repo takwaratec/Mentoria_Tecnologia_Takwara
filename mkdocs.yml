@@ -53,6 +53,28 @@ plugins:
 
 nav:
   - Início: index.md
+  - Administração e Estratégia:
+    - Governança:
+      - README do Ecossistema: 04_ADMINISTRACAO_E_ESTRATEGIA/governanca/00_README.md
+      - AGENTS.md: 04_ADMINISTRACAO_E_ESTRATEGIA/governanca/01_AGENTS.md
+      - Manual de Operação: 04_ADMINISTRACAO_E_ESTRATEGIA/governanca/02_MANUAL_OPERACAO.md
+      - Frentes de Trabalho: 04_ADMINISTRACAO_E_ESTRATEGIA/governanca/03_FRENTES_DE_TRABALHO.md
+    - Institucional:
+      - Modelo de Carta de Intenções: 04_ADMINISTRACAO_E_ESTRATEGIA/institucional/01_carta-intencoes-pesquisador-colaborador-generica.md
+      - Apresentação da Mentoria: 04_ADMINISTRACAO_E_ESTRATEGIA/institucional/02_apresentacao-mentoria.md
+      - Manual de Observação de Reuniões: 04_ADMINISTRACAO_E_ESTRATEGIA/institucional/03_MANUAL_OBS_REUNIOES.md
+    - Administração:
+      - Repositórios: 04_ADMINISTRACAO_E_ESTRATEGIA/admin/01_REPOSITORIOS.md
+      - Registro de Execuções: 04_ADMINISTRACAO_E_ESTRATEGIA/admin/02_REGISTRO_EXECUCOES.md
+    - Relatórios:
+      - Índice de Relatórios: 04_ADMINISTRACAO_E_ESTRATEGIA/relatorios/01_README.md
+      - Auditoria 2026-07-31: 04_ADMINISTRACAO_E_ESTRATEGIA/relatorios/02_2026-07-31_mentoria_arquitetura_administrativa.md
+    - Tarefas:
+      - Índice de Tarefas: 04_ADMINISTRACAO_E_ESTRATEGIA/tarefas/01_README.md
+    - Planos:
+      - Inventário de Ativos GitHub: 04_ADMINISTRACAO_E_ESTRATEGIA/planos/01_INVENTARIO-ATIVOS-GITHUB-2026.md
+      - Plano Mestre de Repositórios: 04_ADMINISTRACAO_E_ESTRATEGIA/planos/02_PLANO-MESTRE-ATUALIZACAO-REPOSITORIOS-2026.md
+      - Frente UnB/Amazônia+10: 04_ADMINISTRACAO_E_ESTRATEGIA/planos/03_PLANO-FRENTE-09-UNB-MQTF-AMAZONIA10.md
   - Base de Conhecimento:
     - Ecologia e Universo do Bambu: 02_BASE_DE_CONHECIMENTO/TEC_01_Ecologia_e_Universo_do_Bambu.md
     - Tratamentos e a Magia do Boro: 02_BASE_DE_CONHECIMENTO/TEC_02_Tratamentos_e_A_Magia_do_Boro.md
@@ -62,9 +84,6 @@ nav:
     - Dossiê Tratamentos Bambu: 02_BASE_DE_CONHECIMENTO/TEC_04_Dossie_Tratamentos_Bambu.md
     - Bibliografia e Referências: 02_BASE_DE_CONHECIMENTO/TEC_05_Bibliografia_e_Referencias.md
     - Histórico de Autoridade: 02_BASE_DE_CONHECIMENTO/TEC_06_Historico_Autoridade.md
-  - PU Vegetal:
-    - Linha de Produtos (Catálogo): PU_Vegetal_Linha_de_Produtos.md
-    - Ficha Técnica Consolidada: PU_Vegetal_Ficha_Tecnica_Consolidada.md
   - Jornada 7 Passos:
     - Passo 1 - Diagnóstico Persona: 03_JORNADA_7_PASSOS/PASSO_01_Diagnostico_Persona.md
     - Passo 2 - Jornada do Mentorado: 03_JORNADA_7_PASSOS/PASSO_02_Jornada_do_Mentorado.md
