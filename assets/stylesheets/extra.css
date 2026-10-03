@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@400;600;700&display=swap');
+
+/* Define a fonte Courier Prime como a fonte principal de texto */
+:root {
+  --md-text-font: "Courier Prime", "Courier New", Courier, monospace;
+}
+
+/* Força títulos a usar Inter (Sans-Serif) Semi-Bold */
+h1, h2, h3, h4, h5, h6,
+.md-typeset h1, .md-typeset h2, .md-typeset h3, .md-typeset h4, .md-typeset h5, .md-typeset h6 {
+  font-family: "Inter", "Roboto", "Helvetica Neue", "Arial", sans-serif !important;
+  font-weight: 600 !important;
+}
+
+/* Modificações no Menu Lateral (Navegação) */
+/* Deixa a fonte do menu como a fonte Sans-Serif e aplica cor preta nos diretórios */
+.md-nav__title,
+.md-nav__item--section > .md-nav__link,
+.md-nav__item--nested > .md-nav__link {
+  color: #000000 !important;
+  font-family: "Inter", "Roboto", "Helvetica Neue", "Arial", sans-serif !important;
+  font-weight: 600 !important;
+}
+
+/* Mantém os links normais do menu (páginas) com a mesma fonte Sans-Serif para coerência, ou podemos deixar monospace. 
+   O ideal é que toda a navegação seja Sans-Serif para melhor legibilidade. */
+.md-nav__link {
+  font-family: "Inter", "Roboto", "Helvetica Neue", "Arial", sans-serif !important;
+}
+
+/* Suporte para o Modo Escuro: impede que o texto fique preto no fundo escuro */
+[data-md-color-scheme="slate"] .md-nav__title,
+[data-md-color-scheme="slate"] .md-nav__item--section > .md-nav__link,
+[data-md-color-scheme="slate"] .md-nav__item--nested > .md-nav__link {
+  color: #FFFFFF !important;
+}

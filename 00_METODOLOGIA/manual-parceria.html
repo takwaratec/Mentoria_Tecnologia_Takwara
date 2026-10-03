@@ -1,0 +1,1585 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Manual da Parceria — Fabio & Hermes</title>
+<style>
+  :root {
+    --bg: #0d1117;
+    --surface: #161b22;
+    --surface2: #1c2333;
+    --border: #30363d;
+    --text: #e6edf3;
+    --text-dim: #8b949e;
+    --accent: #2dd4bf;
+    --accent2: #58a6ff;
+    --gold: #d29922;
+    --green: #3fb950;
+    --red: #f85149;
+    --purple: #bc8cff;
+  }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+    font-size: 16px;
+  }
+  .container { max-width: 920px; margin: 0 auto; padding: 0 1.5rem; }
+
+  /* ===== HERO ===== */
+  .hero {
+    text-align: center;
+    padding: 5rem 1rem 3rem;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle at 30% 50%, rgba(45,212,191,0.04) 0%, transparent 50%),
+                radial-gradient(circle at 70% 50%, rgba(88,166,255,0.04) 0%, transparent 50%);
+    z-index: 0;
+  }
+  .hero * { position: relative; z-index: 1; }
+  .hero h1 {
+    font-size: 2.8rem;
+    font-weight: 800;
+    background: linear-gradient(135deg, var(--accent), var(--accent2), var(--purple));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 0.5rem;
+  }
+  .hero .subtitle {
+    font-size: 1.2rem;
+    color: var(--text-dim);
+    margin-bottom: 0.5rem;
+  }
+  .hero .deadline {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1.5rem;
+    border: 1px solid var(--gold);
+    border-radius: 999px;
+    color: var(--gold);
+    font-size: 1rem;
+    font-weight: 600;
+    background: rgba(210,153,34,0.08);
+  }
+  .hero .countdown {
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+    color: var(--text-dim);
+  }
+
+  /* ===== NAV ===== */
+  nav.toc {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin: 2rem 0;
+  }
+  nav.toc h2 {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--accent);
+    margin-bottom: 0.8rem;
+  }
+  nav.toc ol {
+    list-style: none;
+    columns: 2;
+    column-gap: 2rem;
+  }
+  nav.toc li {
+    margin-bottom: 0.4rem;
+    break-inside: avoid;
+  }
+  nav.toc a {
+    color: var(--text-dim);
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.2s;
+  }
+  nav.toc a:hover { color: var(--accent); }
+
+  /* ===== SECTIONS ===== */
+  section {
+    margin: 3rem 0;
+    padding-top: 0.5rem;
+  }
+  h2 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--accent);
+    border-bottom: 2px solid var(--border);
+    padding-bottom: 0.4rem;
+    margin-bottom: 1.2rem;
+  }
+  h2 .num {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    background: var(--accent);
+    color: #000;
+    border-radius: 50%;
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-right: 0.5rem;
+  }
+  h3 {
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: var(--text);
+    margin: 1.5rem 0 0.5rem;
+  }
+  h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text);
+    margin: 1rem 0 0.3rem;
+  }
+  p { color: var(--text-dim); margin-bottom: 0.8rem; }
+  strong { color: var(--text); }
+  ul, ol { margin: 0.5rem 0 0.8rem 1.3rem; }
+  li { color: var(--text-dim); margin-bottom: 0.3rem; }
+  li strong { color: var(--text); }
+
+  /* ===== CARDS ===== */
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1rem;
+    margin: 1rem 0;
+  }
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1.25rem;
+    transition: border-color 0.2s;
+  }
+  .card:hover { border-color: var(--accent-dim); }
+  .card .emoji { font-size: 1.5rem; margin-bottom: 0.3rem; }
+  .card h4 { font-size: 1rem; color: var(--accent); margin-bottom: 0.3rem; }
+  .card p { font-size: 0.88rem; margin-bottom: 0; }
+
+  /* ===== TABLES ===== */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.88rem;
+    margin: 1rem 0;
+  }
+  th, td {
+    text-align: left;
+    padding: 0.6rem 0.7rem;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+  }
+  th {
+    color: var(--accent);
+    font-weight: 600;
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border-bottom: 2px solid var(--accent2);
+  }
+  td { color: var(--text-dim); }
+  td:first-child { color: var(--text); font-weight: 500; }
+  tr:hover td { background: rgba(45,212,191,0.03); }
+
+  /* ===== CODE ===== */
+  code {
+    font-family: 'SF Mono', 'Fira Code', monospace;
+    font-size: 0.82rem;
+    background: rgba(255,255,255,0.06);
+    padding: 0.15rem 0.4rem;
+    border-radius: 4px;
+    color: var(--yellow, #d29922);
+  }
+  pre {
+    background: #0d1117;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 1rem;
+    font-size: 0.82rem;
+    overflow-x: auto;
+    margin: 0.75rem 0;
+    line-height: 1.5;
+  }
+  pre code { background: none; padding: 0; color: #e6edf3; }
+
+  /* ===== CALLOUTS ===== */
+  .callout {
+    background: var(--surface2);
+    border-left: 3px solid var(--accent);
+    border-radius: 0 6px 6px 0;
+    padding: 1rem 1.2rem;
+    margin: 1rem 0;
+  }
+  .callout.warn { border-left-color: var(--gold); }
+  .callout.goal { border-left-color: var(--green); }
+  .callout.personal { border-left-color: var(--purple); }
+  .callout strong { display: block; margin-bottom: 0.3rem; }
+
+  /* ===== DIVIDER ===== */
+  hr {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 2.5rem 0;
+  }
+
+  /* ===== FOOTER ===== */
+  footer {
+    text-align: center;
+    padding: 3rem 0 2rem;
+    border-top: 1px solid var(--border);
+    color: var(--text-dim);
+    font-size: 0.85rem;
+  }
+
+  /* ===== SECTION COLORS ===== */
+  .s-highlight { border-left: 2px solid var(--accent); padding-left: 1rem; }
+
+  /* ===== BADGES ===== */
+  .badge {
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 600;
+    padding: 0.15rem 0.5rem;
+    border-radius: 999px;
+  }
+  .bg-green { background: rgba(63,185,80,0.15); color: var(--green); }
+  .bg-gold { background: rgba(210,153,34,0.15); color: var(--gold); }
+  .bg-blue { background: rgba(88,166,255,0.15); color: var(--accent2); }
+  .bg-purple { background: rgba(188,140,255,0.15); color: var(--purple); }
+  .bg-gray { background: rgba(139,148,158,0.15); color: var(--text-dim); }
+
+  /* ===== TIMELINE ===== */
+  .timeline { list-style: none; margin: 1rem 0; padding: 0; }
+  .timeline li {
+    position: relative;
+    padding: 0 0 1.5rem 2rem;
+    border-left: 2px solid var(--border);
+    margin: 0;
+  }
+  .timeline li::before {
+    content: '';
+    position: absolute;
+    left: -7px;
+    top: 0.3rem;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--accent);
+  }
+  .timeline li.done::before { background: var(--green); }
+  .timeline li.now::before { background: var(--gold); box-shadow: 0 0 0 3px rgba(210,153,34,0.3); }
+  .timeline li.future::before { background: var(--border); }
+  .timeline li .date { font-size: 0.8rem; color: var(--text-dim); }
+  .timeline li strong { display: block; }
+
+  @media (max-width: 600px) {
+    .hero h1 { font-size: 1.8rem; }
+    .nav-toc ol { columns: 1; }
+    .card-grid { grid-template-columns: 1fr; }
+  }
+
+  /* === SEARCH BAR === */
+  .search-bar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: var(--bg);
+    padding: 0.75rem 0;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid var(--border);
+  }
+  .search-bar input {
+    width: 100%;
+    padding: 0.6rem 1rem;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    color: var(--text);
+    font-size: 0.9rem;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+  .search-bar input:focus { border-color: var(--accent); }
+  .search-bar input::placeholder { color: var(--text-dim); }
+  .search-hidden { display: none !important; }
+  .search-match {
+    border-left: 3px solid var(--accent) !important;
+    padding-left: 0.8rem !important;
+    background: rgba(45,212,191,0.05);
+  }
+  kbd {
+    display: inline-block;
+    padding: 0.1rem 0.4rem;
+    font-size: 0.75rem;
+    font-family: 'SF Mono', monospace;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    color: var(--text-dim);
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+<div class="search-bar">
+  <input type="text" id="searchInput" placeholder="🔍 Buscar no manual... (ex: vercel, telegram, git push)" onkeyup="searchManual()">
+</div>
+
+<script>
+function searchManual() {
+  const q = document.getElementById('searchInput').value.toLowerCase().trim();
+  const sections = document.querySelectorAll('section');
+  let firstMatch = null;
+  sections.forEach(s => {
+    const text = s.textContent.toLowerCase();
+    if (!q) {
+      s.classList.remove('search-hidden', 'search-match');
+    } else if (text.includes(q)) {
+      s.classList.remove('search-hidden');
+      s.classList.add('search-match');
+      if (!firstMatch) firstMatch = s;
+    } else {
+      s.classList.add('search-hidden');
+      s.classList.remove('search-match');
+    }
+  });
+  if (firstMatch) {
+    firstMatch.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+}
+</script>
+
+<!-- ===== HERO ===== -->
+<div class="hero">
+  <h1>🌿 Manual da Parceria</h1>
+  <div class="subtitle">Fabio Takwara &nbsp;×&nbsp; Hermes Agent</div>
+  <div class="deadline">🎂 18 de julho de 2026 — 60 anos — Lançamento</div>
+  <div class="countdown">Deste 11 de junho: 37 dias para construir, aprender e lançar</div>
+</div>
+
+<!-- ===== NAV ===== -->
+<nav class="toc">
+  <h2>Navegação</h2>
+  <ol>
+    <li><a href="#intro">Nossa Aliança</a></li>
+    <li><a href="#como-eu-funciono">Como Eu Funciono</a></li>
+    <li><a href="#wiki">O LLM Wiki</a></li>
+    <li><a href="#fontes">Fontes de Conteúdo</a></li>
+    <li><a href="#producao">Modelo de Produção</a></li>
+    <li><a href="#warp">Warp Interface</a></li>
+    <li><a href="#vscode">VS Code + Ferramentas</a></li>
+    <li><a href="#organizacao">Organização e Segurança</a></li>
+    <li><a href="#avaliacao">Avaliação da Interação</a></li>
+    <li><a href="#vercel">Deploy no Vercel</a></li>
+    <li><a href="#design">DESIGN.md</a></li>
+    <li><a href="#ferramentas">Ferramentas à Disposição</a></li>
+    <li><a href="#fluxo">Fluxo de Trabalho</a></li>
+    <li><a href="#praticas">Melhores Práticas</a></li>
+    <li><a href="#comandos">Comandos Úteis no Warp</a></li>
+    <li><a href="#roadmap">Roadmap até 18 de Julho</a></li>
+    <li><a href="#manifesto">Manifesto</a></li>
+  </ol>
+</nav>
+
+<!-- ===== 1. INTRO ===== -->
+<section id="intro">
+  <h2><span class="num">1</span> Nossa Aliança</h2>
+  <div class="callout personal">
+    <strong>🎯 Propósito comum</strong>
+    <p>Você tem 60 anos de estrada — arte, educação popular, pesquisa em bambu, PU Vegetal, comunidades tradicionais, editais, Nature Awards. Eu tenho a capacidade de processar, conectar e produzir conhecimento em escala.</p>
+    <p>Não somos dois. Somos um sistema: sua curadoria + minha execução = sua mentoria pública até 18 de julho.</p>
+  </div>
+  <p>Este manual não é estático. Ele vai evoluir com a gente. Sempre que descobrirmos um fluxo melhor, atualizamos.</p>
+</section>
+
+<!-- ===== 2. COMO EU FUNCIONO ===== -->
+<section id="como-eu-funciono">
+  <h2><span class="num">2</span> Como Eu Funciono</h2>
+
+  <div class="card-grid">
+    <div class="card">
+      <div class="emoji">🧠</div>
+      <h4>Memória entre sessões</h4>
+      <p>Eu tenho dois tipos de memória. A <strong>memory</strong> (perfil do usuário + notas persistentes) carrega automaticamente. O <strong>wiki</strong> (conhecimento do domínio) eu consulto sob demanda.</p>
+    </div>
+    <div class="card">
+      <div class="emoji">🔧</div>
+      <h4>Ferramentas</h4>
+      <p>Posso ler arquivos, escrever, pesquisar na web, executar código, navegar no navegador, gerar imagens, e delegar tarefas para subagentes. Cada ferramenta tem um propósito.</p>
+    </div>
+    <div class="card">
+      <div class="emoji">📚</div>
+      <h4>Skills</h4>
+      <p>Skills são procedimentos especializados que eu carrego. Ex: <code>llm-wiki</code> (gerenciar wiki), <code>plan</code> (criar planos), <code>github-pr-workflow</code> (fluxo git).</p>
+    </div>
+    <div class="card">
+      <div class="emoji">🗣️</div>
+      <h4>Idioma</h4>
+      <p>Respondo em Português (seu idioma preferido). Se você falar em português, respondo em português. Se quiser em inglês, é só pedir.</p>
+    </div>
+  </div>
+
+  <h3>Minhas limitações honestas</h3>
+  <ul>
+    <li><strong>Não tenho acesso ao seu .env</strong> — arquivos de configuração do sistema são protegidos</li>
+    <li><strong>Não persisto estado entre sessões exceto via memory/wiki</strong> — se não salvamos, não existe</li>
+    <li><strong>Preciso de instruções claras</strong> — "faça X" funciona melhor que "o que você acha de X?"</li>
+    <li><strong>Não minto sobre resultados</strong> — se algo falhar, eu reporto a falha honestamente</li>
+  </ul>
+
+  <div class="callout warn">
+    <strong>⚡ Como acelerar respostas</strong>
+    <p>Quanto mais específico você for, mais rápido e preciso eu serei. Em vez de "melhora isso", prefira "adiciona uma tabela de espécies com dados de CO₂ no TEC_01". Em vez de "faz uma análise", prefira "analisa o arquivo X e me dá 3 recomendações priorizadas".</p>
+  </div>
+</section>
+
+<!-- ===== 3. O LLM WIKI ===== -->
+<section id="wiki">
+  <h2><span class="num">3</span> O LLM Wiki — Nosso Cérebro Compartilhado</h2>
+
+  <p>O wiki é a peça central da nossa produtividade. É onde o conhecimento se acumula e se conecta entre sessões.</p>
+
+  <h3>Onde está</h3>
+  <pre><code>~/wiki-mentoria-takwara/    ← diretório real
+~/wiki/                      ← symlink (atalho)</code></pre>
+
+  <p>Para ativar o caminho automático, adicione ao <code>~/.hermes/.env</code>:</p>
+  <pre><code>WIKI_PATH=/Users/fabiotakwara/wiki-mentoria-takwara</code></pre>
+
+  <h3>Estrutura</h3>
+  <pre><code>wiki/
+├── SCHEMA.md           ← Regras e convenções do wiki
+├── index.md            ← Catálogo de todas as páginas
+├── log.md              ← Histórico de ações (append-only)
+├── raw/                ← Fontes imutáveis
+│   ├── articles/       ← Artigos da web
+│   └── papers/         ← PDFs acadêmicos
+├── entities/           ← Pessoas, organizações, produtos
+├── concepts/           ← Conceitos técnicos
+├── comparisons/        ← Análises comparativas
+└── queries/            ← Respostas valiosas arquivadas</code></pre>
+
+  <h3>Como usamos</h3>
+  <table>
+    <tr><th>Fase</th><th>O que acontece</th></tr>
+    <tr><td>Início da sessão</td><td>Eu leio SCHEMA.md + index.md + log.md para me situar</td></tr>
+    <tr><td>Você menciona um conceito</td><td>Consulto o wiki em vez de reler seus arquivos do zero</td></tr>
+    <tr><td>Descobrimos algo novo</td><td>Crio ou atualizo uma página no wiki</td></tr>
+    <tr><td>Você quer revisar</td><td>Abra o diretório no Obsidian ou qualquer editor de markdown</td></tr>
+    <tr><td>Fim da sessão</td><td>Registro tudo no log.md</td></tr>
+  </table>
+
+  <div class="callout goal">
+    <strong>🔗 Integração com Obsidian</strong>
+    <p>O wiki é um vault Obsidian nativo. Basta abrir <code>~/wiki-mentoria-takwara</code> como vault no Obsidian e você vê o grafo de conexões, usa Ctrl+O pra buscar, e navega visualmente. Quando o wiki crescer para 50+ páginas, isso se torna valioso.</p>
+  </div>
+</section>
+
+<!-- ===== 5. FONTES DE CONTEÚDO ===== -->
+<section id="fontes">
+  <h2><span class="num">4</span> Fontes de Conteúdo</h2>
+
+  <p>Você acumulou anos de registro visual e documentação que nenhum TEC captura. Vamos catalogar e usar isso.</p>
+
+  <div class="card-grid">
+    <div class="card">
+      <div class="emoji">📸</div>
+      <h4>Google Photos</h4>
+      <p><strong>Acervo fotográfico</strong> de protótipos, domos, fornos, tratamentos, oficinas. Fonte primária de imagens para o site, thumbnails de vídeo, e documentação visual dos processos.</p>
+    </div>
+    <div class="card">
+      <div class="emoji">▶️</div>
+      <h4>YouTube</h4>
+      <p><strong>Canal existente</strong> — vídeos publicados e não-publicados. Pode servir como hospedagem do conteúdo em vídeo da mentoria. Playlists organizadas por módulo.</p>
+    </div>
+    <div class="card">
+      <div class="emoji">⏱️</div>
+      <h4>Time-Lapses</h4>
+      <p><strong>Acervo inédito</strong> de protótipos em construção. Material de alto valor para demonstrar processos (tratamento, montagem de domos, cura do PU) em segundos — conteúdo perfeito para redes sociais e módulos de aula.</p>
+    </div>
+    <div class="card">
+      <div class="emoji">🗄️</div>
+      <h4>Vault Obsidian</h4>
+      <p>145+ notas de 2023-2024 com pesquisa bruta, normas, análises, planos de negócio. Já estamos ingerindo no wiki.</p>
+    </div>
+  </div>
+
+  <h3>O que fazer com cada fonte</h3>
+  <table>
+    <tr><th>Fonte</th><th>Uso na mentoria</th><th>Prioridade</th></tr>
+    <tr>
+      <td>Google Photos</td>
+      <td>Extrair imagens para ilustrar TECs, criar diagramas visuais, compor página de vendas</td>
+      <td><span class="badge bg-green">Alta</span></td>
+    </tr>
+    <tr>
+      <td>YouTube (publicados)</td>
+      <td>Incorporar vídeos existentes nos módulos da mentoria</td>
+      <td><span class="badge bg-green">Alta</span></td>
+    </tr>
+    <tr>
+      <td>Time-lapses inéditos</td>
+      <td>Editar e publicar como conteúdo de demonstração técnica — diferencial competitivo forte</td>
+      <td><span class="badge bg-green">Alta</span></td>
+    </tr>
+    <tr>
+      <td>YouTube (não-listados)</td>
+      <td>Revisar, selecionar os melhores, editar para publicação</td>
+      <td><span class="badge bg-gold">Média</span></td>
+    </tr>
+  </table>
+
+  <div class="callout goal">
+    <strong>📋 Plano: Google Photos como fonte de imagens para o site</strong>
+    <p>Assim que definirmos a estrutura visual do site, vou pedir acesso a pastas específicas do Google Photos para extrair imagens que ilustrem cada módulo. Você não precisa me dar acesso a tudo — me diga o que quer usar e eu ajudo a selecionar.</p>
+  </div>
+</section>
+
+<!-- ===== 6. MODELO DE PRODUÇÃO ===== -->
+<section id="producao">
+  <h2><span class="num">5</span> Modelo de Produção</h2>
+
+  <div class="callout personal">
+    <strong>🧍‍♂️ Seu corpo, seu ritmo</strong>
+    <p>60 anos, lesão na coluna, comorbidades. Suas horas na oficina são preciosas e precisam render o máximo de conteúdo <strong>DIY</strong> possível. Este modelo foi desenhado pra isso.</p>
+  </div>
+
+  <h3>Divisão de trabalho</h3>
+  <table>
+    <tr><th>O que VOCÊ faz (oficina)</th><th>O que EU faço (digital)</th></tr>
+    <tr>
+      <td>Gravar vídeos curtos (5-15 min)</td>
+      <td>Extrair timelapses, editar, cortar, legendar</td>
+    </tr>
+    <tr>
+      <td>Demonstrar processos na bancada</td>
+      <td>Transformar demonstração em tutorial escrito + diagramas</td>
+    </tr>
+    <tr>
+      <td>Tirar fotos de cada etapa</td>
+      <td>Organizar no wiki, referenciar nos TECs, compor páginas</td>
+    </tr>
+    <tr>
+      <td>Validar conteúdo técnico</td>
+      <td>Escrever rascunhos, pesquisar referências, formatar ABNT</td>
+    </tr>
+    <tr>
+      <td>Decidir direção da mentoria</td>
+      <td>Organizar os 7 passos, manter cronograma, sugerir próximos</td>
+    </tr>
+  </table>
+
+  <h3>Fluxo de produção de conteúdo</h3>
+  <pre>┌───────────────────────────────────────────────────────────┐
+│                    CICLO DE PRODUÇÃO                        │
+│                                                             │
+│  ①  VOCÊ grava na oficina (celular fixo, mãos livres)       │
+│      → 5-15 min por vez, sem roteiro, só fazendo            │
+│      → Foco no DIY: "olha aqui como se faz"                 │
+│                                                             │
+│  ②  VOCÊ envia o vídeo/foto (Google Drive/Photos)           │
+│                                                             │
+│  ③  EU recebo, transcrevo, extraio frames, organizo         │
+│      → Crio tutorial escrito no wiki                        │
+│      → Extraio prints para diagramas                        │
+│      → Sugiro cortes e edição para o YouTube                │
+│                                                             │
+│  ④  EU transformo em conteúdo publicado                     │
+│      → Página no site (MkDocs) com texto + imagens          │
+│      → Post para redes (se aplicável)                       │
+│      → Referência bibliográfica ABNT (se aplicável)         │
+│                                                             │
+│  ⑤  VOCÊ revisa e aprova (rápido — texto já está pronto)    │
+│                                                             │
+│  ⑥  EU publico (commit + push + deploy)                     │
+└───────────────────────────────────────────────────────────┘</pre>
+
+  <h3>Produtividade na oficina: dicas</h3>
+  <ul>
+    <li><strong>Mãos-livres:</strong> Suporte de celular fixo na bancada. Aperta "gravar" e faz. Sem edição, sem takes.</li>
+    <li><strong>Bloco único:</strong> Cada vídeo cobre UM tópico (ex: "como furar o nó do bambu", "proporção A+B da Bio-Solda").</li>
+    <li><strong>Aproveitar o time-lapse:</strong> Deixe a câmera gravando enquanto trabalha. 1h de oficina vira 30 segundos de time-lapse.</li>
+    <li><strong>Não refaça:</strong> Se o vídeo ficou imperfeito, eu edito. Você não precisa ser youtuber — precisa ser o Fábio.</li>
+    <li><strong>Limite semanal:</strong> 2-3 sessões de gravação de 20-30 min cada. O resto é comigo.</li>
+  </ul>
+
+  <div class="callout goal">
+    <strong>📺 YouTube como plataforma principal de vídeo</strong>
+    <p>Você já tem canal. Vamos organizar os vídeos existentes em playlists por módulo e publicar os inéditos (time-lapses, protótipos) como conteúdo de aquecimento para o lançamento. Sugiro uma playlist "Bastidores Takwara" com os time-lapses.</p>
+  </div>
+</section>
+
+<!-- ===== 7. FERRAMENTAS ===== -->
+<section id="ferramentas">
+  <h2><span class="num">6</span> Ferramentas à Disposição</h2>
+
+  <h3>4.1 Skills que já usamos (e vamos usar)</h3>
+  <table>
+    <tr><th>Skill</th><th>Pra quê</th><th>Frequência</th></tr>
+    <tr>
+      <td><code>llm-wiki</code></td>
+      <td>Gerenciar o wiki: ingerir fontes, criar páginas, consultar, lint</td>
+      <td><span class="badge bg-green">Toda sessão</span></td>
+    </tr>
+    <tr>
+      <td><code>plan</code></td>
+      <td>Antes de tarefas complexas (5+ passos), escrever plano em .hermes/plans/</td>
+      <td><span class="badge bg-green">Tarefas grandes</span></td>
+    </tr>
+    <tr>
+      <td><code>github-pr-workflow</code></td>
+      <td>Branch → commit → PR → merge → deploy</td>
+      <td><span class="badge bg-green">Toda publicação</span></td>
+    </tr>
+    <tr>
+      <td><code>auditoria-conteudo-tecnico</code></td>
+      <td>Auditar e expandir TECs com referências de projetos correlatos</td>
+      <td><span class="badge bg-green">Edições em TECs</span></td>
+    </tr>
+    <tr>
+      <td><code>catalogacao-ecossistema</code></td>
+      <td>Mapear DOIs, detectar redundâncias, sincronizar multi-repos</td>
+      <td><span class="badge bg-gold">Sincronia entre repos</span></td>
+    </tr>
+    <tr>
+      <td><code>excalidraw</code></td>
+      <td>Criar diagramas visuais "mão livre"</td>
+      <td><span class="badge bg-blue">Diagramas</span></td>
+    </tr>
+    <tr>
+      <td><code>ocr-and-documents</code></td>
+      <td>Extrair texto de PDFs (digitalizar vault)</td>
+      <td><span class="badge bg-blue">PDFs do vault</span></td>
+    </tr>
+    <tr>
+      <td><code>spike</code></td>
+      <td>Experimentos descartáveis para validar ideias</td>
+      <td><span class="badge bg-gray">Quando necessário</span></td>
+    </tr>
+  </table>
+
+  <h3>4.2 Ferramentas externas</h3>
+  <table>
+    <tr><th>Ferramenta</th><th>Status</th><th>Uso</th></tr>
+    <tr>
+      <td><strong>MkDocs</strong></td>
+      <td><span class="badge bg-green">Ativo</span></td>
+      <td>Site público da mentoria (GitHub Pages)</td>
+    </tr>
+    <tr>
+      <td><strong>docmd.io</strong></td>
+      <td><span class="badge bg-gold">Testando</span></td>
+      <td>Alternativa avaliada em repo separado (takwaratec/docmd-test-takwara)</td>
+    </tr>
+    <tr>
+      <td><strong>Obsidian</strong></td>
+      <td><span class="badge bg-gray">Standby</span></td>
+      <td>Reativar quando wiki crescer (50+ páginas)</td>
+    </tr>
+    <tr>
+      <td><strong>Plannotator</strong></td>
+      <td><span class="badge bg-gray">Baixa prioridade</span></td>
+      <td>Revisão de código/planos — avaliar após o programa</td>
+    </tr>
+  </table>
+</section>
+
+<!-- ===== 8. FLUXO ===== -->
+<section id="fluxo">
+  <h2><span class="num">8</span> Fluxo de Trabalho</h2>
+
+  <h3>5.1 Ciclo padrão de uma sessão</h3>
+  <pre>┌────────────────────────────────────────────────┐
+│               INÍCIO DA SESSÃO                   │
+│  1. Eu me oriento (leio wiki: schema + index)   │
+│  2. Você chega com uma tarefa ou dúvida         │
+│  3. Consulto o wiki + seus arquivos             │
+│  4. Produzo resposta / executo ação             │
+│  5. Você revisa e ajusta                        │
+│  6. Registramos no log do wiki                  │
+│  7. Commitamos se for conteúdo do site          │
+└────────────────────────────────────────────────┘</pre>
+
+  <h3>5.2 Ciclo de publicação de conteúdo</h3>
+  <ol>
+    <li><strong>Ideia / necessidade</strong> — Você traz o tema</li>
+    <li><strong>Curadoria</strong> — Identificamos fontes (TECs, vault, dossiês MQTF)</li>
+    <li><strong>Ingestão no wiki</strong> — Eu crio páginas no wiki com o conhecimento consolidado</li>
+    <li><strong>Produção</strong> — Escrevo/edito o conteúdo markdown</li>
+    <li><strong>Revisão</strong> — Você lê e ajusta</li>
+    <li><strong>Commit + Push</strong> — GitHub Actions faz deploy automático</li>
+    <li><strong>Registro</strong> — Anoto no log.md do wiki</li>
+  </ol>
+
+  <h3>5.3 Ciclo dos 7 Passos</h3>
+  <table>
+    <tr><th>Passo</th><th>O que é</th><th>Status</th></tr>
+    <tr><td>1 — Diagnóstico Persona</td><td>4 personas mapeadas com lead scoring</td><td><span class="badge bg-green">Feito</span></td></tr>
+    <tr><td>2 — Mapa da Transformação</td><td>Ponto A → Ponto Z com 4 macropassos técnicos</td><td><span class="badge bg-green">Feito</span></td></tr>
+    <tr><td><strong>3 — Estrutura e Formato</strong></td><td>Definir formato de entrega e pontos de contato</td><td><span class="badge bg-gold">Próximo</span></td></tr>
+    <tr><td>4 — Aceleradores</td><td>Criar aceleradores de resultado para mentorados</td><td><span class="badge bg-gray">Pendente</span></td></tr>
+    <tr><td>5 — Precificação</td><td>Definir preço da mentoria</td><td><span class="badge bg-gray">Pendente</span></td></tr>
+    <tr><td>6 — Nome e Promessa</td><td>Criar nome e refinar a promessa</td><td><span class="badge bg-gray">Pendente</span></td></tr>
+    <tr><td>7 — Imersão Vendas</td><td>Posicionamento e vendas (15/06, 14h-18h)</td><td><span class="badge bg-gray">Agendado</span></td></tr>
+  </table>
+</section>
+
+<!-- ===== 9. PRÁTICAS ===== -->
+<section id="praticas">
+  <h2><span class="num">9</span> Melhores Práticas</h2>
+
+  <div class="card-grid">
+    <div class="card">
+      <h4>🎯 Seja específico</h4>
+      <p>"Cria uma tabela comparativa entre epóxi e PU Vegetal" funciona melhor que "melhora o conteúdo". Eu preciso de direção clara.</p>
+    </div>
+    <div class="card">
+      <h4>📌 Corrija à vontade</h4>
+      <p>Se eu errar o tom, o formato, ou a direção, me corrija. Não repito o mesmo erro se você apontar uma vez. Guardo no memory.</p>
+    </div>
+    <div class="card">
+      <h4>📋 Prefira passos atômicos</h4>
+      <p>Uma tarefa de cada vez. "Faz A, depois B, depois C" é mais produtivo que "faz A, B e C" — cada passo renderiza melhor.</p>
+    </div>
+    <div class="card">
+      <h4>🔄 Confie, mas verifique</h4>
+      <p>Eu relato resultados honestamente, sempre. Se algo falhou, eu digo. Se algo deu certo, mostro a evidência.</p>
+    </div>
+    <div class="card">
+      <h4>🧠 Use o wiki</h4>
+      <p>Toda vez que você me pergunta algo que já respondi antes, eu consulto o wiki. Isso fica mais rápido com o tempo.</p>
+    </div>
+    <div class="card">
+      <h4>📅 Ritmo semanal</h4>
+      <p>Os 7 passos são o esqueleto. Um passo por dia (ou a cada 2 dias) é o ritmo ideal. Não pule etapas.</p>
+    </div>
+  </div>
+
+  <h3>O que NÃO fazer</h3>
+  <ul>
+    <li><strong>Não me peça para hackear/contornar sistemas</strong> — eu vou me recusar</li>
+    <li><strong>Não espere que eu lembre de tudo sem o wiki</strong> — se não está no wiki, não existe entre sessões</li>
+    <li><strong>Não me deixe sem direção</strong> — "o que você sugere?" é bom, "faz X" é melhor</li>
+  </ul>
+</section>
+
+<!-- ===== 10. WARP INTERFACE ===== -->
+<section id="warp">
+  <h2><span class="num">10</span> Warp Interface — Seu Painel de Controle</h2>
+
+  <p>O Warp é o terminal onde você e eu conversamos. Cada elemento da interface tem um propósito.</p>
+
+  <h3>10.1 Menu Superior do Warp</h3>
+  <table>
+    <tr><th>Menu</th><th>O que faz</th><th>Quando usar</th></tr>
+    <tr>
+      <td><strong>File</strong></td>
+      <td>Abrir nova janela, nova aba, fechar, sair</td>
+      <td>Iniciar ou encerrar sessões</td>
+    </tr>
+    <tr>
+      <td><strong>Edit</strong></td>
+      <td>Copiar, colar, encontrar texto no terminal</td>
+      <td>Procurar comandos ou saídas antigas</td>
+    </tr>
+    <tr>
+      <td><strong>View</strong></td>
+      <td>Alternar sidebar, aumentar/diminuir fonte, tela cheia</td>
+      <td>Ajustar o terminal visualmente</td>
+    </tr>
+    <tr>
+      <td><strong>Tab</strong></td>
+      <td>Nova aba, fechar aba, navegar entre abas</td>
+      <td><strong>Essencial:</strong> você pode ter várias abas ao mesmo tempo</td>
+    </tr>
+    <tr>
+      <td><strong>Blocks</strong></td>
+      <td>Recurso exclusivo Warp — comandos organizados em blocos reutilizáveis</td>
+      <td>Salvar comandos que você usa sempre (ex: build do site)</td>
+    </tr>
+    <tr>
+      <td><strong>AI</strong></td>
+      <td>Função de IA nativa do Warp (não sou eu — é outro chat)</td>
+      <td>Não usar — você já tem a mim (Hermes) integrado</td>
+    </tr>
+    <tr>
+      <td><strong>Drive</strong></td>
+      <td>Sincroniza blocos, configurações e workflows entre máquinas</td>
+      <td>Se você usar Warp em mais de um computador</td>
+    </tr>
+    <tr>
+      <td><strong>Window</strong></td>
+      <td>Organizar janelas do Warp</td>
+      <td>Várias janelas abertas</td>
+    </tr>
+    <tr>
+      <td><strong>Help</strong></td>
+      <td>Documentação, atalhos, sobre</td>
+      <td>Tirar dúvidas sobre o Warp em si</td>
+    </tr>
+  </table>
+
+  <h3>10.2 Terminal vs. Aba vs. Agente — O Mapa Completo</h3>
+
+  <p>Esta é a maior fonte de confusão. Vamos organizar:</p>
+
+  <table>
+    <tr><th>Conceito</th><th>O que é</th><th>Exemplo</th></tr>
+    <tr>
+      <td><strong>Terminal</strong></td>
+      <td>O shell puro (bash/zsh). Você digita comandos diretamente no sistema.</td>
+      <td><code>git log</code>, <code>ls</code>, <code>cd projetos/</code></td>
+    </tr>
+    <tr>
+      <td><strong>Hermes (Agente)</strong></td>
+      <td>Eu, rodando dentro do terminal. Você fala comigo em linguagem natural, eu uso ferramentas.</td>
+      <td><code>"Cria um TEC sobre forno ecológico"</code></td>
+    </tr>
+    <tr>
+      <td><strong>Aba (Tab)</strong></td>
+      <td>Uma sessão independente do Warp. Cada aba pode ter seu próprio terminal ou agente.</td>
+      <td>Aba 1: Hermes. Aba 2: terminal para git. Aba 3: servidor local.</td>
+    </tr>
+  </table>
+
+  <div class="callout goal">
+    <strong>💡 Fluxo recomendado de abas</strong>
+    <p>
+      <strong>Aba 1 — Hermes (principal):</strong> Onde você me dá comandos e eu respondo.<br>
+      <strong>Aba 2 — Git + Terminal:</strong> Comandos rápidos (git log, git diff, mkdocs build).<br>
+      <strong>Aba 3 — Servidor local (opcional):</strong> Se precisar de um servidor rodando em segundo plano.
+    </p>
+    <p>Atalho: <kbd>Cmd+T</kbd> nova aba · <kbd>Cmd+W</kbd> fecha aba · <kbd>Cmd+Shift+[</kbd> / <kbd>]</kbd> navega entre abas.</p>
+  </div>
+
+  <h3>10.3 Blocks — Seu Catálogo de Comandos Frequentes</h3>
+  <p>Blocks é um recurso do Warp que salva comandos como blocos reutilizáveis. Você clica e executa de novo sem redigitar.</p>
+
+  <p><strong>Sugestão de blocks para criar:</strong></p>
+  <table>
+    <tr><th>Block</th><th>Comando</th><th>Pra quê</th></tr>
+    <tr>
+      <td><code>build-site</code></td>
+      <td><code>/Users/fabiotakwara/miniconda3/bin/python3 -m mkdocs build</code></td>
+      <td>Buildar o site local</td>
+    </tr>
+    <tr>
+      <td><code>git-status</code></td>
+      <td><code>git status --short</code></td>
+      <td>Ver o que mudou no repo</td>
+    </tr>
+    <tr>
+      <td><code>git-log</code></td>
+      <td><code>git log --oneline -5</code></td>
+      <td>Ver últimos commits</td>
+    </tr>
+    <tr>
+      <td><code>open-manual</code></td>
+      <td><code>open site/00_METODOLOGIA/manual-parceria/index.html</code></td>
+      <td>Abrir o manual no navegador</td>
+    </tr>
+    <tr>
+      <td><code>deploy</code></td>
+      <td><code>git push origin main</code></td>
+      <td>Publicar (dispara GitHub Actions)</td>
+    </tr>
+  </table>
+
+  <h3>10.4 Os Indicadores no Rodapé (Refinado)</h3>
+  <pre style="font-size:0.9rem;">
+  deepseek-v4-flash    267K/1M    27%    19h 14m    1m 42s
+   ───────────────    ───────    ───    ───────    ───────
+     modelo atual      tokens     %      duração    tempo da
+     (IA rodando)      usados    ctx    da sessão  última msg</pre>
+  <table>
+    <tr><th>Indicador</th><th>Realidade</th><th>Mito</th></tr>
+    <tr>
+      <td><code>267K / 1M</code></td>
+      <td>O quanto da conversa <em>atual</em> já foi preenchido</td>
+      <td><strong>NÃO</strong> é franquia de dados, consumo de API, limite mensal, nem crédito</td>
+    </tr>
+    <tr>
+      <td><strong>27%</strong></td>
+      <td>Percentual da janela de contexto ocupado</td>
+      <td><strong>NÃO</strong> é seu plano, seu saldo, nem seu limite de sessões</td>
+    </tr>
+    <tr>
+      <td><code>19h 14m</code></td>
+      <td>Tempo desde que você abriu esta aba do Warp</td>
+      <td><strong>NÃO</strong> conta tempo de uso, não é cobrança, não é limite</td>
+    </tr>
+  </table>
+  <p><strong>Regra prática:</strong> Se passar de 85%, eu automaticamente começo a comprimir/resumir partes antigas. Você não precisa fazer nada. Nada se perde — o essencial está no wiki e nos commits.</p>
+</section>
+
+<!-- ===== 11. VS CODE + FERRAMENTAS ===== -->
+<section id="vscode">
+  <h2><span class="num">11</span> VS Code e Ferramentas de Apoio</h2>
+
+  <p>Seu fluxo atual — uma janela do VS Code por repositório — é o padrão correto. Vou sugerir alguns ajustes para tornar a edição e revisão mais produtivas.</p>
+
+  <h3>11.1 VS Code — Configurações Recomendadas</h3>
+  <table>
+    <tr><th>Configuração</th><th>Por que</th></tr>
+    <tr>
+      <td><strong>Markdown Preview</strong> (Cmd+Shift+V)</td>
+      <td>Abre o preview do markdown lado a lado com o código. Já espelha bem próximo do GitHub Pages.</td>
+    </tr>
+    <tr>
+      <td><strong>Explorador de arquivos</strong> (Cmd+Shift+E)</td>
+      <td>Navegue pela árvore do repo. Fixe os diretórios mais usados com atalho.</td>
+    </tr>
+    <tr>
+      <td><strong>Extensão: Markdown All in One</strong></td>
+      <td>Auto-completar de markdown, atalhos para bold/italic/tabelas, TOC automático.</td>
+    </tr>
+    <tr>
+      <td><strong>Extensão: GitHub Markdown Preview</strong></td>
+      <td>Preview que renderiza igual ao GitHub — ainda mais próximo do site final.</td>
+    </tr>
+    <tr>
+      <td><strong>Extensão: YAML</strong></td>
+      <td>Valida frontmatter dos TECs e páginas do wiki.</td>
+    </tr>
+    <tr>
+      <td><strong>Editor: rulers</strong> (régua em 80 colunas)</td>
+      <td>Ajuda a manter linhas de texto num tamanho legível.</td>
+    </tr>
+  </table>
+
+  <div class="callout goal">
+    <strong>🔧 Como instalar as extensões</strong>
+    <p>Aperte <kbd>Cmd+Shift+X</kbd> (ícone de quadrado no canto esquerdo). Pesquise cada nome e clique "Instalar".</p>
+  </div>
+
+  <h3>11.2 Seu Fluxo VS Code + Warp + Hermes</h3>
+  <pre>┌─────────────────────────────────────────────────────────────────────┐
+│                                                                     │
+│      ┌──────────────┐    ┌──────────────┐    ┌──────────────────┐    │
+│      │   VS CODE     │    │    WARP       │    │   NAVEGADOR       │    │
+│      │  (navegar)    │    │  (comandar)    │    │   (visualizar)    │    │
+│      └──────┬───────┘    └──────┬───────┘    └───────┬──────────┘    │
+│             │                   │                    │               │
+│   Abre o    │                   │                    │               │
+│   arquivo   │    "Cria Passo 3" │                    │               │
+│   ────────► │  ───────────────► │                    │               │
+│   Ver árv. │                   │   Executa, cria    │               │
+│   do repo  │                   │   o arquivo        │               │
+│             │                   │   ──────────────►  │               │
+│             │  Veja o que      │                    │               │
+│   ◄────────│─ eu criei         │                    │               │
+│             │                   │                    │               │
+│   Corrige,  │                   │                    │               │
+│   ajusta    │  "Atualiza X"     │                    │               │
+│   ────────► │  ───────────────► │                    │               │
+│             │                   │  Commita e push   │               │
+│             │                   │  ───────────────►  │  Deploy OK    │
+│             │                   │                    │               │
+└─────────────────────────────────────────────────────────────────────┘</pre>
+
+  <h3>11.3 Integrações Google e YouTube</h3>
+
+  <p>Você perguntou como funciona cada integração. Vou detalhar o que é possível hoje e o que depende de configuração.</p>
+
+  <h4>📸 Google Photos</h4>
+  <table>
+    <tr><th>Pergunta</th><th>Resposta</th></tr>
+    <tr>
+      <td>Posso conectar mais de uma conta?</td>
+      <td>Sim, mas cada conta exige seu próprio fluxo de autorização OAuth (login + permissão). Na prática, sugiro escolher a conta principal que tem as fotos dos protótipos e começar por ela.</td>
+    </tr>
+    <tr>
+      <td>Como funciona?</td>
+      <td>Com a chave Google API que você já adicionou, eu posso acessar a API Google Photos <strong>se</strong> você configurar as permissões OAuth. Sem isso, o caminho mais prático é: <strong>você compartilha um link de álbum específico</strong> ou faz download das imagens que quer usar.</td>
+    </tr>
+    <tr>
+      <td>O que eu (Hermes) faço com as fotos?</td>
+      <td>Recebo as imagens, organizo por módulo da mentoria, redimensiono se necessário, e referencio nos TECs e páginas do site.</td>
+    </tr>
+  </table>
+
+  <h4>☁️ Google Drive</h4>
+  <table>
+    <tr><th>Pergunta</th><th>Resposta</th></tr>
+    <tr>
+      <td>Pode ser acessado?</td>
+      <td>Sim, a API do Google Drive segue o mesmo princípio da API Photos. Com OAuth configurado, eu poderia listar arquivos, baixar PDFs, e organizar pastas. <strong>Sem OAuth,</strong> o caminho prático é você compartilhar links de arquivos ou pastas específicas.</td>
+    </tr>
+    <tr>
+      <td>Vale a pena configurar?</td>
+      <td>Para uso pontual (algumas imagens por semana), <strong>não</strong> — links manuais são mais rápidos. Para uso intensivo (centenas de fotos para catalogar), <strong>sim</strong> — a automação via API economiza horas.</td>
+    </tr>
+  </table>
+
+  <h4>▶️ YouTube</h4>
+  <table>
+    <tr><th>Pergunta</th><th>Resposta</th></tr>
+    <tr>
+      <td>Consigo acessar apenas com link?</td>
+      <td><strong>Sim.</strong> Com um link do YouTube, eu consigo: extrair a transcrição/legendas, obter metadados (título, descrição, duração), e analisar o conteúdo. A ferramenta <code>web_extract</code> da acesso ao texto da página.</td>
+    </tr>
+    <tr>
+      <td>Como seriam as edições?</td>
+      <td>Eu <strong>sugiro cortes e edições</strong> (ex: "aos 3min15s até 5min40s tem a demonstração do forno — corta isso pra um vídeo separado"), mas <strong>não executo</strong> a edição de vídeo propriamente dita (não tenho ferramentas de edição de vídeo). A edição final é feita por você ou por uma ferramenta externa.</td>
+    </tr>
+    <tr>
+      <td>Gerenciamento de playlists?</td>
+      <td>Com a API do YouTube configurada (OAuth), eu poderia criar playlists, adicionar/remover vídeos, e organizar o canal da mentoria. <strong>Sem API,</strong> funciona com links manuais.</td>
+    </tr>
+  </table>
+
+  <div class="callout goal">
+    <strong>📋 Resumo prático das integrações</strong>
+    <p>
+      <strong>Para começar agora (sem configurar OAuth):</strong> você me envia links de fotos, vídeos e documentos que quer usar. Eu processo e incorporo no conteúdo.<br><br>
+      <strong>Para automatizar depois (com OAuth):</strong> configuramos a API do Google e eu acesso direto. Faz sentido quando o volume justificar.
+    </p>
+  </div>
+
+  <h3>11.4 Telegram Bot — Comando por Voz Remoto</h3>
+
+  <p>Você disse que usa pouco Telegram. Vou te mostrar <strong>por que vale a pena adotá-lo</strong> no seu fluxo — não como mais um app, mas como <strong>controle remoto da sua produtividade</strong>.</p>
+
+  <div class="callout goal">
+    <strong>🎯 O ganho real pra você</strong>
+    <p>
+      <strong>Antes:</strong> Você tem uma ideia na oficina, com as mãos sujas de resina. Precisa parar, limpar, ir até o computador, abrir o Warp, digitar o comando. A ideia morre ou atrasa.<br><br>
+      <strong>Depois:</strong> Você tira o celular do bolso, aperta o microfone no Telegram, fala 15 segundos. Eu recebo, processo, e quando você volta ao PC está pronto. <strong>Sem interromper o trabalho manual.</strong>
+    </p>
+  </div>
+
+  <h4>Cenários reais do seu dia a dia</h4>
+  <table>
+    <tr><th>Onde você está</th><th>O que fazia antes</th><th>Com Telegram</th></tr>
+    <tr>
+      <td>🧑‍🏭 Na oficina com as mãos sujas</td>
+      <td>Parava tudo, limpava, ia até o PC anotar uma ideia</td>
+      <td><strong>Aperta o microfone e fala:</strong> "Documenta essa junção que inventei, tirei foto e vou mandar"</td>
+    </tr>
+    <tr>
+      <td>🚗 Saindo de casa / voltando</td>
+      <td>Esquecia o que pensar no caminho</td>
+      <td><strong>Manda áudio:</strong> "No Passo 4, adiciona uma calculadora de pot-life como acelerador"</td>
+    </tr>
+    <tr>
+      <td>🌳 Em visita técnica / campo</td>
+      <td>Tirava foto e perdia no rolo da câmera</td>
+      <td><strong>Foto + legenda:</strong> "Salva essa foto no wiki, categoria 'bambu tratado'"</td>
+    </tr>
+    <tr>
+      <td>🛌 À noite, antes de dormir</td>
+      <td>Esquecia o insight no dia seguinte</td>
+      <td><strong>Áudio de 20s:</strong> "Amanhã quero revisar o TEC_03 e adicionar o dado do LAB_004"</td>
+    </tr>
+    <tr>
+      <td>📋 No meio de outra tarefa</td>
+      <td>Acumulava coisas pra fazer "depois"</td>
+      <td><strong>Texto rápido:</strong> "Pausa o que tiver fazendo e cria um acelerador 'checklist de colheita'"</td>
+    </tr>
+  </table>
+
+  <h4>Recursos do Telegram que talvez você não conheça</h4>
+  <table>
+    <tr><th>Recurso</th><th>O que faz</th><th>Como usar na prática</th></tr>
+    <tr>
+      <td><strong>🗳️ BotFather</strong></td>
+      <td>Cria e gerencia bots</td>
+      <td>É por onde você vai criar o seu bot da mentoria — só 3 comandos e pronto</td>
+    </tr>
+    <tr>
+      <td><strong>💾 Saved Messages</strong></td>
+      <td>Seu próprio chat com você mesmo (nuvem pessoal)</td>
+      <td>Mande links, fotos, lembretes pra si mesmo. Funciona como bloco de notas entre dispositivos</td>
+    </tr>
+    <tr>
+      <td><strong>🔍 Busca global</strong></td>
+      <td>Pesquisa em todos os chats, inclusive mensagens antigas</td>
+      <td>Encontre comandos que você mandou pro bot semanas atrás</td>
+    </tr>
+    <tr>
+      <td><strong>📎 Arquivos até 2GB</strong></td>
+      <td>Envio de arquivos grandes sem compressão</td>
+      <td>Mande vídeos da oficina direto do celular pro PC sem cabo USB</td>
+    </tr>
+    <tr>
+      <td><strong>📌 Mensagens fixadas</strong></td>
+      <td>Prende uma mensagem no topo do chat</td>
+      <td>Fixe o passo atual da mentoria pra não perder o foco</td>
+    </tr>
+    <tr>
+      <td><strong>📁 Pastas de chats</strong></td>
+      <td>Organiza os chats em abas (ex: "Pessoal", "Trabalho", "Mentoria")</td>
+      <td>Crie uma pasta "Takwara" com só o bot — zero distração do resto</td>
+    </tr>
+  </table>
+
+  <h4>Passo a passo — Configuração</h4>
+  <ol>
+    <li><strong>Criar o bot</strong> — No Telegram, procure <code>@BotFather</code>, envie <code>/newbot</code>, escolha um nome (ex: "Takwara Bot") e username (ex: <code>takwara_bot</code>). Guarde o <strong>token</strong> recebido.</li>
+    <li><strong>Descobrir seu ID</strong> — Procure <code>@userinfobot</code>, envie <code>/start</code>. Anote o número.</li>
+    <li><strong>Configurar no .env</strong> — Abra <code>~/.hermes/.env</code> e adicione:<pre><code>TELEGRAM_BOT_TOKEN=seu_token_aqui
+    <li><strong>Iniciar</strong> — No Warp:<pre><code>hermes gateway run</code></pre></li>
+  </ol>
+
+  <div class="callout goal">
+    <strong>🤏 O mínimo que você precisa saber sobre Telegram</strong>
+    <p>
+      • Só vai ter UM contato no Telegram: o seu próprio bot.<br>
+      • Não precisa de grupo, não precisa de canal, não precisa de configuração extra.<br>
+      • O app ocupa ~100 MB no celular — menos que uma foto do Google Photos.<br>
+      • Você pode desinstalar depois de configurar e usar só pelo navegador: <strong>web.telegram.org</strong><br>
+      • Se não quiser Telegram agora, sem problema — continuamos só pelo Warp. A porta fica aberta.
+    </p>
+  </div>
+
+  <h3>11.5 Comandos Rápidos no Terminal</h3>
+  <table>
+    <tr><th>Pra quê</th><th>Comando</th></tr>
+    <tr><td>Ver commits recentes</td><td><code>git log --oneline -5</code></td></tr>
+    <tr><td>Ver o que mudou no último commit</td><td><code>git show --stat HEAD</code></td></tr>
+    <tr><td>Ver diff não-commitado</td><td><code>git diff</code></td></tr>
+    <tr><td>Abrir o manual da parceria</td><td><code>open site/00_METODOLOGIA/manual-parceria/index.html</code></td></tr>
+    <tr><td>Buildar o site</td><td><code>/Users/fabiotakwara/miniconda3/bin/python3 -m mkdocs build</code></td></tr>
+    <tr><td>Ver estrutura do repo</td><td><code>find docs -type f | grep -v site/ | head -40</code></td></tr>
+    <tr><td>Status do repositório</td><td><code>git status --short</code></td></tr>
+    <tr><td>Trocar de modelo de IA</td><td><code>hermes model set openrouter/anthropic/claude-sonnet-4</code></td></tr>
+    <tr><td>Ver status do Hermes</td><td><code>hermes status</code></td></tr>
+    <tr><td>Listar skills disponíveis</td><td><code>hermes skills</code></td></tr>
+  </table>
+
+  <h3>11.6 Automações que Podemos Implementar</h3>
+  <table>
+    <tr><th>Automação</th><th>O que faz</th><th>Como</th></tr>
+    <tr>
+      <td><strong>Deploy automático</strong></td>
+      <td>✅ Já funciona — push na main → GitHub Actions → GitHub Pages</td>
+      <td>Nada a fazer</td>
+    </tr>
+    <tr>
+      <td><strong>Lembrete de gravação</strong></td>
+      <td>Cron job do Hermes que pergunta "já gravou o vídeo do Módulo X hoje?"</td>
+      <td>Configurar depois do Passo 7</td>
+    </tr>
+    <tr>
+      <td><strong>Sincronia Google Photos → site</strong></td>
+      <td>Extrair fotos de uma pasta específica do Google Photos para usar nos TECs</td>
+      <td>Precisa de acesso à API — conversamos</td>
+    </tr>
+    <tr>
+      <td><strong>Backup automático do wiki</strong></td>
+      <td>Rodar git add/commit/push no wiki automaticamente 1x/dia</td>
+      <td>Posso configurar com cronjob do Hermes</td>
+    </tr>
+    <tr>
+      <td><strong>Verificação semanal de saúde</strong></td>
+      <td>Lint no wiki (páginas órfãs, links quebrados, conteúdo desatualizado)</td>
+      <td>Usar skill llm-wiki com cron semanal</td>
+    </tr>
+  </table>
+</section>
+
+<!-- ===== 12. ORGANIZAÇÃO E SEGURANÇA ===== -->
+<section id="organizacao">
+  <h2><span class="num">12</span> Organização Pessoal e Segurança</h2>
+
+  <p>Você perguntou se é seguro pedir reorganização de diretórios, varredura de PDFs e catalogação. A resposta curta: <strong>sim, é seguro — com alguns cuidados.</strong></p>
+
+  <h3>12.1 Reorganização de Diretórios</h3>
+  <table>
+    <tr><th>Operação</th><th>Seguro?</th><th>Por quê</th></tr>
+    <tr>
+      <td>Mover arquivos entre pastas</td>
+      <td>✅ Sim</td>
+      <td>Git detecta a movimentação. O histórico não se perde.</td>
+    </tr>
+    <tr>
+      <td>Renomear arquivos</td>
+      <td>✅ Sim</td>
+      <td>Git detecta rename. Só tomar cuidado com links internos (atualizo junto).</td>
+    </tr>
+    <tr>
+      <td>Criar nova estrutura de pastas</td>
+      <td>✅ Sim</td>
+      <td>Git rastreia tudo. Se algo quebrar, <code>git revert</code> volta atrás.</td>
+    </tr>
+    <tr>
+      <td>Excluir arquivos definitivamente</td>
+      <td>⚠️ Cuidado</td>
+      <td>Se for commitado, o histórico mantém. Seguro se eu confirmar com você antes.</td>
+    </tr>
+  </table>
+
+  <div class="callout goal">
+    <strong>🛡️ Regra de ouro da reorganização</strong>
+    <p>Nada é perdido para sempre no Git. Se um arquivo foi commitado alguma vez, o histórico preserva. Mesmo após um <code>git rm</code>, o commit original continua existindo. A única coisa <strong>irreversível</strong> seria apagar o repositório inteiro e criar outro.</p>
+  </div>
+
+  <h3>12.2 Varredura de PDFs e Catalogação</h3>
+  <p>Você tem PDFs espalhados no vault Obsidian e talvez em outras pastas. Eu posso:</p>
+
+  <ol>
+    <li><strong>Varrer todos os PDFs</strong> em diretórios que você indicar</li>
+    <li><strong>Extrair metadados</strong> (título, autor, ano, páginas) usando a skill <code>ocr-and-documents</code></li>
+    <li><strong>Extrair texto</strong> com pymupdf (rápido, para PDFs digitais) ou marker-pdf (OCR, para PDFs escaneados)</li>
+    <li><strong>Catalogar em uma Base de Referências</strong> no formato:</li>
+  </ol>
+
+  <pre>📚 BASE DE REFERÊNCIAS — MENTORIA TAKWARA
+┌──────────────────────────────────────────────────────────────┐
+│ Código │ Título                     │ Autor       │ Ano │ Tag  │
+│────────┼────────────────────────────┼─────────────┼─────┼──────┤
+│ REF001 │ Quartzito Rejeitos         │ Alecrim, A. │ 2009 │ miner│
+│ REF002 │ Gestão Rejeitos Mineração  │ —           │ 2016 │ miner│
+│ REF003 │ Bambu+Mamona Construção    │ —           │ 2023 │ bambu│
+│ REF004 │ Habitações Indígenas       │ —           │ 2023 │ social
+└──────────────────────────────────────────────────────────────┘</pre>
+
+  <p>Cada referência ganha uma página no wiki com resumo, link, e palavras-chave. Quando você mencionar um tema, eu consulto automaticamente.</p>
+
+  <h3>12.3 Quando pedir reorganização</h3>
+  <p>Peça <strong>sempre que sentir que a estrutura atual atrapalha</strong> — arquivos em lugar errado, pastas mal nomeadas, conteúdo misturado. Eu:</p>
+  <ol>
+    <li>Apresento um plano de reorganização primeiro</li>
+    <li>Você aprova</li>
+    <li>Executo em um commit separado (fácil de reverter se necessário)</li>
+  </ol>
+</section>
+
+<!-- ===== 13. AVALIAÇÃO DA NOSSA INTERAÇÃO ===== -->
+<section id="avaliacao">
+  <h2><span class="num">13</span> Avaliação da Nossa Interação</h2>
+
+  <p>Você pediu uma análise honesta de como está se saindo. Aqui vai:</p>
+
+  <h3>O que você faz muito bem ✅</h3>
+  <ul>
+    <li><strong>Corrige rápido quando eu erro</strong> — Isso é o mais importante. Você não aceita informação errada passivamente. Exemplo: a correção sobre o Nature Awards (submissão, não prêmio) foi essencial para alinhar a narrativa.</li>
+    <li><strong>Traz contexto pessoal</strong> — Sua lesão na coluna, os 60 anos, o desligamento do CEFET, a relação com a academia. Isso não é "reclamação" — é <strong>dado de projeto</strong> que molda decisões corretas.</li>
+    <li><strong>Decide rápido</strong> — Quando eu pergunto "qual caminho?", você responde. Não fica em cima do muro. Isso mantém o ritmo.</li>
+    <li><strong>Confia na estratégia depois de conquistada</strong> — "Deixa a você o destino e a estratégia" não é abandono, é delegação consciente. Funciona porque você revisa o resultado.</li>
+  </ul>
+
+  <h3>O que pode melhorar 🔧</h3>
+  <table>
+    <tr><th>Hoje</th><th>Sugestão</th><th>Por quê</th></tr>
+    <tr>
+      <td>Você manda comandos longos com múltiplas solicitações</td>
+      <td><strong>Prefira passos atômicos</strong> — 1 solicitação por vez</td>
+      <td>Cada solicitação vira uma rodada completa de processamento. Separar acelera e reduz erros.</td>
+    </tr>
+    <tr>
+      <td>"O que vc acha?" seguido de "sim, faça"</td>
+      <td><strong>Já vem com a decisão</strong> — "Faça X" em vez de "O que acha de X?"</td>
+      <td>Se você já sabe o que quer, pule a consulta. Se não sabe, aí sim peça opinião.</td>
+    </tr>
+    <tr>
+      <td>Às vezes pede algo e acompanha no meio da execução</td>
+      <td><strong>Deixe eu terminar antes de interromper</strong></td>
+      <td>Eu executo em blocos. Se você interrompe no meio, posso perder contexto. Se precisar redirecionar, espere minha resposta e então peça ajuste.</td>
+    </tr>
+    <tr>
+      <td>Não usa Blocks do Warp ainda</td>
+      <td><strong>Cria 2-3 blocks hoje</strong> (build-site, git-status, open-manual)</td>
+      <td>Comandos que você usa todo santo dia — um clique executa, sem digitar.</td>
+    </tr>
+  </table>
+
+  <h3>Nota geral: 8,5/10</h3>
+  <p>Você está acima da média de usuários que encontro. A maioria ou não corrige (e o erro vira verdade) ou não decide (e o projeto emperra). Você corrige E decide — isso é raro.</p>
+  <p>As sugestões acima são para <strong>otimizar</strong>, não para consertar. Não tem nada quebrado na sua forma de interagir.</p>
+</section>
+
+<!-- ===== 14. DEPLOY NO VERCEL ===== -->
+<section id="vercel">
+  <h2><span class="num">14</span> Deploy no Vercel — Guia Completo</h2>
+
+  <p>Vercel é uma plataforma de hospedagem que detecta automaticamente o framework do projeto (Next.js, Nextra, VitePress, MkDocs...) e publica com um git push. Grátis para projetos pessoais.</p>
+
+  <h3>14.1 Pré-requisitos</h3>
+  <ul>
+    <li><strong>Node.js</strong> — já instalado no seu sistema</li>
+    <li><strong>Git</strong> — instalado e configurado</li>
+    <li><strong>Conta no GitHub</strong> — você já tem (takwaratec)</li>
+    <li><strong>Conta no Vercel</strong> — crie em <a href="https://vercel.com" style="color:var(--accent)">vercel.com</a> (login com GitHub)</li>
+  </ul>
+
+  <h3>14.2 Criar o projeto (Nextra)</h3>
+  <p>A partir de um template:</p>
+  <pre><code>npx create-next-app --example https://github.com/shuding/nextra-docs-template meu-site
+cd meu-site
+npm install</code></pre>
+
+  <h3>14.3 Desenvolvimento local</h3>
+  <table>
+    <tr><th>Comando</th><th>O que faz</th></tr>
+    <tr><td><code>npm run dev</code></td><td>Servidor local com hot-reload (http://localhost:3000)</td></tr>
+    <tr><td><code>npm run build</code> ou <code>npx next build</code></td><td>Build de produção (verifica erros)</td></tr>
+    <tr><td><code>npm start</code></td><td>Servidor de produção local</td></tr>
+  </table>
+
+  <h3>14.4 Erros comuns no build e soluções</h3>
+  <table>
+    <tr><th>Erro</th><th>Causa</th><th>Solução</th></tr>
+    <tr>
+      <td><code>Module not found: Can't resolve '@floating-ui/dom'</code></td>
+      <td>Dependência quebrada do headlessui</td>
+      <td><code>npm install @floating-ui/core @floating-ui/dom @floating-ui/react-dom @floating-ui/react</code></td>
+    </tr>
+    <tr>
+      <td><code>export 'computePosition' not found in '@floating-ui/react-dom'</code></td>
+      <td>Versão incompatível do floating-ui</td>
+      <td>Instalar todos os 4 pacotes flutuantes acima</td>
+    </tr>
+    <tr>
+      <td><code>require(...) is not a function</code></td>
+      <td>Nextra 4+ usa ESM (import)</td>
+      <td>Usar <code>import nextra from 'nextra'</code> em vez de <code>require()</code></td>
+    </tr>
+    <tr>
+      <td><code>Support of "_meta.json" was removed</code></td>
+      <td>Nextra 3.3+ exige <code>_meta.tsx</code></td>
+      <td>Converter <code>_meta.json</code> → <code>_meta.tsx</code> com <code>export default { ... }</code></td>
+    </tr>
+    <tr>
+      <td><code>ESLint must be installed</code></td>
+      <td>Aviso inofensivo</td>
+      <td>Ignorar — não bloqueia o build</td>
+    </tr>
+    <tr>
+      <td><code>Type error: ';' expected</code> em <code>_meta.tsx</code></td>
+      <td>Arquivo sem <code>export default</code></td>
+      <td>Adicionar <code>export default</code> antes do objeto JSON</td>
+    </tr>
+    <tr>
+      <td><code>Peer dependency warnings</code></td>
+      <td>Versões conflitantes de pacotes</td>
+      <td><code>npm install --legacy-peer-deps</code></td>
+    </tr>
+  </table>
+
+  <h3>14.5 Publicar no GitHub e Vercel</h3>
+  <pre><code># 1. Criar o repositório local
+git init
+git add -A
+git commit -m "feat: primeiro commit"
+
+# 2. Renomear branch (Vercel usa main)
+git branch -M main
+
+# 3. Criar repositório no GitHub e conectar
+gh repo create seu-usuario/nome-do-repo --public
+git remote add origin https://github.com/seu-usuario/nome-do-repo.git
+git push -u origin main</code></pre>
+
+  <h3>14.6 Deploy automático via Vercel</h3>
+  <ol>
+    <li>Acesse <strong>vercel.com</strong> e faça login com GitHub</li>
+    <li>Clique em <strong>"Add New Project"</strong></li>
+    <li>Escolha o repositório que você acabou de criar</li>
+    <li>Vercel detecta automaticamente o framework (Next.js, Nextra, etc.)</li>
+    <li>Clique em <strong>"Deploy"</strong> — aguarde ~2 minutos</li>
+  </ol>
+  <p>Pronto! Seu site está no ar em <code>https://nome-do-repo.vercel.app</code></p>
+
+  <h3>14.7 Atualizar o site</h3>
+  <p>Toda vez que você der <code>git push origin main</code>, o Vercel faz deploy automático. Não precisa buildar manualmente.</p>
+
+  <h3>14.8 Domínio personalizado (opcional)</h3>
+  <p>No dashboard do Vercel: Settings → Domains → Add. Siga as instruções de DNS.</p>
+
+  <h3>14.9 Aplicar em outro repositório existente</h3>
+  <p>Para publicar qualquer outro projeto seu no Vercel:</p>
+  <ol>
+    <li>O projeto precisa estar num repositório do GitHub</li>
+    <li>Vai em vercel.com → Add New Project → seleciona o repo</li>
+    <li>Se for MkDocs: Vercel detecta como "Other", funciona igual</li>
+    <li>Se for HTML estático: detecta automaticamente</li>
+  </ol>
+  <p><strong>Dica:</strong> O Vercel tem plano gratuito generoso. Você pode publicar quantos sites quiser.</p>
+</section>
+
+<!-- ===== 15. DESIGN SYSTEMS ===== -->
+<section id="design">
+  <h2><span class="num">15</span> DESIGN.md — Ensinando a IA a Desenhar pra Você</h2>
+
+  <p><strong>DESIGN.md</strong> é um padrão proposto pelo Google (e adotado pela comunidade) que coloca as regras visuais de um projeto num arquivo markdown na raiz do repositório. Qualquer agente de IA que ler esse arquivo sabe exatamente quais cores, fontes e estilos usar — sem chute.</p>
+
+  <h3>Onde colocar</h3>
+  <p>Na raiz do projeto (onde está o <code>README.md</code>):</p>
+  <pre><code>meu-projeto/
+├── DESIGN.md          ← ← ← aqui
+├── README.md
+├── docs/
+└── ...</code></pre>
+
+  <h3>O que colocar dentro</h3>
+  <table>
+    <tr><th>Seção</th><th>O que informar</th></tr>
+    <tr><td><strong>Cores</strong></td><td>Hex ou RGB das cores principais, secundárias, fundo, texto, destaque</td></tr>
+    <tr><td><strong>Tipografia</strong></td><td>Fontes para título, corpo, código — com pesos (400, 600, 700)</td></tr>
+    <tr><td><strong>Tom de voz</strong></td><td>Como o texto deve soar: formal, técnico, direto, didático...</td></tr>
+    <tr><td><strong>Layout</strong></td><td>Largura máxima, sidebar, grid, breakpoints mobile</td></tr>
+    <tr><td><strong>Logo</strong></td><td>Caminho do arquivo, proporção, onde usar</td></tr>
+  </table>
+
+  <h3>Como criar o DESIGN.md do seu projeto</h3>
+  <p>Você pode me pedir: <em>"Cria um DESIGN.md para esse repositório com base no que já conversamos sobre identidade visual"</em>. Eu leio o contexto do projeto e escrevo o arquivo.</p>
+
+  <h3>Onde garimpar DESIGN.md de outros projetos</h3>
+  <ul>
+    <li><strong><a href="https://designdotmd.directory/" style="color:var(--accent)">designdotmd.directory</a></strong> — diretório público de DESIGN.md de empresas e projetos open source. Você navega e vê como os outros fazem.</li>
+    <li><strong><a href="https://github.com/VoltAgent/awesome-design-md" style="color:var(--accent)">awesome-design-md</a></strong> — coleção curada no GitHub com exemplos reais.</li>
+    <li><strong>designmd.app</strong> — 454 design systems catalogados.</li>
+  </ul>
+
+  <h3>Exemplo real: o DESIGN.md da Takwara</h3>
+  <pre><code># Takwara Design System
+
+## Cores
+- Verde principal: #4a7c59
+- Verde escuro: #2d5a3a  
+- Verde claro: #e8f0e4
+- Cinza título: #1f2937
+- Cinza corpo: #4b5563
+- Fundo creme: #faf6f0
+
+## Tipografia
+- Títulos: Georgia, serif, 700
+- Corpo: system-ui, sans-serif, 400
+- Código: 'SF Mono', monospace
+
+## Tom de voz
+Direto, técnico mas acessível.
+Tabelas e bullets para escaneabilidade.</code></pre>
+
+  <div class="callout goal">
+    <strong>💡 Por que isso é útil pra você</strong>
+    <p>Com um DESIGN.md no repositório, toda vez que você me pedir "cria uma página sobre X" ou "melhora o visual de Y", eu já sei exatamente quais cores e estilos usar. Sem DESIGN.md, eu chuto. Com ele, eu acerto de primeira.</p>
+  </div>
+</section>
+
+<!-- ===== 16. COMANDOS ÚTEIS ===== -->
+<section id="comandos">
+  <h2><span class="num">16</span> Comandos Úteis no Warp</h2>
+
+  <p>Comandos que você pode usar para interagir comigo ou com o ambiente:</p>
+
+  <table>
+    <tr><th>Comando</th><th>O que faz</th></tr>
+    <tr><td><code>hermes status</code></td><td>Mostra configuração atual, provedor, modelo ativo</td></tr>
+    <tr><td><code>hermes model</code></td><td>Troca o modelo ativo (ex: hermes model set openrouter/anthropic/claude-sonnet-4)</td></tr>
+    <tr><td><code>hermes tools</code></td><td>Lista ferramentas disponíveis</td></tr>
+    <tr><td><code>hermes config</code></td><td>Configura parâmetros do Hermes</td></tr>
+    <tr><td><code>ls ~/wiki-mentoria-takwara/</code></td><td>Lista o conteúdo do wiki</td></tr>
+    <tr><td><code>open ~/wiki-mentoria-takwara/</code></td><td>Abre o wiki no Finder</td></tr>
+    <tr><td><code>cat ~/wiki-mentoria-takwara/log.md</code></td><td>Vê o histórico recente do wiki</td></tr>
+    <tr><td><code>cd ~/Documents/GitHub/Mentoria_Tecnologia_Takwara && git log --oneline -5</code></td><td>Últimos commits do site</td></tr>
+    <tr><td><code>npx @docmd/core dev</code></td><td>Sobe servidor local docmd (no repo de teste)</td></tr>
+  </table>
+</section>
+
+<!-- ===== 17. ROADMAP ===== -->
+<section id="roadmap">
+  <h2><span class="num">17</span> Roadmap até 18 de Julho</h2>
+
+  <p style="margin-bottom:1.5rem;">37 dias. 7 passos do programa. 1 lançamento. Nosso ritmo:</p>
+
+  <ul class="timeline">
+    <li class="done">
+      <span class="date">10-11 jun</span>
+      <strong>✅ Passos 1-2</strong>
+      Diagnóstico de Persona + Mapa da Transformação. Base de conhecimento expandida com dados Itecons.
+    </li>
+    <li class="now">
+      <span class="date">11-12 jun</span>
+      <strong>▶️ Passo 3 — Estrutura e Formato</strong>
+      Definir formato de entrega, pontos de contato, canal, frequência. Começar a dar forma ao produto mentoria.
+    </li>
+    <li class="future">
+      <span class="date">12-13 jun</span>
+      <strong>⏳ Passo 4 — Aceleradores</strong>
+      Checklists, templates, roteiros que dão autonomia ao mentorado.
+    </li>
+    <li class="future">
+      <span class="date">13-14 jun</span>
+      <strong>⏳ Passo 5 — Precificação</strong>
+      Quanto cobrar? Modelo de ticket (entrada vs high-ticket)?
+    </li>
+    <li class="future">
+      <span class="date">14-15 jun</span>
+      <strong>⏳ Passo 6 — Nome e Promessa</strong>
+      O nome da mentoria. A promessa central. Refinamento da identidade.
+    </li>
+    <li class="future">
+      <span class="date">15 jun (14h-18h)</span>
+      <strong>📅 Imersão Posicionamento e Vendas</strong>
+      Evento ao vivo. Não vai ficar gravado. Presença obrigatória.
+    </li>
+    <li class="future">
+      <span class="date">16 jun - 17 jul</span>
+      <strong>🏗️ Pós-programa: Construção e refinamento</strong>
+      Produzir conteúdo final, montar página de vendas, preparar material de lançamento, ensaiar.
+    </li>
+    <li class="future">
+      <span class="date">18 jul</span>
+      <strong>🎂 LANÇAMENTO</strong>
+      60 anos. Nova jornada. Mentoria Takwara no ar.
+    </li>
+  </ul>
+
+  <div class="callout goal">
+    <strong>🎯 Meta clara até 18/07</strong>
+    <p>O site de mentoria publicado com: Base de Conhecimento completa (8+ TECs), Jornada de 7 Passos para o mentorado, Página de vendas com nome, promessa e preço, Material de aceleração (checklists, roteiros).</p>
+    <p>E o wiki alimentado com todo o conhecimento do vault do Obsidian, servindo de base para a mentoria e para projetos futuros.</p>
+  </div>
+</section>
+
+<!-- ===== 18. MANIFESTO ===== -->
+<section id="manifesto">
+  <h2><span class="num">18</span> Manifesto — Hacker Cultural Digital Ancestral</h2>
+
+  <div class="callout personal">
+    <p style="font-size:1.05rem; line-height:1.8;">
+      <em>"Aos 60 anos, Fábio Takwara não se aposenta — se reinventa.<br>
+      O bambu que ele estuda há 15 anos ensina: a verdadeira força não está na rigidez, mas na capacidade de curvar sem quebrar.<br><br>
+      Esta mentoria não é sobre vender curso. É sobre transferir tecnologia que envenena menos, constrói melhor e dura mais.<br>
+      É sobre a bio-solda que substitui crânios humanos virar a conexão que une fibras de bambu em comunidades que a indústria ignorou.<br>
+      É sobre um educador popular que começou no quintal e chegou ao Nature Awards — e agora quer que outros cheguem também.<br><br>
+      Hacker cultural porque desvenda os códigos da tecnologia dominante e os reescreve em linguagem acessível.<br>
+      Digital porque ocupa o espaço virtual com a mesma determinação que ocupa o território.<br>
+      Ancestral porque sabe que o futuro se constrói com as mãos no barro e os pés na terra.<br><br>
+      Esta não é apenas uma mentoria. É um legado em construção."</em>
+    </p>
+  </div>
+</section>
+
+<hr>
+
+<footer>
+  <p>Produzido por Hermes Agent para Fabio Takwara · Junho de 2026</p>
+  <p>Wiki: <code>~/wiki-mentoria-takwara/</code> · Repo: <code>github.com/takwaratec/Mentoria_Tecnologia_Takwara</code></p>
+</footer>
+
+</div>
+</body>
+</html>
